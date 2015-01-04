@@ -1,4 +1,4 @@
-yourreponame.github.com
+lukaszkups.net
 =====================
 
-This is official [yourname page](http://yourdomain.com) built in nanoc - check it out!
+This is my official comepage repo - built with <3 & nanoc.
