@@ -18,7 +18,7 @@ body, html{background: #f7f7f7; font-family: Helvetica, Verdana, Arial; font-wei
 .droid{font-family: 'Droid Sans', Helvetica, Arial, Verdana !important;}
 .roboto{font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important;}
 .text-center{text-align: center !important;}
-a{color: #2e2e2e; text-decoration: none !important;}
+a{color: #7e7e7e; text-decoration: none !important;}
 a:hover{color: #B9AEA7;}
 
 .site-title{display:inline-table; height: 103px; width:auto; vertical-align: middle;}
@@ -35,6 +35,7 @@ ul.main-menu{display: inline-block; float: right; list-style: none;}
 ul.main-menu li{display: inline-block; margin:0; padding:0; width: 103px; height: 103px; overflow: hidden; box-sizing: border-box;}
 ul.main-menu li a{display: block; text-align: center; text-decoration: none; font-size: 0.8em; margin-top: 70px; color: #556270;}
 ul.main-menu li a:hover{text-decoration: underline !important;}
+
 .clear{display: block; clear:both; width:100%;}
 .clear.clear10{height: 10px !important;}
 .clear.clear20{height: 20px !important;}
@@ -60,17 +61,25 @@ ul.projects > li:hover .project-shadow{opacity: 0.99;}
 .project-container h1{color: #556270; font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important; font-size: 1.5em; line-height: 1.5em; margin-bottom: 2em; font-weight: 900}
 .project-container p, .project-container li{color: #828282; font-family: 'Open Sans', Helvetica, Arial, Verdana !important; line-height: 1.5em; margin-bottom: 1.5em;}
 .project-container li{margin-bottom:0;line-height: 1.7em;}
-.project-container li:before{content: "- ";}
+.project-container ul li:before{content: "- ";}
 .project-container ul{margin-top: -1em; margin-bottom: 2em;}
 .project-container strong{color: #556270; font-weight: 900;}
-.project-container a{color: #556270 !important; text-decoration: underline !important;}
-.project-container a:hover{color: #B9AEA7 !important;}
+.project-container a{color: #556270 !important; text-decoration: underline;}
+.project-container a:hover{color: #B9AEA7;}
 .project-container img{max-width: 35%; margin-bottom: 1em; display: block; margin: 0 auto;}
 .project-container img[src="*-big.jpg"]{display: block; clear: both; width:100%; height: 300px; margin-bottom: 3em;}
 .footer{font-size: 0.8em;}
 .footer, .footer a, .footer a:hover{color: #a7a7a7 !important;}
 .footer a:hover{text-decoration: underline !important;}
 .min-height{min-height: 440px;}
+
+.ghosty{display: block; margin:0; width:200px; height: 150px; background: url('/images/ghosty.png') no-repeat;}
+
+ul.postsList{margin:0; padding:0; list-style: none;}
+ul.postsList li{margin:15px 0; padding:0;}
+ul.postsList li:before{content:"";}
+.project-container ul.postsList li a{cursor: pointer; text-decoration: none;}
+.project-container ul.postsList li a:hover{text-decoration: underline;}
 
 .greenFont{color: #5A7D13 !important;}
 .greenFontHover:hover{color: #7FAF1B !important;}

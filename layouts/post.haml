@@ -16,6 +16,8 @@
     %link{:rel => "shortcut icon", :href => "http://lukaszkups.pl/images/favicon.png", :type => "image/png"}
     %link{:href=>'http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans', :rel=>'stylesheet', :type=>'text/css'}
     %meta{:property => "og:image", :content => "http://lukaszkups.pl/images/logo.jpg"}
+    %link{:rel=>"stylesheet",:href=>"/stylesheet/highlightjs_styles.css"}
+    %script{:src=>"/javascripts/highlight.js"}
   %body
     .main-container.header
       %a{:href=>'/',:class=>'site-title'}
@@ -36,12 +38,8 @@
           %a{:href=>'/contact/'}
             Contact
     .clear.clear40
-    = find_and_preserve(yield)
-    %p
-      %a{:href => '/#blog_tag'}
-        &lsaquo;&lsaquo; Go back to home
-      %a{:href => '/blog/'}
-        &lsaquo;&lsaquo; Go to blog posts list
+    .main-container.project-container
+      = find_and_preserve(yield)
     .clear.clear40
     .main-container
       .footer.lato
@@ -53,3 +51,4 @@
         \)
     .clear.clear20
     %script{:type => "text/javascript", :src => "/javascripts/application.js"}
+    %script{:type => "text/javascript", :src => "/javascripts/blog.js"}

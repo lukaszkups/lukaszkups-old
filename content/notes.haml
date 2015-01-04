@@ -1,9 +1,23 @@
+/ .project-container.min-height
+/   %h1
+/     This page is under construction!
+/   .clear.clear10
+/   %h1.roboto.headline
+/     However, if You want to see some of my notes You can 
+/     %a{:href=>'https://coderwall.com/p/u/ofcapl'}
+/       read my coderwall protips
+/     \.
 .project-container.min-height
-  %h1
-    This page is under construction!
-  .clear.clear10
-  %h1.roboto.headline
-    However, if You want to see some of my notes You can 
-    %a{:href=>'https://coderwall.com/p/u/ofcapl'}
-      read my coderwall protips
-    \.
+	%h1
+		Notes
+	%h1.roboto.headline
+		This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
+	%ul.postsList
+		- tagged_articles('blog').each do |post|
+			%li
+				%a{:href=>post.path}
+					[
+					%span.brownFont
+						= post[:created_at]
+					] 
+					= post[:title]

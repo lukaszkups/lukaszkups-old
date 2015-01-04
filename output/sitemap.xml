@@ -1,143 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://webrackets.com/</loc>
+    <loc>http://lukaszkups.net/</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/404.html</loc>
-    <lastmod>2015-01-01</lastmod>
-  </url>
-  <url>
-    <loc>http://webrackets.com/about/</loc>
+    <loc>http://lukaszkups.net/404.html</loc>
     <lastmod>2015-01-04</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/blog/example-blog-post/</loc>
-    <lastmod>2015-01-01</lastmod>
-  </url>
-  <url>
-    <loc>http://webrackets.com/blog/images/webrackets-logo.png</loc>
-    <lastmod>2015-01-01</lastmod>
-  </url>
-  <url>
-    <loc>http://webrackets.com/contact/</loc>
-    <lastmod>2015-01-01</lastmod>
-  </url>
-  <url>
-    <loc>http://webrackets.com/experience/</loc>
+    <loc>http://lukaszkups.net/about/</loc>
     <lastmod>2015-01-04</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/images/avatar-big.png</loc>
+    <loc>http://lukaszkups.net/blog/0001_new_year_resolutions/</loc>
     <lastmod>2015-01-04</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/images/favicon.png</loc>
-    <lastmod>2015-01-01</lastmod>
-  </url>
-  <url>
-    <loc>http://webrackets.com/images/logo.png</loc>
-    <lastmod>2015-01-01</lastmod>
-  </url>
-  <url>
-    <loc>http://webrackets.com/images/lukasz-big.jpg</loc>
+    <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
     <lastmod>2015-01-04</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/images/next.png</loc>
+    <loc>http://lukaszkups.net/blog/images/webrackets-logo.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/images/prev.png</loc>
+    <loc>http://lukaszkups.net/contact/</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/javascripts/application.js</loc>
+    <loc>http://lukaszkups.net/experience/</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/images/avatar-big.png</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/images/favicon.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/javascripts/bracketslider.js</loc>
+    <loc>http://lukaszkups.net/images/ghosty.png</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/images/logo.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/notes/</loc>
+    <loc>http://lukaszkups.net/images/lukasz-big.jpg</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/images/next.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/cordova/</loc>
+    <loc>http://lukaszkups.net/images/prev.png</loc>
+    <lastmod>2015-01-01</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/javascripts/application.js</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/javascripts/blog.js</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/javascripts/bracketslider.js</loc>
+    <lastmod>2015-01-01</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/javascripts/highlight.js</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/notes/</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/projects/cordova/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/design/</loc>
+    <loc>http://lukaszkups.net/projects/design/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/django_framework/</loc>
+    <loc>http://lukaszkups.net/projects/django_framework/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/html5_css3/</loc>
+    <loc>http://lukaszkups.net/projects/html5_css3/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/cordova-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/cordova-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/design-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/design-thumb.png</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/django-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/django-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/html5-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/html5-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/js-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/js-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/matchfishing-big.jpg</loc>
+    <loc>http://lukaszkups.net/projects/images/matchfishing-big.jpg</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/meteorjs-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/meteorjs-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/os-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/os-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/images/ror-thumb.png</loc>
+    <loc>http://lukaszkups.net/projects/images/ror-thumb.png</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/js/</loc>
+    <loc>http://lukaszkups.net/projects/js/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/meteorjs/</loc>
+    <loc>http://lukaszkups.net/projects/meteorjs/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/open_source/</loc>
+    <loc>http://lukaszkups.net/projects/open_source/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/projects/ror/</loc>
+    <loc>http://lukaszkups.net/projects/ror/</loc>
     <lastmod>2015-01-03</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/sitemap.xml</loc>
+    <loc>http://lukaszkups.net/sitemap.xml</loc>
     <lastmod>2015-01-01</lastmod>
   </url>
   <url>
-    <loc>http://webrackets.com/stylesheet/stylesheet.css</loc>
+    <loc>http://lukaszkups.net/stylesheet/highlightjs_styles.css</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
     <lastmod>2015-01-04</lastmod>
   </url>
 </urlset>
