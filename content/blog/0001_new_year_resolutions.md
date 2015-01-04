@@ -1,11 +1,11 @@
 ---
 kind: article
 created_at: 4 January 2015
-title: New Year Resolutions - '15 edition
+title: New Year's Resolutions - '15 edition
 tags: ['blog']
 ---
 
-#New Year Resolutions - '15 edition
+#New Year's Resolutions - '15 edition
 
 Finally I've got motivated enough to setup my website (again). For the long time I was complaining that I need to do it and start writing again.
 
