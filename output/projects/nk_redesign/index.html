@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.pl
+      nk.pl - redesign concept
+    </title>
+    <meta content='lukaszkups.pl - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.pl/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.pl/images/logo.jpg' property='og:image'>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <p><strong>Nasza-klasa</strong> (also known as <strong>nk</strong>, <strong>nk.pl</strong>, <strong>Nasza Klasa</strong>) is one of the most famous (and biggest) social networks in Poland.</p>
+      
+      <p>I had mixed feelings about this project. It was in my head for weeks and I was thinking: how redesign a page with classy design into something modern/minimal and maintain similar user experience?</p>
+      
+      <p>When I finally decided to give a try with this project I planned to modularize each section of the original page.</p>
+      
+      <p>I noted the following:</p>
+      
+      <ul>
+        <li>main menu at the top of the page, with links to each subpage of the portal,</li>
+        <li>side menu with quick access to account settings,</li>
+        <li>latest photos, uploaded by your contacts,</li>
+        <li>status update,</li>
+        <li>couple adverts,</li>
+        <li>timeline,</li>
+        <li>guests notification,</li>
+        <li>footer.</li>
+      </ul>
+      
+      <h1 id="main-menu">MAIN MENU</h1>
+      
+      <p>I decided to make the buttons bigger, as long as they are the main navigation of the page. Each button also acquired proper icon.</p>
+      
+      <p><img src="/projects/images/nk-redesign-top_menu.jpg" alt="nk top menu" /></p>
+      
+      <h1 id="side-menu">SIDE MENU</h1>
+      
+      <p>This menu has two forms:</p>
+      
+      <ul>
+        <li>short, with only basic options (profile avatar, name, localization, no. of uploaded photos/contacts),</li>
+        <li>long, with additional options (e.g. item shop, but also adverts etc.)</li>
+      </ul>
+      
+      <p>To switch between forms, just click at the bottom of the menu.</p>
+      
+      <p><img src="/projects/images/nk-redesign-side_menu.jpg" alt="nk side menu" /></p>
+      
+      <h1 id="latest-photos">LATEST PHOTOS</h1>
+      
+      <p>Each photo is displayed separately. It has no. of comments notification (it is hidden if there is no comments). When user hover on image then photo title and uploader name are displayed.</p>
+      
+      <p><img src="/projects/images/nk-redesign-photos.jpg" alt="nk latest photos" /></p>
+      
+      <h1 id="status-update">STATUS UPDATE</h1>
+      
+      <p>This module has textarea where user can update his/her status with very basic (border, underline, italic) wysiwyg editor features.</p>
+      
+      <p>You can also in this module upload new photo or video. There is no submit button, I decided to automate this with Enter button.</p>
+      
+      <p><img src="/projects/images/nk-redesign-wysiwyg.jpg" alt="nk minimal wysiwyg" /></p>
+      
+      <h1 id="timelines">TIMELINE(S)</h1>
+      
+      <p>Current timeline at <strong>NK</strong> site is divided into two parts: <strong>status updates</strong> and <strong>notifications</strong>. The problem with this section is that it is placed one above another.</p>
+      
+      <p>I decided to position them in the inline wrappers, with additional scrolling so the page is not that tall as original one (which is really annoying).</p>
+      
+      <p>Users can discuss about every activity at the timeline - their comments are indented with respect to the parent comment (only once, multiple indentation is not possible - users comment only main status, not its child elements/comments). If someone wants to comment on someone else’s comment he/she can mention him/her by using <strong>@user-name</strong> syntax (which is pretty common solution).</p>
+      
+      <p><img src="/projects/images/nk-redesign-timelines.jpg" alt="nk timelines" /></p>
+      
+      <h1 id="guests-notification">GUESTS NOTIFICATION</h1>
+      
+      <p>The last section (excluding adverts and page footer) is a bar with information about profiles, who visited your profile lately.</p>
+      
+      <p><img src="/projects/images/nk-redesign-visitors.jpg" alt="nk guests" /></p>
+      
+      <h1 id="summary">SUMMARY</h1>
+      
+      <p>Adoption of the original page as a mockup made things easier and saved from couple usability problems (but there was a lot to improve according to the original design).</p>
+      
+      <p>For even better user experience I decided to save the decision about page background to the user (e.g. to use own color/pattern or choose one from <a href="http://subtlepatterns.com/">http://subtlepatterns.com/</a> site.</p>
+      
+      <h1 id="default-view-1">DEFAULT VIEW #1</h1>
+      
+      <p>Default page view, with bright, (subtle) pattern background:</p>
+      
+      <p><img src="/projects/images/nk-redesign-layout1-normal-subtle.jpg" alt="nk screen" /></p>
+      
+      <h1 id="default-view-2">DEFAULT VIEW #2</h1>
+      
+      <p>Same as above, but with bright background only: (without pattern)</p>
+      
+      <p><img src="/projects/images/nk-redesign-layout1-normal.jpg" alt="nk screen" /></p>
+      
+      <h1 id="default-view-3">DEFAULT VIEW #3</h1>
+      
+      <p>This is the same as the previous two, but this time with dark background.</p>
+      
+      <p><img src="/projects/images/nk-redesign-layout1-dark.jpg" alt="nk screen" /></p>
+      
+      <h1 id="website-view-with-hover-states">WEBSITE VIEW WITH HOVER STATES</h1>
+      
+      <p>You can compare it with <strong>DEFAULT VIEW #2</strong> but now there are hover/click states (example for every section/element) presented:</p>
+      
+      <p><img src="/projects/images/nk-redesign-layout1-hover.jpg" alt="nk screen" /></p>
+      
+      <h1 id="additional-informations">ADDITIONAL INFORMATIONS</h1>
+      
+      <p>If You like this project, feel free to appreciate it at my <a href="http://www.behance.net/gallery/Nasza-Klasa-home-page-redesign/8605173">behance gallery</a>.</p>
+      
+      <p><strong>Right-click</strong> on image -&gt; show the image* to view full-sized images.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+  </body>
+</html>

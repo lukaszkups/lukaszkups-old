@@ -1,0 +1,55 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", "xml:lang" => "en"}
+  %head
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+    %title
+      lukaszkups.pl
+      #{@item[:title].nil? ? 'front-end development, branding, design' : @item[:title]}
+    %meta{:content => "lukaszkups.pl - front-end development, branding, design", :name => "description"}
+    %link{:href => "/stylesheet/stylesheet.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
+    %script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-latest.min.js"}
+    %script{:type => "text/javascript", :src => "/javascripts/bracketslider.js"}
+    %meta{:name => "generator", :content => "nanoc 3.1.6"}
+    %link{:rel => "shortcut icon", :href => "/images/favicon.ico"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"}
+    %link{:rel => "shortcut icon", :href => "/images/favicon.png", :type => "image/png"}
+    %link{:rel => "shortcut icon", :href => "http://lukaszkups.pl/images/favicon.png", :type => "image/png"}
+    %link{:href=>'http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans', :rel=>'stylesheet', :type=>'text/css'}
+    %meta{:property => "og:image", :content => "http://lukaszkups.pl/images/logo.jpg"}
+  %body
+    .main-container.header
+      %a{:href=>'/',:class=>'site-title'}
+        .logo
+        %span.droid
+          Front-end engineering.
+      %ul.main-menu
+        %li
+          %a{:href=>'/experience/'}
+            Experience
+        %li
+          %a{:href=>'/notes/'}
+            Notes
+        %li
+          %a{:href=>'/about/'}
+            About
+        %li
+          %a{:href=>'/contact/'}
+            Contact
+    .clear.clear40
+    = find_and_preserve(yield)
+    %p
+      %a{:href => '/#blog_tag'}
+        &lsaquo;&lsaquo; Go back to home
+      %a{:href => '/blog/'}
+        &lsaquo;&lsaquo; Go to blog posts list
+    .clear.clear40
+    .main-container
+      .footer.lato
+        Copyright &copy; 2009 - 
+        = Time.now.year  
+        Lukasz Kups (
+        %a{:href=>'http://twitter.com/ofcapl'}
+          ofcapl
+        \)
+    .clear.clear20
+    %script{:type => "text/javascript", :src => "/javascripts/application.js"}
