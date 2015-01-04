@@ -1,4 +1,4 @@
-{:	data{dI"/notes/:ET{:default{	:	lastI" <!DOCTYPE html>
+{:	data{gI"/notes/:ET{:default{	:	lastI" <!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -149,7 +149,7 @@
   </ul>
 </div>
 ;T:	post@
-I"/stylesheet/stylesheet/;T{;{;I"«#z/* reset css starts */
+I"/stylesheet/stylesheet/;T{;{;I"$z/* reset css starts */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
@@ -201,6 +201,7 @@ ul.main-menu li a:hover{text-decoration: underline !important;}
 .box{margin:0; padding:0; display: inline-block; overflow-x:hidden; float: none; vertical-align: top;}
 .box30{width:29.5%;}
 .box70{width:69.5%;}
+.avatar{max-width:35%; height: auto; display: block; margin:0 auto;}
 
 ul.projects{ display: block; width: 100%;}
 ul.projects > li{background: #556270; display: inline-block; width: 205px; height: 205px; box-sizing: border-box; margin: 0 15px 12px 0; padding:0; overflow: hidden !important; animation-property: width; animation-property: height; transition-duration: 1s; -moz-animation-property: width; -moz-animation-property: height; -moz-transition-duration: 1s; -o-animation-property: width; -o-animation-property: height; -o-transition-duration: 1s; -webkit-animation-property: width; -webkit-animation-property: height; -webkit-transition-duration: 1s;}
@@ -209,7 +210,8 @@ ul.projects > li .project-shadow{display: block; width:205px; height:205px; clea
 ul.projects > li .project-shadow a{display: table-cell; clear: both; vertical-align: middle; width: 205px; height: 205px; background: #B9AEA7; box-sizing: border-box; color: #fff !important; text-align: center;}
 ul.projects > li:hover .project-shadow{opacity: 0.99;}
 
-.project-container h1{color: #556270; font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important; font-size: 1.5em; line-height: 1.5em; margin-bottom: 2em; font-weight: 900}
+.project-container h1, .project-container h2{color: #556270; font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important; font-size: 1.5em; line-height: 1.5em; margin-bottom: 2em; font-weight: 900}
+.project-container h2{color: #a7a7a7; font-weight: 400;}
 .project-container p, .project-container li{color: #828282; font-family: 'Open Sans', Helvetica, Arial, Verdana !important; line-height: 1.5em; margin-bottom: 1.5em;}
 .project-container li{margin-bottom:0;line-height: 1.7em;}
 .project-container ul li:before{content: "- ";}
@@ -217,8 +219,11 @@ ul.projects > li:hover .project-shadow{opacity: 0.99;}
 .project-container strong{color: #556270; font-weight: 900;}
 .project-container a{color: #556270 !important; text-decoration: underline;}
 .project-container a:hover{color: #B9AEA7;}
-.project-container img{max-width: 35%; margin-bottom: 1em; display: block; margin: 0 auto;}
-.project-container img[src="*-big.jpg"]{display: block; clear: both; width:100%; height: 300px; margin-bottom: 3em;}
+/*.project-container img{max-width: 35%; margin-bottom: 1em; display: block; margin: 0 auto;}*/
+/*.project-container img[src="*-big.jpg"]{display: block; clear: both; width:100%; height: 300px; margin-bottom: 3em;}*/
+.project-container img{display: block; clear: both; width:100%; height: auto; margin-bottom: 3em; margin-top:3em;}
+em{font-style: italic;}
+
 .footer{font-size: 0.8em;}
 .footer, .footer a, .footer a:hover{color: #a7a7a7 !important;}
 .footer a:hover{text-decoration: underline !important;}
@@ -561,7 +566,7 @@ I"´
     $(i).addClass(colors[mood][3]);
   })*/
 });;T;	@#;
-@#I"/about/;T{;{	;I"à<!DOCTYPE html>
+@#I"/about/;T{;{	;I"ó<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -618,7 +623,7 @@ I"´
         <h1>
           About me
         </h1>
-        <img alt='lukasz kups avatar' src='/images/avatar-big.png'>
+        <img alt='lukasz kups avatar' class='avatar' src='/images/avatar-big.png'>
         <div class='clear clear50'></div>
         <h1 class='roboto headline'>
           My name is lukasz kups and I help modern companies in the creation process of their digital products.
@@ -650,10 +655,10 @@ I"´
     <script src='/javascripts/application.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"ö.project-container.min-height
+;T;	I"¨.project-container.min-height
   %h1
     About me
-  %img{:src=>"/images/avatar-big.png",:alt=>"lukasz kups avatar"}
+  %img{:src=>"/images/avatar-big.png",:alt=>"lukasz kups avatar", :class=>"avatar"}
   .clear.clear50
   %h1.roboto.headline
     My name is lukasz kups and I help modern companies in the creation process of their digital products.
@@ -664,11 +669,11 @@ I"´
     %a{:href=>'/experience/'}
       experience page
     \.;T;
-I"Â<div class='project-container min-height'>
+I"Ù<div class='project-container min-height'>
   <h1>
     About me
   </h1>
-  <img alt='lukasz kups avatar' src='/images/avatar-big.png'>
+  <img alt='lukasz kups avatar' class='avatar' src='/images/avatar-big.png'>
   <div class='clear clear50'></div>
   <h1 class='roboto headline'>
     My name is lukasz kups and I help modern companies in the creation process of their digital products.
@@ -2675,7 +2680,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@ÓI"/images/bg-1/;T{;{ I"/images/prev/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/bg-2/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"ú<?xml version="1.0" encoding="UTF-8"?>
+;T;@ÓI"/images/bg-1/;T{;{ I"/images/prev/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/bg-2/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"¯<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2694,8 +2699,20 @@ I":<h1 class='roboto headline'>
     <lastmod>2015-01-04</lastmod>
   </url>
   <url>
+    <loc>http://lukaszkups.net/blog/0002_nokia_lumia_800_review/</loc>
+    <lastmod>2015-01-05</lastmod>
+  </url>
+  <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
     <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_01.jpg</loc>
+    <lastmod>2015-01-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_02.jpg</loc>
+    <lastmod>2015-01-05</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/webrackets-logo.png</loc>
@@ -2707,7 +2724,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/experience/</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-05</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/avatar-big.png</loc>
@@ -2835,7 +2852,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-05</lastmod>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
@@ -3721,7 +3738,7 @@ I"6
 <p>Furthermore, I‚Äôm still helping clients with their design issues (including web design and branding), confronting their ideas with current design trends.</p>
 
 <p>FYI: I‚Äôm a minimalist lover so You can imagine what to expect from my projects.</p>
-;T;@ZI"/images/avatar-big/;T{;{ I"/experience/;T{;{	;I"©<!DOCTYPE html>
+;T;@ZI"/images/avatar-big/;T{;{ I"/experience/;T{;{	;I"â<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3780,7 +3797,7 @@ I"6
         </h1>
         <div class='clear clear30'></div>
         <h1 class='roboto headline'>
-          My name is lukasz kups and I help modern companies in the creation process of their digital products.
+          Meteor/javascript developer, g33k,technocrat, happy father & husband.
         </h1>
         <p>
           I'm a front-end developer with back-end experience. Currently I live near Poznan (Poland) and work with companies from around the world (Brno, Dublin, Berlin, Warsaw, Rotterdam, London and more).
@@ -3908,12 +3925,12 @@ I"6
     <script src='/javascripts/application.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"§.project-container.min-height
+;T;	I"Ñ.project-container.min-height
   %h1
     Experience
   .clear.clear30
   %h1.roboto.headline
-    My name is lukasz kups and I help modern companies in the creation process of their digital products.
+    Meteor/javascript developer, g33k,technocrat, happy father & husband.
   %p
     I'm a front-end developer with back-end experience. Currently I live near Poznan (Poland) and work with companies from around the world (Brno, Dublin, Berlin, Warsaw, Rotterdam, London and more).
   %h1.roboto.headline
@@ -3991,13 +4008,13 @@ I"6
       Pozna≈Ñ University of Technology
     %span.brownFont
       (Information Technology);T;
-I"∫<div class='project-container min-height'>
+I"ö<div class='project-container min-height'>
   <h1>
     Experience
   </h1>
   <div class='clear clear30'></div>
   <h1 class='roboto headline'>
-    My name is lukasz kups and I help modern companies in the creation process of their digital products.
+    Meteor/javascript developer, g33k,technocrat, happy father & husband.
   </h1>
   <p>
     I'm a front-end developer with back-end experience. Currently I live near Poznan (Poland) and work with companies from around the world (Brno, Dublin, Berlin, Warsaw, Rotterdam, London and more).
@@ -4600,4 +4617,135 @@ I"
 <p>So, all the best in ‚Äò15,</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@Ü:versioni
+;T;@ÜI"/blog/images/lumia_01/;T{;{ I"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"√<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.pl
+      Nokia Lumia 800 Review
+    </title>
+    <meta content='lukaszkups.pl - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.pl/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.pl/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="nokia-lumia-800-review">Nokia Lumia 800 review</h1>
+      
+      <p><img src="/blog/images/lumia_01.jpg" alt="lumia" /></p>
+      
+      <p>I don‚Äôt really like many Microsoft products (yeah, that‚Äôs a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.</p>
+      
+      <p>Most of my early smartphones was based on Android OS. That system drove me mad when after couple days of using my ~1000PLN device started to randomly hang or slow down. </p>
+      
+      <p>Then Microsoft and Nokia announced and started to sell Lumia devices with Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> design (later renamed but adopted by nobody to <em>Modern UI</em> ). </p>
+      
+      <p>After first reviews about WP7, I started thinking about switching to it. Despite lack of customization options and very, very small amount of apps in its market I‚Äôve finally bought my first WP7 phone - <em>Nokia Lumia 800</em>.</p>
+      
+      <p><img src="/blog/images/lumia_02.jpg" alt="lumia" /></p>
+      
+      <h2 id="it-has-been-three-years-since-ive-bought-lumia-800-and-it-is-so-far-the-longest-used-phone-by-me">It has been three years since I‚Äôve bought Lumia 800. And it is so far the longest used phone by me.</h2>
+      
+      <p>In the meantime I‚Äôve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I‚Äôve sold that device after couple of days because of very short battery life. I also had a pleasure using <em>Lumia 920</em> as my second phone for some time, and I‚Äôm totally sure that my next phone will be WP8-based (currently looking for white <em>Lumia 1020</em> ).</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"J
+#Nokia Lumia 800 review
+
+![lumia](/blog/images/lumia_01.jpg)
+
+I don't really like many Microsoft products (yeah, that's a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.
+
+Most of my early smartphones was based on Android OS. That system drove me mad when after couple days of using my ~1000PLN device started to randomly hang or slow down. 
+
+Then Microsoft and Nokia announced and started to sell Lumia devices with Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about *Metro* design (later renamed but adopted by nobody to *Modern UI* ). 
+
+After first reviews about WP7, I started thinking about switching to it. Despite lack of customization options and very, very small amount of apps in its market I've finally bought my first WP7 phone - *Nokia Lumia 800*.
+
+![lumia](/blog/images/lumia_02.jpg)
+
+
+##It has been three years since I've bought Lumia 800. And it is so far the longest used phone by me. 
+
+In the meantime I've bought *HTC 8X* with new, Windows Phone 8.1 OS. I've sold that device after couple of days because of very short battery life. I also had a pleasure using *Lumia 920* as my second phone for some time, and I'm totally sure that my next phone will be WP8-based (currently looking for white *Lumia 1020* ).
+
+;T;
+I"b
+<h1 id="nokia-lumia-800-review">Nokia Lumia 800 review</h1>
+
+<p><img src="/blog/images/lumia_01.jpg" alt="lumia" /></p>
+
+<p>I don‚Äôt really like many Microsoft products (yeah, that‚Äôs a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.</p>
+
+<p>Most of my early smartphones was based on Android OS. That system drove me mad when after couple days of using my ~1000PLN device started to randomly hang or slow down. </p>
+
+<p>Then Microsoft and Nokia announced and started to sell Lumia devices with Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> design (later renamed but adopted by nobody to <em>Modern UI</em> ). </p>
+
+<p>After first reviews about WP7, I started thinking about switching to it. Despite lack of customization options and very, very small amount of apps in its market I‚Äôve finally bought my first WP7 phone - <em>Nokia Lumia 800</em>.</p>
+
+<p><img src="/blog/images/lumia_02.jpg" alt="lumia" /></p>
+
+<h2 id="it-has-been-three-years-since-ive-bought-lumia-800-and-it-is-so-far-the-longest-used-phone-by-me">It has been three years since I‚Äôve bought Lumia 800. And it is so far the longest used phone by me.</h2>
+
+<p>In the meantime I‚Äôve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I‚Äôve sold that device after couple of days because of very short battery life. I also had a pleasure using <em>Lumia 920</em> as my second phone for some time, and I‚Äôm totally sure that my next phone will be WP8-based (currently looking for white <em>Lumia 1020</em> ).</p>
+
+;T;@èI"/blog/images/lumia_02/;T{;{ :versioni
