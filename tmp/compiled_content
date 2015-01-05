@@ -1,4 +1,4 @@
-{:	data{gI"/notes/:ET{:default{	:	lastI" <!DOCTYPE html>
+{:	data{iI"/notes/:ET{:default{	:	lastI"+<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -69,6 +69,16 @@
         </h1>
         <ul class='postsList'>
           <li>
+            <a href='/blog/0002_nokia_lumia_800_review/'>
+              [
+              <span class='brownFont'>
+                5 January 2015
+              </span>
+              ]
+              Nokia Lumia 800 Review
+            </a>
+          </li>
+          <li>
             <a href='/blog/0001_new_year_resolutions/'>
               [
               <span class='brownFont'>
@@ -119,7 +129,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"A<!-- .project-container.min-height -->
+					= post[:title];T:preI"<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -136,6 +146,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0002_nokia_lumia_800_review/'>
+        [
+        <span class='brownFont'>
+          5 January 2015
+        </span>
+        ]
+        Nokia Lumia 800 Review
+      </a>
+    </li>
     <li>
       <a href='/blog/0001_new_year_resolutions/'>
         [
@@ -2680,7 +2700,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@�I"/images/bg-1/;T{;{ I"/images/prev/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/bg-2/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"�<?xml version="1.0" encoding="UTF-8"?>
+;T;@�I"/images/bg-1/;T{;{ I"/images/prev/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/bg-2/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"�<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2712,6 +2732,14 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_02.jpg</loc>
+    <lastmod>2015-01-05</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_03.jpg</loc>
+    <lastmod>2015-01-05</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_04.jpg</loc>
     <lastmod>2015-01-05</lastmod>
   </url>
   <url>
@@ -4617,7 +4645,7 @@ I"
 <p>So, all the best in ‘15,</p>
 
 <p>– ł.</p>
-;T;@�I"/blog/images/lumia_01/;T{;{ I"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"�<!DOCTYPE html>
+;T;@�I"/blog/images/lumia_01/;T{;{ I"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4675,21 +4703,38 @@ I"
       
       <h1 id="nokia-lumia-800-review">Nokia Lumia 800 review</h1>
       
-      <p><img src="/blog/images/lumia_01.jpg" alt="lumia" /></p>
+      <p><img src="/blog/images/lumia_03.jpg" alt="lumia" /></p>
       
       <p>I don’t really like many Microsoft products (yeah, that’s a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.</p>
       
-      <p>Most of my early smartphones was based on Android OS. That system drove me mad when after couple days of using my ~1000PLN device started to randomly hang or slow down. </p>
+      <p>Most of my early smartphones was based on Android OS. I’ve never been fully satisfied about any of them. </p>
       
-      <p>Then Microsoft and Nokia announced and started to sell Lumia devices with Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> design (later renamed but adopted by nobody to <em>Modern UI</em> ). </p>
+      <p>Don’t get me wrong: Android OS is a really nice product but there’s one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick Android failed me(slowed down or totally freezed). 
+      This kind of failures is unacceptable for a device priced ~1000PLN.</p>
       
-      <p>After first reviews about WP7, I started thinking about switching to it. Despite lack of customization options and very, very small amount of apps in its market I’ve finally bought my first WP7 phone - <em>Nokia Lumia 800</em>.</p>
+      <p>Fortunately, in November 2011 Nokia announced and started to sell Lumia devices with Microsoft’s Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> (later renamed but adopted by nobody to <em>Modern UI</em> ) and Nokia’s Lumia phone design.</p>
+      
+      <p>After first reviews about WP7, I started thinking about switch. Despite lack of customization options and very, very small amount of apps in its market I’ve finally bought my first WP7 phone - <em>Nokia Lumia 800</em>.</p>
       
       <p><img src="/blog/images/lumia_02.jpg" alt="lumia" /></p>
       
       <h2 id="it-has-been-three-years-since-ive-bought-lumia-800-and-it-is-so-far-the-longest-used-phone-by-me">It has been three years since I’ve bought Lumia 800. And it is so far the longest used phone by me.</h2>
       
-      <p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold that device after couple of days because of very short battery life. I also had a pleasure using <em>Lumia 920</em> as my second phone for some time, and I’m totally sure that my next phone will be WP8-based (currently looking for white <em>Lumia 1020</em> ).</p>
+      <p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold it after couple days of use because of very short battery life. I also had a pleasure using <em>Lumia 920</em> temporary as my second phone, and it was awesome experience.</p>
+      
+      <h2 id="the-good">The Good</h2>
+      
+      <p>As I mentioned earlier - I’m really impressed about <em>Metro</em> design. In my opinion, Windows Phone 7+ is the clearest and most beautiful mobile system ever. Its simplicity and directness of data presentation layer makes WP7+ most useful and user-friendly operating system for smartphone.</p>
+      
+      <p>The device itself forwards purity &amp; elegance of Lumia’s design line. The phone case is built from polycarbonate single-piece unibody (which means producer prevents from battery replacement) with minimum amount of physical buttons: Volume Up/Down, screen lock and camera trigger.</p>
+      
+      <p><img src="/blog/images/lumia_01.jpg" alt="lumia" /></p>
+      
+      <p>Besides physical buttons, Lumia 800 has 3 touch icons at the front panel: back, home and search. Besides their regular purpose, we can access all opened applications by holding down back button for ~1sec.</p>
+      
+      <p><img src="/blog/images/lumia_04.jpg" alt="lumia" /></p>
+      
+      <p>Nokia’s device doesn’t support external cards. </p>
     </div>
     <div class='clear clear40'></div>
     <div class='main-container'>
@@ -4708,44 +4753,76 @@ I"
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"J
+;T;	I"�	
 #Nokia Lumia 800 review
 
-![lumia](/blog/images/lumia_01.jpg)
+![lumia](/blog/images/lumia_03.jpg)
 
 I don't really like many Microsoft products (yeah, that's a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.
 
-Most of my early smartphones was based on Android OS. That system drove me mad when after couple days of using my ~1000PLN device started to randomly hang or slow down. 
+Most of my early smartphones was based on Android OS. I've never been fully satisfied about any of them. 
 
-Then Microsoft and Nokia announced and started to sell Lumia devices with Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about *Metro* design (later renamed but adopted by nobody to *Modern UI* ). 
+Don't get me wrong: Android OS is a really nice product but there's one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick Android failed me(slowed down or totally freezed). 
+This kind of failures is unacceptable for a device priced ~1000PLN.
 
-After first reviews about WP7, I started thinking about switching to it. Despite lack of customization options and very, very small amount of apps in its market I've finally bought my first WP7 phone - *Nokia Lumia 800*.
+Fortunately, in November 2011 Nokia announced and started to sell Lumia devices with Microsoft's Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about *Metro* (later renamed but adopted by nobody to *Modern UI* ) and Nokia's Lumia phone design.
+
+After first reviews about WP7, I started thinking about switch. Despite lack of customization options and very, very small amount of apps in its market I've finally bought my first WP7 phone - *Nokia Lumia 800*.
 
 ![lumia](/blog/images/lumia_02.jpg)
 
 
 ##It has been three years since I've bought Lumia 800. And it is so far the longest used phone by me. 
 
-In the meantime I've bought *HTC 8X* with new, Windows Phone 8.1 OS. I've sold that device after couple of days because of very short battery life. I also had a pleasure using *Lumia 920* as my second phone for some time, and I'm totally sure that my next phone will be WP8-based (currently looking for white *Lumia 1020* ).
+In the meantime I've bought *HTC 8X* with new, Windows Phone 8.1 OS. I've sold it after couple days of use because of very short battery life. I also had a pleasure using *Lumia 920* temporary as my second phone, and it was awesome experience.
 
-;T;
-I"b
+##The Good
+
+As I mentioned earlier - I'm really impressed about *Metro* design. In my opinion, Windows Phone 7+ is the clearest and most beautiful mobile system ever. Its simplicity and directness of data presentation layer makes WP7+ most useful and user-friendly operating system for smartphone.
+
+The device itself forwards purity & elegance of Lumia's design line. The phone case is built from polycarbonate single-piece unibody (which means producer prevents from battery replacement) with minimum amount of physical buttons: Volume Up/Down, screen lock and camera trigger.
+
+![lumia](/blog/images/lumia_01.jpg)
+
+Besides physical buttons, Lumia 800 has 3 touch icons at the front panel: back, home and search. Besides their regular purpose, we can access all opened applications by holding down back button for ~1sec.
+
+![lumia](/blog/images/lumia_04.jpg)
+
+
+Nokia's device doesn't support external cards. ;T;
+I"N
 <h1 id="nokia-lumia-800-review">Nokia Lumia 800 review</h1>
 
-<p><img src="/blog/images/lumia_01.jpg" alt="lumia" /></p>
+<p><img src="/blog/images/lumia_03.jpg" alt="lumia" /></p>
 
 <p>I don’t really like many Microsoft products (yeah, that’s a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.</p>
 
-<p>Most of my early smartphones was based on Android OS. That system drove me mad when after couple days of using my ~1000PLN device started to randomly hang or slow down. </p>
+<p>Most of my early smartphones was based on Android OS. I’ve never been fully satisfied about any of them. </p>
 
-<p>Then Microsoft and Nokia announced and started to sell Lumia devices with Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> design (later renamed but adopted by nobody to <em>Modern UI</em> ). </p>
+<p>Don’t get me wrong: Android OS is a really nice product but there’s one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick Android failed me(slowed down or totally freezed). 
+This kind of failures is unacceptable for a device priced ~1000PLN.</p>
 
-<p>After first reviews about WP7, I started thinking about switching to it. Despite lack of customization options and very, very small amount of apps in its market I’ve finally bought my first WP7 phone - <em>Nokia Lumia 800</em>.</p>
+<p>Fortunately, in November 2011 Nokia announced and started to sell Lumia devices with Microsoft’s Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> (later renamed but adopted by nobody to <em>Modern UI</em> ) and Nokia’s Lumia phone design.</p>
+
+<p>After first reviews about WP7, I started thinking about switch. Despite lack of customization options and very, very small amount of apps in its market I’ve finally bought my first WP7 phone - <em>Nokia Lumia 800</em>.</p>
 
 <p><img src="/blog/images/lumia_02.jpg" alt="lumia" /></p>
 
 <h2 id="it-has-been-three-years-since-ive-bought-lumia-800-and-it-is-so-far-the-longest-used-phone-by-me">It has been three years since I’ve bought Lumia 800. And it is so far the longest used phone by me.</h2>
 
-<p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold that device after couple of days because of very short battery life. I also had a pleasure using <em>Lumia 920</em> as my second phone for some time, and I’m totally sure that my next phone will be WP8-based (currently looking for white <em>Lumia 1020</em> ).</p>
+<p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold it after couple days of use because of very short battery life. I also had a pleasure using <em>Lumia 920</em> temporary as my second phone, and it was awesome experience.</p>
 
-;T;@�I"/blog/images/lumia_02/;T{;{ :versioni
+<h2 id="the-good">The Good</h2>
+
+<p>As I mentioned earlier - I’m really impressed about <em>Metro</em> design. In my opinion, Windows Phone 7+ is the clearest and most beautiful mobile system ever. Its simplicity and directness of data presentation layer makes WP7+ most useful and user-friendly operating system for smartphone.</p>
+
+<p>The device itself forwards purity &amp; elegance of Lumia’s design line. The phone case is built from polycarbonate single-piece unibody (which means producer prevents from battery replacement) with minimum amount of physical buttons: Volume Up/Down, screen lock and camera trigger.</p>
+
+<p><img src="/blog/images/lumia_01.jpg" alt="lumia" /></p>
+
+<p>Besides physical buttons, Lumia 800 has 3 touch icons at the front panel: back, home and search. Besides their regular purpose, we can access all opened applications by holding down back button for ~1sec.</p>
+
+<p><img src="/blog/images/lumia_04.jpg" alt="lumia" /></p>
+
+<p>Nokia’s device doesn’t support external cards. </p>
+;T;@�I"/blog/images/lumia_02/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_04/;T{;{ :versioni
