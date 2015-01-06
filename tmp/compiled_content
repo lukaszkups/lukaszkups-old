@@ -1,4 +1,4 @@
-{:	data{iI"/notes/:ET{:default{	:	lastI"+<!DOCTYPE html>
+{:	data{nI"/notes/:ET{:default{	:	lastI"+<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -169,7 +169,7 @@
   </ul>
 </div>
 ;T:	post@
-I"/stylesheet/stylesheet/;T{;{;I"�$z/* reset css starts */
+I"/stylesheet/stylesheet/;T{;{;I"%z/* reset css starts */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
@@ -231,7 +231,7 @@ ul.projects > li .project-shadow a{display: table-cell; clear: both; vertical-al
 ul.projects > li:hover .project-shadow{opacity: 0.99;}
 
 .project-container h1, .project-container h2{color: #556270; font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important; font-size: 1.5em; line-height: 1.5em; margin-bottom: 2em; font-weight: 900}
-.project-container h2{color: #a7a7a7; font-weight: 400;}
+.project-container h2{color: #a7a7a7; font-weight: 400; margin-bottom: 1em;}
 .project-container p, .project-container li{color: #828282; font-family: 'Open Sans', Helvetica, Arial, Verdana !important; line-height: 1.5em; margin-bottom: 1.5em;}
 .project-container li{margin-bottom:0;line-height: 1.7em;}
 .project-container ul li:before{content: "- ";}
@@ -2700,7 +2700,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@�I"/images/bg-1/;T{;{ I"/images/prev/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/bg-2/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"�<?xml version="1.0" encoding="UTF-8"?>
+;T;@�I"/images/bg-1/;T{;{ I"/images/prev/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/bg-2/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2720,7 +2720,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0002_nokia_lumia_800_review/</loc>
-    <lastmod>2015-01-05</lastmod>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -2741,6 +2741,26 @@ I":<h1 class='roboto headline'>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_04.jpg</loc>
     <lastmod>2015-01-05</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_05.jpg</loc>
+    <lastmod>2015-01-05</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_06.jpg</loc>
+    <lastmod>2015-01-06</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_07.jpg</loc>
+    <lastmod>2015-01-06</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_08.jpg</loc>
+    <lastmod>2015-01-06</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/lumia_09.jpg</loc>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/webrackets-logo.png</loc>
@@ -4645,7 +4665,7 @@ I"
 <p>So, all the best in ‘15,</p>
 
 <p>– ł.</p>
-;T;@�I"/blog/images/lumia_01/;T{;{ I"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"<!DOCTYPE html>
+;T;@�I"/blog/images/lumia_01/;T{;{ I"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"!<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4705,12 +4725,12 @@ I"
       
       <p><img src="/blog/images/lumia_03.jpg" alt="lumia" /></p>
       
-      <p>I don’t really like many Microsoft products (yeah, that’s a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.</p>
+      <p>I don’t really like many Microsoft products (yeah, that’s a nice kind of intro), but Windows Phone 7+ system is one of their greatest achievements - in design and software field.</p>
       
       <p>Most of my early smartphones was based on Android OS. I’ve never been fully satisfied about any of them. </p>
       
-      <p>Don’t get me wrong: Android OS is a really nice product but there’s one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick Android failed me(slowed down or totally freezed). 
-      This kind of failures is unacceptable for a device priced ~1000PLN.</p>
+      <p>Don’t get me wrong: Android OS is a really nice product but there’s one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick, Android failed me(slowed down or totally freezed). 
+      This kind of failures is unacceptable for a ~1000PLN device.</p>
       
       <p>Fortunately, in November 2011 Nokia announced and started to sell Lumia devices with Microsoft’s Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> (later renamed but adopted by nobody to <em>Modern UI</em> ) and Nokia’s Lumia phone design.</p>
       
@@ -4720,9 +4740,9 @@ I"
       
       <h2 id="it-has-been-three-years-since-ive-bought-lumia-800-and-it-is-so-far-the-longest-used-phone-by-me">It has been three years since I’ve bought Lumia 800. And it is so far the longest used phone by me.</h2>
       
-      <p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold it after couple days of use because of very short battery life. I also had a pleasure using <em>Lumia 920</em> temporary as my second phone, and it was awesome experience.</p>
+      <p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold it after couple days of use because of very short battery life. I also had a pleasure using <em>Lumia 920</em> as my temporary second phone, and it was awesome experience.</p>
       
-      <h2 id="the-good">The Good</h2>
+      <h2 id="the-good-the-bad-the-charger">The Good, the bad, the charger</h2>
       
       <p>As I mentioned earlier - I’m really impressed about <em>Metro</em> design. In my opinion, Windows Phone 7+ is the clearest and most beautiful mobile system ever. Its simplicity and directness of data presentation layer makes WP7+ most useful and user-friendly operating system for smartphone.</p>
       
@@ -4732,9 +4752,35 @@ I"
       
       <p>Besides physical buttons, Lumia 800 has 3 touch icons at the front panel: back, home and search. Besides their regular purpose, we can access all opened applications by holding down back button for ~1sec.</p>
       
-      <p><img src="/blog/images/lumia_04.jpg" alt="lumia" /></p>
+      <p>(Most)Ports placement is also a plus for Nokia’s design team. They’re practically invisble during everyday usage - placed on top side of the phone. To access MicroUSB charger port or SIM tray we need to open small covers. On the other hand I can’t appreciate placement of 3.5mm audio port on the top side - I prefer bottom one because I have a habit to keep phone upside-down in my pocket - I think it’s more natural way of storing phone by most users. </p>
       
-      <p>Nokia’s device doesn’t support external cards. </p>
+      <p><img src="/blog/images/lumia_05.jpg" alt="lumia" /></p>
+      
+      <p>Some people also can grumble about the fact that Nokia’s device doesn’t support external cards - in my opinion 16GB of mass memory is just fine.</p>
+      
+      <p>Same thing can be said about the screen - 3.7” AMOLED display for some people can be enough, but personally after playing some time with Lumia 920 I think 4.5” is more comfortable for someone with average-sized hands.</p>
+      
+      <p>The phone itself is pretty heavy - 142g for 116.5mm x 61.2mm x 12.1mm device can be felt as little too much, but again Nokia’s engineers and designers have done a good job: Lumia 800 is a really well-balanced piece of equipment.</p>
+      
+      <p><img src="/blog/images/lumia_06.jpg" alt="lumia" /></p>
+      
+      <p>In the box with Nokia Lumia 800 phone I’ve found another very unique item - the charger. When someone would ask me what thing reminds me of Bauhaus design trend, then I would answer - Lumia 800 charger. It’s an example of simple and well thought out form of product design. I think this is the only charger in the world which impresses just looking at it. </p>
+      
+      <p>You can also unplug its USB cable and use it e.g. as a data transfer connector for another device(its pretty common these days but not by every phone crafter - so anyway it’s worth mention - remember that this phone was released about 3 years ago).</p>
+      
+      <p><img src="/blog/images/lumia_07.jpg" alt="lumia" /></p>
+      
+      <p><img src="/blog/images/lumia_08.jpg" alt="lumia" /></p>
+      
+      <p><img src="/blog/images/lumia_09.jpg" alt="lumia" /></p>
+      
+      <h2 id="epilogue">Epilogue</h2>
+      
+      <p>Nokia’s first Windows Phone device is - in my honest opinion - one of their greatest. Battery life is pretty good (after 3 years of use I can still work ~2days without charging), the display works very nice (thanks to AMOLED) even at very sunny days. Camera works pretty fine - also in (at least fine) artificial light. </p>
+      
+      <p>The Windows Phone 7.8 system works very well (even if it’s no longer supported). Today I would recommend it for non-power smartphone users (myself included) who needs a device with good navigation app (Nokia Here+ maps are the greatest navi ever), to check e-mails, take some photos or connect with social networks &amp; internet.</p>
+      
+      <p>– ł.</p>
     </div>
     <div class='clear clear40'></div>
     <div class='main-container'>
@@ -4753,17 +4799,17 @@ I"
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"�	
+;T;	I"C
 #Nokia Lumia 800 review
 
 ![lumia](/blog/images/lumia_03.jpg)
 
-I don't really like many Microsoft products (yeah, that's a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.
+I don't really like many Microsoft products (yeah, that's a nice kind of intro), but Windows Phone 7+ system is one of their greatest achievements - in design and software field.
 
 Most of my early smartphones was based on Android OS. I've never been fully satisfied about any of them. 
 
-Don't get me wrong: Android OS is a really nice product but there's one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick Android failed me(slowed down or totally freezed). 
-This kind of failures is unacceptable for a device priced ~1000PLN.
+Don't get me wrong: Android OS is a really nice product but there's one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick, Android failed me(slowed down or totally freezed). 
+This kind of failures is unacceptable for a ~1000PLN device.
 
 Fortunately, in November 2011 Nokia announced and started to sell Lumia devices with Microsoft's Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about *Metro* (later renamed but adopted by nobody to *Modern UI* ) and Nokia's Lumia phone design.
 
@@ -4774,9 +4820,9 @@ After first reviews about WP7, I started thinking about switch. Despite lack of 
 
 ##It has been three years since I've bought Lumia 800. And it is so far the longest used phone by me. 
 
-In the meantime I've bought *HTC 8X* with new, Windows Phone 8.1 OS. I've sold it after couple days of use because of very short battery life. I also had a pleasure using *Lumia 920* temporary as my second phone, and it was awesome experience.
+In the meantime I've bought *HTC 8X* with new, Windows Phone 8.1 OS. I've sold it after couple days of use because of very short battery life. I also had a pleasure using *Lumia 920* as my temporary second phone, and it was awesome experience.
 
-##The Good
+##The Good, the bad, the charger
 
 As I mentioned earlier - I'm really impressed about *Metro* design. In my opinion, Windows Phone 7+ is the clearest and most beautiful mobile system ever. Its simplicity and directness of data presentation layer makes WP7+ most useful and user-friendly operating system for smartphone.
 
@@ -4786,21 +4832,46 @@ The device itself forwards purity & elegance of Lumia's design line. The phone c
 
 Besides physical buttons, Lumia 800 has 3 touch icons at the front panel: back, home and search. Besides their regular purpose, we can access all opened applications by holding down back button for ~1sec.
 
-![lumia](/blog/images/lumia_04.jpg)
+(Most)Ports placement is also a plus for Nokia's design team. They're practically invisble during everyday usage - placed on top side of the phone. To access MicroUSB charger port or SIM tray we need to open small covers. On the other hand I can't appreciate placement of 3.5mm audio port on the top side - I prefer bottom one because I have a habit to keep phone upside-down in my pocket - I think it's more natural way of storing phone by most users. 
 
+![lumia](/blog/images/lumia_05.jpg)
 
-Nokia's device doesn't support external cards. ;T;
-I"N
+Some people also can grumble about the fact that Nokia's device doesn't support external cards - in my opinion 16GB of mass memory is just fine.
+
+Same thing can be said about the screen - 3.7" AMOLED display for some people can be enough, but personally after playing some time with Lumia 920 I think 4.5" is more comfortable for someone with average-sized hands.
+
+The phone itself is pretty heavy - 142g for 116.5mm x 61.2mm x 12.1mm device can be felt as little too much, but again Nokia's engineers and designers have done a good job: Lumia 800 is a really well-balanced piece of equipment.
+
+![lumia](/blog/images/lumia_06.jpg)
+
+In the box with Nokia Lumia 800 phone I've found another very unique item - the charger. When someone would ask me what thing reminds me of Bauhaus design trend, then I would answer - Lumia 800 charger. It's an example of simple and well thought out form of product design. I think this is the only charger in the world which impresses just looking at it. 
+
+You can also unplug its USB cable and use it e.g. as a data transfer connector for another device(its pretty common these days but not by every phone crafter - so anyway it's worth mention - remember that this phone was released about 3 years ago).
+
+![lumia](/blog/images/lumia_07.jpg)
+
+![lumia](/blog/images/lumia_08.jpg)
+
+![lumia](/blog/images/lumia_09.jpg)
+
+##Epilogue
+
+Nokia's first Windows Phone device is - in my honest opinion - one of their greatest. Battery life is pretty good (after 3 years of use I can still work ~2days without charging), the display works very nice (thanks to AMOLED) even at very sunny days. Camera works pretty fine - also in (at least fine) artificial light. 
+
+The Windows Phone 7.8 system works very well (even if it's no longer supported). Today I would recommend it for non-power smartphone users (myself included) who needs a device with good navigation app (Nokia Here+ maps are the greatest navi ever), to check e-mails, take some photos or connect with social networks & internet.
+
+-- ł.;T;
+I"�
 <h1 id="nokia-lumia-800-review">Nokia Lumia 800 review</h1>
 
 <p><img src="/blog/images/lumia_03.jpg" alt="lumia" /></p>
 
-<p>I don’t really like many Microsoft products (yeah, that’s a nice kind of intro), but their Windows Phone 7+ system is one their greatest achievements - in design and software field.</p>
+<p>I don’t really like many Microsoft products (yeah, that’s a nice kind of intro), but Windows Phone 7+ system is one of their greatest achievements - in design and software field.</p>
 
 <p>Most of my early smartphones was based on Android OS. I’ve never been fully satisfied about any of them. </p>
 
-<p>Don’t get me wrong: Android OS is a really nice product but there’s one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick Android failed me(slowed down or totally freezed). 
-This kind of failures is unacceptable for a device priced ~1000PLN.</p>
+<p>Don’t get me wrong: Android OS is a really nice product but there’s one particular reason that drives me crazy about it: stability and reliability. Many times when I needed to do something on a smartphone really quick, Android failed me(slowed down or totally freezed). 
+This kind of failures is unacceptable for a ~1000PLN device.</p>
 
 <p>Fortunately, in November 2011 Nokia announced and started to sell Lumia devices with Microsoft’s Windows Phone 7 OS. Despite the reluctance to products from Microsoft company I was fascinated about <em>Metro</em> (later renamed but adopted by nobody to <em>Modern UI</em> ) and Nokia’s Lumia phone design.</p>
 
@@ -4810,9 +4881,9 @@ This kind of failures is unacceptable for a device priced ~1000PLN.</p>
 
 <h2 id="it-has-been-three-years-since-ive-bought-lumia-800-and-it-is-so-far-the-longest-used-phone-by-me">It has been three years since I’ve bought Lumia 800. And it is so far the longest used phone by me.</h2>
 
-<p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold it after couple days of use because of very short battery life. I also had a pleasure using <em>Lumia 920</em> temporary as my second phone, and it was awesome experience.</p>
+<p>In the meantime I’ve bought <em>HTC 8X</em> with new, Windows Phone 8.1 OS. I’ve sold it after couple days of use because of very short battery life. I also had a pleasure using <em>Lumia 920</em> as my temporary second phone, and it was awesome experience.</p>
 
-<h2 id="the-good">The Good</h2>
+<h2 id="the-good-the-bad-the-charger">The Good, the bad, the charger</h2>
 
 <p>As I mentioned earlier - I’m really impressed about <em>Metro</em> design. In my opinion, Windows Phone 7+ is the clearest and most beautiful mobile system ever. Its simplicity and directness of data presentation layer makes WP7+ most useful and user-friendly operating system for smartphone.</p>
 
@@ -4822,7 +4893,33 @@ This kind of failures is unacceptable for a device priced ~1000PLN.</p>
 
 <p>Besides physical buttons, Lumia 800 has 3 touch icons at the front panel: back, home and search. Besides their regular purpose, we can access all opened applications by holding down back button for ~1sec.</p>
 
-<p><img src="/blog/images/lumia_04.jpg" alt="lumia" /></p>
+<p>(Most)Ports placement is also a plus for Nokia’s design team. They’re practically invisble during everyday usage - placed on top side of the phone. To access MicroUSB charger port or SIM tray we need to open small covers. On the other hand I can’t appreciate placement of 3.5mm audio port on the top side - I prefer bottom one because I have a habit to keep phone upside-down in my pocket - I think it’s more natural way of storing phone by most users. </p>
 
-<p>Nokia’s device doesn’t support external cards. </p>
-;T;@�I"/blog/images/lumia_02/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_04/;T{;{ :versioni
+<p><img src="/blog/images/lumia_05.jpg" alt="lumia" /></p>
+
+<p>Some people also can grumble about the fact that Nokia’s device doesn’t support external cards - in my opinion 16GB of mass memory is just fine.</p>
+
+<p>Same thing can be said about the screen - 3.7” AMOLED display for some people can be enough, but personally after playing some time with Lumia 920 I think 4.5” is more comfortable for someone with average-sized hands.</p>
+
+<p>The phone itself is pretty heavy - 142g for 116.5mm x 61.2mm x 12.1mm device can be felt as little too much, but again Nokia’s engineers and designers have done a good job: Lumia 800 is a really well-balanced piece of equipment.</p>
+
+<p><img src="/blog/images/lumia_06.jpg" alt="lumia" /></p>
+
+<p>In the box with Nokia Lumia 800 phone I’ve found another very unique item - the charger. When someone would ask me what thing reminds me of Bauhaus design trend, then I would answer - Lumia 800 charger. It’s an example of simple and well thought out form of product design. I think this is the only charger in the world which impresses just looking at it. </p>
+
+<p>You can also unplug its USB cable and use it e.g. as a data transfer connector for another device(its pretty common these days but not by every phone crafter - so anyway it’s worth mention - remember that this phone was released about 3 years ago).</p>
+
+<p><img src="/blog/images/lumia_07.jpg" alt="lumia" /></p>
+
+<p><img src="/blog/images/lumia_08.jpg" alt="lumia" /></p>
+
+<p><img src="/blog/images/lumia_09.jpg" alt="lumia" /></p>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>Nokia’s first Windows Phone device is - in my honest opinion - one of their greatest. Battery life is pretty good (after 3 years of use I can still work ~2days without charging), the display works very nice (thanks to AMOLED) even at very sunny days. Camera works pretty fine - also in (at least fine) artificial light. </p>
+
+<p>The Windows Phone 7.8 system works very well (even if it’s no longer supported). Today I would recommend it for non-power smartphone users (myself included) who needs a device with good navigation app (Nokia Here+ maps are the greatest navi ever), to check e-mails, take some photos or connect with social networks &amp; internet.</p>
+
+<p>– ł.</p>
+;T;@�I"/blog/images/lumia_02/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_04/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_09/;T{;{ :versioni
