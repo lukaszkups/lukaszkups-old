@@ -1,4 +1,4 @@
-{:	data{8I"/notes/:ET{:default{	:	lastI"/<!DOCTYPE html>
+{:	data{8I"/notes/:ET{:default{	:	lastI"Y<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -79,6 +79,16 @@
             </a>
           </li>
           <li>
+            <a href='/blog/0003_delegated_vs_direct_jquery_on_method/'>
+              [
+              <span class='brownFont'>
+                7 January 2015
+              </span>
+              ]
+              Delegated vs direct jQuery .on() method
+            </a>
+          </li>
+          <li>
             <a href='/blog/0001_new_year_resolutions/'>
               [
               <span class='brownFont'>
@@ -129,7 +139,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"<!-- .project-container.min-height -->
+					= post[:title];T:preI"˛<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -154,6 +164,16 @@
         </span>
         ]
         Nokia Lumia 800 Review
+      </a>
+    </li>
+    <li>
+      <a href='/blog/0003_delegated_vs_direct_jquery_on_method/'>
+        [
+        <span class='brownFont'>
+          7 January 2015
+        </span>
+        ]
+        Delegated vs direct jQuery .on() method
       </a>
     </li>
     <li>
@@ -2629,7 +2649,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/experience/</loc>
-    <lastmod>2015-01-05</lastmod>
+    <lastmod>2015-01-07</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/avatar-big.png</loc>
@@ -2761,7 +2781,7 @@ I":<h1 class='roboto headline'>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
-@—I"/experience/;T{;{	;I"ç<!DOCTYPE html>
+@—I"/experience/;T{;{	;I"L<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2877,18 +2897,35 @@ I":<h1 class='roboto headline'>
             (also Windows, but not recommend it for anything but gaming)
           </span>
         </div>
+        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Programming languages/Syntax:
         </div>
         <div class='box box70'>
-          Javascript, Ruby, Python, HTML, CSS, HAML, Markdown
+          Javascript, Ruby, Python, HTML, CSS, Sass, HAML, Markdown
         </div>
+        <div class='clear clear10'></div>
+        <div class='box box30 brownFont'>
+          Frameworks:
+        </div>
+        <div class='box box70'>
+          Meteor.js, Phonegap/Cordova, Ruby On Rails, Django, Bootstrap 2 & 3, 960gs, handlebars.js, mustache.js
+        </div>
+        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Applications:
         </div>
         <div class='box box70'>
-          SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator
+          SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator, jira, pivotal tracker, github, bitbucket
         </div>
+        <div class='clear clear10'></div>
+        <div class='box box30 brownFont'>
+          Software development:
+        </div>
+        <div class='box box70'>
+          git, scrum, kanban, programming motherf*cher, TDD, BDD, FDD
+        </div>
+        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Languages:
         </div>
@@ -2948,7 +2985,8 @@ I":<h1 class='roboto headline'>
     <script src='/javascripts/application.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Ñ.project-container.min-height
+;T;	I"&
+.project-container.min-height
   %h1
     Experience
   .clear.clear30
@@ -2993,14 +3031,27 @@ I":<h1 class='roboto headline'>
     Linux, OSX
     %span.brownFont
       (also Windows, but not recommend it for anything but gaming)
+  .clear.clear10
   .box.box30.brownFont
     Programming languages/Syntax:
   .box.box70
-    Javascript, Ruby, Python, HTML, CSS, HAML, Markdown
+    Javascript, Ruby, Python, HTML, CSS, Sass, HAML, Markdown
+  .clear.clear10
+  .box.box30.brownFont
+    Frameworks:
+  .box.box70
+    Meteor.js, Phonegap/Cordova, Ruby On Rails, Django, Bootstrap 2 & 3, 960gs, handlebars.js, mustache.js
+  .clear.clear10
   .box.box30.brownFont
     Applications:
   .box.box70
-    SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator
+    SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator, jira, pivotal tracker, github, bitbucket
+  .clear.clear10
+  .box.box30.brownFont
+    Software development:
+  .box.box70
+    git, scrum, kanban, programming motherf*cher, TDD, BDD, FDD
+  .clear.clear10
   .box.box30.brownFont
     Languages:
   .box.box70
@@ -3031,7 +3082,7 @@ I":<h1 class='roboto headline'>
       Pozna≈Ñ University of Technology
     %span.brownFont
       (Information Technology);T;
-I"ö<div class='project-container min-height'>
+I"Û<div class='project-container min-height'>
   <h1>
     Experience
   </h1>
@@ -3094,18 +3145,35 @@ I"ö<div class='project-container min-height'>
       (also Windows, but not recommend it for anything but gaming)
     </span>
   </div>
+  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Programming languages/Syntax:
   </div>
   <div class='box box70'>
-    Javascript, Ruby, Python, HTML, CSS, HAML, Markdown
+    Javascript, Ruby, Python, HTML, CSS, Sass, HAML, Markdown
   </div>
+  <div class='clear clear10'></div>
+  <div class='box box30 brownFont'>
+    Frameworks:
+  </div>
+  <div class='box box70'>
+    Meteor.js, Phonegap/Cordova, Ruby On Rails, Django, Bootstrap 2 & 3, 960gs, handlebars.js, mustache.js
+  </div>
+  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Applications:
   </div>
   <div class='box box70'>
-    SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator
+    SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator, jira, pivotal tracker, github, bitbucket
   </div>
+  <div class='clear clear10'></div>
+  <div class='box box30 brownFont'>
+    Software development:
+  </div>
+  <div class='box box70'>
+    git, scrum, kanban, programming motherf*cher, TDD, BDD, FDD
+  </div>
+  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Languages:
   </div>

@@ -2,7 +2,7 @@
 kind: article
 created_at: 7 January 2015
 title: Delegated vs direct jQuery .on() method
-tags: ['draft']
+tags: ['blog']
 ---
 
 #Delegated vs direct jQuery .on() method
