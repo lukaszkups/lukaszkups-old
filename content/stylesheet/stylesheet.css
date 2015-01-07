@@ -20,6 +20,7 @@ body, html{background: #f7f7f7; font-family: Helvetica, Verdana, Arial; font-wei
 .text-center{text-align: center !important;}
 a{color: #7e7e7e; text-decoration: none !important;}
 a:hover{color: #B9AEA7;}
+p > code{background-color: #1D1F21; color: #e3efaa; padding:0px 2px; display: inline-block;}
 
 .site-title{display:inline-table; height: 103px; width:auto; vertical-align: middle;}
 .site-title span{display: table-cell; vertical-align: bottom; padding-left: 30px;font-size: 1em; padding-bottom: 15px; color: #556270;}
