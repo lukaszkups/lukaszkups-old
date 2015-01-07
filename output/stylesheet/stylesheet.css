@@ -64,7 +64,7 @@ ul.projects > li:hover .project-shadow{opacity: 0.99;}
 .project-container p, .project-container li{color: #828282; font-family: 'Open Sans', Helvetica, Arial, Verdana !important; line-height: 1.5em; margin-bottom: 1.5em;}
 .project-container li{margin-bottom:0;line-height: 1.7em;}
 .project-container ul li:before{content: "- ";}
-.project-container ul{margin-top: -1em; margin-bottom: 2em;}
+/*.project-container ul{margin-top: -1em; margin-bottom: 2em;}*/
 .project-container strong{color: #556270; font-weight: 900;}
 .project-container a{color: #556270 !important; text-decoration: underline;}
 .project-container a:hover{color: #B9AEA7;}
@@ -85,6 +85,8 @@ ul.postsList li{margin:15px 0; padding:0;}
 ul.postsList li:before{content:"";}
 .project-container ul.postsList li a{cursor: pointer; text-decoration: none;}
 .project-container ul.postsList li a:hover{text-decoration: underline;}
+
+pre{margin-bottom:25px;}
 
 .greenFont{color: #5A7D13 !important;}
 .greenFontHover:hover{color: #7FAF1B !important;}

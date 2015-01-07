@@ -3,7 +3,7 @@
  * 
  * Copyright (c) 2013 Lukasz Kups
  * http://webrackets.com
- * http://lukaszkups.pl
+ * http://lukaszkups.net
  * @ofcapl
  *
  * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php

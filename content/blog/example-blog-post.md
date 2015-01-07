@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 6 January 2013
+created_at: 6 January 2015
 title: example blog post
 tags: ['draft']
 ---
