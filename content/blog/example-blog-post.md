@@ -18,3 +18,5 @@ This week I decided to choose best brand color (in my opinion) and check how it 
 		end
 	</code>
 </pre>
+
+-- ł.

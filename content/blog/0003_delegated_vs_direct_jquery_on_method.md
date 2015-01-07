@@ -2,7 +2,7 @@
 kind: article
 created_at: 7 January 2015
 title: Delegated vs direct jQuery .on() method
-tags: ['draft']
+tags: ['blog']
 ---
 
 #Delegated vs direct jQuery .on() method
@@ -14,7 +14,7 @@ Today I would like to show the difference between `.on()` methods:
 <pre>
 	<code class="javascript">
 		$('div span').on('click', function(){
-			console.log('booya!');
+			console.log('clicked!');
 		});
 	</code>
 </pre>
@@ -24,7 +24,7 @@ Today I would like to show the difference between `.on()` methods:
 <pre>
 	<code class="javascript">
 		$('div').on('click', 'span', function(){
-			console.log('booya!');
+			console.log('clicked!');
 		});
 	</code>
 </pre>
@@ -33,7 +33,63 @@ The difference in code is very subtle, but in functionality (spoiler alert) dele
 
 ## Delgated vs direct === Dynamic vs static
 
-Direct version of jQuery `.on()` method 
+Direct version of jQuery `.on()` method allows You to bind the event to actually added elements in the document. 
 
+On the other side, dynamic version of jQuery `on()` method allows You to bind events to all elements that will match the query - also those added dynamically (e.g. added by other jQuery methods).
 
-http://stackoverflow.com/questions/8110934/direct-vs-delegated-jquery-on
+So, if we have a HTML like this:
+
+<pre>
+	<code class="html">
+		&lt;ul id="exampleList">
+			&lt;li>&lt;/li>
+		&lt;/ul>
+	</code>
+</pre>
+
+..and we'll bind the events to `<li>` elements:
+
+<pre>
+	<code>
+		//first solution:
+		$('ul#exampleList li').on('click', function(){
+			console.log('clicked!');
+		});
+
+		//second solution:
+		$('ul#exampleList').on('click', 'li', function(){
+			console.log('clicked!');
+		});
+	</code>
+</pre>
+
+And then we're add dynamically couple new `<li>` elements:
+
+<pre>
+	<code>
+		for(var i=0; i<3; i++){
+			$('ul#exampleList').append('&lt;li>&lt;/li>');
+		}
+	</code>
+</pre>
+
+..we will have something like this:
+
+<pre>
+	<code>
+		&lt;ul id="exampleList">
+			&lt;li>&lt;/li>
+			&lt;li>&lt;/li>
+			&lt;li>&lt;/li>
+			&lt;li>&lt;/li>
+		&lt;/ul>
+	</code>
+</pre>
+
+Using first solution of event binding, the click event will work only for first `<li>` element - the one that existed before code execution. 
+
+The second solution provides event binding support for elements, which exists during event binding code execution and those which will be dynamically added later.
+
+So, if You want to work with dynamically loaded elements, use the second (*Delegated*) solution of event binding.
+
+-- ł.

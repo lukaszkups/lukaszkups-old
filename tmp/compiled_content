@@ -69,16 +69,6 @@
         </h1>
         <ul class='postsList'>
           <li>
-            <a href='/blog/0002_nokia_lumia_800_review/'>
-              [
-              <span class='brownFont'>
-                6 January 2015
-              </span>
-              ]
-              Nokia Lumia 800 Review
-            </a>
-          </li>
-          <li>
             <a href='/blog/0003_delegated_vs_direct_jquery_on_method/'>
               [
               <span class='brownFont'>
@@ -86,6 +76,16 @@
               </span>
               ]
               Delegated vs direct jQuery .on() method
+            </a>
+          </li>
+          <li>
+            <a href='/blog/0002_nokia_lumia_800_review/'>
+              [
+              <span class='brownFont'>
+                6 January 2015
+              </span>
+              ]
+              Nokia Lumia 800 Review
             </a>
           </li>
           <li>
@@ -157,16 +157,6 @@
   </h1>
   <ul class='postsList'>
     <li>
-      <a href='/blog/0002_nokia_lumia_800_review/'>
-        [
-        <span class='brownFont'>
-          6 January 2015
-        </span>
-        ]
-        Nokia Lumia 800 Review
-      </a>
-    </li>
-    <li>
       <a href='/blog/0003_delegated_vs_direct_jquery_on_method/'>
         [
         <span class='brownFont'>
@@ -174,6 +164,16 @@
         </span>
         ]
         Delegated vs direct jQuery .on() method
+      </a>
+    </li>
+    <li>
+      <a href='/blog/0002_nokia_lumia_800_review/'>
+        [
+        <span class='brownFont'>
+          6 January 2015
+        </span>
+        ]
+        Nokia Lumia 800 Review
       </a>
     </li>
     <li>
@@ -644,7 +644,7 @@ I"c<div class='clear clear50'></div>
 <div class='box box30'>
   <div class='ghosty'></div>
 </div>
-;T;@I"/blog/example-blog-post/;T{;{	;I"Ú<!DOCTYPE html>
+;T;@I"/blog/example-blog-post/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -707,6 +707,8 @@ I"c<div class='clear clear50'></div>
       <p>This week I decided to choose best brand color (in my opinion) and check how it will affect to web traffic. By the end of the month I will code:</p>
       
       <pre>&#x000A;	<code class="ruby">&#x000A;		def costam do&#x000A;			return 0&#x000A;		end&#x000A;	</code></pre>
+      
+      <p>‚Äì ≈Ç.</p>
     </div>
     <div class='clear clear40'></div>
     <div class='main-container'>
@@ -725,7 +727,7 @@ I"c<div class='clear clear50'></div>
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"u
+;T;	I"}
 #Silver month
 
 If You are following me at [twitter](http://twitter.com/ofcapl) You probably know that I've implemented color randomizer for my site.
@@ -738,8 +740,10 @@ This week I decided to choose best brand color (in my opinion) and check how it 
 			return 0
 		end
 	</code>
-</pre>;T;
-I"´
+</pre>
+
+-- ≈Ç.;T;
+I"ª
 <h1 id="silver-month">Silver month</h1>
 
 <p>If You are following me at <a href="http://twitter.com/ofcapl">twitter</a> You probably know that I‚Äôve implemented color randomizer for my site.</p>
@@ -753,6 +757,8 @@ I"´
 		end
 	</code>
 </pre>
+
+<p>‚Äì ≈Ç.</p>
 ;T;@I"%/blog/0001_new_year_resolutions/;T{;{	;I"ç<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
@@ -880,7 +886,7 @@ I"
 <p>So, all the best in ‚Äò15,</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"R<!DOCTYPE html>
+;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"ﬂ<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -944,21 +950,45 @@ I"
         <li>direct:</li>
       </ul>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div span').on('click', function(){&#x000A;			console.log('booya!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div span').on('click', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
       
       <ul>
         <li>and delegated one:</li>
       </ul>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div').on('click', 'span', function(){&#x000A;			console.log('booya!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div').on('click', 'span', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
       
       <p>The difference in code is very subtle, but in functionality (spoiler alert) delegated version of the code is far more flexible and universal.</p>
       
       <h2 id="delgated-vs-direct--dynamic-vs-static">Delgated vs direct === Dynamic vs static</h2>
       
-      <p>Direct version of jQuery <code>.on()</code> method </p>
+      <p>Direct version of jQuery <code>.on()</code> method allows You to bind the event to actually added elements in the document. </p>
       
-      <p>http://stackoverflow.com/questions/8110934/direct-vs-delegated-jquery-on</p>
+      <p>On the other side, dynamic version of jQuery <code>on()</code> method allows You to bind events to all elements that will match the query - also those added dynamically (e.g. added by other jQuery methods).</p>
+      
+      <p>So, if we have a HTML like this:</p>
+      
+      <pre>&#x000A;	<code class="html">&#x000A;		&lt;ul id="exampleList"&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;		&lt;/ul&gt;&#x000A;	</code></pre>
+      
+      <p>..and we‚Äôll bind the events to <code>&lt;li&gt;</code> elements:</p>
+      
+      <pre>&#x000A;	<code>&#x000A;		//first solution:&#x000A;		$('ul#exampleList li').on('click', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;&#x000A;		//second solution:&#x000A;		$('ul#exampleList').on('click', 'li', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
+      
+      <p>And then we‚Äôre add dynamically couple new <code>&lt;li&gt;</code> elements:</p>
+      
+      <pre>&#x000A;	<code>&#x000A;		for(var i=0; i&lt;3; i++){&#x000A;			$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');&#x000A;		}&#x000A;	</code></pre>
+      
+      <p>..we will have something like this:</p>
+      
+      <pre>&#x000A;	<code>&#x000A;		&lt;ul id="exampleList"&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;		&lt;/ul&gt;&#x000A;	</code></pre>
+      
+      <p>Using first solution of event binding, the click event will work only for first <code>&lt;li&gt;</code> element - the one that existed before code execution. </p>
+      
+      <p>The second solution provides event binding support for elements, which exists during event binding code execution and those which will be dynamically added later.</p>
+      
+      <p>So, if You want to work with dynamically loaded elements, use the second (<em>Delegated</em>) solution of event binding.</p>
+      
+      <p>‚Äì ≈Ç.</p>
     </div>
     <div class='clear clear40'></div>
     <div class='main-container'>
@@ -977,7 +1007,7 @@ I"
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"∂
+;T;	I"6
 #Delegated vs direct jQuery .on() method
 
 Today I would like to show the difference between `.on()` methods:
@@ -987,7 +1017,7 @@ Today I would like to show the difference between `.on()` methods:
 <pre>
 	<code class="javascript">
 		$('div span').on('click', function(){
-			console.log('booya!');
+			console.log('clicked!');
 		});
 	</code>
 </pre>
@@ -997,7 +1027,7 @@ Today I would like to show the difference between `.on()` methods:
 <pre>
 	<code class="javascript">
 		$('div').on('click', 'span', function(){
-			console.log('booya!');
+			console.log('clicked!');
 		});
 	</code>
 </pre>
@@ -1006,11 +1036,67 @@ The difference in code is very subtle, but in functionality (spoiler alert) dele
 
 ## Delgated vs direct === Dynamic vs static
 
-Direct version of jQuery `.on()` method 
+Direct version of jQuery `.on()` method allows You to bind the event to actually added elements in the document. 
 
+On the other side, dynamic version of jQuery `on()` method allows You to bind events to all elements that will match the query - also those added dynamically (e.g. added by other jQuery methods).
 
-http://stackoverflow.com/questions/8110934/direct-vs-delegated-jquery-on;T;
-I"s
+So, if we have a HTML like this:
+
+<pre>
+	<code class="html">
+		&lt;ul id="exampleList">
+			&lt;li>&lt;/li>
+		&lt;/ul>
+	</code>
+</pre>
+
+..and we'll bind the events to `<li>` elements:
+
+<pre>
+	<code>
+		//first solution:
+		$('ul#exampleList li').on('click', function(){
+			console.log('clicked!');
+		});
+
+		//second solution:
+		$('ul#exampleList').on('click', 'li', function(){
+			console.log('clicked!');
+		});
+	</code>
+</pre>
+
+And then we're add dynamically couple new `<li>` elements:
+
+<pre>
+	<code>
+		for(var i=0; i<3; i++){
+			$('ul#exampleList').append('&lt;li>&lt;/li>');
+		}
+	</code>
+</pre>
+
+..we will have something like this:
+
+<pre>
+	<code>
+		&lt;ul id="exampleList">
+			&lt;li>&lt;/li>
+			&lt;li>&lt;/li>
+			&lt;li>&lt;/li>
+			&lt;li>&lt;/li>
+		&lt;/ul>
+	</code>
+</pre>
+
+Using first solution of event binding, the click event will work only for first `<li>` element - the one that existed before code execution. 
+
+The second solution provides event binding support for elements, which exists during event binding code execution and those which will be dynamically added later.
+
+So, if You want to work with dynamically loaded elements, use the second (*Delegated*) solution of event binding.
+
+-- ≈Ç.;T;
+I"©	
 <h1 id="delegated-vs-direct-jquery-on-method">Delegated vs direct jQuery .on() method</h1>
 
 <p>Today I would like to show the difference between <code>.on()</code> methods:</p>
@@ -1022,7 +1108,7 @@ I"s
 <pre>
 	<code class="javascript">
 		$('div span').on('click', function(){
-			console.log('booya!');
+			console.log('clicked!');
 		});
 	</code>
 </pre>
@@ -1034,7 +1120,7 @@ I"s
 <pre>
 	<code class="javascript">
 		$('div').on('click', 'span', function(){
-			console.log('booya!');
+			console.log('clicked!');
 		});
 	</code>
 </pre>
@@ -1043,9 +1129,66 @@ I"s
 
 <h2 id="delgated-vs-direct--dynamic-vs-static">Delgated vs direct === Dynamic vs static</h2>
 
-<p>Direct version of jQuery <code>.on()</code> method </p>
+<p>Direct version of jQuery <code>.on()</code> method allows You to bind the event to actually added elements in the document. </p>
 
-<p>http://stackoverflow.com/questions/8110934/direct-vs-delegated-jquery-on</p>
+<p>On the other side, dynamic version of jQuery <code>on()</code> method allows You to bind events to all elements that will match the query - also those added dynamically (e.g. added by other jQuery methods).</p>
+
+<p>So, if we have a HTML like this:</p>
+
+<pre>
+	<code class="html">
+		&lt;ul id="exampleList"&gt;
+			&lt;li&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	</code>
+</pre>
+
+<p>..and we‚Äôll bind the events to <code>&lt;li&gt;</code> elements:</p>
+
+<pre>
+	<code>
+		//first solution:
+		$('ul#exampleList li').on('click', function(){
+			console.log('clicked!');
+		});
+
+		//second solution:
+		$('ul#exampleList').on('click', 'li', function(){
+			console.log('clicked!');
+		});
+	</code>
+</pre>
+
+<p>And then we‚Äôre add dynamically couple new <code>&lt;li&gt;</code> elements:</p>
+
+<pre>
+	<code>
+		for(var i=0; i&lt;3; i++){
+			$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');
+		}
+	</code>
+</pre>
+
+<p>..we will have something like this:</p>
+
+<pre>
+	<code>
+		&lt;ul id="exampleList"&gt;
+			&lt;li&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	</code>
+</pre>
+
+<p>Using first solution of event binding, the click event will work only for first <code>&lt;li&gt;</code> element - the one that existed before code execution. </p>
+
+<p>The second solution provides event binding support for elements, which exists during event binding code execution and those which will be dynamically added later.</p>
+
+<p>So, if You want to work with dynamically loaded elements, use the second (<em>Delegated</em>) solution of event binding.</p>
+
+<p>‚Äì ≈Ç.</p>
 ;T;@HI"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"!<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
@@ -2457,21 +2600,9 @@ I"å<div class='project-container min-height'>
           </div>
         </li>
         <li>
-          <img src='/projects/images/django-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/django_framework/">Django framework</a>
-          </div>
-        </li>
-        <li>
           <img src='/projects/images/html5-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/html5_css3/">HTML5 & CSS3</a>
-          </div>
-        </li>
-        <li>
-          <img src='/projects/images/cordova-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/cordova/">Phonegap / Cordova</a>
           </div>
         </li>
         <li>
@@ -2481,15 +2612,27 @@ I"å<div class='project-container min-height'>
           </div>
         </li>
         <li>
-          <img src='/projects/images/os-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/open_source/">Open Source</a>
-          </div>
-        </li>
-        <li>
           <img src='/projects/images/design-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/design/">Design</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/django-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/django_framework/">Django framework</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/cordova-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/cordova/">Phonegap / Cordova</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/os-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/open_source/">Open Source</a>
           </div>
         </li>
       </ul>
@@ -2537,21 +2680,9 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
   <li>
-    <img src='/projects/images/django-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/django_framework/">Django framework</a>
-    </div>
-  </li>
-  <li>
     <img src='/projects/images/html5-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/html5_css3/">HTML5 & CSS3</a>
-    </div>
-  </li>
-  <li>
-    <img src='/projects/images/cordova-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/cordova/">Phonegap / Cordova</a>
     </div>
   </li>
   <li>
@@ -2561,15 +2692,27 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
   <li>
-    <img src='/projects/images/os-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/open_source/">Open Source</a>
-    </div>
-  </li>
-  <li>
     <img src='/projects/images/design-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/design/">Design</a>
+    </div>
+  </li>
+  <li>
+    <img src='/projects/images/django-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/django_framework/">Django framework</a>
+    </div>
+  </li>
+  <li>
+    <img src='/projects/images/cordova-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/cordova/">Phonegap / Cordova</a>
+    </div>
+  </li>
+  <li>
+    <img src='/projects/images/os-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/open_source/">Open Source</a>
     </div>
   </li>
 </ul>
@@ -2597,11 +2740,11 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0003_delegated_vs_direct_jquery_on_method/</loc>
-    <lastmod>2015-01-07</lastmod>
+    <lastmod>2015-01-08</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-07</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_01.jpg</loc>
@@ -2781,7 +2924,7 @@ I":<h1 class='roboto headline'>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
-@—I"/experience/;T{;{	;I"L<!DOCTYPE html>
+@—I"/experience/;T{;{	;I"z<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2897,35 +3040,30 @@ I":<h1 class='roboto headline'>
             (also Windows, but not recommend it for anything but gaming)
           </span>
         </div>
-        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Programming languages/Syntax:
         </div>
         <div class='box box70'>
           Javascript, Ruby, Python, HTML, CSS, Sass, HAML, Markdown
         </div>
-        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Frameworks:
         </div>
         <div class='box box70'>
           Meteor.js, Phonegap/Cordova, Ruby On Rails, Django, Bootstrap 2 & 3, 960gs, handlebars.js, mustache.js
         </div>
-        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Applications:
         </div>
         <div class='box box70'>
           SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator, jira, pivotal tracker, github, bitbucket
         </div>
-        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Software development:
         </div>
         <div class='box box70'>
           git, scrum, kanban, programming motherf*cher, TDD, BDD, FDD
         </div>
-        <div class='clear clear10'></div>
         <div class='box box30 brownFont'>
           Languages:
         </div>
@@ -2985,8 +3123,7 @@ I":<h1 class='roboto headline'>
     <script src='/javascripts/application.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"&
-.project-container.min-height
+;T;	I"—	.project-container.min-height
   %h1
     Experience
   .clear.clear30
@@ -3031,27 +3168,22 @@ I":<h1 class='roboto headline'>
     Linux, OSX
     %span.brownFont
       (also Windows, but not recommend it for anything but gaming)
-  .clear.clear10
   .box.box30.brownFont
     Programming languages/Syntax:
   .box.box70
     Javascript, Ruby, Python, HTML, CSS, Sass, HAML, Markdown
-  .clear.clear10
   .box.box30.brownFont
     Frameworks:
   .box.box70
     Meteor.js, Phonegap/Cordova, Ruby On Rails, Django, Bootstrap 2 & 3, 960gs, handlebars.js, mustache.js
-  .clear.clear10
   .box.box30.brownFont
     Applications:
   .box.box70
     SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator, jira, pivotal tracker, github, bitbucket
-  .clear.clear10
   .box.box30.brownFont
     Software development:
   .box.box70
     git, scrum, kanban, programming motherf*cher, TDD, BDD, FDD
-  .clear.clear10
   .box.box30.brownFont
     Languages:
   .box.box70
@@ -3082,7 +3214,7 @@ I":<h1 class='roboto headline'>
       Pozna≈Ñ University of Technology
     %span.brownFont
       (Information Technology);T;
-I"Û<div class='project-container min-height'>
+I"?<div class='project-container min-height'>
   <h1>
     Experience
   </h1>
@@ -3145,35 +3277,30 @@ I"Û<div class='project-container min-height'>
       (also Windows, but not recommend it for anything but gaming)
     </span>
   </div>
-  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Programming languages/Syntax:
   </div>
   <div class='box box70'>
     Javascript, Ruby, Python, HTML, CSS, Sass, HAML, Markdown
   </div>
-  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Frameworks:
   </div>
   <div class='box box70'>
     Meteor.js, Phonegap/Cordova, Ruby On Rails, Django, Bootstrap 2 & 3, 960gs, handlebars.js, mustache.js
   </div>
-  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Applications:
   </div>
   <div class='box box70'>
     SublimeText3, terminal/console, Adobe Photoshop, Adobe Illustrator, jira, pivotal tracker, github, bitbucket
   </div>
-  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Software development:
   </div>
   <div class='box box70'>
     git, scrum, kanban, programming motherf*cher, TDD, BDD, FDD
   </div>
-  <div class='clear clear10'></div>
   <div class='box box30 brownFont'>
     Languages:
   </div>

@@ -62,21 +62,45 @@
         <li>direct:</li>
       </ul>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div span').on('click', function(){&#x000A;			console.log('booya!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div span').on('click', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
       
       <ul>
         <li>and delegated one:</li>
       </ul>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div').on('click', 'span', function(){&#x000A;			console.log('booya!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div').on('click', 'span', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
       
       <p>The difference in code is very subtle, but in functionality (spoiler alert) delegated version of the code is far more flexible and universal.</p>
       
       <h2 id="delgated-vs-direct--dynamic-vs-static">Delgated vs direct === Dynamic vs static</h2>
       
-      <p>Direct version of jQuery <code>.on()</code> method </p>
+      <p>Direct version of jQuery <code>.on()</code> method allows You to bind the event to actually added elements in the document. </p>
       
-      <p>http://stackoverflow.com/questions/8110934/direct-vs-delegated-jquery-on</p>
+      <p>On the other side, dynamic version of jQuery <code>on()</code> method allows You to bind events to all elements that will match the query - also those added dynamically (e.g. added by other jQuery methods).</p>
+      
+      <p>So, if we have a HTML like this:</p>
+      
+      <pre>&#x000A;	<code class="html">&#x000A;		&lt;ul id="exampleList"&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;		&lt;/ul&gt;&#x000A;	</code></pre>
+      
+      <p>..and we’ll bind the events to <code>&lt;li&gt;</code> elements:</p>
+      
+      <pre>&#x000A;	<code>&#x000A;		//first solution:&#x000A;		$('ul#exampleList li').on('click', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;&#x000A;		//second solution:&#x000A;		$('ul#exampleList').on('click', 'li', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
+      
+      <p>And then we’re add dynamically couple new <code>&lt;li&gt;</code> elements:</p>
+      
+      <pre>&#x000A;	<code>&#x000A;		for(var i=0; i&lt;3; i++){&#x000A;			$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');&#x000A;		}&#x000A;	</code></pre>
+      
+      <p>..we will have something like this:</p>
+      
+      <pre>&#x000A;	<code>&#x000A;		&lt;ul id="exampleList"&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;		&lt;/ul&gt;&#x000A;	</code></pre>
+      
+      <p>Using first solution of event binding, the click event will work only for first <code>&lt;li&gt;</code> element - the one that existed before code execution. </p>
+      
+      <p>The second solution provides event binding support for elements, which exists during event binding code execution and those which will be dynamically added later.</p>
+      
+      <p>So, if You want to work with dynamically loaded elements, use the second (<em>Delegated</em>) solution of event binding.</p>
+      
+      <p>– ł.</p>
     </div>
     <div class='clear clear40'></div>
     <div class='main-container'>

@@ -13,6 +13,6 @@ end
 
 def tagged_articles(type)
   items_with_tag(type.to_s).sort_by do |a|
-    attribute_to_time(a[:sort_date])
+    attribute_to_time(a[:created_at])
   end.reverse
 end
