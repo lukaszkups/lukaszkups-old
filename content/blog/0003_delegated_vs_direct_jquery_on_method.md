@@ -1,13 +1,13 @@
 ---
 kind: article
-created_at: 7 January 2015
+created_at: 8 January 2015
 title: Delegated vs direct jQuery event binding
 tags: ['blog']
 ---
 
 #Delegated vs direct jQuery event binding
 
-Today I would like to show the difference between two event binding methods (as a example I will take `.on()` method:
+Today I would like to show the difference between two event binding methods (as a example I will take `.on()` method):
 
 - direct:
 

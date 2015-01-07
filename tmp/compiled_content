@@ -72,7 +72,7 @@
             <a href='/blog/0003_delegated_vs_direct_jquery_on_method/'>
               [
               <span class='brownFont'>
-                7 January 2015
+                8 January 2015
               </span>
               ]
               Delegated vs direct jQuery event binding
@@ -160,7 +160,7 @@
       <a href='/blog/0003_delegated_vs_direct_jquery_on_method/'>
         [
         <span class='brownFont'>
-          7 January 2015
+          8 January 2015
         </span>
         ]
         Delegated vs direct jQuery event binding
@@ -887,7 +887,7 @@ I"
 <p>So, all the best in ‘15,</p>
 
 <p>– ł.</p>
-;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"<!DOCTYPE html>
+;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -945,7 +945,7 @@ I"
       
       <h1 id="delegated-vs-direct-jquery-event-binding">Delegated vs direct jQuery event binding</h1>
       
-      <p>Today I would like to show the difference between two event binding methods (as a example I will take <code>.on()</code> method:</p>
+      <p>Today I would like to show the difference between two event binding methods (as a example I will take <code>.on()</code> method):</p>
       
       <ul>
         <li>direct:</li>
@@ -1008,10 +1008,10 @@ I"
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"j
+;T;	I"k
 #Delegated vs direct jQuery event binding
 
-Today I would like to show the difference between two event binding methods (as a example I will take `.on()` method:
+Today I would like to show the difference between two event binding methods (as a example I will take `.on()` method):
 
 - direct:
 
@@ -1097,10 +1097,10 @@ The second solution provides event binding support for elements, which exists du
 So, if You want to work with dynamically loaded elements, use the second (*Delegated*) solution of event binding.
 
 -- ł.;T;
-I"�	
+I"�	
 <h1 id="delegated-vs-direct-jquery-event-binding">Delegated vs direct jQuery event binding</h1>
 
-<p>Today I would like to show the difference between two event binding methods (as a example I will take <code>.on()</code> method:</p>
+<p>Today I would like to show the difference between two event binding methods (as a example I will take <code>.on()</code> method):</p>
 
 <ul>
   <li>direct:</li>
