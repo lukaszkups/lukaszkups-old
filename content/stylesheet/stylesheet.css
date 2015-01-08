@@ -20,7 +20,7 @@ body, html{background: #f7f7f7; font-family: Helvetica, Verdana, Arial; font-wei
 .text-center{text-align: center !important;}
 a{color: #7e7e7e; text-decoration: none !important;}
 a:hover{color: #B9AEA7;}
-p > code{background-color: #1D1F21; color: #e3efaa; padding:0px 2px; display: inline-block;}
+p > code, code{background-color: #1D1F21; color: #e3efaa; padding:0px 2px; display: inline-block;}
 
 .site-title{display:inline-table; height: 103px; width:auto; vertical-align: middle;}
 .site-title span{display: table-cell; vertical-align: bottom; padding-left: 30px;font-size: 1em; padding-bottom: 15px; color: #556270;}
@@ -88,6 +88,7 @@ ul.postsList li:before{content:"";}
 .project-container ul.postsList li a:hover{text-decoration: underline;}
 
 pre{margin-bottom:25px;}
+ul + p, ul + h2{margin-top:1.5em;}
 
 .greenFont{color: #5A7D13 !important;}
 .greenFontHover:hover{color: #7FAF1B !important;}

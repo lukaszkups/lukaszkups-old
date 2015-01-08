@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      introducing Scaffolder (scfld)
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="scfld---simple-bash-based-scaffold-generator-for-meteorjs">Scfld - simple, bash-based scaffold generator for Meteor.js</h1>
+      
+      <h2 id="at-the-beginning-was-bash">At the beginning was bash.</h2>
+      
+      <p>Couple weeks ago I wanted to learn bash syntax a bit. For some time I was thinking about project example, which could be a challenge during bash learning. </p>
+      
+      <p>I decided to build simple scaffold generator for meteor.js apps because I wasted too many hours writing over and over again same HTML templates or basic meteor.js functions. Scfld generates basic set of files for desired collection:</p>
+      
+      <ul>
+        <li><code>/client/controllers/collectionName/collectionName.js</code></li>
+        <li><code>/client/templates/collectionName/collectionName.html</code></li>
+        <li><code>/lib/collectionNameRouter.js</code></li>
+        <li><code>/server/models/collectionName.js</code></li>
+      </ul>
+      
+      <p>Scaffolder supports (or will support in the future) the following field types:</p>
+      
+      <ul>
+        <li><code>string</code></li>
+        <li><code>date</code></li>
+        <li><code>number</code></li>
+        <li><code>email</code></li>
+        <li><code>textarea</code></li>
+        <li><code>checkbox (not ready yet)</code></li>
+        <li><code>password (not ready yet)</code></li>
+        <li><code>radio (not ready yet)</code></li>
+        <li><code>checkbox_collection (checkbox list that automatically takes all values from other collection objects - not ready yet)</code></li>
+        <li><code>radio_collection (radio list that automatically takes all values from other coll1ection objects - not ready yet)</code></li>
+      </ul>
+      
+      <p>Once ran, it creates collection declarations, front-end and back-end for collection document creation, edition and removal.</p>
+      
+      <h2 id="straightforward--simplicity">Straightforward &amp; simplicity</h2>
+      
+      <p>It’s logic and way of implementation can looks really dumb for experienced bash users but hey - it does its job and that was the main assumption of this mini-project.</p>
+      
+      <p>You can browse the code at <a href="https://github.com/ofcapl/scaffolder">this github repo</a> - remember it was made just for fun &amp; has still unfinished code. </p>
+      
+      <h2 id="use-the-force">Use the force</h2>
+      
+      <p>Here’s the usage of the plugin:</p>
+      
+      <pre>&#x000A;	<code class="bash">&#x000A;		scfld collectionName field1:type field2:type ... fieldX:type&#x000A;	</code></pre>
+      
+      <h2 id="example">Example</h2>
+      
+      <p>Just open terminal, go to meteor.js project folder and type:</p>
+      
+      <pre>&#x000A;	<code class="bash">&#x000A;		bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number &#x000A;	</code></pre>
+      
+      <p>And let the magic happen, enjoy!</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
