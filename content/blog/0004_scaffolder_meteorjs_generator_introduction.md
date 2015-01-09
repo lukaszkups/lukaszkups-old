@@ -35,7 +35,7 @@ Once ran, it creates collection declarations, front-end and back-end for collect
 
 ##Straightforward & simplicity
 
-Its logic and way of implementation could look really dumb for experienced bash users but hey - it does its job and that was the main assumption of this mini-project.
+I believe some experienced bash users could write it quite better (feel free to contribute!), but hey it simpy does its job! And that was the main objective of this mini-project.
 
 You can browse the code at [this github repo](https://github.com/ofcapl/scaffolder) - remember it was made just for fun & has still unfinished code. 
 

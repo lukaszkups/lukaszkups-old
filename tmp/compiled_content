@@ -3369,7 +3369,7 @@ I"?<div class='project-container min-height'>
     </span>
   </div>
 </div>
-;T;@ÖI";/blog/0004_scaffolder_meteorjs_generator_introduction/;T{;{	;I"•<!DOCTYPE html>
+;T;@ÖI";/blog/0004_scaffolder_meteorjs_generator_introduction/;T{;{	;I"¡<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3459,7 +3459,7 @@ I"?<div class='project-container min-height'>
       
       <h2 id="straightforward--simplicity">Straightforward &amp; simplicity</h2>
       
-      <p>Its logic and way of implementation could look really dumb for experienced bash users but hey - it does its job and that was the main assumption of this mini-project.</p>
+      <p>I believe some experienced bash users could write it quite better (feel free to contribute!), but hey it simpy does its job! And that was the main objective of this mini-project.</p>
       
       <p>You can browse the code at <a href="https://github.com/ofcapl/scaffolder">this github repo</a> - remember it was made just for fun &amp; has still unfinished code. </p>
       
@@ -3496,7 +3496,7 @@ I"?<div class='project-container min-height'>
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Ù
+;T;	I"å
 #Scfld - simple, bash-based scaffold generator for Meteor.js
 
 ##At the beginning was bash.
@@ -3527,7 +3527,7 @@ Once ran, it creates collection declarations, front-end and back-end for collect
 
 ##Straightforward & simplicity
 
-Its logic and way of implementation could look really dumb for experienced bash users but hey - it does its job and that was the main assumption of this mini-project.
+I believe some experienced bash users could write it quite better (feel free to contribute!), but hey it simpy does its job! And that was the main objective of this mini-project.
 
 You can browse the code at [this github repo](https://github.com/ofcapl/scaffolder) - remember it was made just for fun & has still unfinished code. 
 
@@ -3554,7 +3554,7 @@ Just open terminal, go to meteor.js project folder and type:
 And let the magic happen, enjoy!
 
 -- Å‚.;T;
-I"'
+I"3
 
 <h1 id="scfld---simple-bash-based-scaffold-generator-for-meteorjs">Scfld - simple, bash-based scaffold generator for Meteor.js</h1>
 
@@ -3590,7 +3590,7 @@ I"'
 
 <h2 id="straightforward--simplicity">Straightforward &amp; simplicity</h2>
 
-<p>Its logic and way of implementation could look really dumb for experienced bash users but hey - it does its job and that was the main assumption of this mini-project.</p>
+<p>I believe some experienced bash users could write it quite better (feel free to contribute!), but hey it simpy does its job! And that was the main objective of this mini-project.</p>
 
 <p>You can browse the code at <a href="https://github.com/ofcapl/scaffolder">this github repo</a> - remember it was made just for fun &amp; has still unfinished code. </p>
 
