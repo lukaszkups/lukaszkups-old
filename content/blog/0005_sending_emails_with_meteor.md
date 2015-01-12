@@ -143,8 +143,6 @@ Besides of code above, You need of course some html template code:
 	</code>
 </pre>
 
-And that's all. You can now add `{{> contactFormTemplate}}` tag to any template You want.
-
-Enjoy!
+And that's all - it was THAT easy. You can now add `{{> contactFormTemplate}}` tag to any template You want and enjoy Your awesome contact form.
 
 -- ł.

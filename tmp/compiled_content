@@ -3641,7 +3641,7 @@ I"3
 <p>And let the magic happen, enjoy!</p>
 
 <p>– ł.</p>
-;T;@�I"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"�<!DOCTYPE html>
+;T;@�I"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"�<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3737,9 +3737,7 @@ I"3
       
       <pre>&#x000A;	<code class="html">&#x000A;		&lt;template name="contactFormTemplate"&gt;&#x000A;			&lt;form id="contactForm"&gt;&#x000A;				&lt; type="text" name="firstName" id="firstName" placeholder="First name"/&gt;&#x000A;				&lt; type="text" name="lastName" id="lastName" placeholder="last name"/&gt;&#x000A;				&lt; type="text" name="phone" id="phone" placeholder="Phone number"/&gt;&#x000A;				&lt; type="email" name="email" id="email" placeholder="Your email address"/&gt;&#x000A;				&lt; textarea id="message"&gt;&lt; /textarea&gt;&#x000A;				&lt; type="submit" value="Send"/&gt;&#x000A;			&lt;/form&gt;&#x000A;		&lt;/template&gt;&#x000A;	</code></pre>
       
-      <p>And that’s all. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want.</p>
-      
-      <p>Enjoy!</p>
+      <p>And that’s all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
       
       <p>– ł.</p>
     </div>
@@ -3760,7 +3758,7 @@ I"3
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"P
+;T;	I"
 #Sending emails with Meteor.js
 
 ##This is a personal wrap-up explanation of the code available in [official Meteor.js documentation](http://docs.meteor.com)
@@ -3899,12 +3897,10 @@ Besides of code above, You need of course some html template code:
 	</code>
 </pre>
 
-And that's all. You can now add `{{> contactFormTemplate}}` tag to any template You want.
-
-Enjoy!
+And that's all - it was THAT easy. You can now add `{{> contactFormTemplate}}` tag to any template You want and enjoy Your awesome contact form.
 
 -- ł.;T;
-I"
+I";
 <h1 id="sending-emails-with-meteorjs">Sending emails with Meteor.js</h1>
 
 <h2 id="this-is-a-personal-wrap-up-explanation-of-the-code-available-in-official-meteorjs-documentationhttpdocsmeteorcom">This is a personal wrap-up explanation of the code available in <a href="http://docs.meteor.com">official Meteor.js documentation</a></h2>
@@ -4043,9 +4039,7 @@ I"
 	</code>
 </pre>
 
-<p>And that’s all. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want.</p>
-
-<p>Enjoy!</p>
+<p>And that’s all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
 
 <p>– ł.</p>
 ;T;@�:versioni
