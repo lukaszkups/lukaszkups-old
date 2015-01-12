@@ -7,7 +7,7 @@ tags: ['blog']
 
 #Sending emails with Meteor.js
 
-##This is a personal wrap-up explanation available in [official Meteor.js documentation](http://docs.meteor.com)
+##This is a personal wrap-up explanation of the code available in [official Meteor.js documentation](http://docs.meteor.com)
 
 Today I had to implement contact form for one of my Meteor.js project. At first I've jumped to official Meteor.js documentation and analyse email mechanics.
 

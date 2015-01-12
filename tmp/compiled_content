@@ -3641,7 +3641,7 @@ I"3
 <p>And let the magic happen, enjoy!</p>
 
 <p>â€“ Å‚.</p>
-;T;@ÜI"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"}<!DOCTYPE html>
+;T;@ÜI"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"•<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3699,7 +3699,7 @@ I"3
       
       <h1 id="sending-emails-with-meteorjs">Sending emails with Meteor.js</h1>
       
-      <h2 id="this-is-a-personal-wrap-up-explanation-available-in-official-meteorjs-documentationhttpdocsmeteorcom">This is a personal wrap-up explanation available in <a href="http://docs.meteor.com">official Meteor.js documentation</a></h2>
+      <h2 id="this-is-a-personal-wrap-up-explanation-of-the-code-available-in-official-meteorjs-documentationhttpdocsmeteorcom">This is a personal wrap-up explanation of the code available in <a href="http://docs.meteor.com">official Meteor.js documentation</a></h2>
       
       <p>Today I had to implement contact form for one of my Meteor.js project. At first Iâ€™ve jumped to official Meteor.js documentation and analyse email mechanics.</p>
       
@@ -3760,10 +3760,10 @@ I"3
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"C
+;T;	I"O
 #Sending emails with Meteor.js
 
-##This is a personal wrap-up explanation available in [official Meteor.js documentation](http://docs.meteor.com)
+##This is a personal wrap-up explanation of the code available in [official Meteor.js documentation](http://docs.meteor.com)
 
 Today I had to implement contact form for one of my Meteor.js project. At first I've jumped to official Meteor.js documentation and analyse email mechanics.
 
@@ -3904,10 +3904,10 @@ And that's all. You can now add `{{> contactFormTemplate}}` tag to any template 
 Enjoy!
 
 -- Å‚.;T;
-I"ú
+I"
 <h1 id="sending-emails-with-meteorjs">Sending emails with Meteor.js</h1>
 
-<h2 id="this-is-a-personal-wrap-up-explanation-available-in-official-meteorjs-documentationhttpdocsmeteorcom">This is a personal wrap-up explanation available in <a href="http://docs.meteor.com">official Meteor.js documentation</a></h2>
+<h2 id="this-is-a-personal-wrap-up-explanation-of-the-code-available-in-official-meteorjs-documentationhttpdocsmeteorcom">This is a personal wrap-up explanation of the code available in <a href="http://docs.meteor.com">official Meteor.js documentation</a></h2>
 
 <p>Today I had to implement contact form for one of my Meteor.js project. At first Iâ€™ve jumped to official Meteor.js documentation and analyse email mechanics.</p>
 
