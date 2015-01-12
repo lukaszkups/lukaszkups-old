@@ -49,7 +49,7 @@ We can also use custom domain email account:
 	</code>
 </pre>
 
-After everything is set, let's register actual sending method, available for client (but declared on server so place code below somewhere under `sever/` folder):
+After everything is set, let's register actual sending method, available for client (but declared on server so place code below somewhere under `server/` folder):
 
 <pre>
 	<code class="javascript">

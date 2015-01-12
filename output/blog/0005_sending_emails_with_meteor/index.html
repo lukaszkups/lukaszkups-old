@@ -76,7 +76,7 @@
       
       <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/&#x000A;		});&#x000A;	</code></pre>
       
-      <p>After everything is set, let’s register actual sending method, available for client (but declared on server so place code below somewhere under <code>sever/</code> folder):</p>
+      <p>After everything is set, let’s register actual sending method, available for client (but declared on server so place code below somewhere under <code>server/</code> folder):</p>
       
       <pre>&#x000A;	<code class="javascript">&#x000A;		// In your server code: define a method that the client can call&#x000A;		Meteor.methods({&#x000A;		  sendEmail: function (to, from, subject, text) {&#x000A;		    check([to, from, subject, text], [String]);&#x000A;&#x000A;		    // Let other method calls from the same client start running,&#x000A;		    // without waiting for the email sending to complete.&#x000A;		    this.unblock();&#x000A;&#x000A;		    //actual email sending method&#x000A;		    Email.send({&#x000A;		      to: to,&#x000A;		      from: from,&#x000A;		      subject: subject,&#x000A;		      text: text&#x000A;		    });&#x000A;		  }&#x000A;		});&#x000A;	</code></pre>
       
