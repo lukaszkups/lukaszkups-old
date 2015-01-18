@@ -4066,7 +4066,7 @@ I";
 <p>And thatâ€™s all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
 
 <p>â€“ Å‚.</p>
-;T;@âI"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"y+<!DOCTYPE html>
+;T;@âI"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"=,<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4157,6 +4157,10 @@ I";
       <p>As You probably know, Meteor.js uses <a href="http://www.mongodb.org/">MongoDB</a> as its main database system so letâ€™s prepare our server to <a href="http://wac.450f.edgecastcdn.net/80450F/thefw.com/files/2013/05/Nicholson.gif">deal with it</a>:</p>
       
       <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10&#x000A;		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install mongodb-10gen&#x000A;	</code></pre>
+      
+      <p>Now start mongoDB as a Daemon with log records file:</p>
+      
+      <pre>&#x000A;	<code class="bash">&#x000A;		mongod --fork --logpath /var/log/mongodb.log&#x000A;	</code></pre>
       
       <p>The next thing is to add a <strong>system-wide</strong> MongoDB admin role:</p>
       
@@ -4249,7 +4253,7 @@ I";
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Ÿ
+;T;	I"0
 #Deploying Meteor.js project to own server (via ssh)
 
 Today I've spent most time of the day on figuring out how to deploy an Meteor.js app to own server via ssh.
@@ -4315,6 +4319,14 @@ As You probably know, Meteor.js uses [MongoDB](http://www.mongodb.org/) as its m
 		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 		sudo apt-get update
 		sudo apt-get install mongodb-10gen
+	</code>
+</pre>
+
+Now start mongoDB as a Daemon with log records file:
+
+<pre>
+	<code class="bash">
+		mongod --fork --logpath /var/log/mongodb.log
 	</code>
 </pre>
 
@@ -4495,7 +4507,7 @@ And that's practically all. Special thanks to guys from [gentlenode](https://gen
 If You have any questions - feel free to [ask](http://twitter.com/ofcapl).
 
 -- Å‚;T;
-I"Æ
+I"^
 <h1 id="deploying-meteorjs-project-to-own-server-via-ssh">Deploying Meteor.js project to own server (via ssh)</h1>
 
 <p>Today Iâ€™ve spent most time of the day on figuring out how to deploy an Meteor.js app to own server via ssh.</p>
@@ -4561,6 +4573,14 @@ I"Æ
 		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 		sudo apt-get update
 		sudo apt-get install mongodb-10gen
+	</code>
+</pre>
+
+<p>Now start mongoDB as a Daemon with log records file:</p>
+
+<pre>
+	<code class="bash">
+		mongod --fork --logpath /var/log/mongodb.log
 	</code>
 </pre>
 

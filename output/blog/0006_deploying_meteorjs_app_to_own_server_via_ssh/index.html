@@ -90,6 +90,10 @@
       
       <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10&#x000A;		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install mongodb-10gen&#x000A;	</code></pre>
       
+      <p>Now start mongoDB as a Daemon with log records file:</p>
+      
+      <pre>&#x000A;	<code class="bash">&#x000A;		mongod --fork --logpath /var/log/mongodb.log&#x000A;	</code></pre>
+      
       <p>The next thing is to add a <strong>system-wide</strong> MongoDB admin role:</p>
       
       <pre>&#x000A;	<code class="bash">&#x000A;		mongo&#x000A;		db = db.getSiblingDB('admin')&#x000A;		db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})&#x000A;		exit		&#x000A;	</code></pre>

@@ -73,6 +73,14 @@ As You probably know, Meteor.js uses [MongoDB](http://www.mongodb.org/) as its m
 	</code>
 </pre>
 
+Now start mongoDB as a Daemon with log records file:
+
+<pre>
+	<code class="bash">
+		mongod --fork --logpath /var/log/mongodb.log
+	</code>
+</pre>
+
 The next thing is to add a **system-wide** MongoDB admin role:
 
 <pre>
