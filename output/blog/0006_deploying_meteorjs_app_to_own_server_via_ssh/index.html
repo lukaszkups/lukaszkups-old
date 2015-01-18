@@ -148,7 +148,7 @@
       
       <p>Finally, we can plug in our app to Mongo database and run it, using forever:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;	</code></pre>
+      <pre>&#x000A;	<code class="bash">&#x000A;		cd yourAppName.com&#x000A;		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;	</code></pre>
       
       <p>And your application is live now. You can check its status every time by following command:</p>
       

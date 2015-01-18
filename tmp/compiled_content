@@ -4066,7 +4066,7 @@ I";
 <p>And thatâ€™s all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
 
 <p>â€“ Å‚.</p>
-;T;@âI"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"]+<!DOCTYPE html>
+;T;@âI"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"y+<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4216,7 +4216,7 @@ I";
       
       <p>Finally, we can plug in our app to Mongo database and run it, using forever:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;	</code></pre>
+      <pre>&#x000A;	<code class="bash">&#x000A;		cd yourAppName.com&#x000A;		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;	</code></pre>
       
       <p>And your application is live now. You can check its status every time by following command:</p>
       
@@ -4249,7 +4249,7 @@ I";
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Š
+;T;	I"Ÿ
 #Deploying Meteor.js project to own server (via ssh)
 
 Today I've spent most time of the day on figuring out how to deploy an Meteor.js app to own server via ssh.
@@ -4463,6 +4463,7 @@ Finally, we can plug in our app to Mongo database and run it, using forever:
 
 <pre>
 	<code class="bash">
+		cd yourAppName.com
 		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js
 	</code>
 </pre>
@@ -4494,7 +4495,7 @@ And that's practically all. Special thanks to guys from [gentlenode](https://gen
 If You have any questions - feel free to [ask](http://twitter.com/ofcapl).
 
 -- Å‚;T;
-I"±
+I"Æ
 <h1 id="deploying-meteorjs-project-to-own-server-via-ssh">Deploying Meteor.js project to own server (via ssh)</h1>
 
 <p>Today Iâ€™ve spent most time of the day on figuring out how to deploy an Meteor.js app to own server via ssh.</p>
@@ -4708,6 +4709,7 @@ I"±
 
 <pre>
 	<code class="bash">
+		cd yourAppName.com
 		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js
 	</code>
 </pre>
