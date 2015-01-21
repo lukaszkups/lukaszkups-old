@@ -1,4 +1,4 @@
-{:	data{;I"/notes/:ET{:default{	:	lastI"◊<!DOCTYPE html>
+{:	data{<I"/notes/:ET{:default{	:	lastI"˘<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -68,6 +68,16 @@
           This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
         </h1>
         <ul class='postsList'>
+          <li>
+            <a href='/blog/0007_shorten_string_spacebar_helper/'>
+              [
+              <span class='brownFont'>
+                21 January 2015
+              </span>
+              ]
+              Shorten strings with spacebar helper
+            </a>
+          </li>
           <li>
             <a href='/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/'>
               [
@@ -169,7 +179,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"»<!-- .project-container.min-height -->
+					= post[:title];T:preI"Æ<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -186,6 +196,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0007_shorten_string_spacebar_helper/'>
+        [
+        <span class='brownFont'>
+          21 January 2015
+        </span>
+        ]
+        Shorten strings with spacebar helper
+      </a>
+    </li>
     <li>
       <a href='/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/'>
         [
@@ -2778,7 +2798,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"3<?xml version="1.0" encoding="UTF-8"?>
+;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"µ<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2815,6 +2835,10 @@ I":<h1 class='roboto headline'>
   <url>
     <loc>http://lukaszkups.net/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/</loc>
     <lastmod>2015-01-18</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0007_shorten_string_spacebar_helper/</loc>
+    <lastmod>2015-01-21</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -4761,4 +4785,155 @@ I"^
 <p>If You have any questions - feel free to <a href="http://twitter.com/ofcapl">ask</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@Ë:versioni
+;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"N<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Shorten strings with spacebar helper
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="shorten-your-titlenamelinkyou-name-it-strings-with-spacebar-helper">Shorten Your title/name/link(You name it!) strings with spacebar helper</h1>
+      
+      <p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
+      
+      <pre>&#x000A;	<code class="javascript">&#x000A;		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;			if(stringToShorten.length &gt; maxCharsAmount){&#x000A;				return stringToShorten.substring(0, maxCharsAmount) + '...';&#x000A;			}&#x000A;			return stringToShorten;&#x000A;		});&#x000A;	</code></pre>
+      
+      <p>Usage:</p>
+      
+      <pre>&#x000A;	<code class="javascript">&#x000A;		{{#each PostList}}&#x000A;			{{shortIt this.title 15}}&#x000A;		{{/each}}&#x000A;	</code></pre>
+      
+      <p>And that‚Äôs it! Enjoy!</p>
+      
+      <p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall‚Äôs protips section</a>)</p>
+      
+      <p>‚Äì ≈Ç.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"
+#Shorten Your title/name/link(You name it!) strings with spacebar helper
+
+If You're building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:
+
+<pre>
+	<code class="javascript">
+		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
+			if(stringToShorten.length > maxCharsAmount){
+				return stringToShorten.substring(0, maxCharsAmount) + '...';
+			}
+			return stringToShorten;
+		});
+	</code>
+</pre>
+
+Usage:
+
+<pre>
+	<code class="javascript">
+		{{#each PostList}}
+			{{shortIt this.title 15}}
+		{{/each}}
+	</code>
+</pre>
+
+And that's it! Enjoy!
+
+(You can read this article also at [my coderwall's protips section](https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper))
+
+-- ≈Ç.;T;
+I"ç
+<h1 id="shorten-your-titlenamelinkyou-name-it-strings-with-spacebar-helper">Shorten Your title/name/link(You name it!) strings with spacebar helper</h1>
+
+<p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
+
+<pre>
+	<code class="javascript">
+		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
+			if(stringToShorten.length &gt; maxCharsAmount){
+				return stringToShorten.substring(0, maxCharsAmount) + '...';
+			}
+			return stringToShorten;
+		});
+	</code>
+</pre>
+
+<p>Usage:</p>
+
+<pre>
+	<code class="javascript">
+		{{#each PostList}}
+			{{shortIt this.title 15}}
+		{{/each}}
+	</code>
+</pre>
+
+<p>And that‚Äôs it! Enjoy!</p>
+
+<p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall‚Äôs protips section</a>)</p>
+
+<p>‚Äì ≈Ç.</p>
+;T;@Ó:versioni
