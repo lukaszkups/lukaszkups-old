@@ -269,7 +269,7 @@
   </ul>
 </div>
 ;T:	post@
-I"/stylesheet/stylesheet/;T{;{;I"®%z/* reset css starts */
+I"/stylesheet/stylesheet/;T{;{;I"á&z/* reset css starts */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
@@ -286,12 +286,13 @@ body, html{background: #f7f7f7; font-family: Helvetica, Verdana, Arial; font-wei
 .strong{font-weight: 900;}
 .lato{font-family: 'Lato', Helvetica, Verdana, Arial !important;}
 .arial{font-family: 'Arial Black', Helvetica, Arial, Verdana !important;}
-.droid{font-family: 'Droid Sans', Helvetica, Arial, Verdana !important;}
+.droid{font-family: 'erDroid Sans', Helvetica, Arial, Verdana !important;}
 .roboto{font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important;}
 .text-center{text-align: center !important;}
 a{color: #7e7e7e; text-decoration: none !important;}
 a:hover{color: #B9AEA7;}
-p > code, code{background-color: #1D1F21; color: #e3efaa; padding:0px 2px; display: inline-block;}
+p > code, code{background-color: #1D1F21; color: #e3efaa; padding:0px 2px; display: inline-block; font-family:monospace, Courier, "Courier New";}
+pre code{margin-bottom: 25px; display: block; overflow: hidden; margin-left:10px; margin-right: 10px;}
 
 .site-title{display:inline-table; height: 103px; width:auto; vertical-align: middle;}
 .site-title span{display: table-cell; vertical-align: bottom; padding-left: 30px;font-size: 1em; padding-bottom: 15px; color: #556270;}
@@ -358,7 +359,7 @@ ul.postsList li:before{content:"";}
 .project-container ul.postsList li a{cursor: pointer; text-decoration: none;}
 .project-container ul.postsList li a:hover{text-decoration: underline;}
 
-pre{margin-bottom:25px;}
+pre{margin-bottom:25px !important; display: block; overflow: hidden;background-color: #1D1F21;}
 ul + p, ul + h2{margin-top:1.5em;}
 
 .greenFont{color: #5A7D13 !important;}
@@ -434,7 +435,7 @@ BgHover:hover{background-color: # !important;}
 /* blue III: #294EC5;*/
 /* brown: #B9AEA7;*/
 /* brown dark: #d5ae97;*/;T;	@;
-@I"$/stylesheet/highlightjs_styles/;T{;{;I"á
+@I"$/stylesheet/highlightjs_styles/;T{;{;I"ª
 /*
 
 vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
@@ -444,7 +445,9 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 /*background color*/
 .hljs {
   display: block;
-  overflow-x: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  white-space: pre-wrap;
   padding: 0.5em;
   background: #1d1f21;
   -webkit-text-size-adjust: none;
@@ -968,7 +971,7 @@ I"
 <p>So, all the best in ‚Äò15,</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"<!DOCTYPE html>
+;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"Ÿ<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1032,13 +1035,13 @@ I"
         <li>direct:</li>
       </ul>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div span').on('click', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;$('div span').on('click', function(){&#x000A;	console.log('clicked!');&#x000A;});&#x000A;</code></pre>
       
       <ul>
         <li>and delegated one:</li>
       </ul>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		$('div').on('click', 'span', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;$('div').on('click', 'span', function(){&#x000A;	console.log('clicked!');&#x000A;});&#x000A;</code></pre>
       
       <p>The difference in code is very subtle, but in functionality (spoiler alert) delegated version of the code is far more flexible and universal.</p>
       
@@ -1050,19 +1053,19 @@ I"
       
       <p>So, if we have a HTML like this:</p>
       
-      <pre>&#x000A;	<code class="html">&#x000A;		&lt;ul id="exampleList"&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;		&lt;/ul&gt;&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="html">&#x000A;&lt;ul id="exampleList"&gt;&#x000A;	&lt;li&gt;&lt;/li&gt;&#x000A;&lt;/ul&gt;&#x000A;</code></pre>
       
       <p>..and we‚Äôll bind the events to <code>&lt;li&gt;</code> elements:</p>
       
-      <pre>&#x000A;	<code>&#x000A;		//first solution:&#x000A;		$('ul#exampleList li').on('click', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;&#x000A;		//second solution:&#x000A;		$('ul#exampleList').on('click', 'li', function(){&#x000A;			console.log('clicked!');&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code>&#x000A;//first solution:&#x000A;$('ul#exampleList li').on('click', function(){&#x000A;	console.log('clicked!');&#x000A;});&#x000A;&#x000A;//second solution:&#x000A;$('ul#exampleList').on('click', 'li', function(){&#x000A;	console.log('clicked!');&#x000A;});&#x000A;</code></pre>
       
       <p>And then we‚Äôre add dynamically couple new <code>&lt;li&gt;</code> elements:</p>
       
-      <pre>&#x000A;	<code>&#x000A;		for(var i=0; i&lt;3; i++){&#x000A;			$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');&#x000A;		}&#x000A;	</code></pre>
+      <pre>&#x000A;<code>&#x000A;for(var i=0; i&lt;3; i++){&#x000A;	$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');&#x000A;}&#x000A;</code></pre>
       
       <p>..we will have something like this:</p>
       
-      <pre>&#x000A;	<code>&#x000A;		&lt;ul id="exampleList"&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;			&lt;li&gt;&lt;/li&gt;&#x000A;		&lt;/ul&gt;&#x000A;	</code></pre>
+      <pre>&#x000A;<code>&#x000A;&lt;ul id="exampleList"&gt;&#x000A;	&lt;li&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;/li&gt;&#x000A;&lt;/ul&gt;&#x000A;</code></pre>
       
       <p>Using first solution of event binding, the click event will work only for first <code>&lt;li&gt;</code> element - the one that existed before code execution. </p>
       
@@ -1089,7 +1092,7 @@ I"
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"k
+;T;	I"+
 #Delegated vs direct jQuery event binding
 
 Today I would like to show the difference between two event binding methods (as a example I will take `.on()` method):
@@ -1097,21 +1100,21 @@ Today I would like to show the difference between two event binding methods (as 
 - direct:
 
 <pre>
-	<code class="javascript">
-		$('div span').on('click', function(){
-			console.log('clicked!');
-		});
-	</code>
+<code class="javascript">
+$('div span').on('click', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 - and delegated one:
 
 <pre>
-	<code class="javascript">
-		$('div').on('click', 'span', function(){
-			console.log('clicked!');
-		});
-	</code>
+<code class="javascript">
+$('div').on('click', 'span', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 The difference in code is very subtle, but in functionality (spoiler alert) delegated version of the code is far more flexible and universal.
@@ -1125,50 +1128,50 @@ On the other side, dynamic version of jQuery `on()` method allows You to bind ev
 So, if we have a HTML like this:
 
 <pre>
-	<code class="html">
-		&lt;ul id="exampleList">
-			&lt;li>&lt;/li>
-		&lt;/ul>
-	</code>
+<code class="html">
+&lt;ul id="exampleList">
+	&lt;li>&lt;/li>
+&lt;/ul>
+</code>
 </pre>
 
 ..and we'll bind the events to `<li>` elements:
 
 <pre>
-	<code>
-		//first solution:
-		$('ul#exampleList li').on('click', function(){
-			console.log('clicked!');
-		});
+<code>
+//first solution:
+$('ul#exampleList li').on('click', function(){
+	console.log('clicked!');
+});
 
-		//second solution:
-		$('ul#exampleList').on('click', 'li', function(){
-			console.log('clicked!');
-		});
-	</code>
+//second solution:
+$('ul#exampleList').on('click', 'li', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 And then we're add dynamically couple new `<li>` elements:
 
 <pre>
-	<code>
-		for(var i=0; i<3; i++){
-			$('ul#exampleList').append('&lt;li>&lt;/li>');
-		}
-	</code>
+<code>
+for(var i=0; i<3; i++){
+	$('ul#exampleList').append('&lt;li>&lt;/li>');
+}
+</code>
 </pre>
 
 ..we will have something like this:
 
 <pre>
-	<code>
-		&lt;ul id="exampleList">
-			&lt;li>&lt;/li>
-			&lt;li>&lt;/li>
-			&lt;li>&lt;/li>
-			&lt;li>&lt;/li>
-		&lt;/ul>
-	</code>
+<code>
+&lt;ul id="exampleList">
+	&lt;li>&lt;/li>
+	&lt;li>&lt;/li>
+	&lt;li>&lt;/li>
+	&lt;li>&lt;/li>
+&lt;/ul>
+</code>
 </pre>
 
 Using first solution of event binding, the click event will work only for first `<li>` element - the one that existed before code execution. 
@@ -1178,7 +1181,7 @@ The second solution provides event binding support for elements, which exists du
 So, if You want to work with dynamically loaded elements, use the second (*Delegated*) solution of event binding.
 
 -- ≈Ç.;T;
-I"‚	
+I"¢	
 <h1 id="delegated-vs-direct-jquery-event-binding">Delegated vs direct jQuery event binding</h1>
 
 <p>Today I would like to show the difference between two event binding methods (as a example I will take <code>.on()</code> method):</p>
@@ -1188,11 +1191,11 @@ I"‚
 </ul>
 
 <pre>
-	<code class="javascript">
-		$('div span').on('click', function(){
-			console.log('clicked!');
-		});
-	</code>
+<code class="javascript">
+$('div span').on('click', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 <ul>
@@ -1200,11 +1203,11 @@ I"‚
 </ul>
 
 <pre>
-	<code class="javascript">
-		$('div').on('click', 'span', function(){
-			console.log('clicked!');
-		});
-	</code>
+<code class="javascript">
+$('div').on('click', 'span', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 <p>The difference in code is very subtle, but in functionality (spoiler alert) delegated version of the code is far more flexible and universal.</p>
@@ -1218,50 +1221,50 @@ I"‚
 <p>So, if we have a HTML like this:</p>
 
 <pre>
-	<code class="html">
-		&lt;ul id="exampleList"&gt;
-			&lt;li&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	</code>
+<code class="html">
+&lt;ul id="exampleList"&gt;
+	&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code>
 </pre>
 
 <p>..and we‚Äôll bind the events to <code>&lt;li&gt;</code> elements:</p>
 
 <pre>
-	<code>
-		//first solution:
-		$('ul#exampleList li').on('click', function(){
-			console.log('clicked!');
-		});
+<code>
+//first solution:
+$('ul#exampleList li').on('click', function(){
+	console.log('clicked!');
+});
 
-		//second solution:
-		$('ul#exampleList').on('click', 'li', function(){
-			console.log('clicked!');
-		});
-	</code>
+//second solution:
+$('ul#exampleList').on('click', 'li', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 <p>And then we‚Äôre add dynamically couple new <code>&lt;li&gt;</code> elements:</p>
 
 <pre>
-	<code>
-		for(var i=0; i&lt;3; i++){
-			$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');
-		}
-	</code>
+<code>
+for(var i=0; i&lt;3; i++){
+	$('ul#exampleList').append('&lt;li&gt;&lt;/li&gt;');
+}
+</code>
 </pre>
 
 <p>..we will have something like this:</p>
 
 <pre>
-	<code>
-		&lt;ul id="exampleList"&gt;
-			&lt;li&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	</code>
+<code>
+&lt;ul id="exampleList"&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code>
 </pre>
 
 <p>Using first solution of event binding, the click event will work only for first <code>&lt;li&gt;</code> element - the one that existed before code execution. </p>
@@ -2822,23 +2825,23 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0003_delegated_vs_direct_jquery_on_method/</loc>
-    <lastmod>2015-01-08</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0004_scaffolder_meteorjs_generator_introduction/</loc>
-    <lastmod>2015-01-09</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0005_sending_emails_with_meteor/</loc>
-    <lastmod>2015-01-12</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/</loc>
-    <lastmod>2015-01-18</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0007_shorten_string_spacebar_helper/</loc>
-    <lastmod>2015-01-21</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -3014,11 +3017,11 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/highlightjs_styles.css</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
-    <lastmod>2015-01-09</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
@@ -3441,7 +3444,7 @@ I"?<div class='project-container min-height'>
     </span>
   </div>
 </div>
-;T;@÷I";/blog/0004_scaffolder_meteorjs_generator_introduction/;T{;{	;I"°<!DOCTYPE html>
+;T;@÷I";/blog/0004_scaffolder_meteorjs_generator_introduction/;T{;{	;I"ô<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3539,13 +3542,13 @@ I"?<div class='project-container min-height'>
       
       <p>Here‚Äôs the usage of the plugin:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		scfld collectionName field1:type field2:type ... fieldX:type&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;scfld collectionName field1:type field2:type ... fieldX:type&#x000A;</code></pre>
       
       <h2 id="example">Example</h2>
       
       <p>Just open terminal, go to meteor.js project folder and type:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number &#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number &#x000A;</code></pre>
       
       <p>And let the magic happen, enjoy!</p>
       
@@ -3568,7 +3571,7 @@ I"?<div class='project-container min-height'>
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Â
+;T;	I"›
 #Scfld - simple, bash-based scaffold generator for Meteor.js
 
 ##At the beginning was bash.
@@ -3608,9 +3611,9 @@ You can browse the code at [this github repo](https://github.com/ofcapl/scaffold
 Here's the usage of the plugin:
 
 <pre>
-	<code class="bash">
-		scfld collectionName field1:type field2:type ... fieldX:type
-	</code>
+<code class="bash">
+scfld collectionName field1:type field2:type ... fieldX:type
+</code>
 </pre>
 
 ##Example
@@ -3618,15 +3621,15 @@ Here's the usage of the plugin:
 Just open terminal, go to meteor.js project folder and type:
 
 <pre>
-	<code class="bash">
-		bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number 
-	</code>
+<code class="bash">
+bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number 
+</code>
 </pre>
 
 And let the magic happen, enjoy!
 
 -- ≈Ç.;T;
-I"3
+I"+
 
 <h1 id="scfld---simple-bash-based-scaffold-generator-for-meteorjs">Scfld - simple, bash-based scaffold generator for Meteor.js</h1>
 
@@ -3671,9 +3674,9 @@ I"3
 <p>Here‚Äôs the usage of the plugin:</p>
 
 <pre>
-	<code class="bash">
-		scfld collectionName field1:type field2:type ... fieldX:type
-	</code>
+<code class="bash">
+scfld collectionName field1:type field2:type ... fieldX:type
+</code>
 </pre>
 
 <h2 id="example">Example</h2>
@@ -3681,15 +3684,15 @@ I"3
 <p>Just open terminal, go to meteor.js project folder and type:</p>
 
 <pre>
-	<code class="bash">
-		bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number 
-	</code>
+<code class="bash">
+bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number 
+</code>
 </pre>
 
 <p>And let the magic happen, enjoy!</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@‹I"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"≤<!DOCTYPE html>
+;T;@‹I"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3753,37 +3756,37 @@ I"3
       
       <p>At the beginning, we have to install <code>email</code> package (via terminal):</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		meteor add email&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;meteor add email&#x000A;</code></pre>
       
       <p>Next, we need to declare our email settings - to do that, let‚Äôs create a <code>server/smtp.js</code> file:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/&#x000A;});&#x000A;</code></pre>
       
       <p>Example for gmail:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/&#x000A;});&#x000A;</code></pre>
       
       <p>We can also use custom domain email account:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/&#x000A;});&#x000A;</code></pre>
       
       <p>After everything is set, let‚Äôs register actual sending method, available for client (but declared on server so place code below somewhere under <code>server/</code> folder):</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		// In your server code: define a method that the client can call&#x000A;		Meteor.methods({&#x000A;		  sendEmail: function (to, from, subject, text) {&#x000A;		    check([to, from, subject, text], [String]);&#x000A;&#x000A;		    // Let other method calls from the same client start running,&#x000A;		    // without waiting for the email sending to complete.&#x000A;		    this.unblock();&#x000A;&#x000A;		    //actual email sending method&#x000A;		    Email.send({&#x000A;		      to: to,&#x000A;		      from: from,&#x000A;		      subject: subject,&#x000A;		      text: text&#x000A;		    });&#x000A;		  }&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;// In your server code: define a method that the client can call&#x000A;Meteor.methods({&#x000A;  sendEmail: function (to, from, subject, text) {&#x000A;    check([to, from, subject, text], [String]);&#x000A;&#x000A;    // Let other method calls from the same client start running,&#x000A;    // without waiting for the email sending to complete.&#x000A;    this.unblock();&#x000A;&#x000A;    //actual email sending method&#x000A;    Email.send({&#x000A;      to: to,&#x000A;      from: from,&#x000A;      subject: subject,&#x000A;      text: text&#x000A;    });&#x000A;  }&#x000A;});&#x000A;</code></pre>
       
       <p>Those function arguments are of course optional - we can also add <code>cc</code>, <code>bcc</code>, <code>Reply-To</code>, <code>html</code> or <code>headers</code>.</p>
       
       <p>My example for contact form:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.methods({&#x000A;		  sendEmail: function (text) {&#x000A;		    check([text], [String]);&#x000A;&#x000A;		    this.unblock();&#x000A;&#x000A;		    Email.send({&#x000A;		      to: 'support@myClientProject.com',&#x000A;		      from: 'contact@myClientProject.com',&#x000A;		      subject: 'New message from contact form',&#x000A;		      text: text&#x000A;		    });&#x000A;		  }&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.methods({&#x000A;  sendEmail: function (text) {&#x000A;    check([text], [String]);&#x000A;&#x000A;    this.unblock();&#x000A;&#x000A;    Email.send({&#x000A;      to: 'support@myClientProject.com',&#x000A;      from: 'contact@myClientProject.com',&#x000A;      subject: 'New message from contact form',&#x000A;      text: text&#x000A;    });&#x000A;  }&#x000A;});&#x000A;</code></pre>
       
       <p>After we declared our server method, let‚Äôs create actual sending event:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Template.contactFormTemplate.events({&#x000A;			'submit form#contactForm':function(e){&#x000A;				var contactForm = $(e.currentTarget),&#x000A;					fname = contactForm.find('#firstName').val(),&#x000A;					lname = contactForm.find('#lastName').val(),&#x000A;					email = contactForm.find('#email').val(),&#x000A;					phone = contactForm.find('#phone').val(),&#x000A;					message = contactForm.find("#message").val();&#x000A;&#x000A;				//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid&#x000A;				if(isFilled(fname) &amp;&amp; isFilled(lname) &amp;&amp; isFilled(email) &amp;&amp; isFilled(phone) &amp;&amp; isFilled(message) &amp;&amp; isEmail(email)){&#x000A;					var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:" + message;&#x000A;&#x000A;					Meteor.call('sendEmail', dataText);&#x000A;					//throwAlert is my helper method which creates popup with message&#x000A;					throwAlert('Email send.', 'success');&#x000A;				}else{&#x000A;					throwAlert('An error occurred. Sorry', 'error');&#x000A;					return false;&#x000A;				}&#x000A;			}&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.contactFormTemplate.events({&#x000A;	'submit form#contactForm':function(e){&#x000A;		var contactForm = $(e.currentTarget),&#x000A;			fname = contactForm.find('#firstName').val(),&#x000A;			lname = contactForm.find('#lastName').val(),&#x000A;			email = contactForm.find('#email').val(),&#x000A;			phone = contactForm.find('#phone').val(),&#x000A;			message = contactForm.find("#message").val();&#x000A;&#x000A;		//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid&#x000A;		if(isFilled(fname) &amp;&amp; isFilled(lname) &amp;&amp; isFilled(email) &amp;&amp; isFilled(phone) &amp;&amp; isFilled(message) &amp;&amp; isEmail(email)){&#x000A;			var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:" + message;&#x000A;&#x000A;			Meteor.call('sendEmail', dataText);&#x000A;			//throwAlert is my helper method which creates popup with message&#x000A;			throwAlert('Email send.', 'success');&#x000A;		}else{&#x000A;			throwAlert('An error occurred. Sorry', 'error');&#x000A;			return false;&#x000A;		}&#x000A;	}&#x000A;});&#x000A;</code></pre>
       
       <p>Besides of code above, You need of course some html template code:</p>
       
-      <pre>&#x000A;	<code class="html">&#x000A;		&lt;template name="contactFormTemplate"&gt;&#x000A;			&lt;form id="contactForm"&gt;&#x000A;				&lt; type="text" name="firstName" id="firstName" placeholder="First name"/&gt;&#x000A;				&lt; type="text" name="lastName" id="lastName" placeholder="last name"/&gt;&#x000A;				&lt; type="text" name="phone" id="phone" placeholder="Phone number"/&gt;&#x000A;				&lt; type="email" name="email" id="email" placeholder="Your email address"/&gt;&#x000A;				&lt; textarea id="message"&gt;&lt; /textarea&gt;&#x000A;				&lt; type="submit" value="Send"/&gt;&#x000A;			&lt;/form&gt;&#x000A;		&lt;/template&gt;&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="html">&#x000A;&lt;template name="contactFormTemplate"&gt;&#x000A;	&lt;form id="contactForm"&gt;&#x000A;		&lt;type="text" name="firstName" id="firstName" placeholder="First name"/&gt;&#x000A;		&lt;type="text" name="lastName" id="lastName" placeholder="last name"/&gt;&#x000A;		&lt;type="text" name="phone" id="phone" placeholder="Phone number"/&gt;&#x000A;		&lt;type="email" name="email" id="email" placeholder="Your email address"/&gt;&#x000A;		&lt;textarea id="message"&gt;&lt; /textarea&gt;&#x000A;		&lt;type="submit" value="Send"/&gt;&#x000A;	&lt;/form&gt;&#x000A;&lt;/template&gt;&#x000A;</code></pre>
       
       <p>And that‚Äôs all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
       
@@ -3806,7 +3809,7 @@ I"3
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"
+;T;	I"·
 #Sending emails with Meteor.js
 
 ##This is a personal wrap-up explanation of the code available in [official Meteor.js documentation](http://docs.meteor.com)
@@ -3816,64 +3819,64 @@ Today I had to implement contact form for one of my Meteor.js project. At first 
 At the beginning, we have to install `email` package (via terminal):
 
 <pre>
-	<code class="bash">
-		meteor add email
-	</code>
+<code class="bash">
+meteor add email
+</code>
 </pre>
 
 Next, we need to declare our email settings - to do that, let's create a `server/smtp.js` file:
 
 <pre>
-	<code class="javascript">
-		Meteor.startup(function(){
-			process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/
-		});
-	</code>
+<code class="javascript">
+Meteor.startup(function(){
+	process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/
+});
+</code>
 </pre>
 
 Example for gmail:
 
 <pre>
-	<code class="javascript">
-		Meteor.startup(function(){
-			process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/
-		});
-	</code>
+<code class="javascript">
+Meteor.startup(function(){
+	process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/
+});
+</code>
 </pre>
 
 We can also use custom domain email account:
 
 <pre>
-	<code class="javascript">
-		Meteor.startup(function(){
-			process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/
-		});
-	</code>
+<code class="javascript">
+Meteor.startup(function(){
+	process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/
+});
+</code>
 </pre>
 
 After everything is set, let's register actual sending method, available for client (but declared on server so place code below somewhere under `server/` folder):
 
 <pre>
-	<code class="javascript">
-		// In your server code: define a method that the client can call
-		Meteor.methods({
-		  sendEmail: function (to, from, subject, text) {
-		    check([to, from, subject, text], [String]);
+<code class="javascript">
+// In your server code: define a method that the client can call
+Meteor.methods({
+  sendEmail: function (to, from, subject, text) {
+    check([to, from, subject, text], [String]);
 
-		    // Let other method calls from the same client start running,
-		    // without waiting for the email sending to complete.
-		    this.unblock();
+    // Let other method calls from the same client start running,
+    // without waiting for the email sending to complete.
+    this.unblock();
 
-		    //actual email sending method
-		    Email.send({
-		      to: to,
-		      from: from,
-		      subject: subject,
-		      text: text
-		    });
-		  }
-		});
-	</code>
+    //actual email sending method
+    Email.send({
+      to: to,
+      from: from,
+      subject: subject,
+      text: text
+    });
+  }
+});
+</code>
 </pre>
 
 Those function arguments are of course optional - we can also add `cc`, `bcc`, `Reply-To`, `html` or `headers`.
@@ -3881,74 +3884,74 @@ Those function arguments are of course optional - we can also add `cc`, `bcc`, `
 My example for contact form:
 
 <pre>
-	<code class="javascript">
-		Meteor.methods({
-		  sendEmail: function (text) {
-		    check([text], [String]);
+<code class="javascript">
+Meteor.methods({
+  sendEmail: function (text) {
+    check([text], [String]);
 
-		    this.unblock();
+    this.unblock();
 
-		    Email.send({
-		      to: 'support@myClientProject.com',
-		      from: 'contact@myClientProject.com',
-		      subject: 'New message from contact form',
-		      text: text
-		    });
-		  }
-		});
-	</code>
+    Email.send({
+      to: 'support@myClientProject.com',
+      from: 'contact@myClientProject.com',
+      subject: 'New message from contact form',
+      text: text
+    });
+  }
+});
+</code>
 </pre>
 
 After we declared our server method, let's create actual sending event:
 
 <pre>
-	<code class="javascript">
-		Template.contactFormTemplate.events({
-			'submit form#contactForm':function(e){
-				var contactForm = $(e.currentTarget),
-					fname = contactForm.find('#firstName').val(),
-					lname = contactForm.find('#lastName').val(),
-					email = contactForm.find('#email').val(),
-					phone = contactForm.find('#phone').val(),
-					message = contactForm.find("#message").val();
+<code class="javascript">
+Template.contactFormTemplate.events({
+	'submit form#contactForm':function(e){
+		var contactForm = $(e.currentTarget),
+			fname = contactForm.find('#firstName').val(),
+			lname = contactForm.find('#lastName').val(),
+			email = contactForm.find('#email').val(),
+			phone = contactForm.find('#phone').val(),
+			message = contactForm.find("#message").val();
 
-				//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid
-				if(isFilled(fname) && isFilled(lname) && isFilled(email) && isFilled(phone) && isFilled(message) && isEmail(email)){
-					var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:</br>" + message;
+		//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid
+		if(isFilled(fname) && isFilled(lname) && isFilled(email) && isFilled(phone) && isFilled(message) && isEmail(email)){
+			var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:</br>" + message;
 
-					Meteor.call('sendEmail', dataText);
-					//throwAlert is my helper method which creates popup with message
-					throwAlert('Email send.', 'success');
-				}else{
-					throwAlert('An error occurred. Sorry', 'error');
-					return false;
-				}
-			}
-		});
-	</code>
+			Meteor.call('sendEmail', dataText);
+			//throwAlert is my helper method which creates popup with message
+			throwAlert('Email send.', 'success');
+		}else{
+			throwAlert('An error occurred. Sorry', 'error');
+			return false;
+		}
+	}
+});
+</code>
 </pre>
 
 Besides of code above, You need of course some html template code:
 
 <pre>
-	<code class="html">
-		&lt;template name="contactFormTemplate">
-			&lt;form id="contactForm">
-				&lt; type="text" name="firstName" id="firstName" placeholder="First name"/>
-				&lt; type="text" name="lastName" id="lastName" placeholder="last name"/>
-				&lt; type="text" name="phone" id="phone" placeholder="Phone number"/>
-				&lt; type="email" name="email" id="email" placeholder="Your email address"/>
-				&lt; textarea id="message">&lt; /textarea>
-				&lt; type="submit" value="Send"/>
-			&lt;/form>
-		&lt;/template>
-	</code>
+<code class="html">
+&lt;template name="contactFormTemplate">
+	&lt;form id="contactForm">
+		&lt;type="text" name="firstName" id="firstName" placeholder="First name"/>
+		&lt;type="text" name="lastName" id="lastName" placeholder="last name"/>
+		&lt;type="text" name="phone" id="phone" placeholder="Phone number"/>
+		&lt;type="email" name="email" id="email" placeholder="Your email address"/>
+		&lt;textarea id="message">&lt; /textarea>
+		&lt;type="submit" value="Send"/>
+	&lt;/form>
+&lt;/template>
+</code>
 </pre>
 
 And that's all - it was THAT easy. You can now add `{{> contactFormTemplate}}` tag to any template You want and enjoy Your awesome contact form.
 
 -- ≈Ç.;T;
-I";
+I"ù
 <h1 id="sending-emails-with-meteorjs">Sending emails with Meteor.js</h1>
 
 <h2 id="this-is-a-personal-wrap-up-explanation-of-the-code-available-in-official-meteorjs-documentationhttpdocsmeteorcom">This is a personal wrap-up explanation of the code available in <a href="http://docs.meteor.com">official Meteor.js documentation</a></h2>
@@ -3958,64 +3961,64 @@ I";
 <p>At the beginning, we have to install <code>email</code> package (via terminal):</p>
 
 <pre>
-	<code class="bash">
-		meteor add email
-	</code>
+<code class="bash">
+meteor add email
+</code>
 </pre>
 
 <p>Next, we need to declare our email settings - to do that, let‚Äôs create a <code>server/smtp.js</code> file:</p>
 
 <pre>
-	<code class="javascript">
-		Meteor.startup(function(){
-			process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/
-		});
-	</code>
+<code class="javascript">
+Meteor.startup(function(){
+	process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/
+});
+</code>
 </pre>
 
 <p>Example for gmail:</p>
 
 <pre>
-	<code class="javascript">
-		Meteor.startup(function(){
-			process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/
-		});
-	</code>
+<code class="javascript">
+Meteor.startup(function(){
+	process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/
+});
+</code>
 </pre>
 
 <p>We can also use custom domain email account:</p>
 
 <pre>
-	<code class="javascript">
-		Meteor.startup(function(){
-			process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/
-		});
-	</code>
+<code class="javascript">
+Meteor.startup(function(){
+	process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/
+});
+</code>
 </pre>
 
 <p>After everything is set, let‚Äôs register actual sending method, available for client (but declared on server so place code below somewhere under <code>server/</code> folder):</p>
 
 <pre>
-	<code class="javascript">
-		// In your server code: define a method that the client can call
-		Meteor.methods({
-		  sendEmail: function (to, from, subject, text) {
-		    check([to, from, subject, text], [String]);
+<code class="javascript">
+// In your server code: define a method that the client can call
+Meteor.methods({
+  sendEmail: function (to, from, subject, text) {
+    check([to, from, subject, text], [String]);
 
-		    // Let other method calls from the same client start running,
-		    // without waiting for the email sending to complete.
-		    this.unblock();
+    // Let other method calls from the same client start running,
+    // without waiting for the email sending to complete.
+    this.unblock();
 
-		    //actual email sending method
-		    Email.send({
-		      to: to,
-		      from: from,
-		      subject: subject,
-		      text: text
-		    });
-		  }
-		});
-	</code>
+    //actual email sending method
+    Email.send({
+      to: to,
+      from: from,
+      subject: subject,
+      text: text
+    });
+  }
+});
+</code>
 </pre>
 
 <p>Those function arguments are of course optional - we can also add <code>cc</code>, <code>bcc</code>, <code>Reply-To</code>, <code>html</code> or <code>headers</code>.</p>
@@ -4023,74 +4026,74 @@ I";
 <p>My example for contact form:</p>
 
 <pre>
-	<code class="javascript">
-		Meteor.methods({
-		  sendEmail: function (text) {
-		    check([text], [String]);
+<code class="javascript">
+Meteor.methods({
+  sendEmail: function (text) {
+    check([text], [String]);
 
-		    this.unblock();
+    this.unblock();
 
-		    Email.send({
-		      to: 'support@myClientProject.com',
-		      from: 'contact@myClientProject.com',
-		      subject: 'New message from contact form',
-		      text: text
-		    });
-		  }
-		});
-	</code>
+    Email.send({
+      to: 'support@myClientProject.com',
+      from: 'contact@myClientProject.com',
+      subject: 'New message from contact form',
+      text: text
+    });
+  }
+});
+</code>
 </pre>
 
 <p>After we declared our server method, let‚Äôs create actual sending event:</p>
 
 <pre>
-	<code class="javascript">
-		Template.contactFormTemplate.events({
-			'submit form#contactForm':function(e){
-				var contactForm = $(e.currentTarget),
-					fname = contactForm.find('#firstName').val(),
-					lname = contactForm.find('#lastName').val(),
-					email = contactForm.find('#email').val(),
-					phone = contactForm.find('#phone').val(),
-					message = contactForm.find("#message").val();
+<code class="javascript">
+Template.contactFormTemplate.events({
+	'submit form#contactForm':function(e){
+		var contactForm = $(e.currentTarget),
+			fname = contactForm.find('#firstName').val(),
+			lname = contactForm.find('#lastName').val(),
+			email = contactForm.find('#email').val(),
+			phone = contactForm.find('#phone').val(),
+			message = contactForm.find("#message").val();
 
-				//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid
-				if(isFilled(fname) &amp;&amp; isFilled(lname) &amp;&amp; isFilled(email) &amp;&amp; isFilled(phone) &amp;&amp; isFilled(message) &amp;&amp; isEmail(email)){
-					var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:" + message;
+		//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid
+		if(isFilled(fname) &amp;&amp; isFilled(lname) &amp;&amp; isFilled(email) &amp;&amp; isFilled(phone) &amp;&amp; isFilled(message) &amp;&amp; isEmail(email)){
+			var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:" + message;
 
-					Meteor.call('sendEmail', dataText);
-					//throwAlert is my helper method which creates popup with message
-					throwAlert('Email send.', 'success');
-				}else{
-					throwAlert('An error occurred. Sorry', 'error');
-					return false;
-				}
-			}
-		});
-	</code>
+			Meteor.call('sendEmail', dataText);
+			//throwAlert is my helper method which creates popup with message
+			throwAlert('Email send.', 'success');
+		}else{
+			throwAlert('An error occurred. Sorry', 'error');
+			return false;
+		}
+	}
+});
+</code>
 </pre>
 
 <p>Besides of code above, You need of course some html template code:</p>
 
 <pre>
-	<code class="html">
-		&lt;template name="contactFormTemplate"&gt;
-			&lt;form id="contactForm"&gt;
-				&lt; type="text" name="firstName" id="firstName" placeholder="First name"/&gt;
-				&lt; type="text" name="lastName" id="lastName" placeholder="last name"/&gt;
-				&lt; type="text" name="phone" id="phone" placeholder="Phone number"/&gt;
-				&lt; type="email" name="email" id="email" placeholder="Your email address"/&gt;
-				&lt; textarea id="message"&gt;&lt; /textarea&gt;
-				&lt; type="submit" value="Send"/&gt;
-			&lt;/form&gt;
-		&lt;/template&gt;
-	</code>
+<code class="html">
+&lt;template name="contactFormTemplate"&gt;
+	&lt;form id="contactForm"&gt;
+		&lt;type="text" name="firstName" id="firstName" placeholder="First name"/&gt;
+		&lt;type="text" name="lastName" id="lastName" placeholder="last name"/&gt;
+		&lt;type="text" name="phone" id="phone" placeholder="Phone number"/&gt;
+		&lt;type="email" name="email" id="email" placeholder="Your email address"/&gt;
+		&lt;textarea id="message"&gt;&lt; /textarea&gt;
+		&lt;type="submit" value="Send"/&gt;
+	&lt;/form&gt;
+&lt;/template&gt;
+</code>
 </pre>
 
 <p>And that‚Äôs all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@‚I"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"=,<!DOCTYPE html>
+;T;@‚I"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"â+<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4156,103 +4159,103 @@ I";
       
       <p>First, login to Your server via ssh:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		ssh yourServerLogin@yourServerIp&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;ssh yourServerLogin@yourServerIp&#x000A;</code></pre>
       
       <p>When prompted, type Your server password and process to server connection.</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install nginx&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get update&#x000A;sudo apt-get install nginx&#x000A;</code></pre>
       
       <p>Now You can manage nginx processes with these commands:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo service nginx stop&#x000A;		sudo service nginx start&#x000A;		sudo service nginx restart&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo service nginx stop&#x000A;sudo service nginx start&#x000A;sudo service nginx restart&#x000A;</code></pre>
       
       <h2 id="nodejs-installation">Node.js installation</h2>
       
       <p>Let‚Äôs install Node.js environment, which is required to run our app:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install upgrade&#x000A;		sudo apt-get install nodejs&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get update&#x000A;sudo apt-get install upgrade&#x000A;sudo apt-get install nodejs&#x000A;</code></pre>
       
       <p>If You‚Äôll want install particular version of Node.js You probably will want to do it via <a href="https://github.com/creationix/nvm">NVM</a> (Node Version Manager):</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-get install npm		&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get install npm		&#x000A;</code></pre>
       
       <h2 id="mongo-database">Mongo database</h2>
       
       <p>As You probably know, Meteor.js uses <a href="http://www.mongodb.org/">MongoDB</a> as its main database system so let‚Äôs prepare our server to <a href="http://wac.450f.edgecastcdn.net/80450F/thefw.com/files/2013/05/Nicholson.gif">deal with it</a>:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10&#x000A;		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install mongodb-10gen&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10&#x000A;echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list&#x000A;sudo apt-get update&#x000A;sudo apt-get install mongodb-10gen&#x000A;</code></pre>
       
       <p>Now start mongoDB as a Daemon with log records file:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mongod --fork --logpath /var/log/mongodb.log&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mongod --fork --logpath /var/log/mongodb.log&#x000A;</code></pre>
       
       <p>The next thing is to add a <strong>system-wide</strong> MongoDB admin role:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mongo&#x000A;		db = db.getSiblingDB('admin')&#x000A;		db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})&#x000A;		exit		&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mongo&#x000A;db = db.getSiblingDB('admin')&#x000A;db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})&#x000A;exit		&#x000A;</code></pre>
       
       <p>In the next step, we need to edit MongoDB configuration file and uncomment following line:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		#file path: /etc/mongodb.conf&#x000A;		auth = true&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;#file path: /etc/mongodb.conf&#x000A;auth = true&#x000A;</code></pre>
       
       <p>And then restart the MongoDB server:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo service mongodb restart&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo service mongodb restart&#x000A;</code></pre>
       
       <p>The final (mongo related) step will be adding admin role to our <strong>application</strong> database. First, we need to login to our MongoDB admin account:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mongo -u admin -p --authenticationDatabase admin&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mongo -u admin -p --authenticationDatabase admin&#x000A;</code></pre>
       
       <p>You will be asked for the password that You‚Äôve set at one of the previous steps. After that You can create user and database for Your app:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		use yourAppDatabaseName&#x000A;		db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;use yourAppDatabaseName&#x000A;db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })&#x000A;</code></pre>
       
       <h2 id="lets-get-back-to-nginx">Let‚Äôs get back to Nginx</h2>
       
       <p>Now we have to configure Nginx for our application - let‚Äôs create configuration file for Your app:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		touch /etc/nginx/sites-available/yourApp.com&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;touch /etc/nginx/sites-available/yourApp.com&#x000A;</code></pre>
       
       <p>And here‚Äôs the example code of this file:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		upstream yourApp {  &#x000A;		    server 127.0.0.1:3000;&#x000A;		}&#x000A;&#x000A;		server {  &#x000A;		    listen 0.0.0.0:3000;&#x000A;		    server_name yourApp.com;&#x000A;		    access_log /var/log/nginx/yourApp.log;&#x000A;&#x000A;		    location / {&#x000A;		        proxy_pass http://yourApp/;&#x000A;		        proxy_http_version 1.1;&#x000A;		        proxy_set_header Upgrade $http_upgrade;&#x000A;		        proxy_set_header Connection "upgrade";&#x000A;		        proxy_set_header Host $http_host;&#x000A;&#x000A;		        proxy_set_header X-Real-IP $remote_addr;&#x000A;		        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;&#x000A;		        proxy_set_header X-Forward-Proto http;&#x000A;		        proxy_set_header X-Nginx-Proxy true;&#x000A;&#x000A;		        proxy_redirect off;&#x000A;		    }&#x000A;		}&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;upstream yourApp {  &#x000A;    server 127.0.0.1:3000;&#x000A;}&#x000A;&#x000A;server {  &#x000A;    listen 0.0.0.0:3000;&#x000A;    server_name yourApp.com;&#x000A;    access_log /var/log/nginx/yourApp.log;&#x000A;&#x000A;    location / {&#x000A;        proxy_pass http://yourApp/;&#x000A;        proxy_http_version 1.1;&#x000A;        proxy_set_header Upgrade $http_upgrade;&#x000A;        proxy_set_header Connection "upgrade";&#x000A;        proxy_set_header Host $http_host;&#x000A;&#x000A;        proxy_set_header X-Real-IP $remote_addr;&#x000A;        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;&#x000A;        proxy_set_header X-Forward-Proto http;&#x000A;        proxy_set_header X-Nginx-Proxy true;&#x000A;&#x000A;        proxy_redirect off;&#x000A;    }&#x000A;}&#x000A;</code></pre>
       
       <p>Now, You have to create symbolic link for this file:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com&#x000A;</code></pre>
       
       <p>And then, You can restart Nginx:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo service nginx restart&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo service nginx restart&#x000A;</code></pre>
       
       <h2 id="deployment-stage">Deployment stage</h2>
       
       <p>Let‚Äôs finally deploy our application. Login to your server via ssh and clone Your app repo:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		cd /usr/local/www/&#x000A;		git clone yourAppGitCloneUrl&#x000A;		cd yourClonedAppFolder&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;cd /usr/local/www/&#x000A;git clone yourAppGitCloneUrl&#x000A;cd yourClonedAppFolder&#x000A;</code></pre>
       
       <p>Now, install <a href="http://meteor.com">Meteor.js</a> and bundle Your app - we‚Äôre doing it on server because sometimes bundling app between different operating system (like osx and ubuntu linux) can cause errors with node modules (e.g. bcrypt).</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		curl https://install.meteor.com/ | sh&#x000A;		meteor bundle yourAppName.com.tar.gz&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;curl https://install.meteor.com/ | sh&#x000A;meteor bundle yourAppName.com.tar.gz&#x000A;</code></pre>
       
       <p>Move Your (bundled) app to proper directory and unpack it:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mv yourAppName.com.tar.gz ../&#x000A;		tar -vxzf yourAppName.com.tar.gz&#x000A;		rm yourAppName.com.tar.gz&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mv yourAppName.com.tar.gz ../&#x000A;tar -vxzf yourAppName.com.tar.gz&#x000A;rm yourAppName.com.tar.gz&#x000A;</code></pre>
       
       <p>Now, to keep our app always live, let‚Äôs install <a href="https://github.com/foreverjs/forever">forever</a>:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo npm install -g forever&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo npm install -g forever&#x000A;</code></pre>
       
       <p>Finally, we can plug in our app to Mongo database and run it, using forever:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		cd yourAppName.com&#x000A;		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;cd yourAppName.com&#x000A;PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;</code></pre>
       
       <p>And your application is live now. You can check its status every time by following command:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		forever list&#x000A;		# an example result:&#x000A;		info:    Forever processes running&#x000A;		data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        &#x000A;		data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   &#x000A;		data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 &#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;forever list&#x000A;# an example result:&#x000A;info:    Forever processes running&#x000A;data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        &#x000A;data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   &#x000A;data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 &#x000A;</code></pre>
       
       <p>You can restart any forever process with command:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		#forever restart uid e.g.&#x000A;		forever restart 1&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;#forever restart uid e.g.&#x000A;forever restart 1&#x000A;</code></pre>
       
       <p>And that‚Äôs practically all. Special thanks to guys from <a href="https://gentlenode.com/">gentlenode</a> who wrote very similar blog post, which was an inspiration for writing this one (I‚Äôve added couple own tips, but also rewrite most stuff to make sure that I will always have access to this knowledge).</p>
       
@@ -4277,7 +4280,7 @@ I";
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"0
+;T;	I"|
 #Deploying Meteor.js project to own server (via ssh)
 
 Today I've spent most time of the day on figuring out how to deploy an Meteor.js app to own server via ssh.
@@ -4289,28 +4292,28 @@ Disclaimer: I'm a programmer guy - not a serveradmin magician one. So please cal
 First, login to Your server via ssh:
 
 <pre>
-	<code class="bash">
-		ssh yourServerLogin@yourServerIp
-	</code>
+<code class="bash">
+ssh yourServerLogin@yourServerIp
+</code>
 </pre>
 
 When prompted, type Your server password and process to server connection.
 
 <pre>
-	<code class="bash">
-		sudo apt-get update
-		sudo apt-get install nginx
-	</code>
+<code class="bash">
+sudo apt-get update
+sudo apt-get install nginx
+</code>
 </pre>
 
 Now You can manage nginx processes with these commands:
 
 <pre>
-	<code class="bash">
-		sudo service nginx stop
-		sudo service nginx start
-		sudo service nginx restart
-	</code>
+<code class="bash">
+sudo service nginx stop
+sudo service nginx start
+sudo service nginx restart
+</code>
 </pre>
 
 ##Node.js installation
@@ -4318,19 +4321,19 @@ Now You can manage nginx processes with these commands:
 Let's install Node.js environment, which is required to run our app:
 
 <pre>
-	<code class="bash">
-		sudo apt-get update
-		sudo apt-get install upgrade
-		sudo apt-get install nodejs
-	</code>
+<code class="bash">
+sudo apt-get update
+sudo apt-get install upgrade
+sudo apt-get install nodejs
+</code>
 </pre>
 
 If You'll want install particular version of Node.js You probably will want to do it via [NVM](https://github.com/creationix/nvm) (Node Version Manager):
 
 <pre>
-	<code class="bash">
-		sudo apt-get install npm		
-	</code>
+<code class="bash">
+sudo apt-get install npm		
+</code>
 </pre> 
 
 ##Mongo database
@@ -4338,65 +4341,65 @@ If You'll want install particular version of Node.js You probably will want to d
 As You probably know, Meteor.js uses [MongoDB](http://www.mongodb.org/) as its main database system so let's prepare our server to [deal with it](http://wac.450f.edgecastcdn.net/80450F/thefw.com/files/2013/05/Nicholson.gif):
 
 <pre>
-	<code class="bash">
-		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
-		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
-		sudo apt-get update
-		sudo apt-get install mongodb-10gen
-	</code>
+<code class="bash">
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+sudo apt-get update
+sudo apt-get install mongodb-10gen
+</code>
 </pre>
 
 Now start mongoDB as a Daemon with log records file:
 
 <pre>
-	<code class="bash">
-		mongod --fork --logpath /var/log/mongodb.log
-	</code>
+<code class="bash">
+mongod --fork --logpath /var/log/mongodb.log
+</code>
 </pre>
 
 The next thing is to add a **system-wide** MongoDB admin role:
 
 <pre>
-	<code class="bash">
-		mongo
-		db = db.getSiblingDB('admin')
-		db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})
-		exit		
-	</code>
+<code class="bash">
+mongo
+db = db.getSiblingDB('admin')
+db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})
+exit		
+</code>
 </pre>
 
 In the next step, we need to edit MongoDB configuration file and uncomment following line:
 
 <pre>
-	<code class="bash">
-		#file path: /etc/mongodb.conf
-		auth = true
-	</code>
+<code class="bash">
+#file path: /etc/mongodb.conf
+auth = true
+</code>
 </pre>
 
 And then restart the MongoDB server:
 
 <pre>
-	<code class="bash">
-		sudo service mongodb restart
-	</code>
+<code class="bash">
+sudo service mongodb restart
+</code>
 </pre>
 
 The final (mongo related) step will be adding admin role to our **application** database. First, we need to login to our MongoDB admin account:
 
 <pre>
-	<code class="bash">
-		mongo -u admin -p --authenticationDatabase admin
-	</code>
+<code class="bash">
+mongo -u admin -p --authenticationDatabase admin
+</code>
 </pre>
 
 You will be asked for the password that You've set at one of the previous steps. After that You can create user and database for Your app:
 
 <pre>
-	<code class="bash">
-		use yourAppDatabaseName
-		db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })
-	</code>
+<code class="bash">
+use yourAppDatabaseName
+db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })
+</code>
 </pre>
 
 ##Let's get back to Nginx
@@ -4404,56 +4407,56 @@ You will be asked for the password that You've set at one of the previous steps.
 Now we have to configure Nginx for our application - let's create configuration file for Your app:
 
 <pre>
-	<code class="bash">
-		touch /etc/nginx/sites-available/yourApp.com
-	</code>
+<code class="bash">
+touch /etc/nginx/sites-available/yourApp.com
+</code>
 </pre>
 
 And here's the example code of this file:
 
 <pre>
-	<code class="bash">
-		upstream yourApp {  
-		    server 127.0.0.1:3000;
-		}
+<code class="bash">
+upstream yourApp {  
+    server 127.0.0.1:3000;
+}
 
-		server {  
-		    listen 0.0.0.0:3000;
-		    server_name yourApp.com;
-		    access_log /var/log/nginx/yourApp.log;
+server {  
+    listen 0.0.0.0:3000;
+    server_name yourApp.com;
+    access_log /var/log/nginx/yourApp.log;
 
-		    location / {
-		        proxy_pass http://yourApp/;
-		        proxy_http_version 1.1;
-		        proxy_set_header Upgrade $http_upgrade;
-		        proxy_set_header Connection "upgrade";
-		        proxy_set_header Host $http_host;
+    location / {
+        proxy_pass http://yourApp/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $http_host;
 
-		        proxy_set_header X-Real-IP $remote_addr;
-		        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
-		        proxy_set_header X-Forward-Proto http;
-		        proxy_set_header X-Nginx-Proxy true;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forward-Proto http;
+        proxy_set_header X-Nginx-Proxy true;
 
-		        proxy_redirect off;
-		    }
-		}
-	</code>
+        proxy_redirect off;
+    }
+}
+</code>
 </pre>
 
 Now, You have to create symbolic link for this file:
 
 <pre>
-	<code class="bash">
-		sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com
-	</code>
+<code class="bash">
+sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com
+</code>
 </pre>
 
 And then, You can restart Nginx:
 
 <pre>
-	<code class="bash">
-		sudo service nginx restart
-	</code>
+<code class="bash">
+sudo service nginx restart
+</code>
 </pre>
 
 ##Deployment stage
@@ -4461,69 +4464,69 @@ And then, You can restart Nginx:
 Let's finally deploy our application. Login to your server via ssh and clone Your app repo:
 
 <pre>
-	<code class="bash">
-		cd /usr/local/www/
-		git clone yourAppGitCloneUrl
-		cd yourClonedAppFolder
-	</code>
+<code class="bash">
+cd /usr/local/www/
+git clone yourAppGitCloneUrl
+cd yourClonedAppFolder
+</code>
 </pre>
 
 Now, install [Meteor.js](http://meteor.com) and bundle Your app - we're doing it on server because sometimes bundling app between different operating system (like osx and ubuntu linux) can cause errors with node modules (e.g. bcrypt).
 
 <pre>
-	<code class="bash">
-		curl https://install.meteor.com/ | sh
-		meteor bundle yourAppName.com.tar.gz
-	</code>
+<code class="bash">
+curl https://install.meteor.com/ | sh
+meteor bundle yourAppName.com.tar.gz
+</code>
 </pre>
 
 Move Your (bundled) app to proper directory and unpack it:
 
 <pre>
-	<code class="bash">
-		mv yourAppName.com.tar.gz ../
-		tar -vxzf yourAppName.com.tar.gz
-		rm yourAppName.com.tar.gz
-	</code>
+<code class="bash">
+mv yourAppName.com.tar.gz ../
+tar -vxzf yourAppName.com.tar.gz
+rm yourAppName.com.tar.gz
+</code>
 </pre>
 
 Now, to keep our app always live, let's install [forever](https://github.com/foreverjs/forever):
 
 <pre>
-	<code class="bash">
-		sudo npm install -g forever
-	</code>
+<code class="bash">
+sudo npm install -g forever
+</code>
 </pre>
 
 Finally, we can plug in our app to Mongo database and run it, using forever:
 
 <pre>
-	<code class="bash">
-		cd yourAppName.com
-		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js
-	</code>
+<code class="bash">
+cd yourAppName.com
+PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js
+</code>
 </pre>
 
 And your application is live now. You can check its status every time by following command:
 
 <pre>
-	<code class="bash">
-		forever list
-		# an example result:
-		info:    Forever processes running
-		data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        
-		data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   
-		data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 
-	</code>
+<code class="bash">
+forever list
+# an example result:
+info:    Forever processes running
+data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        
+data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   
+data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 
+</code>
 </pre>
 
 You can restart any forever process with command:
 
 <pre>
-	<code class="bash">
-		#forever restart uid e.g.
-		forever restart 1
-	</code>
+<code class="bash">
+#forever restart uid e.g.
+forever restart 1
+</code>
 </pre>
 
 And that's practically all. Special thanks to guys from [gentlenode](https://gentlenode.com/) who wrote very similar blog post, which was an inspiration for writing this one (I've added couple own tips, but also rewrite most stuff to make sure that I will always have access to this knowledge).
@@ -4531,7 +4534,7 @@ And that's practically all. Special thanks to guys from [gentlenode](https://gen
 If You have any questions - feel free to [ask](http://twitter.com/ofcapl).
 
 -- ≈Ç;T;
-I"^
+I"™
 <h1 id="deploying-meteorjs-project-to-own-server-via-ssh">Deploying Meteor.js project to own server (via ssh)</h1>
 
 <p>Today I‚Äôve spent most time of the day on figuring out how to deploy an Meteor.js app to own server via ssh.</p>
@@ -4543,28 +4546,28 @@ I"^
 <p>First, login to Your server via ssh:</p>
 
 <pre>
-	<code class="bash">
-		ssh yourServerLogin@yourServerIp
-	</code>
+<code class="bash">
+ssh yourServerLogin@yourServerIp
+</code>
 </pre>
 
 <p>When prompted, type Your server password and process to server connection.</p>
 
 <pre>
-	<code class="bash">
-		sudo apt-get update
-		sudo apt-get install nginx
-	</code>
+<code class="bash">
+sudo apt-get update
+sudo apt-get install nginx
+</code>
 </pre>
 
 <p>Now You can manage nginx processes with these commands:</p>
 
 <pre>
-	<code class="bash">
-		sudo service nginx stop
-		sudo service nginx start
-		sudo service nginx restart
-	</code>
+<code class="bash">
+sudo service nginx stop
+sudo service nginx start
+sudo service nginx restart
+</code>
 </pre>
 
 <h2 id="nodejs-installation">Node.js installation</h2>
@@ -4572,19 +4575,19 @@ I"^
 <p>Let‚Äôs install Node.js environment, which is required to run our app:</p>
 
 <pre>
-	<code class="bash">
-		sudo apt-get update
-		sudo apt-get install upgrade
-		sudo apt-get install nodejs
-	</code>
+<code class="bash">
+sudo apt-get update
+sudo apt-get install upgrade
+sudo apt-get install nodejs
+</code>
 </pre>
 
 <p>If You‚Äôll want install particular version of Node.js You probably will want to do it via <a href="https://github.com/creationix/nvm">NVM</a> (Node Version Manager):</p>
 
 <pre>
-	<code class="bash">
-		sudo apt-get install npm		
-	</code>
+<code class="bash">
+sudo apt-get install npm		
+</code>
 </pre>
 
 <h2 id="mongo-database">Mongo database</h2>
@@ -4592,65 +4595,65 @@ I"^
 <p>As You probably know, Meteor.js uses <a href="http://www.mongodb.org/">MongoDB</a> as its main database system so let‚Äôs prepare our server to <a href="http://wac.450f.edgecastcdn.net/80450F/thefw.com/files/2013/05/Nicholson.gif">deal with it</a>:</p>
 
 <pre>
-	<code class="bash">
-		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
-		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
-		sudo apt-get update
-		sudo apt-get install mongodb-10gen
-	</code>
+<code class="bash">
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+sudo apt-get update
+sudo apt-get install mongodb-10gen
+</code>
 </pre>
 
 <p>Now start mongoDB as a Daemon with log records file:</p>
 
 <pre>
-	<code class="bash">
-		mongod --fork --logpath /var/log/mongodb.log
-	</code>
+<code class="bash">
+mongod --fork --logpath /var/log/mongodb.log
+</code>
 </pre>
 
 <p>The next thing is to add a <strong>system-wide</strong> MongoDB admin role:</p>
 
 <pre>
-	<code class="bash">
-		mongo
-		db = db.getSiblingDB('admin')
-		db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})
-		exit		
-	</code>
+<code class="bash">
+mongo
+db = db.getSiblingDB('admin')
+db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})
+exit		
+</code>
 </pre>
 
 <p>In the next step, we need to edit MongoDB configuration file and uncomment following line:</p>
 
 <pre>
-	<code class="bash">
-		#file path: /etc/mongodb.conf
-		auth = true
-	</code>
+<code class="bash">
+#file path: /etc/mongodb.conf
+auth = true
+</code>
 </pre>
 
 <p>And then restart the MongoDB server:</p>
 
 <pre>
-	<code class="bash">
-		sudo service mongodb restart
-	</code>
+<code class="bash">
+sudo service mongodb restart
+</code>
 </pre>
 
 <p>The final (mongo related) step will be adding admin role to our <strong>application</strong> database. First, we need to login to our MongoDB admin account:</p>
 
 <pre>
-	<code class="bash">
-		mongo -u admin -p --authenticationDatabase admin
-	</code>
+<code class="bash">
+mongo -u admin -p --authenticationDatabase admin
+</code>
 </pre>
 
 <p>You will be asked for the password that You‚Äôve set at one of the previous steps. After that You can create user and database for Your app:</p>
 
 <pre>
-	<code class="bash">
-		use yourAppDatabaseName
-		db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })
-	</code>
+<code class="bash">
+use yourAppDatabaseName
+db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })
+</code>
 </pre>
 
 <h2 id="lets-get-back-to-nginx">Let‚Äôs get back to Nginx</h2>
@@ -4658,56 +4661,56 @@ I"^
 <p>Now we have to configure Nginx for our application - let‚Äôs create configuration file for Your app:</p>
 
 <pre>
-	<code class="bash">
-		touch /etc/nginx/sites-available/yourApp.com
-	</code>
+<code class="bash">
+touch /etc/nginx/sites-available/yourApp.com
+</code>
 </pre>
 
 <p>And here‚Äôs the example code of this file:</p>
 
 <pre>
-	<code class="bash">
-		upstream yourApp {  
-		    server 127.0.0.1:3000;
-		}
+<code class="bash">
+upstream yourApp {  
+    server 127.0.0.1:3000;
+}
 
-		server {  
-		    listen 0.0.0.0:3000;
-		    server_name yourApp.com;
-		    access_log /var/log/nginx/yourApp.log;
+server {  
+    listen 0.0.0.0:3000;
+    server_name yourApp.com;
+    access_log /var/log/nginx/yourApp.log;
 
-		    location / {
-		        proxy_pass http://yourApp/;
-		        proxy_http_version 1.1;
-		        proxy_set_header Upgrade $http_upgrade;
-		        proxy_set_header Connection "upgrade";
-		        proxy_set_header Host $http_host;
+    location / {
+        proxy_pass http://yourApp/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $http_host;
 
-		        proxy_set_header X-Real-IP $remote_addr;
-		        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
-		        proxy_set_header X-Forward-Proto http;
-		        proxy_set_header X-Nginx-Proxy true;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forward-Proto http;
+        proxy_set_header X-Nginx-Proxy true;
 
-		        proxy_redirect off;
-		    }
-		}
-	</code>
+        proxy_redirect off;
+    }
+}
+</code>
 </pre>
 
 <p>Now, You have to create symbolic link for this file:</p>
 
 <pre>
-	<code class="bash">
-		sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com
-	</code>
+<code class="bash">
+sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com
+</code>
 </pre>
 
 <p>And then, You can restart Nginx:</p>
 
 <pre>
-	<code class="bash">
-		sudo service nginx restart
-	</code>
+<code class="bash">
+sudo service nginx restart
+</code>
 </pre>
 
 <h2 id="deployment-stage">Deployment stage</h2>
@@ -4715,69 +4718,69 @@ I"^
 <p>Let‚Äôs finally deploy our application. Login to your server via ssh and clone Your app repo:</p>
 
 <pre>
-	<code class="bash">
-		cd /usr/local/www/
-		git clone yourAppGitCloneUrl
-		cd yourClonedAppFolder
-	</code>
+<code class="bash">
+cd /usr/local/www/
+git clone yourAppGitCloneUrl
+cd yourClonedAppFolder
+</code>
 </pre>
 
 <p>Now, install <a href="http://meteor.com">Meteor.js</a> and bundle Your app - we‚Äôre doing it on server because sometimes bundling app between different operating system (like osx and ubuntu linux) can cause errors with node modules (e.g. bcrypt).</p>
 
 <pre>
-	<code class="bash">
-		curl https://install.meteor.com/ | sh
-		meteor bundle yourAppName.com.tar.gz
-	</code>
+<code class="bash">
+curl https://install.meteor.com/ | sh
+meteor bundle yourAppName.com.tar.gz
+</code>
 </pre>
 
 <p>Move Your (bundled) app to proper directory and unpack it:</p>
 
 <pre>
-	<code class="bash">
-		mv yourAppName.com.tar.gz ../
-		tar -vxzf yourAppName.com.tar.gz
-		rm yourAppName.com.tar.gz
-	</code>
+<code class="bash">
+mv yourAppName.com.tar.gz ../
+tar -vxzf yourAppName.com.tar.gz
+rm yourAppName.com.tar.gz
+</code>
 </pre>
 
 <p>Now, to keep our app always live, let‚Äôs install <a href="https://github.com/foreverjs/forever">forever</a>:</p>
 
 <pre>
-	<code class="bash">
-		sudo npm install -g forever
-	</code>
+<code class="bash">
+sudo npm install -g forever
+</code>
 </pre>
 
 <p>Finally, we can plug in our app to Mongo database and run it, using forever:</p>
 
 <pre>
-	<code class="bash">
-		cd yourAppName.com
-		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js
-	</code>
+<code class="bash">
+cd yourAppName.com
+PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js
+</code>
 </pre>
 
 <p>And your application is live now. You can check its status every time by following command:</p>
 
 <pre>
-	<code class="bash">
-		forever list
-		# an example result:
-		info:    Forever processes running
-		data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        
-		data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   
-		data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 
-	</code>
+<code class="bash">
+forever list
+# an example result:
+info:    Forever processes running
+data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        
+data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   
+data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 
+</code>
 </pre>
 
 <p>You can restart any forever process with command:</p>
 
 <pre>
-	<code class="bash">
-		#forever restart uid e.g.
-		forever restart 1
-	</code>
+<code class="bash">
+#forever restart uid e.g.
+forever restart 1
+</code>
 </pre>
 
 <p>And that‚Äôs practically all. Special thanks to guys from <a href="https://gentlenode.com/">gentlenode</a> who wrote very similar blog post, which was an inspiration for writing this one (I‚Äôve added couple own tips, but also rewrite most stuff to make sure that I will always have access to this knowledge).</p>
@@ -4785,7 +4788,7 @@ I"^
 <p>If You have any questions - feel free to <a href="http://twitter.com/ofcapl">ask</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"N<!DOCTYPE html>
+;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"8<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4845,11 +4848,11 @@ I"^
       
       <p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;			if(stringToShorten.length &gt; maxCharsAmount){&#x000A;				return stringToShorten.substring(0, maxCharsAmount) + '...';&#x000A;			}&#x000A;			return stringToShorten;&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;	if(stringToShorten.length &gt; maxCharsAmount){&#x000A;		return stringToShorten.substring(0, maxCharsAmount) + '...';&#x000A;	}&#x000A;	return stringToShorten;&#x000A;});&#x000A;</code></pre>
       
       <p>Usage:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		{{#each PostList}}&#x000A;			{{shortIt this.title 15}}&#x000A;		{{/each}}&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;{{#each PostList}}&#x000A;	{{shortIt this.title 15}}&#x000A;{{/each}}&#x000A;</code></pre>
       
       <p>And that‚Äôs it! Enjoy!</p>
       
@@ -4874,30 +4877,30 @@ I"^
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"
+;T;	I"Ó
 #Shorten Your title/name/link(You name it!) strings with spacebar helper
 
 If You're building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:
 
 <pre>
-	<code class="javascript">
-		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
-			if(stringToShorten.length > maxCharsAmount){
-				return stringToShorten.substring(0, maxCharsAmount) + '...';
-			}
-			return stringToShorten;
-		});
-	</code>
+<code class="javascript">
+UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
+	if(stringToShorten.length > maxCharsAmount){
+		return stringToShorten.substring(0, maxCharsAmount) + '...';
+	}
+	return stringToShorten;
+});
+</code>
 </pre>
 
 Usage:
 
 <pre>
-	<code class="javascript">
-		{{#each PostList}}
-			{{shortIt this.title 15}}
-		{{/each}}
-	</code>
+<code class="javascript">
+{{#each PostList}}
+	{{shortIt this.title 15}}
+{{/each}}
+</code>
 </pre>
 
 And that's it! Enjoy!
@@ -4905,30 +4908,30 @@ And that's it! Enjoy!
 (You can read this article also at [my coderwall's protips section](https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper))
 
 -- ≈Ç.;T;
-I"ç
+I"w
 <h1 id="shorten-your-titlenamelinkyou-name-it-strings-with-spacebar-helper">Shorten Your title/name/link(You name it!) strings with spacebar helper</h1>
 
 <p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
 
 <pre>
-	<code class="javascript">
-		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
-			if(stringToShorten.length &gt; maxCharsAmount){
-				return stringToShorten.substring(0, maxCharsAmount) + '...';
-			}
-			return stringToShorten;
-		});
-	</code>
+<code class="javascript">
+UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
+	if(stringToShorten.length &gt; maxCharsAmount){
+		return stringToShorten.substring(0, maxCharsAmount) + '...';
+	}
+	return stringToShorten;
+});
+</code>
 </pre>
 
 <p>Usage:</p>
 
 <pre>
-	<code class="javascript">
-		{{#each PostList}}
-			{{shortIt this.title 15}}
-		{{/each}}
-	</code>
+<code class="javascript">
+{{#each PostList}}
+	{{shortIt this.title 15}}
+{{/each}}
+</code>
 </pre>
 
 <p>And that‚Äôs it! Enjoy!</p>

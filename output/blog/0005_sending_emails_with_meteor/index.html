@@ -62,37 +62,37 @@
       
       <p>At the beginning, we have to install <code>email</code> package (via terminal):</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		meteor add email&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;meteor add email&#x000A;</code></pre>
       
       <p>Next, we need to declare our email settings - to do that, let’s create a <code>server/smtp.js</code> file:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/&#x000A;});&#x000A;</code></pre>
       
       <p>Example for gmail:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/&#x000A;});&#x000A;</code></pre>
       
       <p>We can also use custom domain email account:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.startup(function(){&#x000A;			process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/&#x000A;});&#x000A;</code></pre>
       
       <p>After everything is set, let’s register actual sending method, available for client (but declared on server so place code below somewhere under <code>server/</code> folder):</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		// In your server code: define a method that the client can call&#x000A;		Meteor.methods({&#x000A;		  sendEmail: function (to, from, subject, text) {&#x000A;		    check([to, from, subject, text], [String]);&#x000A;&#x000A;		    // Let other method calls from the same client start running,&#x000A;		    // without waiting for the email sending to complete.&#x000A;		    this.unblock();&#x000A;&#x000A;		    //actual email sending method&#x000A;		    Email.send({&#x000A;		      to: to,&#x000A;		      from: from,&#x000A;		      subject: subject,&#x000A;		      text: text&#x000A;		    });&#x000A;		  }&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;// In your server code: define a method that the client can call&#x000A;Meteor.methods({&#x000A;  sendEmail: function (to, from, subject, text) {&#x000A;    check([to, from, subject, text], [String]);&#x000A;&#x000A;    // Let other method calls from the same client start running,&#x000A;    // without waiting for the email sending to complete.&#x000A;    this.unblock();&#x000A;&#x000A;    //actual email sending method&#x000A;    Email.send({&#x000A;      to: to,&#x000A;      from: from,&#x000A;      subject: subject,&#x000A;      text: text&#x000A;    });&#x000A;  }&#x000A;});&#x000A;</code></pre>
       
       <p>Those function arguments are of course optional - we can also add <code>cc</code>, <code>bcc</code>, <code>Reply-To</code>, <code>html</code> or <code>headers</code>.</p>
       
       <p>My example for contact form:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Meteor.methods({&#x000A;		  sendEmail: function (text) {&#x000A;		    check([text], [String]);&#x000A;&#x000A;		    this.unblock();&#x000A;&#x000A;		    Email.send({&#x000A;		      to: 'support@myClientProject.com',&#x000A;		      from: 'contact@myClientProject.com',&#x000A;		      subject: 'New message from contact form',&#x000A;		      text: text&#x000A;		    });&#x000A;		  }&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.methods({&#x000A;  sendEmail: function (text) {&#x000A;    check([text], [String]);&#x000A;&#x000A;    this.unblock();&#x000A;&#x000A;    Email.send({&#x000A;      to: 'support@myClientProject.com',&#x000A;      from: 'contact@myClientProject.com',&#x000A;      subject: 'New message from contact form',&#x000A;      text: text&#x000A;    });&#x000A;  }&#x000A;});&#x000A;</code></pre>
       
       <p>After we declared our server method, let’s create actual sending event:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		Template.contactFormTemplate.events({&#x000A;			'submit form#contactForm':function(e){&#x000A;				var contactForm = $(e.currentTarget),&#x000A;					fname = contactForm.find('#firstName').val(),&#x000A;					lname = contactForm.find('#lastName').val(),&#x000A;					email = contactForm.find('#email').val(),&#x000A;					phone = contactForm.find('#phone').val(),&#x000A;					message = contactForm.find("#message").val();&#x000A;&#x000A;				//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid&#x000A;				if(isFilled(fname) &amp;&amp; isFilled(lname) &amp;&amp; isFilled(email) &amp;&amp; isFilled(phone) &amp;&amp; isFilled(message) &amp;&amp; isEmail(email)){&#x000A;					var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:" + message;&#x000A;&#x000A;					Meteor.call('sendEmail', dataText);&#x000A;					//throwAlert is my helper method which creates popup with message&#x000A;					throwAlert('Email send.', 'success');&#x000A;				}else{&#x000A;					throwAlert('An error occurred. Sorry', 'error');&#x000A;					return false;&#x000A;				}&#x000A;			}&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.contactFormTemplate.events({&#x000A;	'submit form#contactForm':function(e){&#x000A;		var contactForm = $(e.currentTarget),&#x000A;			fname = contactForm.find('#firstName').val(),&#x000A;			lname = contactForm.find('#lastName').val(),&#x000A;			email = contactForm.find('#email').val(),&#x000A;			phone = contactForm.find('#phone').val(),&#x000A;			message = contactForm.find("#message").val();&#x000A;&#x000A;		//isFilled and isEmail are my helper methods, which checks if variable exists or is email address valid&#x000A;		if(isFilled(fname) &amp;&amp; isFilled(lname) &amp;&amp; isFilled(email) &amp;&amp; isFilled(phone) &amp;&amp; isFilled(message) &amp;&amp; isEmail(email)){&#x000A;			var dataText = "Message from: " + fname + " " + lname + "\rEmail: " + email + "\rPhone: " + phone + "\rContent:" + message;&#x000A;&#x000A;			Meteor.call('sendEmail', dataText);&#x000A;			//throwAlert is my helper method which creates popup with message&#x000A;			throwAlert('Email send.', 'success');&#x000A;		}else{&#x000A;			throwAlert('An error occurred. Sorry', 'error');&#x000A;			return false;&#x000A;		}&#x000A;	}&#x000A;});&#x000A;</code></pre>
       
       <p>Besides of code above, You need of course some html template code:</p>
       
-      <pre>&#x000A;	<code class="html">&#x000A;		&lt;template name="contactFormTemplate"&gt;&#x000A;			&lt;form id="contactForm"&gt;&#x000A;				&lt; type="text" name="firstName" id="firstName" placeholder="First name"/&gt;&#x000A;				&lt; type="text" name="lastName" id="lastName" placeholder="last name"/&gt;&#x000A;				&lt; type="text" name="phone" id="phone" placeholder="Phone number"/&gt;&#x000A;				&lt; type="email" name="email" id="email" placeholder="Your email address"/&gt;&#x000A;				&lt; textarea id="message"&gt;&lt; /textarea&gt;&#x000A;				&lt; type="submit" value="Send"/&gt;&#x000A;			&lt;/form&gt;&#x000A;		&lt;/template&gt;&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="html">&#x000A;&lt;template name="contactFormTemplate"&gt;&#x000A;	&lt;form id="contactForm"&gt;&#x000A;		&lt;type="text" name="firstName" id="firstName" placeholder="First name"/&gt;&#x000A;		&lt;type="text" name="lastName" id="lastName" placeholder="last name"/&gt;&#x000A;		&lt;type="text" name="phone" id="phone" placeholder="Phone number"/&gt;&#x000A;		&lt;type="email" name="email" id="email" placeholder="Your email address"/&gt;&#x000A;		&lt;textarea id="message"&gt;&lt; /textarea&gt;&#x000A;		&lt;type="submit" value="Send"/&gt;&#x000A;	&lt;/form&gt;&#x000A;&lt;/template&gt;&#x000A;</code></pre>
       
       <p>And that’s all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
       

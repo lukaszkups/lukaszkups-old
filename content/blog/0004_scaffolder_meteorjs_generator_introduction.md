@@ -44,9 +44,9 @@ You can browse the code at [this github repo](https://github.com/ofcapl/scaffold
 Here's the usage of the plugin:
 
 <pre>
-	<code class="bash">
-		scfld collectionName field1:type field2:type ... fieldX:type
-	</code>
+<code class="bash">
+scfld collectionName field1:type field2:type ... fieldX:type
+</code>
 </pre>
 
 ##Example
@@ -54,9 +54,9 @@ Here's the usage of the plugin:
 Just open terminal, go to meteor.js project folder and type:
 
 <pre>
-	<code class="bash">
-		bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number 
-	</code>
+<code class="bash">
+bash scfld student firstName:string lastName:string bio:textarea birth:date grade:number 
+</code>
 </pre>
 
 And let the magic happen, enjoy!

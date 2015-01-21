@@ -58,11 +58,11 @@
       
       <p>If You’re building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;			if(stringToShorten.length &gt; maxCharsAmount){&#x000A;				return stringToShorten.substring(0, maxCharsAmount) + '...';&#x000A;			}&#x000A;			return stringToShorten;&#x000A;		});&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;	if(stringToShorten.length &gt; maxCharsAmount){&#x000A;		return stringToShorten.substring(0, maxCharsAmount) + '...';&#x000A;	}&#x000A;	return stringToShorten;&#x000A;});&#x000A;</code></pre>
       
       <p>Usage:</p>
       
-      <pre>&#x000A;	<code class="javascript">&#x000A;		{{#each PostList}}&#x000A;			{{shortIt this.title 15}}&#x000A;		{{/each}}&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;{{#each PostList}}&#x000A;	{{shortIt this.title 15}}&#x000A;{{/each}}&#x000A;</code></pre>
       
       <p>And that’s it! Enjoy!</p>
       

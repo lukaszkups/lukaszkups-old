@@ -10,24 +10,24 @@ tags: ['blog']
 If You're building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:
 
 <pre>
-	<code class="javascript">
-		UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
-			if(stringToShorten.length > maxCharsAmount){
-				return stringToShorten.substring(0, maxCharsAmount) + '...';
-			}
-			return stringToShorten;
-		});
-	</code>
+<code class="javascript">
+UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
+	if(stringToShorten.length > maxCharsAmount){
+		return stringToShorten.substring(0, maxCharsAmount) + '...';
+	}
+	return stringToShorten;
+});
+</code>
 </pre>
 
 Usage:
 
 <pre>
-	<code class="javascript">
-		{{#each PostList}}
-			{{shortIt this.title 15}}
-		{{/each}}
-	</code>
+<code class="javascript">
+{{#each PostList}}
+	{{shortIt this.title 15}}
+{{/each}}
+</code>
 </pre>
 
 And that's it! Enjoy!

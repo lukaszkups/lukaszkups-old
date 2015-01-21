@@ -12,21 +12,21 @@ Today I would like to show the difference between two event binding methods (as 
 - direct:
 
 <pre>
-	<code class="javascript">
-		$('div span').on('click', function(){
-			console.log('clicked!');
-		});
-	</code>
+<code class="javascript">
+$('div span').on('click', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 - and delegated one:
 
 <pre>
-	<code class="javascript">
-		$('div').on('click', 'span', function(){
-			console.log('clicked!');
-		});
-	</code>
+<code class="javascript">
+$('div').on('click', 'span', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 The difference in code is very subtle, but in functionality (spoiler alert) delegated version of the code is far more flexible and universal.
@@ -40,50 +40,50 @@ On the other side, dynamic version of jQuery `on()` method allows You to bind ev
 So, if we have a HTML like this:
 
 <pre>
-	<code class="html">
-		&lt;ul id="exampleList">
-			&lt;li>&lt;/li>
-		&lt;/ul>
-	</code>
+<code class="html">
+&lt;ul id="exampleList">
+	&lt;li>&lt;/li>
+&lt;/ul>
+</code>
 </pre>
 
 ..and we'll bind the events to `<li>` elements:
 
 <pre>
-	<code>
-		//first solution:
-		$('ul#exampleList li').on('click', function(){
-			console.log('clicked!');
-		});
+<code>
+//first solution:
+$('ul#exampleList li').on('click', function(){
+	console.log('clicked!');
+});
 
-		//second solution:
-		$('ul#exampleList').on('click', 'li', function(){
-			console.log('clicked!');
-		});
-	</code>
+//second solution:
+$('ul#exampleList').on('click', 'li', function(){
+	console.log('clicked!');
+});
+</code>
 </pre>
 
 And then we're add dynamically couple new `<li>` elements:
 
 <pre>
-	<code>
-		for(var i=0; i<3; i++){
-			$('ul#exampleList').append('&lt;li>&lt;/li>');
-		}
-	</code>
+<code>
+for(var i=0; i<3; i++){
+	$('ul#exampleList').append('&lt;li>&lt;/li>');
+}
+</code>
 </pre>
 
 ..we will have something like this:
 
 <pre>
-	<code>
-		&lt;ul id="exampleList">
-			&lt;li>&lt;/li>
-			&lt;li>&lt;/li>
-			&lt;li>&lt;/li>
-			&lt;li>&lt;/li>
-		&lt;/ul>
-	</code>
+<code>
+&lt;ul id="exampleList">
+	&lt;li>&lt;/li>
+	&lt;li>&lt;/li>
+	&lt;li>&lt;/li>
+	&lt;li>&lt;/li>
+&lt;/ul>
+</code>
 </pre>
 
 Using first solution of event binding, the click event will work only for first `<li>` element - the one that existed before code execution. 

@@ -64,103 +64,103 @@
       
       <p>First, login to Your server via ssh:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		ssh yourServerLogin@yourServerIp&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;ssh yourServerLogin@yourServerIp&#x000A;</code></pre>
       
       <p>When prompted, type Your server password and process to server connection.</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install nginx&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get update&#x000A;sudo apt-get install nginx&#x000A;</code></pre>
       
       <p>Now You can manage nginx processes with these commands:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo service nginx stop&#x000A;		sudo service nginx start&#x000A;		sudo service nginx restart&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo service nginx stop&#x000A;sudo service nginx start&#x000A;sudo service nginx restart&#x000A;</code></pre>
       
       <h2 id="nodejs-installation">Node.js installation</h2>
       
       <p>Let’s install Node.js environment, which is required to run our app:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install upgrade&#x000A;		sudo apt-get install nodejs&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get update&#x000A;sudo apt-get install upgrade&#x000A;sudo apt-get install nodejs&#x000A;</code></pre>
       
       <p>If You’ll want install particular version of Node.js You probably will want to do it via <a href="https://github.com/creationix/nvm">NVM</a> (Node Version Manager):</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-get install npm		&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get install npm		&#x000A;</code></pre>
       
       <h2 id="mongo-database">Mongo database</h2>
       
       <p>As You probably know, Meteor.js uses <a href="http://www.mongodb.org/">MongoDB</a> as its main database system so let’s prepare our server to <a href="http://wac.450f.edgecastcdn.net/80450F/thefw.com/files/2013/05/Nicholson.gif">deal with it</a>:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10&#x000A;		echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list&#x000A;		sudo apt-get update&#x000A;		sudo apt-get install mongodb-10gen&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10&#x000A;echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list&#x000A;sudo apt-get update&#x000A;sudo apt-get install mongodb-10gen&#x000A;</code></pre>
       
       <p>Now start mongoDB as a Daemon with log records file:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mongod --fork --logpath /var/log/mongodb.log&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mongod --fork --logpath /var/log/mongodb.log&#x000A;</code></pre>
       
       <p>The next thing is to add a <strong>system-wide</strong> MongoDB admin role:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mongo&#x000A;		db = db.getSiblingDB('admin')&#x000A;		db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})&#x000A;		exit		&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mongo&#x000A;db = db.getSiblingDB('admin')&#x000A;db.createUser({user: 'admin', pwd: 'yourAdminPassword', roles: ['userAdminAnyDatabase']})&#x000A;exit		&#x000A;</code></pre>
       
       <p>In the next step, we need to edit MongoDB configuration file and uncomment following line:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		#file path: /etc/mongodb.conf&#x000A;		auth = true&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;#file path: /etc/mongodb.conf&#x000A;auth = true&#x000A;</code></pre>
       
       <p>And then restart the MongoDB server:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo service mongodb restart&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo service mongodb restart&#x000A;</code></pre>
       
       <p>The final (mongo related) step will be adding admin role to our <strong>application</strong> database. First, we need to login to our MongoDB admin account:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mongo -u admin -p --authenticationDatabase admin&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mongo -u admin -p --authenticationDatabase admin&#x000A;</code></pre>
       
       <p>You will be asked for the password that You’ve set at one of the previous steps. After that You can create user and database for Your app:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		use yourAppDatabaseName&#x000A;		db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;use yourAppDatabaseName&#x000A;db.createUser({ user: 'yourAppDbUserName', pwd: 'yourSuperSecureDbAppUserPassword', roles: [ 'readWrite' ] })&#x000A;</code></pre>
       
       <h2 id="lets-get-back-to-nginx">Let’s get back to Nginx</h2>
       
       <p>Now we have to configure Nginx for our application - let’s create configuration file for Your app:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		touch /etc/nginx/sites-available/yourApp.com&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;touch /etc/nginx/sites-available/yourApp.com&#x000A;</code></pre>
       
       <p>And here’s the example code of this file:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		upstream yourApp {  &#x000A;		    server 127.0.0.1:3000;&#x000A;		}&#x000A;&#x000A;		server {  &#x000A;		    listen 0.0.0.0:3000;&#x000A;		    server_name yourApp.com;&#x000A;		    access_log /var/log/nginx/yourApp.log;&#x000A;&#x000A;		    location / {&#x000A;		        proxy_pass http://yourApp/;&#x000A;		        proxy_http_version 1.1;&#x000A;		        proxy_set_header Upgrade $http_upgrade;&#x000A;		        proxy_set_header Connection "upgrade";&#x000A;		        proxy_set_header Host $http_host;&#x000A;&#x000A;		        proxy_set_header X-Real-IP $remote_addr;&#x000A;		        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;&#x000A;		        proxy_set_header X-Forward-Proto http;&#x000A;		        proxy_set_header X-Nginx-Proxy true;&#x000A;&#x000A;		        proxy_redirect off;&#x000A;		    }&#x000A;		}&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;upstream yourApp {  &#x000A;    server 127.0.0.1:3000;&#x000A;}&#x000A;&#x000A;server {  &#x000A;    listen 0.0.0.0:3000;&#x000A;    server_name yourApp.com;&#x000A;    access_log /var/log/nginx/yourApp.log;&#x000A;&#x000A;    location / {&#x000A;        proxy_pass http://yourApp/;&#x000A;        proxy_http_version 1.1;&#x000A;        proxy_set_header Upgrade $http_upgrade;&#x000A;        proxy_set_header Connection "upgrade";&#x000A;        proxy_set_header Host $http_host;&#x000A;&#x000A;        proxy_set_header X-Real-IP $remote_addr;&#x000A;        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;&#x000A;        proxy_set_header X-Forward-Proto http;&#x000A;        proxy_set_header X-Nginx-Proxy true;&#x000A;&#x000A;        proxy_redirect off;&#x000A;    }&#x000A;}&#x000A;</code></pre>
       
       <p>Now, You have to create symbolic link for this file:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo ln -s /etc/nginx/sites-available/yourApp.com /etc/nginx/sites-enabled/yourApp.com&#x000A;</code></pre>
       
       <p>And then, You can restart Nginx:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo service nginx restart&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo service nginx restart&#x000A;</code></pre>
       
       <h2 id="deployment-stage">Deployment stage</h2>
       
       <p>Let’s finally deploy our application. Login to your server via ssh and clone Your app repo:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		cd /usr/local/www/&#x000A;		git clone yourAppGitCloneUrl&#x000A;		cd yourClonedAppFolder&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;cd /usr/local/www/&#x000A;git clone yourAppGitCloneUrl&#x000A;cd yourClonedAppFolder&#x000A;</code></pre>
       
       <p>Now, install <a href="http://meteor.com">Meteor.js</a> and bundle Your app - we’re doing it on server because sometimes bundling app between different operating system (like osx and ubuntu linux) can cause errors with node modules (e.g. bcrypt).</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		curl https://install.meteor.com/ | sh&#x000A;		meteor bundle yourAppName.com.tar.gz&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;curl https://install.meteor.com/ | sh&#x000A;meteor bundle yourAppName.com.tar.gz&#x000A;</code></pre>
       
       <p>Move Your (bundled) app to proper directory and unpack it:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		mv yourAppName.com.tar.gz ../&#x000A;		tar -vxzf yourAppName.com.tar.gz&#x000A;		rm yourAppName.com.tar.gz&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;mv yourAppName.com.tar.gz ../&#x000A;tar -vxzf yourAppName.com.tar.gz&#x000A;rm yourAppName.com.tar.gz&#x000A;</code></pre>
       
       <p>Now, to keep our app always live, let’s install <a href="https://github.com/foreverjs/forever">forever</a>:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		sudo npm install -g forever&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;sudo npm install -g forever&#x000A;</code></pre>
       
       <p>Finally, we can plug in our app to Mongo database and run it, using forever:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		cd yourAppName.com&#x000A;		PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;cd yourAppName.com&#x000A;PORT=3000 MONGO_URL=mongodb://yourAppAdminUserName:adminPassword@127.0.0.1:27017/yourAppName ROOT_URL=http://yourAppName.com forever -f start main.js&#x000A;</code></pre>
       
       <p>And your application is live now. You can check its status every time by following command:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		forever list&#x000A;		# an example result:&#x000A;		info:    Forever processes running&#x000A;		data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        &#x000A;		data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   &#x000A;		data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 &#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;forever list&#x000A;# an example result:&#x000A;info:    Forever processes running&#x000A;data:        uid  		command             		script      		forever pid   id 	logfile                 		uptime        &#x000A;data:    	[0] H74M 	userdown            		app/main.js 	56789   12345    	/root/.forever/zxy.log 	0:0:0:0.788   &#x000A;data:    	[1] uv8C 		/usr/local/bin/node 	main.js     	65432   23456    	/root/.forever/xyz.log 	2:2:50:36.647 &#x000A;</code></pre>
       
       <p>You can restart any forever process with command:</p>
       
-      <pre>&#x000A;	<code class="bash">&#x000A;		#forever restart uid e.g.&#x000A;		forever restart 1&#x000A;	</code></pre>
+      <pre>&#x000A;<code class="bash">&#x000A;#forever restart uid e.g.&#x000A;forever restart 1&#x000A;</code></pre>
       
       <p>And that’s practically all. Special thanks to guys from <a href="https://gentlenode.com/">gentlenode</a> who wrote very similar blog post, which was an inspiration for writing this one (I’ve added couple own tips, but also rewrite most stuff to make sure that I will always have access to this knowledge).</p>
       
