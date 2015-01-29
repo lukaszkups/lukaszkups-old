@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 23 January 2015
+created_at: 29 January 2015
 title: Handling notifications after email sending.
 tags: ['blog']
 ---
