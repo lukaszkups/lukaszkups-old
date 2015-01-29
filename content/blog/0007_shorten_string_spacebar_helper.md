@@ -23,7 +23,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 Usage:
 
 <pre>
-<code class="javascript">
+<code class="haml">
 {{#each PostList}}
 	{{shortIt this.title 15}}
 {{/each}}

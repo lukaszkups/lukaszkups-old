@@ -1,4 +1,4 @@
-{:	data{<I"/notes/:ET{:default{	:	lastI"˘<!DOCTYPE html>
+{:	data{=I"/notes/:ET{:default{	:	lastI"-<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -68,6 +68,16 @@
           This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
         </h1>
         <ul class='postsList'>
+          <li>
+            <a href='/blog/0008_keeping_session_variable_after_email_sent/'>
+              [
+              <span class='brownFont'>
+                23 January 2015
+              </span>
+              ]
+              Handling notifications after email sending.
+            </a>
+          </li>
           <li>
             <a href='/blog/0007_shorten_string_spacebar_helper/'>
               [
@@ -179,7 +189,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"Æ<!-- .project-container.min-height -->
+					= post[:title];T:preI"¶	<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -196,6 +206,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0008_keeping_session_variable_after_email_sent/'>
+        [
+        <span class='brownFont'>
+          23 January 2015
+        </span>
+        ]
+        Handling notifications after email sending.
+      </a>
+    </li>
     <li>
       <a href='/blog/0007_shorten_string_spacebar_helper/'>
         [
@@ -2801,7 +2821,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"µ<?xml version="1.0" encoding="UTF-8"?>
+;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"B<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2842,6 +2862,10 @@ I":<h1 class='roboto headline'>
   <url>
     <loc>http://lukaszkups.net/blog/0007_shorten_string_spacebar_helper/</loc>
     <lastmod>2015-01-22</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0008_keeping_session_variable_after_email_sent/</loc>
+    <lastmod>2015-01-29</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -4788,7 +4812,7 @@ forever restart 1
 <p>If You have any questions - feel free to <a href="http://twitter.com/ofcapl">ask</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"8<!DOCTYPE html>
+;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"2<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4852,7 +4876,7 @@ forever restart 1
       
       <p>Usage:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;{{#each PostList}}&#x000A;	{{shortIt this.title 15}}&#x000A;{{/each}}&#x000A;</code></pre>
+      <pre>&#x000A;<code class="haml">&#x000A;{{#each PostList}}&#x000A;	{{shortIt this.title 15}}&#x000A;{{/each}}&#x000A;</code></pre>
       
       <p>And that‚Äôs it! Enjoy!</p>
       
@@ -4877,7 +4901,7 @@ forever restart 1
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Ó
+;T;	I"Ë
 #Shorten Your title/name/link(You name it!) strings with spacebar helper
 
 If You're building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:
@@ -4896,7 +4920,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 Usage:
 
 <pre>
-<code class="javascript">
+<code class="haml">
 {{#each PostList}}
 	{{shortIt this.title 15}}
 {{/each}}
@@ -4908,7 +4932,7 @@ And that's it! Enjoy!
 (You can read this article also at [my coderwall's protips section](https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper))
 
 -- ≈Ç.;T;
-I"w
+I"q
 <h1 id="shorten-your-titlenamelinkyou-name-it-strings-with-spacebar-helper">Shorten Your title/name/link(You name it!) strings with spacebar helper</h1>
 
 <p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
@@ -4927,7 +4951,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 <p>Usage:</p>
 
 <pre>
-<code class="javascript">
+<code class="haml">
 {{#each PostList}}
 	{{shortIt this.title 15}}
 {{/each}}
@@ -4939,4 +4963,209 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 <p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall‚Äôs protips section</a>)</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@Ó:versioni
+;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"ê<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Handling notifications after email sending.
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="emails--notifications">Emails &amp; notifications</h1>
+      
+      <p>Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.</p>
+      
+      <p>My idea was to set Session variable which stores information about unseen alert notification and get that value after <code>rendered</code> template callback:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;//template event&#x000A;Template.myContactTemplate.template{(&#x000A;	'click .submitButton': function(){&#x000A;		Session.set('alertMessage', ['Email has been sent', 'success']);&#x000A;		Meteor.call('sendEmail', dataText);&#x000A;	}&#x000A;)};&#x000A;&#x000A;//e-mail method&#x000A;Meteor.methods({&#x000A;	sendEmail: function(text){&#x000A;		check([text], [String]);&#x000A;		this.unblock();&#x000A;		Email.send({&#x000A;			to: 'xyz@xyz.com',&#x000A;			from: 'contactForm@xyz.com',&#x000A;			subject: 'New message from contact form',&#x000A;			text: text&#x000A;		});&#x000A;	}&#x000A;});&#x000A;&#x000A;//rendered callback&#x000A;Template.contactFormTemplate.rendered = function(){&#x000A;	Meteor.defer(function(){&#x000A;		var a = Session.get('alertMessage');&#x000A;		if(a){&#x000A;			throwAlert(a[0], a[1]);	//my custom method for alerts&#x000A;			Session.set('alertMessage', null);		&#x000A;		}&#x000A;	});&#x000A;}&#x000A;</code></pre>
+      
+      <p>The code above will not work. I have noticed that email sending method somehow flush/resets our <code>alertMessage</code> session variable. To prevent from such behaviour and keep all variables saved let‚Äôs add <a href="https://github.com/okgrow/meteor-persistent-session">persistent-session</a> package:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor add u2622:persistent-session&#x000A;</code></pre>
+      
+      <p>And that‚Äôs it. Now we can set and get our session variables at any time we want.</p>
+      
+      <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
+      
+      <p>‚Äì ≈Ç</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"ë
+#Emails & notifications
+
+Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.
+
+My idea was to set Session variable which stores information about unseen alert notification and get that value after `rendered` template callback:
+
+<pre>
+<code class="javascript">
+//template event
+Template.myContactTemplate.template{(
+	'click .submitButton': function(){
+		Session.set('alertMessage', ['Email has been sent', 'success']);
+		Meteor.call('sendEmail', dataText);
+	}
+)};
+
+//e-mail method
+Meteor.methods({
+	sendEmail: function(text){
+		check([text], [String]);
+		this.unblock();
+		Email.send({
+			to: 'xyz@xyz.com',
+			from: 'contactForm@xyz.com',
+			subject: 'New message from contact form',
+			text: text
+		});
+	}
+});
+
+//rendered callback
+Template.contactFormTemplate.rendered = function(){
+	Meteor.defer(function(){
+		var a = Session.get('alertMessage');
+		if(a){
+			throwAlert(a[0], a[1]);	//my custom method for alerts
+			Session.set('alertMessage', null);		
+		}
+	});
+}
+</code>
+</pre>
+
+The code above will not work. I have noticed that email sending method somehow flush/resets our `alertMessage` session variable. To prevent from such behaviour and keep all variables saved let's add [persistent-session](https://github.com/okgrow/meteor-persistent-session) package:
+
+<pre>
+<code class="bash">
+meteor add u2622:persistent-session
+</code>
+</pre>
+
+And that's it. Now we can set and get our session variables at any time we want.
+
+You can discuss about this problem at [this stackoverflow thread](http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email).
+
+-- ≈Ç;T;
+I"
+<h1 id="emails--notifications">Emails &amp; notifications</h1>
+
+<p>Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.</p>
+
+<p>My idea was to set Session variable which stores information about unseen alert notification and get that value after <code>rendered</code> template callback:</p>
+
+<pre>
+<code class="javascript">
+//template event
+Template.myContactTemplate.template{(
+	'click .submitButton': function(){
+		Session.set('alertMessage', ['Email has been sent', 'success']);
+		Meteor.call('sendEmail', dataText);
+	}
+)};
+
+//e-mail method
+Meteor.methods({
+	sendEmail: function(text){
+		check([text], [String]);
+		this.unblock();
+		Email.send({
+			to: 'xyz@xyz.com',
+			from: 'contactForm@xyz.com',
+			subject: 'New message from contact form',
+			text: text
+		});
+	}
+});
+
+//rendered callback
+Template.contactFormTemplate.rendered = function(){
+	Meteor.defer(function(){
+		var a = Session.get('alertMessage');
+		if(a){
+			throwAlert(a[0], a[1]);	//my custom method for alerts
+			Session.set('alertMessage', null);		
+		}
+	});
+}
+</code>
+</pre>
+
+<p>The code above will not work. I have noticed that email sending method somehow flush/resets our <code>alertMessage</code> session variable. To prevent from such behaviour and keep all variables saved let‚Äôs add <a href="https://github.com/okgrow/meteor-persistent-session">persistent-session</a> package:</p>
+
+<pre>
+<code class="bash">
+meteor add u2622:persistent-session
+</code>
+</pre>
+
+<p>And that‚Äôs it. Now we can set and get our session variables at any time we want.</p>
+
+<p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
+
+<p>‚Äì ≈Ç</p>
+;T;@Ù:versioni
