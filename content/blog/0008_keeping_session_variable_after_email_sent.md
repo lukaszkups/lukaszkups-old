@@ -69,7 +69,7 @@ meteor add u2622:persistent-session
 </code>
 </pre>
 
-And that's it. Now our session variables are stored in the browser's localstorage (so we prevent from unwanted flushes).
+And that's it. Now our session variables are stored in the browser's localstorage (so we prevent from unwanted variable flushes).
 
 You can discuss about this problem at [this stackoverflow thread](http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email).
 
