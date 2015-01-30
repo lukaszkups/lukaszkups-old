@@ -60,7 +60,17 @@
       
       <p>My idea was to set Session variable which stores information about unseen alert notification and get that value after <code>rendered</code> template callback:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;//template event&#x000A;Template.myContactTemplate.template{(&#x000A;	'click .submitButton': function(){&#x000A;		Session.set('alertMessage', ['Email has been sent', 'success']);&#x000A;		Meteor.call('sendEmail', dataText);&#x000A;	}&#x000A;)};&#x000A;&#x000A;//e-mail method&#x000A;Meteor.methods({&#x000A;	sendEmail: function(text){&#x000A;		check([text], [String]);&#x000A;		this.unblock();&#x000A;		Email.send({&#x000A;			to: 'xyz@xyz.com',&#x000A;			from: 'contactForm@xyz.com',&#x000A;			subject: 'New message from contact form',&#x000A;			text: text&#x000A;		});&#x000A;	}&#x000A;});&#x000A;&#x000A;//rendered callback&#x000A;Template.contactFormTemplate.rendered = function(){&#x000A;	Meteor.defer(function(){&#x000A;		var a = Session.get('alertMessage');&#x000A;		if(a){&#x000A;			throwAlert(a[0], a[1]);	//my custom method for alerts&#x000A;			Session.set('alertMessage', null);		&#x000A;		}&#x000A;	});&#x000A;}&#x000A;</code></pre>
+      <p>Template event:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.myContactTemplate.template{(&#x000A;	'click .submitButton': function(e){&#x000A;		var dataText = $(e.currentTarget).find('.dataText').val();&#x000A;		&#x000A;		Session.set('alertMessage', ['Email has been sent', 'success']);&#x000A;		Meteor.call('sendEmail', dataText);&#x000A;	}&#x000A;)};&#x000A;</code></pre>
+      
+      <p>E-mail method:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.methods({&#x000A;	sendEmail: function(text){&#x000A;		check([text], [String]);&#x000A;		this.unblock();&#x000A;		Email.send({&#x000A;			to: 'xyz@xyz.com',&#x000A;			from: 'contactForm@xyz.com',&#x000A;			subject: 'New message from contact form',&#x000A;			text: text&#x000A;		});&#x000A;	}&#x000A;});&#x000A;</code></pre>
+      
+      <p>Rendered callback:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.contactFormTemplate.rendered = function(){&#x000A;	Meteor.defer(function(){&#x000A;		var a = Session.get('alertMessage');&#x000A;		if(a){&#x000A;			throwAlert(a[0], a[1]);	//my custom method for alerts&#x000A;			Session.set('alertMessage', null);		&#x000A;		}&#x000A;	});&#x000A;}&#x000A;</code></pre>
       
       <p>The code above will not work. I have noticed that email sending method somehow flush/resets our <code>alertMessage</code> session variable. To prevent from such behaviour and keep all variables saved let’s add <a href="https://github.com/okgrow/meteor-persistent-session">persistent-session</a> package:</p>
       
