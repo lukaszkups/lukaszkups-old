@@ -11,17 +11,25 @@ Today I wanted to implement contact form with validation and (alert) notificatio
 
 My idea was to set Session variable which stores information about unseen alert notification and get that value after `rendered` template callback:
 
+Template event:
+
 <pre>
 <code class="javascript">
-//template event
 Template.myContactTemplate.template{(
-	'click .submitButton': function(){
+	'click .submitButton': function(e){
+		var dataText = $(e.currentTarget).find('.dataText').val();
+		
 		Session.set('alertMessage', ['Email has been sent', 'success']);
 		Meteor.call('sendEmail', dataText);
 	}
 )};
+</code>
+</pre>
 
-//e-mail method
+E-mail method:
+
+<pre>
+<code class="javascript">
 Meteor.methods({
 	sendEmail: function(text){
 		check([text], [String]);
@@ -34,8 +42,13 @@ Meteor.methods({
 		});
 	}
 });
+</code>
+</pre>
 
-//rendered callback
+Rendered callback:
+
+<pre>
+<code class="javascript">
 Template.contactFormTemplate.rendered = function(){
 	Meteor.defer(function(){
 		var a = Session.get('alertMessage');

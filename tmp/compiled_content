@@ -2693,27 +2693,33 @@ I"å<div class='project-container min-height'>
       <div class='clear clear50'></div>
       <ul class='projects'>
         <li>
-          <img src='/projects/images/meteorjs-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/meteorjs/">Meteor.js framework</a>
-          </div>
-        </li>
-        <li>
           <img src='/projects/images/ror-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/ror/">Ruby On Rails framework</a>
           </div>
         </li>
         <li>
-          <img src='/projects/images/html5-thumb.png' alt=''/>
+          <img src='/projects/images/meteorjs-thumb.png' alt=''/>
           <div class='project-shadow'>
-            <a href="/projects/html5_css3/">HTML5 & CSS3</a>
+            <a href="/projects/meteorjs/">Meteor.js framework</a>
           </div>
         </li>
         <li>
           <img src='/projects/images/js-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/js/">Javascript</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/cordova-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/cordova/">Phonegap / Cordova</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/html5-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/html5_css3/">HTML5 & CSS3</a>
           </div>
         </li>
         <li>
@@ -2726,12 +2732,6 @@ I"å<div class='project-container min-height'>
           <img src='/projects/images/django-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/django_framework/">Django framework</a>
-          </div>
-        </li>
-        <li>
-          <img src='/projects/images/cordova-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/cordova/">Phonegap / Cordova</a>
           </div>
         </li>
         <li>
@@ -2773,27 +2773,33 @@ I":<h1 class='roboto headline'>
 <div class='clear clear50'></div>
 <ul class='projects'>
   <li>
-    <img src='/projects/images/meteorjs-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/meteorjs/">Meteor.js framework</a>
-    </div>
-  </li>
-  <li>
     <img src='/projects/images/ror-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/ror/">Ruby On Rails framework</a>
     </div>
   </li>
   <li>
-    <img src='/projects/images/html5-thumb.png' alt=''/>
+    <img src='/projects/images/meteorjs-thumb.png' alt=''/>
     <div class='project-shadow'>
-      <a href="/projects/html5_css3/">HTML5 & CSS3</a>
+      <a href="/projects/meteorjs/">Meteor.js framework</a>
     </div>
   </li>
   <li>
     <img src='/projects/images/js-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/js/">Javascript</a>
+    </div>
+  </li>
+  <li>
+    <img src='/projects/images/cordova-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/cordova/">Phonegap / Cordova</a>
+    </div>
+  </li>
+  <li>
+    <img src='/projects/images/html5-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/html5_css3/">HTML5 & CSS3</a>
     </div>
   </li>
   <li>
@@ -2809,12 +2815,6 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
   <li>
-    <img src='/projects/images/cordova-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/cordova/">Phonegap / Cordova</a>
-    </div>
-  </li>
-  <li>
     <img src='/projects/images/os-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/open_source/">Open Source</a>
@@ -2825,227 +2825,227 @@ I":<h1 class='roboto headline'>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/404.html</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/about/</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0001_new_year_resolutions/</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0002_nokia_lumia_800_review/</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0003_delegated_vs_direct_jquery_on_method/</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0004_scaffolder_meteorjs_generator_introduction/</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0005_sending_emails_with_meteor/</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0007_shorten_string_spacebar_helper/</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0008_keeping_session_variable_after_email_sent/</loc>
-    <lastmod>2015-01-29</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
-    <lastmod>2015-01-07</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_01.jpg</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_02.jpg</loc>
-    <lastmod>2015-01-05</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_03.jpg</loc>
-    <lastmod>2015-01-05</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_04.jpg</loc>
-    <lastmod>2015-01-05</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_05.jpg</loc>
-    <lastmod>2015-01-05</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_06.jpg</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_07.jpg</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_08.jpg</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_09.jpg</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/webrackets-logo.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/contact/</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/experience/</loc>
-    <lastmod>2015-01-07</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/avatar-big.png</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/favicon.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/ghosty.png</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/logo.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/lukasz-big.jpg</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/next.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/prev.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/application.js</loc>
-    <lastmod>2015-01-06</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/blog.js</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/bracketslider.js</loc>
-    <lastmod>2015-01-07</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/highlight.js</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/notes/</loc>
-    <lastmod>2015-01-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/cordova/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/design/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/django_framework/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/html5_css3/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/cordova-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/design-thumb.png</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/django-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/html5-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/js-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/matchfishing-big.jpg</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/meteorjs-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/os-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/ror-thumb.png</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/js/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/meteorjs/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/open_source/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/ror/</loc>
-    <lastmod>2015-01-03</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/sitemap.xml</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/highlightjs_styles.css</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
-    <lastmod>2015-01-22</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
@@ -4963,7 +4963,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 <p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall‚Äôs protips section</a>)</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"ê<!DOCTYPE html>
+;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"Ö<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5025,7 +5025,17 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
       
       <p>My idea was to set Session variable which stores information about unseen alert notification and get that value after <code>rendered</code> template callback:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;//template event&#x000A;Template.myContactTemplate.template{(&#x000A;	'click .submitButton': function(){&#x000A;		Session.set('alertMessage', ['Email has been sent', 'success']);&#x000A;		Meteor.call('sendEmail', dataText);&#x000A;	}&#x000A;)};&#x000A;&#x000A;//e-mail method&#x000A;Meteor.methods({&#x000A;	sendEmail: function(text){&#x000A;		check([text], [String]);&#x000A;		this.unblock();&#x000A;		Email.send({&#x000A;			to: 'xyz@xyz.com',&#x000A;			from: 'contactForm@xyz.com',&#x000A;			subject: 'New message from contact form',&#x000A;			text: text&#x000A;		});&#x000A;	}&#x000A;});&#x000A;&#x000A;//rendered callback&#x000A;Template.contactFormTemplate.rendered = function(){&#x000A;	Meteor.defer(function(){&#x000A;		var a = Session.get('alertMessage');&#x000A;		if(a){&#x000A;			throwAlert(a[0], a[1]);	//my custom method for alerts&#x000A;			Session.set('alertMessage', null);		&#x000A;		}&#x000A;	});&#x000A;}&#x000A;</code></pre>
+      <p>Template event:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.myContactTemplate.template{(&#x000A;	'click .submitButton': function(e){&#x000A;		var dataText = $(e.currentTarget).find('.dataText').val();&#x000A;		&#x000A;		Session.set('alertMessage', ['Email has been sent', 'success']);&#x000A;		Meteor.call('sendEmail', dataText);&#x000A;	}&#x000A;)};&#x000A;</code></pre>
+      
+      <p>E-mail method:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.methods({&#x000A;	sendEmail: function(text){&#x000A;		check([text], [String]);&#x000A;		this.unblock();&#x000A;		Email.send({&#x000A;			to: 'xyz@xyz.com',&#x000A;			from: 'contactForm@xyz.com',&#x000A;			subject: 'New message from contact form',&#x000A;			text: text&#x000A;		});&#x000A;	}&#x000A;});&#x000A;</code></pre>
+      
+      <p>Rendered callback:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.contactFormTemplate.rendered = function(){&#x000A;	Meteor.defer(function(){&#x000A;		var a = Session.get('alertMessage');&#x000A;		if(a){&#x000A;			throwAlert(a[0], a[1]);	//my custom method for alerts&#x000A;			Session.set('alertMessage', null);		&#x000A;		}&#x000A;	});&#x000A;}&#x000A;</code></pre>
       
       <p>The code above will not work. I have noticed that email sending method somehow flush/resets our <code>alertMessage</code> session variable. To prevent from such behaviour and keep all variables saved let‚Äôs add <a href="https://github.com/okgrow/meteor-persistent-session">persistent-session</a> package:</p>
       
@@ -5054,24 +5064,32 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"ë
+;T;	I"0
 #Emails & notifications
 
 Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.
 
 My idea was to set Session variable which stores information about unseen alert notification and get that value after `rendered` template callback:
 
+Template event:
+
 <pre>
 <code class="javascript">
-//template event
 Template.myContactTemplate.template{(
-	'click .submitButton': function(){
+	'click .submitButton': function(e){
+		var dataText = $(e.currentTarget).find('.dataText').val();
+		
 		Session.set('alertMessage', ['Email has been sent', 'success']);
 		Meteor.call('sendEmail', dataText);
 	}
 )};
+</code>
+</pre>
 
-//e-mail method
+E-mail method:
+
+<pre>
+<code class="javascript">
 Meteor.methods({
 	sendEmail: function(text){
 		check([text], [String]);
@@ -5084,8 +5102,13 @@ Meteor.methods({
 		});
 	}
 });
+</code>
+</pre>
 
-//rendered callback
+Rendered callback:
+
+<pre>
+<code class="javascript">
 Template.contactFormTemplate.rendered = function(){
 	Meteor.defer(function(){
 		var a = Session.get('alertMessage');
@@ -5111,24 +5134,32 @@ And that's it. Now we can set and get our session variables at any time we want.
 You can discuss about this problem at [this stackoverflow thread](http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email).
 
 -- ≈Ç;T;
-I"
+I"»
 <h1 id="emails--notifications">Emails &amp; notifications</h1>
 
 <p>Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.</p>
 
 <p>My idea was to set Session variable which stores information about unseen alert notification and get that value after <code>rendered</code> template callback:</p>
 
+<p>Template event:</p>
+
 <pre>
 <code class="javascript">
-//template event
 Template.myContactTemplate.template{(
-	'click .submitButton': function(){
+	'click .submitButton': function(e){
+		var dataText = $(e.currentTarget).find('.dataText').val();
+		
 		Session.set('alertMessage', ['Email has been sent', 'success']);
 		Meteor.call('sendEmail', dataText);
 	}
 )};
+</code>
+</pre>
 
-//e-mail method
+<p>E-mail method:</p>
+
+<pre>
+<code class="javascript">
 Meteor.methods({
 	sendEmail: function(text){
 		check([text], [String]);
@@ -5141,8 +5172,13 @@ Meteor.methods({
 		});
 	}
 });
+</code>
+</pre>
 
-//rendered callback
+<p>Rendered callback:</p>
+
+<pre>
+<code class="javascript">
 Template.contactFormTemplate.rendered = function(){
 	Meteor.defer(function(){
 		var a = Session.get('alertMessage');
