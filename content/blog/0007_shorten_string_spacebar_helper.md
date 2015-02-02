@@ -12,13 +12,15 @@ If You're building some lists view (e.g. posts list) and You want to shorten the
 <pre>
 <code class="javascript">
 UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
-	if(stringToShorten.length > maxCharsAmount){
-		return stringToShorten.substring(0, maxCharsAmount) + '...';
-	}
-	return stringToShorten;
+	var shorter = stringToShorten.substr(0, maxCharsAmount);
+
+	shorter = shorter.substr(0, Math.min(shorter.length, shorter.lastIndexOf(' '))) + '...';
+	return shorter;
 });
 </code>
 </pre>
+
+It will cut the string to the (whole) word placed after last space character.
 
 Usage:
 

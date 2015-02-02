@@ -88,7 +88,8 @@ ul.postsList li:before{content:"";}
 .project-container ul.postsList li a{cursor: pointer; text-decoration: none;}
 .project-container ul.postsList li a:hover{text-decoration: underline;}
 
-pre{margin-bottom:25px !important; display: block; overflow: hidden;background-color: #1D1F21;}
+pre{margin-bottom:25px !important; display: block; overflow: hidden;background-color: #1D1F21; tab-size:0; -moz-tab-size:0; -o-tab-size:0;}
+code{tab-size:2; -moz-tab-size:2; -o-tab-size:2;}
 ul + p, ul + h2{margin-top:1.5em;}
 
 .greenFont{color: #5A7D13 !important;}
