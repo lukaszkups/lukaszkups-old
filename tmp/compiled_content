@@ -1,4 +1,4 @@
-{:	data{=I"/notes/:ET{:default{	:	lastI"-<!DOCTYPE html>
+{:	data{>I"/notes/:ET{:default{	:	lastI"-<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2822,7 +2822,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"B<?xml version="1.0" encoding="UTF-8"?>
+;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"�<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2867,6 +2867,10 @@ I":<h1 class='roboto headline'>
   <url>
     <loc>http://lukaszkups.net/blog/0008_keeping_session_variable_after_email_sent/</loc>
     <lastmod>2015-01-30</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0009_jquery_promises_explained/</loc>
+    <lastmod>2015-02-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -5211,4 +5215,131 @@ meteor add u2622:persistent-session
 <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
 
 <p>– ł</p>
-;T;@�:versioni
+;T;@�I"*/blog/0009_jquery_promises_explained/;T{;{	;I"�<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      jQuery promises explained
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="jquery-promises-explained">jQuery promises explained</h1>
+      
+      <h2 id="warning-this-post-contains-my-own-thoughts-about-promises-and-deferred-object-and-my-way-of-understanding-it---maybe-it-will-help-someone-better-understand-them-and-maybe-someone-doesnt-agree-with-my-way-of-thinking">Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them and maybe someone doesn’t agree with my way of thinking.</h2>
+      
+      <h1 id="promises-and-deferred-objects">Promises and deferred objects</h1>
+      
+      <p>If You ever wanted create asynchronous functionality for Your web app, then You probably will do it using jQuery’s promises and deferred objects.</p>
+      
+      <p>I’m using deferred objects as a “containers” for anychronous tasks - e.g. </p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;&#x000A;</code></pre>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"5
+#jQuery promises explained
+
+##Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them and maybe someone doesn't agree with my way of thinking.
+
+#Promises and deferred objects
+
+If You ever wanted create asynchronous functionality for Your web app, then You probably will do it using jQuery's promises and deferred objects.
+
+I'm using deferred objects as a "containers" for anychronous tasks - e.g. 
+
+<pre>
+<code class="javascript">
+
+</code>
+</pre>
+
+
+
+
+-- ł.
+;T;
+I"�
+<h1 id="jquery-promises-explained">jQuery promises explained</h1>
+
+<h2 id="warning-this-post-contains-my-own-thoughts-about-promises-and-deferred-object-and-my-way-of-understanding-it---maybe-it-will-help-someone-better-understand-them-and-maybe-someone-doesnt-agree-with-my-way-of-thinking">Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them and maybe someone doesn’t agree with my way of thinking.</h2>
+
+<h1 id="promises-and-deferred-objects">Promises and deferred objects</h1>
+
+<p>If You ever wanted create asynchronous functionality for Your web app, then You probably will do it using jQuery’s promises and deferred objects.</p>
+
+<p>I’m using deferred objects as a “containers” for anychronous tasks - e.g. </p>
+
+<pre>
+<code class="javascript">
+
+</code>
+</pre>
+
+<p>– ł.</p>
+;T;@�:versioni
