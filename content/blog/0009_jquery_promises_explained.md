@@ -27,7 +27,7 @@ var getSomeData = function(){
 </code>
 </pre>
 
-Now's the funny part: the `dfd.resolve(result)` contains a kind of promise that it will wait till the `result` variable get any value.
+The `dfd.resolve(result)` contains a kind of promise for us that it will wait till the `result` variable get any value.
 
 The last line of the code above returns the promise object itself - and it's obligate for our `when` method placed below:
 
@@ -39,7 +39,7 @@ $.when(getSomeData()).done(function(){
 </code>
 </pre>
 
-The `$.when` method wait with its execution till the `getSomeData()` finish (so till it get some data and set it to its private `result` variable).
+The `$.when` method wait with its execution till the `getSomeData()` finish (in this case that means it will waito till it get some data and set it to its private `result` variable).
 
 We can of course also chain, nest and combine async functions - let's say that we want acquire some huge amount of data from various sources asynchronously, compute it and then send to the frontend to visualise it to the user: 
 

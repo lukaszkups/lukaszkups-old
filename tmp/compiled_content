@@ -2715,33 +2715,27 @@ I"Œ<div class='project-container min-height'>
       <div class='clear clear50'></div>
       <ul class='projects'>
         <li>
-          <img src='/projects/images/ror-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/ror/">Ruby On Rails framework</a>
-          </div>
-        </li>
-        <li>
           <img src='/projects/images/meteorjs-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/meteorjs/">Meteor.js framework</a>
           </div>
         </li>
         <li>
-          <img src='/projects/images/js-thumb.png' alt=''/>
+          <img src='/projects/images/ror-thumb.png' alt=''/>
           <div class='project-shadow'>
-            <a href="/projects/js/">Javascript</a>
-          </div>
-        </li>
-        <li>
-          <img src='/projects/images/cordova-thumb.png' alt=''/>
-          <div class='project-shadow'>
-            <a href="/projects/cordova/">Phonegap / Cordova</a>
+            <a href="/projects/ror/">Ruby On Rails framework</a>
           </div>
         </li>
         <li>
           <img src='/projects/images/html5-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/html5_css3/">HTML5 & CSS3</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/js-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/js/">Javascript</a>
           </div>
         </li>
         <li>
@@ -2754,6 +2748,12 @@ I"Œ<div class='project-container min-height'>
           <img src='/projects/images/django-thumb.png' alt=''/>
           <div class='project-shadow'>
             <a href="/projects/django_framework/">Django framework</a>
+          </div>
+        </li>
+        <li>
+          <img src='/projects/images/cordova-thumb.png' alt=''/>
+          <div class='project-shadow'>
+            <a href="/projects/cordova/">Phonegap / Cordova</a>
           </div>
         </li>
         <li>
@@ -2795,33 +2795,27 @@ I":<h1 class='roboto headline'>
 <div class='clear clear50'></div>
 <ul class='projects'>
   <li>
-    <img src='/projects/images/ror-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/ror/">Ruby On Rails framework</a>
-    </div>
-  </li>
-  <li>
     <img src='/projects/images/meteorjs-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/meteorjs/">Meteor.js framework</a>
     </div>
   </li>
   <li>
-    <img src='/projects/images/js-thumb.png' alt=''/>
+    <img src='/projects/images/ror-thumb.png' alt=''/>
     <div class='project-shadow'>
-      <a href="/projects/js/">Javascript</a>
-    </div>
-  </li>
-  <li>
-    <img src='/projects/images/cordova-thumb.png' alt=''/>
-    <div class='project-shadow'>
-      <a href="/projects/cordova/">Phonegap / Cordova</a>
+      <a href="/projects/ror/">Ruby On Rails framework</a>
     </div>
   </li>
   <li>
     <img src='/projects/images/html5-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/html5_css3/">HTML5 & CSS3</a>
+    </div>
+  </li>
+  <li>
+    <img src='/projects/images/js-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/js/">Javascript</a>
     </div>
   </li>
   <li>
@@ -2837,6 +2831,12 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
   <li>
+    <img src='/projects/images/cordova-thumb.png' alt=''/>
+    <div class='project-shadow'>
+      <a href="/projects/cordova/">Phonegap / Cordova</a>
+    </div>
+  </li>
+  <li>
     <img src='/projects/images/os-thumb.png' alt=''/>
     <div class='project-shadow'>
       <a href="/projects/open_source/">Open Source</a>
@@ -2847,47 +2847,47 @@ I":<h1 class='roboto headline'>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/404.html</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/about/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0001_new_year_resolutions/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0002_nokia_lumia_800_review/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0003_delegated_vs_direct_jquery_on_method/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0004_scaffolder_meteorjs_generator_introduction/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0005_sending_emails_with_meteor/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0007_shorten_string_spacebar_helper/</loc>
-    <lastmod>2015-02-04</lastmod>
+    <lastmod>2015-02-02</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0008_keeping_session_variable_after_email_sent/</loc>
-    <lastmod>2015-02-04</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0009_jquery_promises_explained/</loc>
@@ -2895,183 +2895,183 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-07</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_01.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_02.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-05</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_03.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-05</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_04.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-05</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_05.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-05</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_06.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_07.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_08.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_09.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/webrackets-logo.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/contact/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/experience/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-07</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/avatar-big.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/favicon.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/ghosty.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/logo.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/lukasz-big.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/next.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/images/prev.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/application.js</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-02-02</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/blog.js</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/bracketslider.js</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-07</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/javascripts/highlight.js</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/notes/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/cordova/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/design/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/django_framework/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/html5_css3/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/cordova-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/design-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/django-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/html5-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/js-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/matchfishing-big.jpg</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/meteorjs-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/os-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/images/ror-thumb.png</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/js/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/meteorjs/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/open_source/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/projects/ror/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-03</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/sitemap.xml</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-01</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/highlightjs_styles.css</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-01-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
-    <lastmod>2015-02-04</lastmod>
+    <lastmod>2015-02-01</lastmod>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
@@ -5236,7 +5236,7 @@ meteor add u2622:persistent-session
 <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
 
 <p>â€“ Å‚</p>
-;T;@ôI"*/blog/0009_jquery_promises_explained/;T{;{	;I"Ö<!DOCTYPE html>
+;T;@ôI"*/blog/0009_jquery_promises_explained/;T{;{	;I"À<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5304,7 +5304,7 @@ meteor add u2622:persistent-session
       
       <pre>&#x000A;<code class="javascript">&#x000A;var getSomeData = function(){&#x000A;    var dfd = $.Deferred(),&#x000A;        result = getSomeDataViaAsyncAjaxCall();&#x000A;&#x000A;    dfd.resolve(result);&#x000A;    return dfd.promise();&#x000A;});&#x000A;</code></pre>
       
-      <p>Nowâ€™s the funny part: the <code>dfd.resolve(result)</code> contains a kind of promise that it will wait till the <code>result</code> variable get any value.</p>
+      <p>The <code>dfd.resolve(result)</code> contains a kind of promise that it will wait till the <code>result</code> variable get any value.</p>
       
       <p>The last line of the code above returns the promise object itself - and itâ€™s obligate for our <code>when</code> method placed below:</p>
       
@@ -5314,7 +5314,7 @@ meteor add u2622:persistent-session
       
       <p>We can of course also chain, nest and combine async functions - letâ€™s say that we want acquire some huge amount of data from various sources asynchronously, compute it and then send to the frontend to visualise it to the user: </p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;$.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){&#x000A;    $.when(doSomeFancyThingsWithAcquiredData()).done(function(function(){&#x000A;        var customFunctionForPromises = function(){&#x000A;            var dfd = $.deferred(),&#x000A;                custom_promise1 = doSomeFancyAsyncThingsWithAcquiredData1(),&#x000A;                custom_promise2 = doSomeFancyAsyncThingsWithAcquiredData2();&#x000A;&#x000A;            dfd.resolve([custom_promise1, custom_promise2]);&#x000A;            return dfd.promise();&#x000A;        };&#x000A;&#x000A;        $.when(customFunctionForPromises).done(function(){&#x000A;           updateGraphsWithAcquiredAsyncData(); &#x000A;        };&#x000A;    });&#x000A;});&#x000A;</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;$.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){&#x000A;    $.when(doSomeFancyThingsWithAcquiredData()).done(function(function(){&#x000A;        var customFunctionForPromises = function(){&#x000A;            var dfd = $.deferred(),&#x000A;                custom_promise1 = doSomeFancyAsyncThingsWithAcquiredData1(),&#x000A;                custom_promise2 = doSomeFancyAsyncThingsWithAcquiredData2();&#x000A;&#x000A;            dfd.resolve([custom_promise1, custom_promise2]);&#x000A;            return dfd.promise();&#x000A;        };&#x000A;&#x000A;        $.when(customFunctionForPromises).done(function(){&#x000A;           updateFrontEndWithAcquiredAsyncData(); &#x000A;        };&#x000A;    });&#x000A;});&#x000A;</code></pre>
       
       <p>This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally Iâ€™m using it very often when I need to fetch big amount of data from different remote sources.</p>
       
@@ -5337,7 +5337,7 @@ meteor add u2622:persistent-session
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"w	
+;T;	I"c	
 #jQuery promises explained
 
 ##Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them or maybe someone doesn't agree with my way of thinking and get even more confused.
@@ -5360,7 +5360,7 @@ var getSomeData = function(){
 </code>
 </pre>
 
-Now's the funny part: the `dfd.resolve(result)` contains a kind of promise that it will wait till the `result` variable get any value.
+The `dfd.resolve(result)` contains a kind of promise that it will wait till the `result` variable get any value.
 
 The last line of the code above returns the promise object itself - and it's obligate for our `when` method placed below:
 
@@ -5390,7 +5390,7 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
         };
 
         $.when(customFunctionForPromises).done(function(){
-           updateGraphsWithAcquiredAsyncData(); 
+           updateFrontEndWithAcquiredAsyncData(); 
         };
     });
 });
@@ -5401,7 +5401,7 @@ This example should cover most of the use cases of promises for beginners who wa
 
 -- Å‚.
 ;T;
-I"T
+I">
 <h1 id="jquery-promises-explained">jQuery promises explained</h1>
 
 <h2 id="warning-this-post-contains-my-own-thoughts-about-promises-and-deferred-object-and-my-way-of-understanding-it---maybe-it-will-help-someone-better-understand-them-or-maybe-someone-doesnt-agree-with-my-way-of-thinking-and-get-even-more-confused">Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them or maybe someone doesnâ€™t agree with my way of thinking and get even more confused.</h2>
@@ -5424,7 +5424,7 @@ var getSomeData = function(){
 </code>
 </pre>
 
-<p>Nowâ€™s the funny part: the <code>dfd.resolve(result)</code> contains a kind of promise that it will wait till the <code>result</code> variable get any value.</p>
+<p>The <code>dfd.resolve(result)</code> contains a kind of promise that it will wait till the <code>result</code> variable get any value.</p>
 
 <p>The last line of the code above returns the promise object itself - and itâ€™s obligate for our <code>when</code> method placed below:</p>
 
@@ -5454,7 +5454,7 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
         };
 
         $.when(customFunctionForPromises).done(function(){
-           updateGraphsWithAcquiredAsyncData(); 
+           updateFrontEndWithAcquiredAsyncData(); 
         };
     });
 });
