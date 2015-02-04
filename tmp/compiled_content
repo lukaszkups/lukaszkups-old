@@ -1,4 +1,4 @@
-{:	data{>I"/notes/:ET{:default{	:	lastI"?<!DOCTYPE html>
+{:	data{?I"/notes/:ET{:default{	:	lastI"[<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -68,6 +68,16 @@
           This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
         </h1>
         <ul class='postsList'>
+          <li>
+            <a href='/blog/0010_why_and_how_i_switched_to_vim/'>
+              [
+              <span class='brownFont'>
+                4 February 2015
+              </span>
+              ]
+              Why (and how) I switched to vim
+            </a>
+          </li>
           <li>
             <a href='/blog/0009_jquery_promises_explained/'>
               [
@@ -199,8 +209,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"|
-<!-- .project-container.min-height -->
+					= post[:title];T:preI"\<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -217,6 +226,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0010_why_and_how_i_switched_to_vim/'>
+        [
+        <span class='brownFont'>
+          4 February 2015
+        </span>
+        ]
+        Why (and how) I switched to vim
+      </a>
+    </li>
     <li>
       <a href='/blog/0009_jquery_promises_explained/'>
         [
@@ -2843,7 +2862,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"�<?xml version="1.0" encoding="UTF-8"?>
+;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"@<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2891,6 +2910,10 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0009_jquery_promises_explained/</loc>
+    <lastmod>2015-02-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0010_why_and_how_i_switched_to_vim/</loc>
     <lastmod>2015-02-04</lastmod>
   </url>
   <url>
@@ -5464,4 +5487,129 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
 <p>This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally I’m using it very often when I need to fetch big amount of data from different remote sources.</p>
 
 <p>– ł.</p>
-;T;@�:versioni
+;T;@�I"./blog/0010_why_and_how_i_switched_to_vim/;T{;{	;I"m<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Why (and how) I switched to vim
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="good--bad-cop">Good &amp; bad cop.</h1>
+      
+      <p>For the last couple years I was developing web apps using <a href="http://www.sublimetext.com/">Sublime Text</a> exclusively. During that time I was also constantly monitoring code editors market and tried some of its newcomers (e.g. github’s <a href="http://atom.io">atom</a> or adobe’s <a href="http://brackets.io">brackets</a>), but in the long run I was always coming back to Sublime.</p>
+      
+      <h1 id="cool-kids-from-the-block">Cool kids from the block</h1>
+      
+      <p>Besides old habits and laziness about learning new tool that should help me write code I was always curious about those oldschool, antique at the first look console editors like <a href="https://www.gnu.org/software/emacs">emacs</a> or <a href="http://vim.org">vim</a>. There is something magical about these apps - all those badass hackers and world-class conference speakers are using it. Why?</p>
+      
+      <h1 id="back-to-the-roots">Back to the roots</h1>
+      
+      <p>Emacs and Vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
+      
+      <h1 id="coders-just-wanna-have-fun">Coders just wanna have fun</h1>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"(
+#Good & bad cop.
+
+For the last couple years I was developing web apps using [Sublime Text](http://www.sublimetext.com/) exclusively. During that time I was also constantly monitoring code editors market and tried some of its newcomers (e.g. github's [atom](http://atom.io) or adobe's [brackets](http://brackets.io)), but in the long run I was always coming back to Sublime.
+
+#Cool kids from the block
+
+Besides old habits and laziness about learning new tool that should help me write code I was always curious about those oldschool, antique at the first look console editors like [emacs](https://www.gnu.org/software/emacs) or [vim](http://vim.org). There is something magical about these apps - all those badass hackers and world-class conference speakers are using it. Why?
+
+#Back to the roots
+
+Emacs and Vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.
+
+#Coders just wanna have fun
+
+
+
+-- ł.
+;T;
+I"
+
+<h1 id="good--bad-cop">Good &amp; bad cop.</h1>
+
+<p>For the last couple years I was developing web apps using <a href="http://www.sublimetext.com/">Sublime Text</a> exclusively. During that time I was also constantly monitoring code editors market and tried some of its newcomers (e.g. github’s <a href="http://atom.io">atom</a> or adobe’s <a href="http://brackets.io">brackets</a>), but in the long run I was always coming back to Sublime.</p>
+
+<h1 id="cool-kids-from-the-block">Cool kids from the block</h1>
+
+<p>Besides old habits and laziness about learning new tool that should help me write code I was always curious about those oldschool, antique at the first look console editors like <a href="https://www.gnu.org/software/emacs">emacs</a> or <a href="http://vim.org">vim</a>. There is something magical about these apps - all those badass hackers and world-class conference speakers are using it. Why?</p>
+
+<h1 id="back-to-the-roots">Back to the roots</h1>
+
+<p>Emacs and Vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
+
+<h1 id="coders-just-wanna-have-fun">Coders just wanna have fun</h1>
+
+<p>– ł.</p>
+;T;@ :versioni
