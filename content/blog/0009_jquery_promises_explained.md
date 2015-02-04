@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 3 February 2015
+created_at: 4 February 2015
 title: jQuery promises explained
 tags: ['blog']
 ---
