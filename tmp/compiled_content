@@ -1,4 +1,4 @@
-{:	data{=I"/notes/:ET{:default{	:	lastI"-<!DOCTYPE html>
+{:	data{>I"/notes/:ET{:default{	:	lastI"?<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -68,6 +68,16 @@
           This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
         </h1>
         <ul class='postsList'>
+          <li>
+            <a href='/blog/0009_jquery_promises_explained/'>
+              [
+              <span class='brownFont'>
+                3 February 2015
+              </span>
+              ]
+              jQuery promises explained
+            </a>
+          </li>
           <li>
             <a href='/blog/0008_keeping_session_variable_after_email_sent/'>
               [
@@ -189,7 +199,8 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"¶	<!-- .project-container.min-height -->
+					= post[:title];T:preI"|
+<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -206,6 +217,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0009_jquery_promises_explained/'>
+        [
+        <span class='brownFont'>
+          3 February 2015
+        </span>
+        ]
+        jQuery promises explained
+      </a>
+    </li>
     <li>
       <a href='/blog/0008_keeping_session_variable_after_email_sent/'>
         [
@@ -289,7 +310,7 @@
   </ul>
 </div>
 ;T:	post@
-I"/stylesheet/stylesheet/;T{;{;I"á&z/* reset css starts */
+I"/stylesheet/stylesheet/;T{;{;I"Â&z/* reset css starts */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
@@ -379,7 +400,8 @@ ul.postsList li:before{content:"";}
 .project-container ul.postsList li a{cursor: pointer; text-decoration: none;}
 .project-container ul.postsList li a:hover{text-decoration: underline;}
 
-pre{margin-bottom:25px !important; display: block; overflow: hidden;background-color: #1D1F21;}
+pre{margin-bottom:25px !important; display: block; overflow: hidden;background-color: #1D1F21; tab-size:0; -moz-tab-size:0; -o-tab-size:0;}
+code{tab-size:2; -moz-tab-size:2; -o-tab-size:2;}
 ul + p, ul + h2{margin-top:1.5em;}
 
 .greenFont{color: #5A7D13 !important;}
@@ -2821,7 +2843,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"B<?xml version="1.0" encoding="UTF-8"?>
+;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"ø<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2861,11 +2883,15 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0007_shorten_string_spacebar_helper/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-02-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0008_keeping_session_variable_after_email_sent/</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-02-04</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0009_jquery_promises_explained/</loc>
+    <lastmod>2015-02-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -3045,7 +3071,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
-    <lastmod>2015-01-30</lastmod>
+    <lastmod>2015-02-04</lastmod>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
@@ -4812,7 +4838,7 @@ forever restart 1
 <p>If You have any questions - feel free to <a href="http://twitter.com/ofcapl">ask</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"2<!DOCTYPE html>
+;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"Æ<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4872,7 +4898,9 @@ forever restart 1
       
       <p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;	if(stringToShorten.length &gt; maxCharsAmount){&#x000A;		return stringToShorten.substring(0, maxCharsAmount) + '...';&#x000A;	}&#x000A;	return stringToShorten;&#x000A;});&#x000A;</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;	var shorter = stringToShorten.substr(0, maxCharsAmount);&#x000A;&#x000A;	shorter = shorter.substr(0, Math.min(shorter.length, shorter.lastIndexOf(' '))) + '...';&#x000A;	return shorter;&#x000A;});&#x000A;</code></pre>
+      
+      <p>It will cut the string to the (whole) word placed after last space character.</p>
       
       <p>Usage:</p>
       
@@ -4901,7 +4929,7 @@ forever restart 1
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"Ë
+;T;	I"T
 #Shorten Your title/name/link(You name it!) strings with spacebar helper
 
 If You're building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:
@@ -4909,13 +4937,15 @@ If You're building some lists view (e.g. posts list) and You want to shorten the
 <pre>
 <code class="javascript">
 UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
-	if(stringToShorten.length > maxCharsAmount){
-		return stringToShorten.substring(0, maxCharsAmount) + '...';
-	}
-	return stringToShorten;
+	var shorter = stringToShorten.substr(0, maxCharsAmount);
+
+	shorter = shorter.substr(0, Math.min(shorter.length, shorter.lastIndexOf(' '))) + '...';
+	return shorter;
 });
 </code>
 </pre>
+
+It will cut the string to the (whole) word placed after last space character.
 
 Usage:
 
@@ -4932,7 +4962,7 @@ And that's it! Enjoy!
 (You can read this article also at [my coderwall's protips section](https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper))
 
 -- ≈Ç.;T;
-I"q
+I"·
 <h1 id="shorten-your-titlenamelinkyou-name-it-strings-with-spacebar-helper">Shorten Your title/name/link(You name it!) strings with spacebar helper</h1>
 
 <p>If You‚Äôre building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
@@ -4940,13 +4970,15 @@ I"q
 <pre>
 <code class="javascript">
 UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
-	if(stringToShorten.length &gt; maxCharsAmount){
-		return stringToShorten.substring(0, maxCharsAmount) + '...';
-	}
-	return stringToShorten;
+	var shorter = stringToShorten.substr(0, maxCharsAmount);
+
+	shorter = shorter.substr(0, Math.min(shorter.length, shorter.lastIndexOf(' '))) + '...';
+	return shorter;
 });
 </code>
 </pre>
+
+<p>It will cut the string to the (whole) word placed after last space character.</p>
 
 <p>Usage:</p>
 
@@ -4963,7 +4995,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 <p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall‚Äôs protips section</a>)</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"Ö<!DOCTYPE html>
+;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"∏<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5041,7 +5073,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
       
       <pre>&#x000A;<code class="bash">&#x000A;meteor add u2622:persistent-session&#x000A;</code></pre>
       
-      <p>And that‚Äôs it. Now we can set and get our session variables at any time we want.</p>
+      <p>And that‚Äôs it. Now our session variables are stored in the browser‚Äôs localstorage (so we prevent from unwanted variable flushes).</p>
       
       <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
       
@@ -5064,7 +5096,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"0
+;T;	I"a
 #Emails & notifications
 
 Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.
@@ -5129,12 +5161,12 @@ meteor add u2622:persistent-session
 </code>
 </pre>
 
-And that's it. Now we can set and get our session variables at any time we want.
+And that's it. Now our session variables are stored in the browser's localstorage (so we prevent from unwanted variable flushes).
 
 You can discuss about this problem at [this stackoverflow thread](http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email).
 
 -- ≈Ç;T;
-I"»
+I"˚
 <h1 id="emails--notifications">Emails &amp; notifications</h1>
 
 <p>Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.</p>
@@ -5199,9 +5231,237 @@ meteor add u2622:persistent-session
 </code>
 </pre>
 
-<p>And that‚Äôs it. Now we can set and get our session variables at any time we want.</p>
+<p>And that‚Äôs it. Now our session variables are stored in the browser‚Äôs localstorage (so we prevent from unwanted variable flushes).</p>
 
 <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@Ù:versioni
+;T;@ÙI"*/blog/0009_jquery_promises_explained/;T{;{	;I"÷<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      jQuery promises explained
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="jquery-promises-explained">jQuery promises explained</h1>
+      
+      <h2 id="warning-this-post-contains-my-own-thoughts-about-promises-and-deferred-object-and-my-way-of-understanding-it---maybe-it-will-help-someone-better-understand-them-or-maybe-someone-doesnt-agree-with-my-way-of-thinking-and-get-even-more-confused">Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them or maybe someone doesn‚Äôt agree with my way of thinking and get even more confused.</h2>
+      
+      <h1 id="promises-and-deferred-objects">Promises and deferred objects</h1>
+      
+      <p>If You ever wanted create asynchronous functionality for Your web app, then You probably will do it using jQuery‚Äôs promises and deferred objects.</p>
+      
+      <p>I‚Äôm using deferred objects as a ‚Äúcontainers‚Äù for anychronous tasks - e.g. </p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;var getSomeData = function(){&#x000A;    var dfd = $.Deferred(),&#x000A;        result = getSomeDataViaAsyncAjaxCall();&#x000A;&#x000A;    dfd.resolve(result);&#x000A;    return dfd.promise();&#x000A;});&#x000A;</code></pre>
+      
+      <p>Now‚Äôs the funny part: the <code>dfd.resolve(result)</code> contains a kind of promise that it will wait till the <code>result</code> variable get any value.</p>
+      
+      <p>The last line of the code above returns the promise object itself - and it‚Äôs obligate for our <code>when</code> method placed below:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;$.when(getSomeData()).done(function(){&#x000A;    doSomeFancyThingsWithDataFromAsyncAjaxCall();&#x000A;});&#x000A;</code></pre>
+      
+      <p>The <code>$.when</code> method wait with its execution till the <code>getSomeData()</code> finish (so till it get some data and set it to its private <code>result</code> variable).</p>
+      
+      <p>We can of course also chain, nest and combine async functions - let‚Äôs say that we want acquire some huge amount of data from various sources asynchronously, compute it and then send to the frontend to visualise it to the user: </p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;$.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){&#x000A;    $.when(doSomeFancyThingsWithAcquiredData()).done(function(function(){&#x000A;        var customFunctionForPromises = function(){&#x000A;            var dfd = $.deferred(),&#x000A;                custom_promise1 = doSomeFancyAsyncThingsWithAcquiredData1(),&#x000A;                custom_promise2 = doSomeFancyAsyncThingsWithAcquiredData2();&#x000A;&#x000A;            dfd.resolve([custom_promise1, custom_promise2]);&#x000A;            return dfd.promise();&#x000A;        };&#x000A;&#x000A;        $.when(customFunctionForPromises).done(function(){&#x000A;           updateGraphsWithAcquiredAsyncData(); &#x000A;        };&#x000A;    });&#x000A;});&#x000A;</code></pre>
+      
+      <p>This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally I‚Äôm using it very often when I need to fetch big amount of data from different remote sources.</p>
+      
+      <p>‚Äì ≈Ç.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"w	
+#jQuery promises explained
+
+##Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them or maybe someone doesn't agree with my way of thinking and get even more confused.
+
+#Promises and deferred objects
+
+If You ever wanted create asynchronous functionality for Your web app, then You probably will do it using jQuery's promises and deferred objects.
+
+I'm using deferred objects as a "containers" for anychronous tasks - e.g. 
+
+<pre>
+<code class="javascript">
+var getSomeData = function(){
+    var dfd = $.Deferred(),
+        result = getSomeDataViaAsyncAjaxCall();
+
+    dfd.resolve(result);
+    return dfd.promise();
+});
+</code>
+</pre>
+
+Now's the funny part: the `dfd.resolve(result)` contains a kind of promise that it will wait till the `result` variable get any value.
+
+The last line of the code above returns the promise object itself - and it's obligate for our `when` method placed below:
+
+<pre>
+<code class="javascript">
+$.when(getSomeData()).done(function(){
+    doSomeFancyThingsWithDataFromAsyncAjaxCall();
+});
+</code>
+</pre>
+
+The `$.when` method wait with its execution till the `getSomeData()` finish (so till it get some data and set it to its private `result` variable).
+
+We can of course also chain, nest and combine async functions - let's say that we want acquire some huge amount of data from various sources asynchronously, compute it and then send to the frontend to visualise it to the user: 
+
+<pre>
+<code class="javascript">
+$.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
+    $.when(doSomeFancyThingsWithAcquiredData()).done(function(function(){
+        var customFunctionForPromises = function(){
+            var dfd = $.deferred(),
+                custom_promise1 = doSomeFancyAsyncThingsWithAcquiredData1(),
+                custom_promise2 = doSomeFancyAsyncThingsWithAcquiredData2();
+
+            dfd.resolve([custom_promise1, custom_promise2]);
+            return dfd.promise();
+        };
+
+        $.when(customFunctionForPromises).done(function(){
+           updateGraphsWithAcquiredAsyncData(); 
+        };
+    });
+});
+</code>
+</pre>
+
+This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally I'm using it very often when I need to fetch big amount of data from different remote sources.
+
+-- ≈Ç.
+;T;
+I"T
+<h1 id="jquery-promises-explained">jQuery promises explained</h1>
+
+<h2 id="warning-this-post-contains-my-own-thoughts-about-promises-and-deferred-object-and-my-way-of-understanding-it---maybe-it-will-help-someone-better-understand-them-or-maybe-someone-doesnt-agree-with-my-way-of-thinking-and-get-even-more-confused">Warning: this post contains my own thoughts about promises and deferred object and my way of understanding it - maybe it will help someone better understand them or maybe someone doesn‚Äôt agree with my way of thinking and get even more confused.</h2>
+
+<h1 id="promises-and-deferred-objects">Promises and deferred objects</h1>
+
+<p>If You ever wanted create asynchronous functionality for Your web app, then You probably will do it using jQuery‚Äôs promises and deferred objects.</p>
+
+<p>I‚Äôm using deferred objects as a ‚Äúcontainers‚Äù for anychronous tasks - e.g. </p>
+
+<pre>
+<code class="javascript">
+var getSomeData = function(){
+    var dfd = $.Deferred(),
+        result = getSomeDataViaAsyncAjaxCall();
+
+    dfd.resolve(result);
+    return dfd.promise();
+});
+</code>
+</pre>
+
+<p>Now‚Äôs the funny part: the <code>dfd.resolve(result)</code> contains a kind of promise that it will wait till the <code>result</code> variable get any value.</p>
+
+<p>The last line of the code above returns the promise object itself - and it‚Äôs obligate for our <code>when</code> method placed below:</p>
+
+<pre>
+<code class="javascript">
+$.when(getSomeData()).done(function(){
+    doSomeFancyThingsWithDataFromAsyncAjaxCall();
+});
+</code>
+</pre>
+
+<p>The <code>$.when</code> method wait with its execution till the <code>getSomeData()</code> finish (so till it get some data and set it to its private <code>result</code> variable).</p>
+
+<p>We can of course also chain, nest and combine async functions - let‚Äôs say that we want acquire some huge amount of data from various sources asynchronously, compute it and then send to the frontend to visualise it to the user: </p>
+
+<pre>
+<code class="javascript">
+$.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
+    $.when(doSomeFancyThingsWithAcquiredData()).done(function(function(){
+        var customFunctionForPromises = function(){
+            var dfd = $.deferred(),
+                custom_promise1 = doSomeFancyAsyncThingsWithAcquiredData1(),
+                custom_promise2 = doSomeFancyAsyncThingsWithAcquiredData2();
+
+            dfd.resolve([custom_promise1, custom_promise2]);
+            return dfd.promise();
+        };
+
+        $.when(customFunctionForPromises).done(function(){
+           updateGraphsWithAcquiredAsyncData(); 
+        };
+    });
+});
+</code>
+</pre>
+
+<p>This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally I‚Äôm using it very often when I need to fetch big amount of data from different remote sources.</p>
+
+<p>‚Äì ≈Ç.</p>
+;T;@˙:versioni
