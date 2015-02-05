@@ -2915,7 +2915,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0010_why_and_how_i_switched_to_vim/</loc>
-    <lastmod>2015-02-05</lastmod>
+    <lastmod>2015-02-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -5488,7 +5488,7 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
 <p>This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally I’m using it very often when I need to fetch big amount of data from different remote sources.</p>
 
 <p>– ł.</p>
-;T;@�I"./blog/0010_why_and_how_i_switched_to_vim/;T{;{	;I"9<!DOCTYPE html>
+;T;@�I"./blog/0010_why_and_how_i_switched_to_vim/;T{;{	;I"�<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5544,7 +5544,7 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
     <div class='clear clear40'></div>
     <div class='main-container project-container'>
       
-      <h1 id="why-and-how-ive-switched-to-vim">Why (and how) I’ve switched to Vim</h1>
+      <h1 id="why-and-how-ive-switched-to-vim">Why (and how) I’ve switched to vim</h1>
       
       <h2 id="good--bad-cop">Good &amp; bad cop.</h2>
       
@@ -5556,15 +5556,28 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
       
       <h2 id="back-to-the-roots">Back to the roots</h2>
       
-      <p>Emacs and Vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
+      <p>Emacs and vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
       
       <h2 id="coders-just-wanna-have-fun">Coders just wanna have fun</h2>
       
-      <p>The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life to do what makes us happy. </p>
+      <p>The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life - otherwise we’ll be constantly depressed and do our job not so good as we’re able to. </p>
       
-      <p>In the earliest days of my carreer I had pleasure to work with awesome programmers who used Vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). </p>
+      <p>In the earliest days of my carreer I had pleasure to work with awesome programmers who used vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). </p>
       
-      <p>In my current job some programmers switched from their advanced </p>
+      <p>In my current job some programmers switched from their advanced IDEs to emacs. Their first days of work with new tool were quite funny - they make code many times slower than before, and have problems handling basic text editor operations :) After some time I’ve noticed significant improvement in their workflow - they’re now coding as fast as in the days when they used their IDEs.
+      Now they have tools that  are easier to re-setup on every new machine they have to work on, and it uses much less their computer resources. These pros convinced me to give a shot and try something new. </p>
+      
+      <h2 id="first-days-of-summer">First days of summer</h2>
+      
+      <p>I don’t want to start next Text Editors (flame) War, so I’ll tell why I’ve chosen vim over emacs: just because I could :) I’ve seen how coders are working with emacs and vim and vim’s workflow is just more intuitive for me(I think it’s very personal taste and/or style). </p>
+      
+      <p>At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my <code>.vimrc</code> file will be finished).</p>
+      
+      <p>If You are curious where to start I can recommend <a href="http://linuxcommand.org/man_pages/vimtutor1.html">vimtutor</a>. It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was the only source of information about vim, before I decided to switch (so You should probably try it right now).</p>
+      
+      <p>I’ve configured my vim basing on my current needs - when I’ve found something really annoying or difficult I just googled how to customize/modify/remove it using <code>.vimrc</code> file &amp; plugins.</p>
+      
+      <h2 id="ladies-and-gentleman">Ladies and gentleman..</h2>
       
       <p>– ł.</p>
     </div>
@@ -5585,8 +5598,8 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"
-#Why (and how) I've switched to Vim
+;T;	I"
+#Why (and how) I've switched to vim
 
 ##Good & bad cop.
 
@@ -5598,20 +5611,33 @@ Besides old habits and laziness about learning new tool that should help me writ
 
 ##Back to the roots
 
-Emacs and Vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.
+Emacs and vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.
 
 ##Coders just wanna have fun
 
-The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life to do what makes us happy. 
+The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life - otherwise we'll be constantly depressed and do our job not so good as we're able to. 
 
-In the earliest days of my carreer I had pleasure to work with awesome programmers who used Vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). 
+In the earliest days of my carreer I had pleasure to work with awesome programmers who used vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). 
 
-In my current job some programmers switched from their advanced 
+In my current job some programmers switched from their advanced IDEs to emacs. Their first days of work with new tool were quite funny - they make code many times slower than before, and have problems handling basic text editor operations :) After some time I've noticed significant improvement in their workflow - they're now coding as fast as in the days when they used their IDEs.
+Now they have tools that  are easier to re-setup on every new machine they have to work on, and it uses much less their computer resources. These pros convinced me to give a shot and try something new. 
+
+##First days of summer
+
+I don't want to start next Text Editors (flame) War, so I'll tell why I've chosen vim over emacs: just because I could :) I've seen how coders are working with emacs and vim and vim's workflow is just more intuitive for me(I think it's very personal taste and/or style). 
+
+At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my `.vimrc` file will be finished).
+
+If You are curious where to start I can recommend [vimtutor](http://linuxcommand.org/man_pages/vimtutor1.html). It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was the only source of information about vim, before I decided to switch (so You should probably try it right now).
+
+I've configured my vim basing on my current needs - when I've found something really annoying or difficult I just googled how to customize/modify/remove it using `.vimrc` file & plugins.
+
+##Ladies and gentleman..
 
 -- ł.
 ;T;
-I"�
-<h1 id="why-and-how-ive-switched-to-vim">Why (and how) I’ve switched to Vim</h1>
+I"�
+<h1 id="why-and-how-ive-switched-to-vim">Why (and how) I’ve switched to vim</h1>
 
 <h2 id="good--bad-cop">Good &amp; bad cop.</h2>
 
@@ -5623,15 +5649,28 @@ I"�
 
 <h2 id="back-to-the-roots">Back to the roots</h2>
 
-<p>Emacs and Vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
+<p>Emacs and vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
 
 <h2 id="coders-just-wanna-have-fun">Coders just wanna have fun</h2>
 
-<p>The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life to do what makes us happy. </p>
+<p>The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life - otherwise we’ll be constantly depressed and do our job not so good as we’re able to. </p>
 
-<p>In the earliest days of my carreer I had pleasure to work with awesome programmers who used Vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). </p>
+<p>In the earliest days of my carreer I had pleasure to work with awesome programmers who used vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). </p>
 
-<p>In my current job some programmers switched from their advanced </p>
+<p>In my current job some programmers switched from their advanced IDEs to emacs. Their first days of work with new tool were quite funny - they make code many times slower than before, and have problems handling basic text editor operations :) After some time I’ve noticed significant improvement in their workflow - they’re now coding as fast as in the days when they used their IDEs.
+Now they have tools that  are easier to re-setup on every new machine they have to work on, and it uses much less their computer resources. These pros convinced me to give a shot and try something new. </p>
+
+<h2 id="first-days-of-summer">First days of summer</h2>
+
+<p>I don’t want to start next Text Editors (flame) War, so I’ll tell why I’ve chosen vim over emacs: just because I could :) I’ve seen how coders are working with emacs and vim and vim’s workflow is just more intuitive for me(I think it’s very personal taste and/or style). </p>
+
+<p>At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my <code>.vimrc</code> file will be finished).</p>
+
+<p>If You are curious where to start I can recommend <a href="http://linuxcommand.org/man_pages/vimtutor1.html">vimtutor</a>. It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was the only source of information about vim, before I decided to switch (so You should probably try it right now).</p>
+
+<p>I’ve configured my vim basing on my current needs - when I’ve found something really annoying or difficult I just googled how to customize/modify/remove it using <code>.vimrc</code> file &amp; plugins.</p>
+
+<h2 id="ladies-and-gentleman">Ladies and gentleman..</h2>
 
 <p>– ł.</p>
 ;T;@ :versioni

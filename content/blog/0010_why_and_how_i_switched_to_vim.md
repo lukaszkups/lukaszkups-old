@@ -30,6 +30,82 @@ Now they have tools that  are easier to re-setup on every new machine they have 
 
 ##First days of summer
 
-I don't want to start next Text Editors (flame) War, so I'll tell why I've chosen vim over emacs: just because I could :) I've seen how coders are working with emacs and vim and vim workflow just 
+I don't want to start next Text Editors (flame) War, so I'll tell why I've chosen vim over emacs: just because I could :) I've seen how coders are working with emacs and vim and vim's workflow is just more intuitive for me(I think it's very personal taste and/or style). 
+
+At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my `.vimrc` file will be finished).
+
+If You are curious where to start I can recommend [vimtutor](http://linuxcommand.org/man_pages/vimtutor1.html). It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was the only source of information about vim, before I decided to switch (so You should probably try it right now).
+
+I've configured my vim basing on my current needs - when I've found something really annoying or difficult I just googled how to customize/modify/remove it using `.vimrc` file & plugins.
+
+##Ladies and gentleman..
+
+So here's my complete `.vimrc` file (06/02/2015):
+
+<pre>
+<code class="bash">
+"vundler config
+
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+"vim plugin list
+
+Plugin 'gmarik/Vundle.vim'  "this is required for vim bundler
+Plugin 'godlygeek/tabular   "really nice tool to align code'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'ervandew/supertab'   "code-completion using tab key
+Plugin 'vim-scripts/Better-CSS-Syntax-for-Vim'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'godlygeek/csapprox'
+Plugin 'scrooloose/nerdtree'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'mattn/emmet-vim'
+Plugin 'bling/vim-airline'
+Plugin 'ofcapl/itg_flat_vim'
+
+"vim configuration
+
+autocmd vimenter * NERDTree
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set number
+set t_Co=256
+syntax enable
+set autoindent
+colorscheme itg_flat
+set encoding=utf-8
+set laststatus=2
+set esckeys
+set timeoutlen=1000 ttimeoutlen=0
+set hidden
+let g:airline#extensions#tabline#enabled=1
+set guifont=Droid\ Sans\ Mono\for\ Powerline:h13
+let g:airline_powerline_fonts=1
+if !exists('g:airline_symbols')
+    let g:airline_symbols={}
+endif
+
+"vim keymap
+
+map tn :tabn<CR>
+map tp :tabp<CR>
+map <C-j> 10j
+map <C-k> 10k
+map <A-s> :w
+nmap <Space> i
+nnoremap <C-]><C-]> :bn<CR><Esc>
+nnoremap <C-[><C-[> :bp<CR><Esc>
+nnoremap <C-e> :Explore<CR>
+nnoremap <C-[><C-]> <C-w><C-w>
+
+
+</code>
+</pre>
+
 
 -- ł.
