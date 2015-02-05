@@ -61,7 +61,7 @@ ul.projects > li .project-shadow{display: block; width:205px; height:205px; clea
 ul.projects > li .project-shadow a{display: table-cell; clear: both; vertical-align: middle; width: 205px; height: 205px; background: #B9AEA7; box-sizing: border-box; color: #fff !important; text-align: center;}
 ul.projects > li:hover .project-shadow{opacity: 0.99;}
 
-.project-container h1, .project-container h2{color: #556270; font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important; font-size: 1.5em; line-height: 1.5em; margin-bottom: 2em; font-weight: 900}
+.project-container h1, .project-container h2{color: #556270; font-family: 'Roboto Slab', Helvetica, Arial, Verdana !important; font-size: 1.5em; line-height: 1.5em; margin-bottom: 1em; font-weight: 900}
 .project-container h2{color: #a7a7a7; font-weight: 400; margin-bottom: 1em;}
 .project-container p, .project-container li{color: #828282; font-family: 'Open Sans', Helvetica, Arial, Verdana !important; line-height: 1.5em; margin-bottom: 1.5em;}
 .project-container li{margin-bottom:0;line-height: 1.7em;}
