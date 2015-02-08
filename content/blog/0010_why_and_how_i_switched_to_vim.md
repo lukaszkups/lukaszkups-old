@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 4 February 2015
+created_at: 8 February 2015
 title: Why (and how) I've switched to vim
 tags: ['blog']
 ---
@@ -13,61 +13,64 @@ For the last couple years I was developing web apps using [Sublime Text](http://
 
 ##Cool kids from the block
 
-Besides old habits and laziness about learning new tool that should help me write code I was always curious about those oldschool, antique at the first look console editors like [emacs](https://www.gnu.org/software/emacs) or [vim](http://vim.org). There is something magical about these apps - all those badass hackers and world-class conference speakers are using it. Why?
+Besides old habits and laziness about learning new tool that should help me write code I was always curious about those oldschool, antique at the first look, console editors like [emacs](https://www.gnu.org/software/emacs) or [vim](http://vim.org). There is something magical about these apps - all those badass hackers and world-class conference speakers are using it. Why?
 
 ##Back to the roots
 
-Emacs and vim exist on the code editors scene for some time now. That means they are hardened in the (development) battle. You can find plugins for almost any task for code editor. Their simplicity means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.
+Emacs and vim exist on the code editors scene for some time now. That means they are hardened in the (code development) battle. You can find plugins for them for almost any purpose. Their UI's simplicity and harshness means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Their advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.
 
 ##Coders just wanna have fun
 
-The best thing about my job is that I love what I do, and it gives me tons of fun. I think it is the most important thing in (profession-side of) life - otherwise we'll be constantly depressed and do our job not so good as we're able to. 
-
 In the earliest days of my carreer I had pleasure to work with awesome programmers who used vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer). 
 
-In my current job some programmers switched from their advanced IDEs to emacs. Their first days of work with new tool were quite funny - they make code many times slower than before, and have problems handling basic text editor operations :) After some time I've noticed significant improvement in their workflow - they're now coding as fast as in the days when they used their IDEs.
+In my current job some programmers switched from their advanced IDEs to emacs. Their first days of work with new tool were quite funny - they make code many times slower than before, and have problems with handling basic text editor operations :) However, after some time I've noticed significant improvement in their workflow - they're now coding as fast as in the days when they used their IDEs.
 Now they have tools that  are easier to re-setup on every new machine they have to work on, and it uses much less their computer resources. These pros convinced me to give a shot and try something new. 
+
+![img](/blog/images/hobbit_adventure.gif)
 
 ##First days of summer
 
-I don't want to start next Text Editors (flame) War, so I'll tell why I've chosen vim over emacs: just because I could :) I've seen how coders are working with emacs and vim and vim's workflow is just more intuitive for me(I think it's very personal taste and/or style). 
+I don't want to start next Text Editors (flame) War, so I'll tell why I've chosen vim over emacs: just because I could :) I've seen how coders are working on both of then and vim's workflow is just more intuitive for me(I think it's very personal taste/preference). 
 
-At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my `.vimrc` file will be finished).
+At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my `.vimrc` file will be complete).
 
-If You are curious where to start I can recommend [vimtutor](http://linuxcommand.org/man_pages/vimtutor1.html). It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was the only source of information about vim, before I decided to switch (so You should probably try it right now).
+If You are curious where to start I can recommend [vimtutor](http://linuxcommand.org/man_pages/vimtutor1.html). It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was my only source of information about vim, before I decided to switch (so You should probably try it right now).
 
-I've configured my vim basing on my current needs - when I've found something really annoying or difficult I just googled how to customize/modify/remove it using `.vimrc` file & plugins.
+I've configured my vim basing on my current needs - when I've found something really annoying or difficult I just googled how to customize/modify/remove it using `.vimrc` file & its plugins.
 
 ##Ladies and gentleman..
 
-So here's my complete `.vimrc` file (06/02/2015):
+Here's my complete `.vimrc` file (at the day 08/02/2015):
 
 <pre>
-<code class="bash">
+<code class="vim">
 "vundler config
-
+"
 set nocompatible
-filetype off
+filetype off 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
-
 "vim plugin list
-
-Plugin 'gmarik/Vundle.vim'  "this is required for vim bundler
-Plugin 'godlygeek/tabular   "really nice tool to align code'
+"
+"this is required for vim bundler
+"
+Plugin 'gmarik/Vundle.vim'  
+Plugin 'godlygeek/tabular'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'ervandew/supertab'   "code-completion using tab key
+Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/Better-CSS-Syntax-for-Vim'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'wincent/command-t'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'docunext/closetag.vim'
 Plugin 'godlygeek/csapprox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'mattn/emmet-vim'
 Plugin 'bling/vim-airline'
-Plugin 'ofcapl/itg_flat_vim'
-
+Plugin 'cdmedia/itg_flat_vim'
 "vim configuration
-
+"
 autocmd vimenter * NERDTree
 set tabstop=4
 set shiftwidth=4
@@ -77,35 +80,63 @@ set number
 set t_Co=256
 syntax enable
 set autoindent
+set hlsearch
+set ignorecase
 colorscheme itg_flat
 set encoding=utf-8
 set laststatus=2
 set esckeys
 set timeoutlen=1000 ttimeoutlen=0
 set hidden
+syntax on
+set scrolloff=8
+set backup
+set backupdir=~/.vim/backups/tmp
+set dir=~/.vim/swaps/tmp
+set ttyfast
+set cursorline
+"airline-vim font stuff
+"
 let g:airline#extensions#tabline#enabled=1
-set guifont=Droid\ Sans\ Mono\for\ Powerline:h13
+set guifont=Liberation\ Mono\ for\ Powerline:h13
 let g:airline_powerline_fonts=1
 if !exists('g:airline_symbols')
     let g:airline_symbols={}
 endif
-
+set fillchars+=stl:\ ,stlnc:\ " 
+"
 "vim keymap
-
-map tn :tabn<CR>
-map tp :tabp<CR>
-map <C-j> 10j
-map <C-k> 10k
-map <A-s> :w
-nmap <Space> i
-nnoremap <C-]><C-]> :bn<CR><Esc>
-nnoremap <C-[><C-[> :bp<CR><Esc>
-nnoremap <C-e> :Explore<CR>
-nnoremap <C-[><C-]> <C-w><C-w>
-
-
+"
+map tn :tabn&lt;CR&gt;
+map tp :tabp&lt;CR&gt;
+map &lt;C-j&gt; 10j
+map &lt;C-k&gt; 10k
+map &lt;A-s&gt; :w
+nmap &lt;Space&gt; i
+nnoremap &lt;C-]&gt;&lt;C-]&gt; :bn&lt;CR&gt;&lt;Esc&gt; 
+nnoremap &lt;C-[&gt;&lt;C-[&gt; :bp&lt;CR&gt;&lt;Esc&gt;
+nnoremap &lt;C-e&gt; :Explore&lt;CR&gt;
+nnoremap &lt;C-[&gt;&lt;C-]&gt; &lt;C-w&gt;&lt;C-w&gt;
+nnoremap &lt;Delete&gt; &lt;Delete&gt;i
+nnoremap \\ A&lt;Esc&gt;
+nnoremap &lt;CR&gt; :noh&lt;CR&gt;&lt;CR&gt;
+nnoremap qq :bd&lt;CR&gt;
 </code>
 </pre>
 
+##But it's a nightmare! How to handle it?!
+
+
+I've tried to start working with vim 3 times in total. Previous 2 times was a huge disappointments due to lack of real understanding how to use it. 
+
+At first, You have to realise, that there's no point in copy-paste'ing other's people *absolute perfect vimrc configuration* - this is YOUR code editor and it should be configured absolutelly just-any-only by YOURSELF. I've read many vim haters blog posts and most of them were using someone's vimrc configs - I had to try code with vim two times before I've realise that.
+
+Secondly - before jumping deep into vim adventure try couple courses - personally (as I've mentioned earlier in this post) [vimtutor](http://linuxcommand.org/man_pages/vimtutor1.html) explained me well all vim basics.
+
+![img](/blog/images/try_vim_racoon.jpg)
+
+And finally - don't use vim because someone told You so. To be honest - I've tried vim because I was bored with my previous (~5 years old)  workflow - I knew that I have to change something to have fun again from making code - and I've found vim to be the solution.
+
+If my story inspired You to use some of the oldschool editors (not necessarily vim) - make me happy and [let me know](http://twitter.com/ofcapl) about it.
 
 -- ł.
