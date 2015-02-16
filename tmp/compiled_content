@@ -1,4 +1,4 @@
-{:	data{AI"/notes/:ET{:default{	:	lastI"^<!DOCTYPE html>
+{:	data{CI"/notes/:ET{:default{	:	lastI"^<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2863,7 +2863,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"0<?xml version="1.0" encoding="UTF-8"?>
+;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I" <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -2918,6 +2918,10 @@ I":<h1 class='roboto headline'>
     <lastmod>2015-02-08</lastmod>
   </url>
   <url>
+    <loc>http://lukaszkups.net/blog/0011_the_perfect_browser/</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
     <lastmod>2015-01-07</lastmod>
   </url>
@@ -2960,6 +2964,10 @@ I":<h1 class='roboto headline'>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_09.jpg</loc>
     <lastmod>2015-01-06</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/images/sosowski_troluje.gif</loc>
+    <lastmod>2015-02-16</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/try_vim_racoon.jpg</loc>
@@ -5896,4 +5904,198 @@ nnoremap qq :bd&lt;CR&gt;
 <p>If my story inspired You to use some of the oldschool editors (not necessarily vim) - make me happy and <a href="http://twitter.com/ofcapl">let me know</a> about it.</p>
 
 <p>– ł.</p>
-;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ :versioni
+;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"�<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      The perfect browser
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="the-perfect-browser">The perfect browser</h1>
+      
+      <h2 id="i-wrote-this-post-after-getting-inspired-by-this-article-on-gizmodohttpgizmodocomfuck-it-im-going-back-to-firefox-1685425815">I wrote this post after getting inspired by <a href="http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815">this article on Gizmodo</a></h2>
+      
+      <p>These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just <strong>BROWSE THE WEB</strong>.</p>
+      
+      <p>Yes, I’ve name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we’ve gone somewhere terribly wrong.</p>
+      
+      <p>Of course that nowadays we have rich web applications, full of advanced animations and splendid transitions with real-time features in addition. And of course these benefits requires some additional computing resources but (as a developers) we should aim to create maximally optimised app code.</p>
+      
+      <p>(a similiar trend is visible in gaming - when I see a 2D simple platform game that needs at least i7 quad-core 3GHz+, 8GB of RAM etc. then I feel that some part of gamemakers became incredible lazy when it goes about engine optimization)</p>
+      
+      <p><img src="/blog/images/sosowski_troluje.gif" alt="img" /></p>
+      
+      <h2 id="as-a-developers-we-should-aim-to-create-maximally-optimised-app-code">As a developers we should aim to create maximally optimised app code</h2>
+      
+      <p>I’m a huge fan of simplification &amp; minimalism. My perfect browser should first of all enable browsing web fast, safely &amp; intuitively.  There’s no need to reinwent the wheel - current solutions provides such goals - unfortunately most of them are possible thanks to 3rd party browser plugins. </p>
+      
+      <h2 id="my-perfect-browser-idea-gets-rid-of-plugins-and-has-all-these-features-out-of-the-box">My perfect browser idea gets rid of plugins and has all these features out of the box.</h2>
+      
+      <p>So, what’s actually included in my perfect browser must-have main features?</p>
+      
+      <h1 id="webkit-based">webkit based</h1>
+      
+      <h1 id="smart-bookmarks">smart bookmarks</h1>
+      
+      <h1 id="better-preventing-from-popup-windowtab-auto-opening">better preventing from popup window/tab auto opening</h1>
+      
+      <h1 id="memory-management">memory management</h1>
+      
+      <h1 id="built-in-email-notifications">built-in email notifications</h1>
+      
+      <h1 id="no-start-page-blank-page">no start page (blank page)</h1>
+      
+      <h1 id="cloud-synchronization-passwords-bookmarks">cloud synchronization (passwords, bookmarks)</h1>
+      
+      <h1 id="devtools-initialization-only-when-needed-if-not-then-dont-even-think-about-taking-memory-for-it">devtools initialization only when needed (if not, then don’t even think about taking memory for it)</h1>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/ofcapl'>
+          ofcapl
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"�
+#The perfect browser
+
+##I wrote this post after getting inspired by [this article on Gizmodo](http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815)
+
+These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just **BROWSE THE WEB**.
+
+Yes, I've name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we've gone somewhere terribly wrong.
+
+Of course that nowadays we have rich web applications, full of advanced animations and splendid transitions with real-time features in addition. And of course these benefits requires some additional computing resources but (as a developers) we should aim to create maximally optimised app code.
+
+(a similiar trend is visible in gaming - when I see a 2D simple platform game that needs at least i7 quad-core 3GHz+, 8GB of RAM etc. then I feel that some part of gamemakers became incredible lazy when it goes about engine optimization)
+
+![img](/blog/images/sosowski_troluje.gif)
+
+##As a developers we should aim to create maximally optimised app code
+
+I'm a huge fan of simplification & minimalism. My perfect browser should first of all enable browsing web fast, safely & intuitively.  There's no need to reinwent the wheel - current solutions provides such goals - unfortunately most of them are possible thanks to 3rd party browser plugins. 
+
+##My perfect browser idea gets rid of plugins and has all these features out of the box. 
+
+So, what's actually included in my perfect browser must-have main features?
+
+#webkit based
+
+#smart bookmarks
+
+#better preventing from popup window/tab auto opening
+
+#memory management
+
+#built-in email notifications
+
+#no start page (blank page)
+
+#cloud synchronization (passwords, bookmarks)
+
+#devtools initialization only when needed (if not, then don't even think about taking memory for it)
+
+-- ł.
+;T;
+I"
+<h1 id="the-perfect-browser">The perfect browser</h1>
+
+<h2 id="i-wrote-this-post-after-getting-inspired-by-this-article-on-gizmodohttpgizmodocomfuck-it-im-going-back-to-firefox-1685425815">I wrote this post after getting inspired by <a href="http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815">this article on Gizmodo</a></h2>
+
+<p>These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just <strong>BROWSE THE WEB</strong>.</p>
+
+<p>Yes, I’ve name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we’ve gone somewhere terribly wrong.</p>
+
+<p>Of course that nowadays we have rich web applications, full of advanced animations and splendid transitions with real-time features in addition. And of course these benefits requires some additional computing resources but (as a developers) we should aim to create maximally optimised app code.</p>
+
+<p>(a similiar trend is visible in gaming - when I see a 2D simple platform game that needs at least i7 quad-core 3GHz+, 8GB of RAM etc. then I feel that some part of gamemakers became incredible lazy when it goes about engine optimization)</p>
+
+<p><img src="/blog/images/sosowski_troluje.gif" alt="img" /></p>
+
+<h2 id="as-a-developers-we-should-aim-to-create-maximally-optimised-app-code">As a developers we should aim to create maximally optimised app code</h2>
+
+<p>I’m a huge fan of simplification &amp; minimalism. My perfect browser should first of all enable browsing web fast, safely &amp; intuitively.  There’s no need to reinwent the wheel - current solutions provides such goals - unfortunately most of them are possible thanks to 3rd party browser plugins. </p>
+
+<h2 id="my-perfect-browser-idea-gets-rid-of-plugins-and-has-all-these-features-out-of-the-box">My perfect browser idea gets rid of plugins and has all these features out of the box.</h2>
+
+<p>So, what’s actually included in my perfect browser must-have main features?</p>
+
+<h1 id="webkit-based">webkit based</h1>
+
+<h1 id="smart-bookmarks">smart bookmarks</h1>
+
+<h1 id="better-preventing-from-popup-windowtab-auto-opening">better preventing from popup window/tab auto opening</h1>
+
+<h1 id="memory-management">memory management</h1>
+
+<h1 id="built-in-email-notifications">built-in email notifications</h1>
+
+<h1 id="no-start-page-blank-page">no start page (blank page)</h1>
+
+<h1 id="cloud-synchronization-passwords-bookmarks">cloud synchronization (passwords, bookmarks)</h1>
+
+<h1 id="devtools-initialization-only-when-needed-if-not-then-dont-even-think-about-taking-memory-for-it">devtools initialization only when needed (if not, then don’t even think about taking memory for it)</h1>
+
+<p>– ł.</p>
+;T;@I"#/blog/images/sosowski_troluje/;T{;{ :versioni
