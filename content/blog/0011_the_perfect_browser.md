@@ -29,9 +29,15 @@ So, what's actually included in my perfect browser must-have main features?
 
 #webkit based
 
+All right, all right, as an avid fan of Firefox browser I'll be a hypocrite here a bit. With all its pros and cons webkit is the most popular (and most frequently chosen by web/game devs) browser engine ever and thet's the fact that cannot be missed.
+
 #smart bookmarks
 
+[Smart/roomy](https://addons.mozilla.org/en-US/firefox/addon/roomy-bookmarks-toolbar/) bookmarks plugin is simply awesome. I don't know why it isn't a standard way of displaying bookmarks in browsers (hover to see bookmark name or show only its favicon when cursor is away).
+
 #better preventing from popup window/tab auto opening
+
+Spam sites can be annoying - especially those who create and open multiple new, super noisy and never code-optimized tabs or windows.
 
 #memory management
 
