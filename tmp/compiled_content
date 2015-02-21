@@ -72,7 +72,7 @@
             <a href='/blog/0011_the_perfect_browser/'>
               [
               <span class='brownFont'>
-                16 February 2015
+                21 February 2015
               </span>
               ]
               The perfect browser
@@ -240,7 +240,7 @@
       <a href='/blog/0011_the_perfect_browser/'>
         [
         <span class='brownFont'>
-          16 February 2015
+          21 February 2015
         </span>
         ]
         The perfect browser
@@ -5924,7 +5924,7 @@ nnoremap qq :bd&lt;CR&gt;
 <p>If my story inspired You to use some of the oldschool editors (not necessarily vim) - make me happy and <a href="http://twitter.com/ofcapl">let me know</a> about it.</p>
 
 <p>– ł.</p>
-;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"F<!DOCTYPE html>
+;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"/<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5984,7 +5984,7 @@ nnoremap qq :bd&lt;CR&gt;
       
       <h2 id="i-wrote-this-post-after-getting-inspired-by-this-article-on-gizmodohttpgizmodocomfuck-it-im-going-back-to-firefox-1685425815">I wrote this post after getting inspired by <a href="http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815">this article on Gizmodo</a></h2>
       
-      <p>These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just <strong>BROWSE THE WEB</strong>.</p>
+      <p>These days even casual net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just <strong>BROWSE THE WEB</strong>.</p>
       
       <p>Yes, I’ve name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we’ve gone somewhere terribly wrong.</p>
       
@@ -6018,13 +6018,19 @@ nnoremap qq :bd&lt;CR&gt;
       
       <p>As I’ve mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god’s sake - it should only handle internet browsing - not try to being separate operating system!</p>
       
-      <h1 id="built-in-email-notifications">built-in email notifications</h1>
+      <h1 id="better-many-tabs-handling">better many tabs handling</h1>
+      
+      <p>I’m that kind of user who work with really many opened browser tabs - especially when I’m searching for something programming-related. The problem is when I have opened so many tabs, that I have to scroll to switch between them. My solution here is to display only favicons, or full page name only on hover - something like smart/roomy bookmarks plugin do with bookmarked links.</p>
       
       <h1 id="no-start-page-blank-page">no start page (blank page)</h1>
       
-      <h1 id="cloud-synchronization-passwords-bookmarks">cloud synchronization (passwords, bookmarks)</h1>
+      <p>I have everything in the bookmark bar, so I really don’t need <em>Speed dial</em>-kind stuff - blank page is enough.</p>
       
-      <h1 id="devtools-initialization-only-when-needed-if-not-then-dont-even-think-about-taking-memory-for-it">devtools initialization only when needed (if not, then don’t even think about taking memory for it)</h1>
+      <h1 id="cloud-settings-synchronization">cloud settings synchronization</h1>
+      
+      <p>Using foreign computer e.g. in the library? There should be a way to login to Your special account that sets <strong>EVERYTHING</strong> in the browser to exact same settings as on personal device (skins, bookmarks, passwords etc.). There should be also a checkbox to unset everything after browser reset/exit. </p>
+      
+      <p>Do you think it’s enough features for perfect browser? What’s Your requirements for such? </p>
       
       <p>– ł.</p>
     </div>
@@ -6045,12 +6051,12 @@ nnoremap qq :bd&lt;CR&gt;
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"�
+;T;	I"�
 #The perfect browser
 
 ##I wrote this post after getting inspired by [this article on Gizmodo](http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815)
 
-These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just **BROWSE THE WEB**.
+These days even casual net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just **BROWSE THE WEB**.
 
 Yes, I've name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we've gone somewhere terribly wrong.
 
@@ -6084,24 +6090,28 @@ Spam sites can be annoying - especially those who create and open multiple new, 
 
 As I've mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god's sake - it should only handle internet browsing - not try to being separate operating system!
 
-#built-in email notifications
+#better many tabs handling
 
-
+I'm that kind of user who work with really many opened browser tabs - especially when I'm searching for something programming-related. The problem is when I have opened so many tabs, that I have to scroll to switch between them. My solution here is to display only favicons, or full page name only on hover - something like smart/roomy bookmarks plugin do with bookmarked links.
 
 #no start page (blank page)
 
-#cloud synchronization (passwords, bookmarks)
+I have everything in the bookmark bar, so I really don't need *Speed dial*-kind stuff - blank page is enough.
 
-#devtools initialization only when needed (if not, then don't even think about taking memory for it)
+#cloud settings synchronization
+
+Using foreign computer e.g. in the library? There should be a way to login to Your special account that sets **EVERYTHING** in the browser to exact same settings as on personal device (skins, bookmarks, passwords etc.). There should be also a checkbox to unset everything after browser reset/exit. 
+
+Do you think it's enough features for perfect browser? What's Your requirements for such? 
 
 -- ł.
 ;T;
-I"/
+I"�
 <h1 id="the-perfect-browser">The perfect browser</h1>
 
 <h2 id="i-wrote-this-post-after-getting-inspired-by-this-article-on-gizmodohttpgizmodocomfuck-it-im-going-back-to-firefox-1685425815">I wrote this post after getting inspired by <a href="http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815">this article on Gizmodo</a></h2>
 
-<p>These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just <strong>BROWSE THE WEB</strong>.</p>
+<p>These days even casual net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just <strong>BROWSE THE WEB</strong>.</p>
 
 <p>Yes, I’ve name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we’ve gone somewhere terribly wrong.</p>
 
@@ -6135,13 +6145,19 @@ I"/
 
 <p>As I’ve mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god’s sake - it should only handle internet browsing - not try to being separate operating system!</p>
 
-<h1 id="built-in-email-notifications">built-in email notifications</h1>
+<h1 id="better-many-tabs-handling">better many tabs handling</h1>
+
+<p>I’m that kind of user who work with really many opened browser tabs - especially when I’m searching for something programming-related. The problem is when I have opened so many tabs, that I have to scroll to switch between them. My solution here is to display only favicons, or full page name only on hover - something like smart/roomy bookmarks plugin do with bookmarked links.</p>
 
 <h1 id="no-start-page-blank-page">no start page (blank page)</h1>
 
-<h1 id="cloud-synchronization-passwords-bookmarks">cloud synchronization (passwords, bookmarks)</h1>
+<p>I have everything in the bookmark bar, so I really don’t need <em>Speed dial</em>-kind stuff - blank page is enough.</p>
 
-<h1 id="devtools-initialization-only-when-needed-if-not-then-dont-even-think-about-taking-memory-for-it">devtools initialization only when needed (if not, then don’t even think about taking memory for it)</h1>
+<h1 id="cloud-settings-synchronization">cloud settings synchronization</h1>
+
+<p>Using foreign computer e.g. in the library? There should be a way to login to Your special account that sets <strong>EVERYTHING</strong> in the browser to exact same settings as on personal device (skins, bookmarks, passwords etc.). There should be also a checkbox to unset everything after browser reset/exit. </p>
+
+<p>Do you think it’s enough features for perfect browser? What’s Your requirements for such? </p>
 
 <p>– ł.</p>
 ;T;@I"#/blog/images/sosowski_troluje/;T{;{ :versioni
