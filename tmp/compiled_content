@@ -1,4 +1,4 @@
-{:	data{CI"/notes/:ET{:default{	:	lastI"^<!DOCTYPE html>
+{:	data{CI"/notes/:ET{:default{	:	lastI"e<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -68,6 +68,16 @@
           This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
         </h1>
         <ul class='postsList'>
+          <li>
+            <a href='/blog/0011_the_perfect_browser/'>
+              [
+              <span class='brownFont'>
+                16 February 2015
+              </span>
+              ]
+              The perfect browser
+            </a>
+          </li>
           <li>
             <a href='/blog/0010_why_and_how_i_switched_to_vim/'>
               [
@@ -209,7 +219,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"_<!-- .project-container.min-height -->
+					= post[:title];T:preI"*<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -226,6 +236,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0011_the_perfect_browser/'>
+        [
+        <span class='brownFont'>
+          16 February 2015
+        </span>
+        ]
+        The perfect browser
+      </a>
+    </li>
     <li>
       <a href='/blog/0010_why_and_how_i_switched_to_vim/'>
         [
@@ -2919,7 +2939,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0011_the_perfect_browser/</loc>
-    <lastmod>2015-02-16</lastmod>
+    <lastmod>2015-02-21</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
@@ -5904,7 +5924,7 @@ nnoremap qq :bd&lt;CR&gt;
 <p>If my story inspired You to use some of the oldschool editors (not necessarily vim) - make me happy and <a href="http://twitter.com/ofcapl">let me know</a> about it.</p>
 
 <p>– ł.</p>
-;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"�<!DOCTYPE html>
+;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"F<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5984,11 +6004,19 @@ nnoremap qq :bd&lt;CR&gt;
       
       <h1 id="webkit-based">webkit based</h1>
       
+      <p>All right, all right, as an avid fan of Firefox browser I’ll be a hypocrite here a bit. With all its pros and cons webkit is the most popular (and most frequently chosen by web/game devs) browser engine ever and thet’s the fact that cannot be missed. Personally I adore firefox for couple of its plugins and memory management but with further pros mentioned below its rendering engine coud be replaced.</p>
+      
       <h1 id="smart-bookmarks">smart bookmarks</h1>
+      
+      <p><a href="https://addons.mozilla.org/en-US/firefox/addon/roomy-bookmarks-toolbar/">Smart/roomy</a> bookmarks plugin is simply awesome. I don’t know why it isn’t a standard way of displaying bookmarks in browsers (hover to see bookmark name or show only its favicon when cursor is away). This is must-have feature that should be built-in in the browser.</p>
       
       <h1 id="better-preventing-from-popup-windowtab-auto-opening">better preventing from popup window/tab auto opening</h1>
       
+      <p>Spam sites can be annoying - especially those who create and open multiple new, super noisy and never code-optimized tabs or windows. Additionaly, they should have speaker icon to easily find source of the (sound) noise and ability to mute that tab with just one click on the (speaker) icon.</p>
+      
       <h1 id="memory-management">memory management</h1>
+      
+      <p>As I’ve mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god’s sake - it should only handle internet browsing - not try to being separate operating system!</p>
       
       <h1 id="built-in-email-notifications">built-in email notifications</h1>
       
@@ -6017,7 +6045,7 @@ nnoremap qq :bd&lt;CR&gt;
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"�
+;T;	I"�
 #The perfect browser
 
 ##I wrote this post after getting inspired by [this article on Gizmodo](http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815)
@@ -6042,13 +6070,23 @@ So, what's actually included in my perfect browser must-have main features?
 
 #webkit based
 
+All right, all right, as an avid fan of Firefox browser I'll be a hypocrite here a bit. With all its pros and cons webkit is the most popular (and most frequently chosen by web/game devs) browser engine ever and thet's the fact that cannot be missed. Personally I adore firefox for couple of its plugins and memory management but with further pros mentioned below its rendering engine coud be replaced.
+
 #smart bookmarks
+
+[Smart/roomy](https://addons.mozilla.org/en-US/firefox/addon/roomy-bookmarks-toolbar/) bookmarks plugin is simply awesome. I don't know why it isn't a standard way of displaying bookmarks in browsers (hover to see bookmark name or show only its favicon when cursor is away). This is must-have feature that should be built-in in the browser.
 
 #better preventing from popup window/tab auto opening
 
+Spam sites can be annoying - especially those who create and open multiple new, super noisy and never code-optimized tabs or windows. Additionaly, they should have speaker icon to easily find source of the (sound) noise and ability to mute that tab with just one click on the (speaker) icon.
+
 #memory management
 
+As I've mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god's sake - it should only handle internet browsing - not try to being separate operating system!
+
 #built-in email notifications
+
+
 
 #no start page (blank page)
 
@@ -6058,7 +6096,7 @@ So, what's actually included in my perfect browser must-have main features?
 
 -- ł.
 ;T;
-I"
+I"/
 <h1 id="the-perfect-browser">The perfect browser</h1>
 
 <h2 id="i-wrote-this-post-after-getting-inspired-by-this-article-on-gizmodohttpgizmodocomfuck-it-im-going-back-to-firefox-1685425815">I wrote this post after getting inspired by <a href="http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815">this article on Gizmodo</a></h2>
@@ -6083,11 +6121,19 @@ I"
 
 <h1 id="webkit-based">webkit based</h1>
 
+<p>All right, all right, as an avid fan of Firefox browser I’ll be a hypocrite here a bit. With all its pros and cons webkit is the most popular (and most frequently chosen by web/game devs) browser engine ever and thet’s the fact that cannot be missed. Personally I adore firefox for couple of its plugins and memory management but with further pros mentioned below its rendering engine coud be replaced.</p>
+
 <h1 id="smart-bookmarks">smart bookmarks</h1>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/roomy-bookmarks-toolbar/">Smart/roomy</a> bookmarks plugin is simply awesome. I don’t know why it isn’t a standard way of displaying bookmarks in browsers (hover to see bookmark name or show only its favicon when cursor is away). This is must-have feature that should be built-in in the browser.</p>
 
 <h1 id="better-preventing-from-popup-windowtab-auto-opening">better preventing from popup window/tab auto opening</h1>
 
+<p>Spam sites can be annoying - especially those who create and open multiple new, super noisy and never code-optimized tabs or windows. Additionaly, they should have speaker icon to easily find source of the (sound) noise and ability to mute that tab with just one click on the (speaker) icon.</p>
+
 <h1 id="memory-management">memory management</h1>
+
+<p>As I’ve mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god’s sake - it should only handle internet browsing - not try to being separate operating system!</p>
 
 <h1 id="built-in-email-notifications">built-in email notifications</h1>
 

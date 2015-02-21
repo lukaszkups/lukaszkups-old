@@ -1,15 +1,15 @@
 ---
 kind: article
-created_at: 16 February 2015
+created_at: 21 February 2015
 title: The perfect browser
-tags: ['draft']
+tags: ['blog']
 ---
 
 #The perfect browser
 
 ##I wrote this post after getting inspired by [this article on Gizmodo](http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815)
 
-These days net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just **BROWSE THE WEB**.
+These days even casual net users have tought life. We need at least i-series processor, couple gigabytes of ram and pretty fast DSL (or LTE) connection to just **BROWSE THE WEB**.
 
 Yes, I've name it - to just surf around the regular internet user has to acquire hardware that exceeds couple times the one that has sent human to the moon - I think we've gone somewhere terribly wrong.
 
@@ -29,24 +29,32 @@ So, what's actually included in my perfect browser must-have main features?
 
 #webkit based
 
-All right, all right, as an avid fan of Firefox browser I'll be a hypocrite here a bit. With all its pros and cons webkit is the most popular (and most frequently chosen by web/game devs) browser engine ever and thet's the fact that cannot be missed.
+All right, all right, as an avid fan of Firefox browser I'll be a hypocrite here a bit. With all its pros and cons webkit is the most popular (and most frequently chosen by web/game devs) browser engine ever and thet's the fact that cannot be missed. Personally I adore firefox for couple of its plugins and memory management but with further pros mentioned below its rendering engine coud be replaced.
 
 #smart bookmarks
 
-[Smart/roomy](https://addons.mozilla.org/en-US/firefox/addon/roomy-bookmarks-toolbar/) bookmarks plugin is simply awesome. I don't know why it isn't a standard way of displaying bookmarks in browsers (hover to see bookmark name or show only its favicon when cursor is away).
+[Smart/roomy](https://addons.mozilla.org/en-US/firefox/addon/roomy-bookmarks-toolbar/) bookmarks plugin is simply awesome. I don't know why it isn't a standard way of displaying bookmarks in browsers (hover to see bookmark name or show only its favicon when cursor is away). This is must-have feature that should be built-in in the browser.
 
 #better preventing from popup window/tab auto opening
 
-Spam sites can be annoying - especially those who create and open multiple new, super noisy and never code-optimized tabs or windows.
+Spam sites can be annoying - especially those who create and open multiple new, super noisy and never code-optimized tabs or windows. Additionaly, they should have speaker icon to easily find source of the (sound) noise and ability to mute that tab with just one click on the (speaker) icon.
 
 #memory management
 
-#built-in email notifications
+As I've mentioned above, (perfect) browsers should significantly better manage their resources - especially RAM memory. For god's sake - it should only handle internet browsing - not try to being separate operating system!
+
+#better many tabs handling
+
+I'm that kind of user who work with really many opened browser tabs - especially when I'm searching for something programming-related. The problem is when I have opened so many tabs, that I have to scroll to switch between them. My solution here is to display only favicons, or full page name only on hover - something like smart/roomy bookmarks plugin do with bookmarked links.
 
 #no start page (blank page)
 
-#cloud synchronization (passwords, bookmarks)
+I have everything in the bookmark bar, so I really don't need *Speed dial*-kind stuff - blank page is enough.
 
-#devtools initialization only when needed (if not, then don't even think about taking memory for it)
+#cloud settings synchronization
+
+Using foreign computer e.g. in the library? There should be a way to login to Your special account that sets **EVERYTHING** in the browser to exact same settings as on personal device (skins, bookmarks, passwords etc.). There should be also a checkbox to unset everything after browser reset/exit. 
+
+Do you think it's enough features for perfect browser? What's Your requirements for such? 
 
 -- ł.
