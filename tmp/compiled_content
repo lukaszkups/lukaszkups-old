@@ -1,4 +1,4 @@
-{:	data{CI"/notes/:ET{:default{	:	lastI"e<!DOCTYPE html>
+{:	data{CI"/notes/:ET{:default{	:	lastI"n<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -187,8 +187,8 @@
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -692,7 +692,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 
 ;T;	@;
 @I"
-/404/;T{;{	;I"<!DOCTYPE html>
+/404/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -770,8 +770,8 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -811,7 +811,7 @@ I"c<div class='clear clear50'></div>
 <div class='box box30'>
   <div class='ghosty'></div>
 </div>
-;T;@I"/blog/example-blog-post/;T{;{	;I"<!DOCTYPE html>
+;T;@I"/blog/example-blog-post/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -883,8 +883,8 @@ I"c<div class='clear clear50'></div>
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -926,7 +926,7 @@ I"ª
 </pre>
 
 <p>‚Äì ≈Ç.</p>
-;T;@I"%/blog/0001_new_year_resolutions/;T{;{	;I"ç<!DOCTYPE html>
+;T;@I"%/blog/0001_new_year_resolutions/;T{;{	;I"ñ<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1006,8 +1006,8 @@ I"ª
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -1053,7 +1053,7 @@ I"
 <p>So, all the best in ‚Äò15,</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"Ÿ<!DOCTYPE html>
+;T;@$I"/blog/images/lumia_08/;T{;{ I"/blog/images/lumia_03/;T{;{ I"/blog/images/lumia_05/;T{;{ I"/blog/images/lumia_06/;T{;{ I"/blog/images/lumia_02/;T{;{ I""/blog/images/webrackets-logo/;T{;{ I"/blog/images/lumia_01/;T{;{ I"/blog/images/lumia_09/;T{;{ I"/blog/images/lumia_07/;T{;{ I"/blog/images/lumia_04/;T{;{ I"5/blog/0003_delegated_vs_direct_jquery_on_method/;T{;{	;I"‚<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1163,8 +1163,8 @@ I"
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -1356,7 +1356,7 @@ for(var i=0; i&lt;3; i++){
 <p>So, if You want to work with dynamically loaded elements, use the second (<em>Delegated</em>) solution of event binding.</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@HI"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"!<!DOCTYPE html>
+;T;@HI"'/blog/0002_nokia_lumia_800_review/;T{;{	;I"!!<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1479,8 +1479,8 @@ for(var i=0; i&lt;3; i++){
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -1663,7 +1663,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-58295819-1', 'auto');
 ga('send', 'pageview');;T;	@`;
-@`I"/about/;T{;{	;I"õ<!DOCTYPE html>
+@`I"/about/;T{;{	;I"§<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1742,8 +1742,8 @@ ga('send', 'pageview');;T;	@`;
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -1785,7 +1785,7 @@ I"Ù<div class='project-container min-height'>
     .
   </p>
 </div>
-;T;@dI"/projects/cordova/;T{;{	;I"å<!DOCTYPE html>
+;T;@dI"/projects/cordova/;T{;{	;I"ï<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1853,8 +1853,8 @@ I"Ù<div class='project-container min-height'>
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -1879,7 +1879,7 @@ I"*
 <p>I‚Äôve build couple mobile apps using Phonegap, e.g. house design configurator app or tourist app which is truncated version of its web (rich) equivalent. </p>
 
 <p>For more awesomeness, Meteorjs since version 0.9+ enables conversion its web apps to phonegap mobile ones (&lt;3).</p>
-;T;@jI" /projects/django_framework/;T{;{	;I"ò<!DOCTYPE html>
+;T;@jI" /projects/django_framework/;T{;{	;I"°<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -1945,8 +1945,8 @@ I"*
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -1967,7 +1967,7 @@ I"D
 <p>Django is a open-source framework, written in Python language. I‚Äôve found it has many similarities to RoR, but it gives more freedom on application and code structure.</p>
 
 <p>Using Django in backend I‚Äôve helped creating (on front-end side with little backend code modifications) home websites for many companies, photograph portfolios, online shops (some with advanced products configuration e.g. exclusive furniture shop with furniture visual configurator), tourist web apps or simple contact-pages connected to CMS.</p>
-;T;@pI"/projects/ror/;T{;{	;I"j<!DOCTYPE html>
+;T;@pI"/projects/ror/;T{;{	;I"s<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2037,8 +2037,8 @@ I"D
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2067,7 +2067,7 @@ I"˜
 <p>One of previous site CMS was written from scratch (by me) using Ruby on Rails (current one uses Ruby static site generator - <a href="http://nanoc.ws">nanoc</a>).</p>
 
 <p>I‚Äôve helped building (front-end side) of couple other projects, such as: car monitoring system, online exchange currency plaform, hotel room management system or package delivery application.</p>
-;T;@vI"/projects/meteorjs/;T{;{	;I"<!DOCTYPE html>
+;T;@vI"/projects/meteorjs/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2137,8 +2137,8 @@ I"˜
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2167,7 +2167,7 @@ I"°
 <p>I‚Äôve chosen Meteor as a tool for my Master Thesis project: ‚ÄúDevelopment of Content Management System build in Node.js environment‚Äù which, even if it is currently defended is constantly upgrading by me. </p>
 
 <p>Moreover I‚Äôve created couple company websites using my own (Meteor-based) CMS and converted Meteor projects to mobile apps. </p>
-;T;@|I"/projects/design/;T{;{	;I"§<!DOCTYPE html>
+;T;@|I"/projects/design/;T{;{	;I"≠<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2239,8 +2239,8 @@ I"°
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2273,7 +2273,7 @@ I"6
 <p>Furthermore, I‚Äôm still helping clients with their design issues (including web design and branding), confronting their ideas with current design trends.</p>
 
 <p>FYI: I‚Äôm a minimalist lover so You can imagine what to expect from my projects.</p>
-;T;@}I"/projects/images/os-thumb/;T{;{ I"%/projects/images/meteorjs-thumb/;T{;{ I"/projects/images/js-thumb/;T{;{ I""/projects/images/html5-thumb/;T{;{ I"'/projects/images/matchfishing-big/;T{;{ I" /projects/images/ror-thumb/;T{;{ I"#/projects/images/design-thumb/;T{;{ I"$/projects/images/cordova-thumb/;T{;{ I"#/projects/images/django-thumb/;T{;{ I"/projects/open_source/;T{;{	;I"«<!DOCTYPE html>
+;T;@}I"/projects/images/os-thumb/;T{;{ I"%/projects/images/meteorjs-thumb/;T{;{ I"/projects/images/js-thumb/;T{;{ I""/projects/images/html5-thumb/;T{;{ I"'/projects/images/matchfishing-big/;T{;{ I" /projects/images/ror-thumb/;T{;{ I"#/projects/images/design-thumb/;T{;{ I"$/projects/images/cordova-thumb/;T{;{ I"#/projects/images/django-thumb/;T{;{ I"/projects/open_source/;T{;{	;I"–<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2345,8 +2345,8 @@ I"6
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2379,7 +2379,7 @@ I"T
 <p>Thanks to open-source we can build cheaper, faster and more reliable products. We don‚Äôt have to reinvent the wheel, we can use already developed and tested software.</p>
 
 <p>I‚Äôm an active contributor to tools that I‚Äôm using - I‚Äôm reporting bugs and propose solutions if my knowledge is sufficient, and I call every developer to do the same - let‚Äôs make an open-source world a better place together.</p>
-;T;@ûI"/projects/js/;T{;{	;I"ü<!DOCTYPE html>
+;T;@ûI"/projects/js/;T{;{	;I"®<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2451,8 +2451,8 @@ I"T
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2485,7 +2485,7 @@ I"-
 <p>Now, after 2+ years of working mainly with JS I can say that is not a ideal language, but for sure it is worth learning (and trying to understand its core principles).</p>
 
 <p>I‚Äôm using js where I can - if there‚Äôs an option to use js or other technology - You can be sure that I‚Äôll choose js.</p>
-;T;@§I"/projects/html5_css3/;T{;{	;I"ƒ
+;T;@§I"/projects/html5_css3/;T{;{	;I"Õ
 <!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
@@ -2554,8 +2554,8 @@ I"-
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2580,7 +2580,7 @@ I"h
 <p>A client.</p>
 
 <p>I‚Äôm working with HTML &amp; CSS since high school. I‚Äôve built dozens of webpages and sliced many more templates for further development by client teams. I remember the exic</p>
-;T;@™I"/contact/;T{;{	;I"'<!DOCTYPE html>
+;T;@™I"/contact/;T{;{	;I"8<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2644,8 +2644,8 @@ I"h
             letstalk@lukaszkups.net
           </a>
           &nbsp;or send me a message via twitter:
-          <a href='http://twitter.com/ofcapl'>
-            @OfcaPL
+          <a href='http://twitter.com/lukaszkups'>
+            @lukaszkups
           </a>
           .
         </h1>
@@ -2657,8 +2657,8 @@ I"h
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2667,7 +2667,7 @@ I"h
     <script src='/javascripts/application.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"?.project-container.min-height
+;T;	I"H.project-container.min-height
   %h1
     Contact
   .clear.clear10
@@ -2676,10 +2676,11 @@ I"h
     %a{:href=>'mailto:letstalk@lukaszkups.net'}
       letstalk@lukaszkups.net
     &nbsp;or send me a message via twitter: 
-    %a{:href=>'http://twitter.com/ofcapl'}
-      @OfcaPL 
-    \.;T;
-I"å<div class='project-container min-height'>
+    %a{:href=>'http://twitter.com/lukaszkups'}
+      @lukaszkups 
+    \.
+;T;
+I"î<div class='project-container min-height'>
   <h1>
     Contact
   </h1>
@@ -2690,13 +2691,13 @@ I"å<div class='project-container min-height'>
       letstalk@lukaszkups.net
     </a>
     &nbsp;or send me a message via twitter:
-    <a href='http://twitter.com/ofcapl'>
-      @OfcaPL
+    <a href='http://twitter.com/lukaszkups'>
+      @lukaszkups
     </a>
     .
   </h1>
 </div>
-;T;@∞I"/;T{;{	;I"≥<!DOCTYPE html>
+;T;@∞I"/;T{;{	;I"º<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -2810,8 +2811,8 @@ I"å<div class='project-container min-height'>
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -2999,7 +3000,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/contact/</loc>
-    <lastmod>2015-01-01</lastmod>
+    <lastmod>2015-02-22</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/experience/</loc>
@@ -3135,7 +3136,7 @@ I":<h1 class='roboto headline'>
   </url>
 </urlset>
 ;T;	I"= xml_sitemap;T;
-@—I"/experience/;T{;{	;I"z<!DOCTYPE html>
+@—I"/experience/;T{;{	;I"É<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3324,8 +3325,8 @@ I":<h1 class='roboto headline'>
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -3554,7 +3555,7 @@ I"?<div class='project-container min-height'>
     </span>
   </div>
 </div>
-;T;@÷I";/blog/0004_scaffolder_meteorjs_generator_introduction/;T{;{	;I"ô<!DOCTYPE html>
+;T;@÷I";/blog/0004_scaffolder_meteorjs_generator_introduction/;T{;{	;I"¢<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3670,8 +3671,8 @@ I"?<div class='project-container min-height'>
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -3802,7 +3803,7 @@ bash scfld student firstName:string lastName:string bio:textarea birth:date grad
 <p>And let the magic happen, enjoy!</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@‹I"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"<!DOCTYPE html>
+;T;@‹I"+/blog/0005_sending_emails_with_meteor/;T{;{	;I"<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -3908,8 +3909,8 @@ bash scfld student firstName:string lastName:string bio:textarea birth:date grad
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -4203,7 +4204,7 @@ Template.contactFormTemplate.events({
 <p>And that‚Äôs all - it was THAT easy. You can now add <code>{{&gt; contactFormTemplate}}</code> tag to any template You want and enjoy Your awesome contact form.</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@‚I"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"â+<!DOCTYPE html>
+;T;@‚I"=/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/;T{;{	;I"í+<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4379,8 +4380,8 @@ Template.contactFormTemplate.events({
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -4898,7 +4899,7 @@ forever restart 1
 <p>If You have any questions - feel free to <a href="http://twitter.com/ofcapl">ask</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"Æ<!DOCTYPE html>
+;T;@ËI"//blog/0007_shorten_string_spacebar_helper/;T{;{	;I"∑<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -4978,8 +4979,8 @@ forever restart 1
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -5055,7 +5056,7 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
 <p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall‚Äôs protips section</a>)</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"∏<!DOCTYPE html>
+;T;@ÓI":/blog/0008_keeping_session_variable_after_email_sent/;T{;{	;I"¡<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5145,8 +5146,8 @@ UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -5296,7 +5297,7 @@ meteor add u2622:persistent-session
 <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
 
 <p>‚Äì ≈Ç</p>
-;T;@ÙI"*/blog/0009_jquery_promises_explained/;T{;{	;I"Í<!DOCTYPE html>
+;T;@ÙI"*/blog/0009_jquery_promises_explained/;T{;{	;I"Û<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5386,8 +5387,8 @@ meteor add u2622:persistent-session
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -5524,7 +5525,7 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
 <p>This example should cover most of the use cases of promises for beginners who want to deal with async functions. Personally I‚Äôm using it very often when I need to fetch big amount of data from different remote sources.</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@˙I"./blog/0010_why_and_how_i_switched_to_vim/;T{;{	;I"ß)<!DOCTYPE html>
+;T;@˙I"./blog/0010_why_and_how_i_switched_to_vim/;T{;{	;I"∞)<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -5641,8 +5642,8 @@ $.when(getSomeData(), getMoreData(), getEvenMoreData()).done(function(){
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
@@ -5924,7 +5925,7 @@ nnoremap qq :bd&lt;CR&gt;
 <p>If my story inspired You to use some of the oldschool editors (not necessarily vim) - make me happy and <a href="http://twitter.com/ofcapl">let me know</a> about it.</p>
 
 <p>‚Äì ≈Ç.</p>
-;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"/<!DOCTYPE html>
+;T;@ I"!/blog/images/try_vim_racoon/;T{;{ I"#/blog/images/hobbit_adventure/;T{;{ I"$/blog/0011_the_perfect_browser/;T{;{	;I"8<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -6040,8 +6041,8 @@ nnoremap qq :bd&lt;CR&gt;
         Copyright &copy; 2009 -
         2015
         Lukasz Kups (
-        <a href='http://twitter.com/ofcapl'>
-          ofcapl
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
         </a>
         )
       </div>
