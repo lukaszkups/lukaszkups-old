@@ -9,9 +9,9 @@ tags: ['blog']
 
 ##Disclaimer - I'm not a php programmer, I don't like php actually, but I'm getting pretty convinced that not everything made with php can be bad.
 
-Couple days ago I had to prepare & code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don't really like php for its syntax or its outdated standards & assumptions). So I've finished this task thanks to Wordpress (codex) documentation & some basic stackoveflow questions about php language.
+Couple days ago I had to prepare & code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don't really like php for its syntax or its outdated standards & assumptions). I've managed to finish this task thanks to Wordpress (codex) documentation & some basic stackoveflow questions about php language.
 
-So, here's some basic tips, which helped me a lot during development:
+And here's some basic tips, which helped me a lot during development:
 
 #Starter kit
 

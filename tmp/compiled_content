@@ -6185,7 +6185,7 @@ I"�
 <p>Do you think it’s enough features for perfect browser? What’s Your requirements for such? </p>
 
 <p>– ł.</p>
-;T;@I"#/blog/images/sosowski_troluje/;T{;{ I"//blog/0012_wordpress_theme_beginner_guide/;T{;{	;I"� <!DOCTYPE html>
+;T;@I"#/blog/images/sosowski_troluje/;T{;{ I"//blog/0012_wordpress_theme_beginner_guide/;T{;{	;I"� <!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -6245,9 +6245,9 @@ I"�
       
       <h2 id="disclaimer---im-not-a-php-programmer-i-dont-like-php-actually-but-im-getting-pretty-convinced-that-not-everything-made-with-php-can-be-bad">Disclaimer - I’m not a php programmer, I don’t like php actually, but I’m getting pretty convinced that not everything made with php can be bad.</h2>
       
-      <p>Couple days ago I had to prepare &amp; code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don’t really like php for its syntax or its outdated standards &amp; assumptions). So I’ve finished this task thanks to Wordpress (codex) documentation &amp; some basic stackoveflow questions about php language.</p>
+      <p>Couple days ago I had to prepare &amp; code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don’t really like php for its syntax or its outdated standards &amp; assumptions). I’ve managed to finish this task thanks to Wordpress (codex) documentation &amp; some basic stackoveflow questions about php language.</p>
       
-      <p>So, here’s some basic tips, which helped me a lot during development:</p>
+      <p>And here’s some basic tips, which helped me a lot during development:</p>
       
       <h1 id="starter-kit">Starter kit</h1>
       
@@ -6332,14 +6332,14 @@ I"�
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"h
+;T;	I"n
 #Creating Wordpress theme beginner guide
 
 ##Disclaimer - I'm not a php programmer, I don't like php actually, but I'm getting pretty convinced that not everything made with php can be bad.
 
-Couple days ago I had to prepare & code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don't really like php for its syntax or its outdated standards & assumptions). So I've finished this task thanks to Wordpress (codex) documentation & some basic stackoveflow questions about php language.
+Couple days ago I had to prepare & code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don't really like php for its syntax or its outdated standards & assumptions). I've managed to finish this task thanks to Wordpress (codex) documentation & some basic stackoveflow questions about php language.
 
-So, here's some basic tips, which helped me a lot during development:
+And here's some basic tips, which helped me a lot during development:
 
 #Starter kit
 
@@ -6442,14 +6442,14 @@ And that's all folks - if You have some other tips for wordpress beginners pleas
 
 -- ł.
 ;T;
-I"�
+I"�
 <h1 id="creating-wordpress-theme-beginner-guide">Creating Wordpress theme beginner guide</h1>
 
 <h2 id="disclaimer---im-not-a-php-programmer-i-dont-like-php-actually-but-im-getting-pretty-convinced-that-not-everything-made-with-php-can-be-bad">Disclaimer - I’m not a php programmer, I don’t like php actually, but I’m getting pretty convinced that not everything made with php can be bad.</h2>
 
-<p>Couple days ago I had to prepare &amp; code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don’t really like php for its syntax or its outdated standards &amp; assumptions). So I’ve finished this task thanks to Wordpress (codex) documentation &amp; some basic stackoveflow questions about php language.</p>
+<p>Couple days ago I had to prepare &amp; code a Wordpress template for a client. I was mostly avoiding such tasks, because of its php-relation (I don’t really like php for its syntax or its outdated standards &amp; assumptions). I’ve managed to finish this task thanks to Wordpress (codex) documentation &amp; some basic stackoveflow questions about php language.</p>
 
-<p>So, here’s some basic tips, which helped me a lot during development:</p>
+<p>And here’s some basic tips, which helped me a lot during development:</p>
 
 <h1 id="starter-kit">Starter kit</h1>
 
