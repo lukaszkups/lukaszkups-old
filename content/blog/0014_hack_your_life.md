@@ -37,7 +37,7 @@ Do thing that gives You (or WILL give You) a lot of satisfaction. For me, succes
 
 Emotions can be really annoying when we have to make some serious decisions - nervousness, excitement, jitters, restlessness - You name it. This can be tricky or hard at the beginning, but the sooner You realise that emotions can really bother You from making right decisions the better person You will be.
 
-Remember: work is just a work, task is just a task - it is not Your beloved girlfriend or boyfriend, it is not a person You want to hang out for the rest of Your life - You just want to do it right. So analyse all the facts You have (about the problem) and then depend on them while making Your plan/decisions - no emotions, just simple, raw analysis. 
+Remember: work is just a work, task is just a task - it is not Your beloved girlfriend or boyfriend, it is not a person You want to hang out with for the rest of Your life - You just want to do it right. So analyse all the facts You have (about the problem) and then depend on them while making Your plan/decisions - no emotions, just simple, raw analysis. 
 
 This is really handy when someone ask You for advice - I have a friend who always analyse other people's actions and search for second meaning of it - he sometimes asks me for opinion if he understood someone correctly. Generally I'm asking him about the whole situation and giving answers basing only on everything he tell me (but not on his conjectures).
 
