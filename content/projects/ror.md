@@ -11,7 +11,7 @@ thumb: '/projects/images/ror-thumb.png'
 
 RoR is a open-source framework, written in Ruby language, created by [David Heinemeier Hansson](http://david.heinemeierhansson.com/). It is the first tool that I've fallen in love during my career - self-learning it gave me a lot of joy and satisfaction.
 
-Using RoR, I've built my BSc thesis project: Fake Personal Data Generator. It can generate thousands of entries, that has people names, addresses, couple different personal id document numbers, bank account numbers, birth dates etc. It has also an `export-to-.csv` files mechanism.
+Using RoR, I've built my BSc thesis project: Fake Personal Data Generator. It can generate thousands of entries, that contains people names, addresses, personal id document numbers, bank account numbers, birth dates etc. It has also an `export-to-.csv` files mechanism.
 
 One of previous site CMS was written from scratch (by me) using Ruby on Rails (current one uses Ruby static site generator - [nanoc](http://nanoc.ws)).
 
