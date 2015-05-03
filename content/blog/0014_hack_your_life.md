@@ -11,6 +11,8 @@ tags: ['blog']
 
 Recently a lot going on in my life - I've become a father, moved to a new flat, accepted and done some extra work, tried (and keep trying) develop own side-projects etc. All that stuff gave me a lot of satisfaction but also it reflected badly on my health: I was constantly sleepy, gained weight and got in overall worse condition than usual. 
 
+In this (pretty long) note I would like to share couple life hacks that can improve everyone's life (or it just works for me tee-hee ;))
+
 ![img](/blog/images/ape_say_no.gif)
 
 ##Learn to say 'no'
