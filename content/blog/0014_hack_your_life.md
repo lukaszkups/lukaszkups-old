@@ -51,4 +51,6 @@ Just try. Sometimes You will risk of ridicule yourself or someone but after some
 
 Just don't. All You need to know is to stop giving a f*ck, and start doing what You have/want to do. Don't waste time on thinking if You are good enough to do something - start doing it instead. There is no time to loose, and remember that everyone is unique - someone do it faster/better, but all You have to do is just to start. 
 
+You (maybe) will fail - sometimes really painfully. But don't be afraid. Finally, after some time You will success. 
+
 Practice makes perfect - if You say otherwise then You probably never wanted to do something hard enough.

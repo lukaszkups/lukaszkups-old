@@ -2950,7 +2950,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"<?xml version="1.0" encoding="UTF-8"?>
+;T;@∂I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"ç<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -3018,7 +3018,7 @@ I":<h1 class='roboto headline'>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0014_hack_your_life/</loc>
-    <lastmod>2015-05-03</lastmod>
+    <lastmod>2015-05-04</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0014_using_hardware_acceleration_css/</loc>
@@ -3035,10 +3035,6 @@ I":<h1 class='roboto headline'>
   <url>
     <loc>http://lukaszkups.net/blog/images/hobbit_adventure.gif</loc>
     <lastmod>2015-02-08</lastmod>
-  </url>
-  <url>
-    <loc>http://lukaszkups.net/blog/images/job_passion.jpg</loc>
-    <lastmod>2015-05-02</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/lumia_01.jpg</loc>
@@ -7064,7 +7060,7 @@ I"Ë
 <p>It is nearly impossible to do only the stuff that makes us happy - for example as a freelancer I really, really hated tax day (and the fact that tax law in Poland is really sick doesn‚Äôt help)</p>
 
 <p>Do thing that gives You (or WILL give You) a lot of satisfaction. For me, successfully filled and processed tax documents were a reason to be a little proud of (I was doing all the tax stuff by myself). It can sound a little silly, but sometimes we need to compel ourselves to think that something will give us satisfation even if we don‚Äôt know that. I was suprised how I‚Äôve convinced my brain to do something because it was artificially interesting for me and in the end I feel a kind of satisfaction doing it.</p>
-;T;@'I"/blog/images/ape_say_no/;T{;{ I"/blog/images/job_passion/;T{;{ I"/blog/0014_hack_your_life/;T{;{	;I"n<!DOCTYPE html>
+;T;@'I"/blog/images/ape_say_no/;T{;{ I"/blog/images/job_passion/;T{;{ I"/blog/0014_hack_your_life/;T{;{	;I"˘<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -7166,6 +7162,8 @@ I"Ë
       
       <p>Just don‚Äôt. All You need to know is to stop giving a f*ck, and start doing what You have/want to do. Don‚Äôt waste time on thinking if You are good enough to do something - start doing it instead. There is no time to loose, and remember that everyone is unique - someone do it faster/better, but all You have to do is just to start. </p>
       
+      <p>You (maybe) will fail - sometimes really painfully. But don‚Äôt be afraid. Finally, after some time You will success. </p>
+      
       <p>Practice makes perfect - if You say otherwise then You probably never wanted to do something hard enough.</p>
     </div>
     <div class='clear clear40'></div>
@@ -7185,7 +7183,7 @@ I"Ë
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"∫
+;T;	I"0
 #Hack Your life
 
 ##Last couple months were pretty busy and exhausting for me - mostly because of my bad logistic decisions and keeping generally good attitude for other people's sake.
@@ -7232,8 +7230,10 @@ Just try. Sometimes You will risk of ridicule yourself or someone but after some
 
 Just don't. All You need to know is to stop giving a f*ck, and start doing what You have/want to do. Don't waste time on thinking if You are good enough to do something - start doing it instead. There is no time to loose, and remember that everyone is unique - someone do it faster/better, but all You have to do is just to start. 
 
+You (maybe) will fail - sometimes really painfully. But don't be afraid. Finally, after some time You will success. 
+
 Practice makes perfect - if You say otherwise then You probably never wanted to do something hard enough.;T;
-I"S
+I"“
 <h1 id="hack-your-life">Hack Your life</h1>
 
 <h2 id="last-couple-months-were-pretty-busy-and-exhausting-for-me---mostly-because-of-my-bad-logistic-decisions-and-keeping-generally-good-attitude-for-other-peoples-sake">Last couple months were pretty busy and exhausting for me - mostly because of my bad logistic decisions and keeping generally good attitude for other people‚Äôs sake.</h2>
@@ -7279,6 +7279,8 @@ I"S
 <h2 id="dont-waste-time-on-personal--life-coaches">Don‚Äôt waste time on personal / life coaches</h2>
 
 <p>Just don‚Äôt. All You need to know is to stop giving a f*ck, and start doing what You have/want to do. Don‚Äôt waste time on thinking if You are good enough to do something - start doing it instead. There is no time to loose, and remember that everyone is unique - someone do it faster/better, but all You have to do is just to start. </p>
+
+<p>You (maybe) will fail - sometimes really painfully. But don‚Äôt be afraid. Finally, after some time You will success. </p>
 
 <p>Practice makes perfect - if You say otherwise then You probably never wanted to do something hard enough.</p>
 ;T;@3:versioni
