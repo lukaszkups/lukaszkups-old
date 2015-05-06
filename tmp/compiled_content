@@ -1,4 +1,4 @@
-{:	data{JI"/notes/:ET{:default{	:	lastI"�<!DOCTYPE html>
+{:	data{LI"/notes/:ET{:default{	:	lastI"�<!DOCTYPE html>
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -68,6 +68,16 @@
           This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
         </h1>
         <ul class='postsList'>
+          <li>
+            <a href='/blog/0015_getting_value_from_bootstrap_date_input/'>
+              [
+              <span class='brownFont'>
+                6 May 2015
+              </span>
+              ]
+              Getting value from bootstrap's date inputs
+            </a>
+          </li>
           <li>
             <a href='/blog/0014_hack_your_life/'>
               [
@@ -249,7 +259,7 @@
 					%span.brownFont
 						= post[:created_at]
 					] 
-					= post[:title];T:preI"�<!-- .project-container.min-height -->
+					= post[:title];T:preI"�<!-- .project-container.min-height -->
 <!-- %h1 -->
 <!-- This page is under construction! -->
 <!-- .clear.clear10 -->
@@ -266,6 +276,16 @@
     This is the place where I want to share, save or just to inform world about stuff. All opinions written here are personal, without 3rd party influence.
   </h1>
   <ul class='postsList'>
+    <li>
+      <a href='/blog/0015_getting_value_from_bootstrap_date_input/'>
+        [
+        <span class='brownFont'>
+          6 May 2015
+        </span>
+        ]
+        Getting value from bootstrap's date inputs
+      </a>
+    </li>
     <li>
       <a href='/blog/0014_hack_your_life/'>
         [
@@ -954,7 +974,7 @@ I"c<div class='clear clear50'></div>
     <script src='/javascripts/blog.js' type='text/javascript'></script>
   </body>
 </html>
-;T;	I"}
+;T;	I"~
 #Silver month
 
 If You are following me at [twitter](http://twitter.com/ofcapl) You probably know that I've implemented color randomizer for my site.
@@ -969,7 +989,8 @@ This week I decided to choose best brand color (in my opinion) and check how it 
 	</code>
 </pre>
 
--- ł.;T;
+-- ł.
+;T;
 I"�
 <h1 id="silver-month">Silver month</h1>
 
@@ -2950,7 +2971,7 @@ I":<h1 class='roboto headline'>
     </div>
   </li>
 </ul>
-;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"�<?xml version="1.0" encoding="UTF-8"?>
+;T;@�I"/images/ghosty/;T{;{ I"/images/prev/;T{;{ I"/images/avatar-big/;T{;{ I"/images/next/;T{;{ I"/images/favicon/;T{;{ I"/images/logo/;T{;{ I"/images/lukasz-big/;T{;{ I"/sitemap/;T{;{;I"<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://lukaszkups.net/</loc>
@@ -3025,8 +3046,12 @@ I":<h1 class='roboto headline'>
     <lastmod>2015-04-06</lastmod>
   </url>
   <url>
+    <loc>http://lukaszkups.net/blog/0015_getting_value_from_bootstrap_date_input/</loc>
+    <lastmod>2015-05-06</lastmod>
+  </url>
+  <url>
     <loc>http://lukaszkups.net/blog/example-blog-post/</loc>
-    <lastmod>2015-01-07</lastmod>
+    <lastmod>2015-05-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/images/ape_say_no.gif</loc>
@@ -7283,4 +7308,280 @@ I"�
 <p>You (maybe) will fail - sometimes really painfully. But don’t be afraid. Finally, after some time You will success. </p>
 
 <p>Practice makes perfect - if You say otherwise then You probably never wanted to do something hard enough.</p>
-;T;@3:versioni
+;T;@3I"3/blog/0015_get_data_from_bootstrap_data_input/;T{;{	;I"T<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Getting value from bootstrap's date inputs
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="getting-value-from-bootstraps-date-inputs">Getting value from bootstrap’s date inputs</h1>
+      
+      <p>Today my friend asked me how to get the value (date) from bootstrap’s date input. My first thought was like:</p>
+      
+      <pre>&#x000A;	<code class="javascript">&#x000A;	    var myDate = $('input').val();&#x000A;	</code></pre>
+      
+      <p>But instead of value I’ve got “” (an empty string). I’ve inspected the input element in DOM and it was actually right behaviour - that input has no value.</p>
+      
+      <p>Luckily, after little search I’ve found the solution:</p>
+      
+      <pre>&#x000A;    <code class="javascript">&#x000A;        var myDate = $('input').data('date');&#x000A;    </code></pre>
+      
+      <p>And that’s it - enjoy!</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"J
+#Getting value from bootstrap's date inputs
+
+Today my friend asked me how to get the value (date) from bootstrap's date input. My first thought was like:
+
+<pre>
+	<code class="javascript">
+	    var myDate = $('input').val();
+	</code>
+</pre>
+
+But instead of value I've got "" (an empty string). I've inspected the input element in DOM and it was actually right behaviour - that input has no value.
+
+Luckily, after little search I've found the solution:
+
+<pre>
+    <code class="javascript">
+        var myDate = $('input').data('date');
+    </code>
+</pre>
+
+And that's it - enjoy!
+
+-- ł.
+;T;
+I"�
+<h1 id="getting-value-from-bootstraps-date-inputs">Getting value from bootstrap’s date inputs</h1>
+
+<p>Today my friend asked me how to get the value (date) from bootstrap’s date input. My first thought was like:</p>
+
+<pre>
+	<code class="javascript">
+	    var myDate = $('input').val();
+	</code>
+</pre>
+
+<p>But instead of value I’ve got “” (an empty string). I’ve inspected the input element in DOM and it was actually right behaviour - that input has no value.</p>
+
+<p>Luckily, after little search I’ve found the solution:</p>
+
+<pre>
+    <code class="javascript">
+        var myDate = $('input').data('date');
+    </code>
+</pre>
+
+<p>And that’s it - enjoy!</p>
+
+<p>– ł.</p>
+;T;@9I"8/blog/0015_getting_value_from_bootstrap_date_input/;T{;{	;I"T<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Getting value from bootstrap's date inputs
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="getting-value-from-bootstraps-date-inputs">Getting value from bootstrap’s date inputs</h1>
+      
+      <p>Today my friend asked me how to get the value (date) from bootstrap’s date input. My first thought was like:</p>
+      
+      <pre>&#x000A;	<code class="javascript">&#x000A;	    var myDate = $('input').val();&#x000A;	</code></pre>
+      
+      <p>But instead of value I’ve got “” (an empty string). I’ve inspected the input element in DOM and it was actually right behaviour - that input had no value.</p>
+      
+      <p>Luckily, after little search I’ve found the solution:</p>
+      
+      <pre>&#x000A;    <code class="javascript">&#x000A;        var myDate = $('input').data('date');&#x000A;    </code></pre>
+      
+      <p>And that’s it - enjoy!</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
+;T;	I"J
+#Getting value from bootstrap's date inputs
+
+Today my friend asked me how to get the value (date) from bootstrap's date input. My first thought was like:
+
+<pre>
+	<code class="javascript">
+	    var myDate = $('input').val();
+	</code>
+</pre>
+
+But instead of value I've got "" (an empty string). I've inspected the input element in DOM and it was actually right behaviour - that input had no value.
+
+Luckily, after little search I've found the solution:
+
+<pre>
+    <code class="javascript">
+        var myDate = $('input').data('date');
+    </code>
+</pre>
+
+And that's it - enjoy!
+
+-- ł.
+;T;
+I"�
+<h1 id="getting-value-from-bootstraps-date-inputs">Getting value from bootstrap’s date inputs</h1>
+
+<p>Today my friend asked me how to get the value (date) from bootstrap’s date input. My first thought was like:</p>
+
+<pre>
+	<code class="javascript">
+	    var myDate = $('input').val();
+	</code>
+</pre>
+
+<p>But instead of value I’ve got “” (an empty string). I’ve inspected the input element in DOM and it was actually right behaviour - that input had no value.</p>
+
+<p>Luckily, after little search I’ve found the solution:</p>
+
+<pre>
+    <code class="javascript">
+        var myDate = $('input').data('date');
+    </code>
+</pre>
+
+<p>And that’s it - enjoy!</p>
+
+<p>– ł.</p>
+;T;@?:versioni
