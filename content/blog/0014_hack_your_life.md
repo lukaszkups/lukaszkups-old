@@ -54,3 +54,5 @@ Just don't. All You need to know is to stop giving a f*ck, and start doing what 
 You (maybe) will fail - sometimes really painfully. But don't be afraid. Finally, after some time You will success. 
 
 Practice makes perfect - if You say otherwise then You probably never wanted to do something hard enough.
+
+-- ł.
