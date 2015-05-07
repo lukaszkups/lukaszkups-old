@@ -20,7 +20,7 @@ google.setOnLoadCallback(ourGraphDrawFunction);
 
 But our app doesn't really know if package was loaded (basing on documentation in our specific case we had to load the api and package during ajax call or be sure that it will be loaded before, which - doing it via javascript - was causing other errors).
 
-Fortunately, I've got an idea and found a way to load the package like a regular `.js` file:
+Fortunately, I've got an idea and found a way to load the package like a regular `.js` file using `autoload` method:
 
 <pre>
 <code class="javascript">
