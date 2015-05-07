@@ -28,6 +28,6 @@ Fortunately, I've got an idea and found a way to load the package like a regular
 </code>
 </pre>
 
-And that little hack solved our problem - enjoy!
+And that little hack solved the problem - enjoy!
 
 -- ł.
