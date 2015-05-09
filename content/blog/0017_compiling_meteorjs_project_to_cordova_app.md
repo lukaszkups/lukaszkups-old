@@ -78,7 +78,7 @@ jarsigner -verbose -keystore &lt;your keystore name>.keystore -signedjar &lt;you
 </code>
 </pre>
 
-Now we have signed and properly build android application. Sometimes, during upload to Google Play Store, we can get an error that our app is not packed/compressed enough and we have to fix that.
+Now we have signed and properly built android application. Sometimes, during upload to Google Play Store, we can get an error that our app is not packed/compressed enough and we have to fix that.
 
 We can do this, using `zipalign` tool:
 
