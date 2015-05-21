@@ -1,8 +1,9 @@
-Crashlog created at 2015-02-16 20:43:49 +0100
+Crashlog created at 2015-05-21 19:20:09 +0200
 
 ===== MESSAGE:
 
-Errno::EADDRINUSE: Address already in use - bind(2) for 0.0.0.0:3000
+LoadError: cannot load such file -- mime/types
+Install the 'mime-types' gem using `gem install mime-types`.
 
 ===== COMPILATION STACK:
 
@@ -10,220 +11,122 @@ Errno::EADDRINUSE: Address already in use - bind(2) for 0.0.0.0:3000
 
 ===== STACK TRACE:
 
-  0. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/socket.rb:206:in `bind'
-  1. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/socket.rb:206:in `listen'
-  2. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/socket.rb:461:in `block in tcp_server_sockets'
-  3. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/socket.rb:232:in `each'
-  4. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/socket.rb:232:in `foreach'
-  5. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/socket.rb:459:in `tcp_server_sockets'
-  6. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/utils.rb:70:in `create_listeners'
-  7. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:133:in `listen'
-  8. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:114:in `initialize'
-  9. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:45:in `initialize'
-  10. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:32:in `new'
-  11. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:32:in `run'
-  12. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/commands/autocompile.rb:66:in `run'
-  13. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  14. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/error_handler.rb:74:in `handle_while'
-  15. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  16. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/command_runner.rb:13:in `call'
-  17. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/cri-2.6.1/lib/cri/command_dsl.rb:223:in `block in runner'
-  18. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
-  19. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
-  20. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
-  21. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/cri-2.6.1/lib/cri/command.rb:264:in `run'
-  22. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli.rb:59:in `block in run'
-  23. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/error_handler.rb:74:in `handle_while'
-  24. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  25. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib/nanoc/cli.rb:57:in `run'
-  26. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/bin/nanoc:25:in `<top (required)>'
-  27. /home/ofcapl/.rvm/gems/ruby-2.2.0/bin/nanoc:23:in `load'
-  28. /home/ofcapl/.rvm/gems/ruby-2.2.0/bin/nanoc:23:in `<main>'
-  29. /home/ofcapl/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+  0. /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+  1. /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+  2. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/extra/auto_compiler.rb:15:in `initialize'
+  3. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/commands/autocompile.rb:55:in `new'
+  4. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/commands/autocompile.rb:55:in `run'
+  5. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/command_runner.rb:12:in `block in call'
+  6. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  7. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  8. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/command_runner.rb:11:in `call'
+  9. /var/lib/gems/1.9.1/gems/cri-2.7.0/lib/cri/command_dsl.rb:233:in `block in runner'
+  10. /var/lib/gems/1.9.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `call'
+  11. /var/lib/gems/1.9.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
+  12. /var/lib/gems/1.9.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
+  13. /var/lib/gems/1.9.1/gems/cri-2.7.0/lib/cri/command.rb:260:in `run'
+  14. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli.rb:58:in `block in run'
+  15. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  16. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  17. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib/nanoc/cli.rb:56:in `run'
+  18. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/bin/nanoc:25:in `<top (required)>'
+  19. /usr/local/bin/nanoc:23:in `load'
 
 ===== VERSION INFORMATION:
 
-nanoc 3.7.4 © 2007-2014 Denis Defreyne.
-Running ruby 2.2.0 (2014-12-25) on x86_64-linux with RubyGems 2.4.5.
+nanoc 3.8.0 © 2007-2015 Denis Defreyne.
+Running ruby 1.9.3 (2013-11-22) on x86_64-linux with RubyGems 1.8.23.
 
 ===== SYSTEM INFORMATION:
 
-Linux ofcapl-zen 3.13.0-45-generic #74~precise1-Ubuntu SMP Thu Jan 15 20:21:55 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+Linux ofcapl-UX32LN 3.16.0-38-generic #52~14.04.1-Ubuntu SMP Fri May 8 09:43:57 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
 
 ===== INSTALLED GEMS:
 
-  activesupport 4.1.8
-  bigdecimal 1.2.6
-  blankslate 2.1.2.4
-  builder 3.2.2
-  bundler 1.7.10
-  bundler-unload 1.0.2
-  celluloid 0.16.0
-  chunky_png 1.3.3
-  classifier-reborn 2.0.3
-  coderay 1.1.0
-  coffee-script 2.3.0
-  coffee-script-source 1.8.0
-  colorator 0.1
   colored 1.2
-  compass 1.0.1
-  compass-core 1.0.1
-  compass-import-once 1.0.5
-  cri 2.6.1
-  em-websocket 0.5.1
-  erubis 2.7.0
-  eventmachine 1.0.4
-  execjs 2.2.2
-  executable-hooks 1.3.2
-  fast-stemmer 1.0.2
-  ffi 1.9.6
-  formatador 0.2.5
-  gem-wrappers 1.2.7
-  guard 2.11.0
-  guard-nanoc 1.0.3
-  haml 4.0.6
-  hike 1.2.3
-  hitimes 1.2.2
-  hooks 0.4.0
-  http_parser.rb 0.6.0
-  i18n 0.6.11
-  io-console 0.4.3
-  jekyll 2.5.3
-  jekyll-coffeescript 1.0.1
-  jekyll-gist 1.1.0
-  jekyll-paginate 1.1.0
-  jekyll-sass-converter 1.3.0
-  jekyll-watch 1.2.0
-  json 1.8.1
-  kramdown 1.5.0
-  liquid 2.6.1
-  listen 2.8.4
-  lumberjack 1.0.9
-  mercenary 0.3.5
-  method_source 0.8.2
-  middleman 3.3.7
-  middleman-core 3.3.7
-  middleman-livereload 3.1.1
-  middleman-sprockets 3.4.1
-  mime-types 2.4.3
-  minitest 5.4.3, 5.5.0
-  multi_json 1.10.1
-  nanoc 3.7.4
-  nenv 0.1.1
-  notiffany 0.0.2
-  padrino-helpers 0.12.4
-  padrino-support 0.12.4
-  parslet 1.5.0
-  posix-spawn 0.3.9
-  power_assert 0.2.2
-  pry 0.10.1
-  psych 2.0.8
-  pygments.rb 0.6.0
-  rack 1.6.0
-  rack-livereload 0.3.15
-  rack-test 0.6.2
-  rake 10.4.2
-  rb-fsevent 0.9.4
-  rb-inotify 0.9.5
-  rdoc 4.2.0
-  redcarpet 3.2.2
-  rubygems-bundler 1.4.4
-  rvm 1.11.3.9
-  safe_yaml 1.0.4
-  sass 3.4.9
-  shellany 0.0.1
-  slop 3.6.0
-  sprockets 2.12.3
-  sprockets-helpers 1.1.0
-  sprockets-sass 1.3.1
-  test-unit 3.0.8
-  thor 0.19.1
-  thread_safe 0.3.4
-  tilt 1.4.1
-  timers 4.0.1
-  toml 0.1.2
-  tzinfo 1.2.2
-  uber 0.0.12
-  uglifier 2.6.0
-  yajl-ruby 1.1.0
+  cri 2.7.0
+  nanoc 3.8.0
+  rack 1.6.1
+  rubygems-update 2.4.7
 
 ===== ENVIRONMENT:
 
-ANDROID_HOME => "/home/ofcapl/android/sdk/tools"
-ANDROID_PLATFORM_TOOLS => "/home/ofcapl/android/sdk/platform-tools"
-COMP_WORDBREAKS => " \t\n\"'><;|&(:"
-DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-DdinJBrUWk,guid=c379fe4219650536cbd57f6200000013"
+CLUTTER_IM_MODULE => "xim"
+DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-KF3ERLyMjh,guid=9759cc7d027d5259b0a046f8555e125d"
 DEFAULTS_PATH => "/usr/share/gconf/pantheon.default.path"
 DESKTOP_SESSION => "pantheon"
 DISPLAY => ":0"
 GDMSESSION => "pantheon"
-GEM_HOME => "/home/ofcapl/.rvm/gems/ruby-2.2.0"
-GEM_PATH => "/home/ofcapl/.rvm/gems/ruby-2.2.0:/home/ofcapl/.rvm/gems/ruby-2.2.0@global"
+GDM_LANG => "en"
 GIO_LAUNCHED_DESKTOP_FILE => "/usr/share/applications/pantheon-terminal.desktop"
-GIO_LAUNCHED_DESKTOP_FILE_PID => "13721"
+GIO_LAUNCHED_DESKTOP_FILE_PID => "2126"
 GNOME_DESKTOP_SESSION_ID => "this-is-deprecated"
-GNOME_KEYRING_CONTROL => "/tmp/keyring-46dcs4"
-GNOME_KEYRING_PID => "3631"
-GPG_AGENT_INFO => "/tmp/keyring-46dcs4/gpg:0:1"
+GNOME_KEYRING_CONTROL => "/run/user/1000/keyring-0tvi1b"
+GNOME_KEYRING_PID => "1296"
+GPG_AGENT_INFO => "/run/user/1000/keyring-0tvi1b/gpg:0:1"
+GTK_CSD => "1"
+GTK_IM_MODULE => "ibus"
 HOME => "/home/ofcapl"
-IRBRC => "/home/ofcapl/.rvm/rubies/ruby-2.2.0/.irbrc"
 LANG => "en_US.UTF-8"
+LANGUAGE => "en"
+LC_ADDRESS => "pl_PL.UTF-8"
+LC_IDENTIFICATION => "pl_PL.UTF-8"
+LC_MEASUREMENT => "pl_PL.UTF-8"
+LC_MONETARY => "pl_PL.UTF-8"
+LC_NAME => "pl_PL.UTF-8"
+LC_NUMERIC => "pl_PL.UTF-8"
+LC_PAPER => "pl_PL.UTF-8"
+LC_TELEPHONE => "pl_PL.UTF-8"
+LC_TIME => "pl_PL.UTF-8"
 LESSCLOSE => "/usr/bin/lesspipe %s %s"
 LESSOPEN => "| /usr/bin/lesspipe %s"
 LOGNAME => "ofcapl"
 LS_COLORS => "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:"
 MANDATORY_PATH => "/usr/share/gconf/pantheon.mandatory.path"
-MY_RUBY_HOME => "/home/ofcapl/.rvm/rubies/ruby-2.2.0"
-NODE_PATH => "/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript"
-PATH => "/home/ofcapl/.rvm/gems/ruby-2.2.0/bin:/home/ofcapl/.rvm/gems/ruby-2.2.0@global/bin:/home/ofcapl/.rvm/rubies/ruby-2.2.0/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/ofcapl/.rvm/bin:/usr/local/bin:/usr/bin:/usr/sbin:/usr/local/sbin:/bin:/sbin:/home/ofcapl/android/sdk/tools:/home/ofcapl/android/sdk/platform-tools:/home/ofcapl/.rvm/bin:/usr/local/bin:/usr/bin:/usr/sbin:/usr/local/sbin:/bin:/sbin:/home/ofcapl/android/sdk/tools:/home/ofcapl/android/sdk/platform-tools:/home/ofcapl/.rvm/bin:/home/ofcapl/.rvm/bin"
+OLDPWD => "/home/ofcapl/Projects"
+PANTHEON_TERMINAL_ID => "0"
+PATH => "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+PROMPT_COMMAND => "__bp_precmd_invoke_cmd; dbus-send --type=method_call --session --dest=net.launchpad.pantheon-terminal /net/launchpad/pantheon_terminal org.pantheon.terminal.ProcessFinished string:$PANTHEON_TERMINAL_ID string:\"$(history 1 | cut -c 8-)\";  __bp_interactive_mode;"
 PWD => "/home/ofcapl/Projects/lukaszkups.net"
-RUBY_VERSION => "ruby-2.2.0"
-SESSION_MANAGER => "local/ofcapl-zen:@/tmp/.ICE-unix/3642,unix/ofcapl-zen:/tmp/.ICE-unix/3642"
+QT4_IM_MODULE => "xim"
+QT_IM_MODULE => "ibus"
+SESSION_MANAGER => "local/ofcapl-UX32LN:@/tmp/.ICE-unix/1299,unix/ofcapl-UX32LN:/tmp/.ICE-unix/1299"
 SHELL => "/bin/bash"
-SHLVL => "2"
-SSH_AGENT_PID => "3674"
-SSH_AUTH_SOCK => "/tmp/keyring-46dcs4/ssh"
+SHLVL => "1"
+SSH_AGENT_PID => "1375"
+SSH_AUTH_SOCK => "/run/user/1000/keyring-0tvi1b/ssh"
 TERM => "xterm"
+TEXTDOMAIN => "im-config"
+TEXTDOMAINDIR => "/usr/share/locale/"
 USER => "ofcapl"
+VTE_VERSION => "3409"
 XAUTHORITY => "/home/ofcapl/.Xauthority"
 XDG_CONFIG_DIRS => "/etc/xdg/xdg-pantheon:/etc/xdg"
 XDG_CURRENT_DESKTOP => "Pantheon"
 XDG_DATA_DIRS => "/usr/share/pantheon:/usr/local/share/:/usr/share/"
+XDG_GREETER_DATA_DIR => "/var/lib/lightdm-data/ofcapl"
+XDG_MENU_PREFIX => "gnome-"
+XDG_RUNTIME_DIR => "/run/user/1000"
+XDG_SEAT => "seat0"
 XDG_SEAT_PATH => "/org/freedesktop/DisplayManager/Seat0"
-XDG_SESSION_COOKIE => "03fb76fc70ea2f10cf7702a400000003-1424115021.810033-2032923693"
+XDG_SESSION_ID => "c2"
 XDG_SESSION_PATH => "/org/freedesktop/DisplayManager/Session0"
-_ => "/home/ofcapl/.rvm/gems/ruby-2.2.0/bin/nanoc"
-_ORIGINAL_GEM_PATH => "/home/ofcapl/.rvm/gems/ruby-2.2.0:/home/ofcapl/.rvm/gems/ruby-2.2.0@global"
-_system_arch => "x86_64"
-_system_name => "Debian"
-_system_type => "Linux"
-_system_version => "wheezy_sid"
-rvm_bin_path => "/home/ofcapl/.rvm/bin"
-rvm_loaded_flag => "1"
-rvm_path => "/home/ofcapl/.rvm"
-rvm_prefix => "/home/ofcapl"
-rvm_stored_umask => "0002"
-rvm_user_install_flag => "1"
-rvm_version => "1.26.7 (master)"
+XDG_VTNR => "7"
+XMODIFIERS => "@im=ibus"
+_ => "/usr/local/bin/nanoc"
 
 ===== LOAD PATHS:
 
-  0. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib
-  1. /home/ofcapl/.rvm/gems/ruby-2.2.0@global/extensions/x86_64-linux/2.2.0/executable-hooks-1.3.2
-  2. /home/ofcapl/.rvm/gems/ruby-2.2.0@global/gems/executable-hooks-1.3.2/lib
-  3. /home/ofcapl/.rvm/gems/ruby-2.2.0@global/gems/bundler-unload-1.0.2/lib
-  4. /home/ofcapl/.rvm/gems/ruby-2.2.0@global/gems/rubygems-bundler-1.4.4/lib
-  5. /home/ofcapl/.rvm/gems/ruby-2.2.0@global/gems/bundler-1.7.10/lib
-  6. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/colored-1.2/lib
-  7. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/cri-2.6.1/lib
-  8. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/nanoc-3.7.4/lib
-  9. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/rack-1.6.0/lib
-  10. /home/ofcapl/.rvm/gems/ruby-2.2.0/gems/mime-types-2.4.3/lib
-  11. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0
-  12. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0/x86_64-linux
-  13. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby
-  14. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/vendor_ruby/2.2.0
-  15. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/vendor_ruby/2.2.0/x86_64-linux
-  16. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/vendor_ruby
-  17. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0
-  18. /home/ofcapl/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/x86_64-linux
+  0. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib
+  1. /var/lib/gems/1.9.1/gems/colored-1.2/lib
+  2. /var/lib/gems/1.9.1/gems/cri-2.7.0/lib
+  3. /var/lib/gems/1.9.1/gems/nanoc-3.8.0/lib
+  4. /var/lib/gems/1.9.1/gems/rack-1.6.1/lib
+  5. /usr/local/lib/site_ruby/1.9.1
+  6. /usr/local/lib/site_ruby/1.9.1/x86_64-linux
+  7. /usr/local/lib/site_ruby
+  8. /usr/lib/ruby/vendor_ruby/1.9.1
+  9. /usr/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
+  10. /usr/lib/ruby/vendor_ruby
+  11. /usr/lib/ruby/1.9.1
+  12. /usr/lib/ruby/1.9.1/x86_64-linux
