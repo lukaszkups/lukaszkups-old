@@ -1,9 +1,0 @@
-%h1.roboto.headline
-  Hello,I'm a Front-end developer with back-end experience. I can help You build finest quality web page/app for Your products.
-.clear.clear50
-%ul.projects
-  - tagged_articles('project').each do |post|
-    %li
-      = image_tag(post[:thumb])
-      .project-shadow
-        = link_to(post[:title], post.path)

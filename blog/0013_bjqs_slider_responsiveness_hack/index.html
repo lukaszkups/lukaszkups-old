@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Bjqs slider responsiveness hack
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="bjqs-slider-responsiveness-hack">Bjqs slider responsiveness hack</h1>
+      
+      <p><a href="http://www.basic-slider.com/">bjqs slider</a> is one of my favorite slider plugin. It is really easy to use and customize for various needs.</p>
+      
+      <h2 id="the-problem-with-plugin-appears-when-we-want-to-make-it-responsive-eg-on-full-screen-width">The problem with plugin appears, when we want to make it responsive (e.g. on full screen width)</h2>
+      
+      <p>Slider becomes laggy and doesn’t scale slides properly. But I’ve managed to hack the solution for this little bug.</p>
+      
+      <p>When You’re initializing the plugin, You can define the dimensions (<code>width</code> and <code>height</code>) of the slider - and You should define there the largest possible value for it. At the same time, it will be the maximum size of the single slide. This value should equal Your device’s parameters:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;$('#mySlider').bjqs({&#x000A;    ...&#x000A;    width: window.screen.width,&#x000A;    responsive: true,&#x000A;    ...&#x000A;});&#x000A;</code></pre>
+      
+      <p>After plugin initialization, we should trigger the <code>resize</code> event on page (because if active browser window won’t be in maximized mode, then slider will be bigger and not visible in 100%):</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;$(window).trigger('resize');&#x000A;</code></pre>
+      
+      <p>PS. In case You are using slider pagination bullets and You want to keep them centered horizontally, then You should add this code before triggering the <code>resize</code> event:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;$(window).resize(function(){&#x000A;    $('#mySlider .bjq-markers.h-centered').css({'left':0});&#x000A;});&#x000A;</code></pre>
+      
+      <p>This solution works on firefox &amp; chrome - not tested with IE &amp; other stuff - if You have any info about it, please <a href="http://twitter.com/lukaskups">tweet about it  to me</a>.</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>

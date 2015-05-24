@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Shorten strings with spacebar helper
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="shorten-your-titlenamelinkyou-name-it-strings-with-spacebar-helper">Shorten Your title/name/link(You name it!) strings with spacebar helper</h1>
+      
+      <p>If You’re building some lists view (e.g. posts list) and You want to shorten their names You can achieve that using this UI helper:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;UI.registerHelper('shortIt', function(stringToShorten, maxCharsAmount){&#x000A;	var shorter = stringToShorten.substr(0, maxCharsAmount);&#x000A;&#x000A;	shorter = shorter.substr(0, Math.min(shorter.length, shorter.lastIndexOf(' '))) + '...';&#x000A;	return shorter;&#x000A;});&#x000A;</code></pre>
+      
+      <p>It will cut the string to the (whole) word placed after last space character.</p>
+      
+      <p>Usage:</p>
+      
+      <pre>&#x000A;<code class="haml">&#x000A;{{#each PostList}}&#x000A;	{{shortIt this.title 15}}&#x000A;{{/each}}&#x000A;</code></pre>
+      
+      <p>And that’s it! Enjoy!</p>
+      
+      <p>(You can read this article also at <a href="https://coderwall.com/p/nz63bg/meteor-shorten-string-spacebar-helper">my coderwall’s protips section</a>)</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>

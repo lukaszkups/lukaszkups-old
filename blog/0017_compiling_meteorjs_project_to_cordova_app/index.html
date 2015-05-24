@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Compiling MeteorJS project to Cordova app
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="compiling-meteorjs-project-to-cordova-app">Compiling MeteorJS project to Cordova app</h1>
+      
+      <p>As You may already know, MeteorJS enables compiling Your web applications to iOS or Android build (and I’m looking forward for Windows Phone 8 platform support). It is possible thanks to great cordova integration with meteor. Today I would like to share information about the process of building and compiling project to cordova.</p>
+      
+      <p>First, we need to add to our existing project specific platform (ios or android, or both):</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor add-platform ios&#x000A;meteor add-platform android&#x000A;</code></pre>
+      
+      <p>If we want to check which platforms are currently installed:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor list-platforms&#x000A;</code></pre>
+      
+      <p>And if we want to get rid of some platform, we can simply remove it running command below:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor remove-platform &lt;platform_name&gt;&#x000A;</code></pre>
+      
+      <p>If we want to check status of our app in emulator, type:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor run &lt;platform_name&gt;&#x000A;</code></pre>
+      
+      <h2 id="preparing-and-building-google-play-store-ready-project">Preparing and building Google-Play-Store-ready project</h2>
+      
+      <p>When we are finished with our app development it’s time to compile it and prepare for sending to Google Play Store.</p>
+      
+      <p>At the beginning, we have to build our app:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor build android --server localhost:3000&#x000A;</code></pre>
+      
+      <p>Then, enter android folder with built <code>.apk</code> file (depends on the system Your working on, the folder path may be different but You should have no problem locating it - it should be somewhere inside Your MeteorJS project folder):</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;cd android/android&#x000A;</code></pre>
+      
+      <p>Now we have to generate the key for signing our app:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;keytool -genkey -v -keystore &lt;your keystore name&gt;.keystore -alias &lt;your keystore name&gt; -keyalg RSA -keysize 2048 -validity 10000&#x000A;</code></pre>
+      
+      <p>If everything gone fine, we can sign our app with generated key:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;jarsigner -verbose -keystore &lt;your keystore name&gt;.keystore -signedjar &lt;your target apk file name&gt;.apk &lt;your signed apk file name&gt;.apk &lt;your keystore name&gt;&#x000A;</code></pre>
+      
+      <p>Now we have signed android application. Sometimes, during upload to Google Play Store, we can get an error that our app is not packed properly and we have to fix that.</p>
+      
+      <p>We have to do this, using <code>zipalign</code> tool:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;zipalign -f -v 4 &lt;your signed apk file name&gt;.apk &lt;your zipaligned apk file name&gt;.apk&#x000A;</code></pre>
+      
+      <p>If this command doesn’t work for You, probably You need to use the full path to zipalign installation (it may differ depends on operating system):</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;~/.meteor/android_bundle/android-sdk/build-tools/20.0.0/zipalign -f -v 4 &lt;your signed apk file name&gt;.apk &lt;your zipaligned apk file name&gt;.apk&#x000A;</code></pre>
+      
+      <p>And that’s it - You can now sent Your application to Google Play Store and collect the glory :)</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>

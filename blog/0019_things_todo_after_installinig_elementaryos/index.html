@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Things to do after installing ElementaryOS
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="things-to-do-after-installing-elementaryos">Things to do after installing ElementaryOS</h1>
+      
+      <h2 id="couple-days-ago-i-was-upgrading--my-system-from-elementaryos-beta-to-stable-version-unfortunately-it-is-related--with-system-reinstallation">Couple days ago I was upgrading  my system (from ElementaryOS beta to stable version). Unfortunately it is related  with system reinstallation.</h2>
+      
+      <p>For those who do not know this linux distribution I’ll refer to check <a href="http://elementaryos.org">this link</a>. In short, it is the most polished and beautiful linux distro ever made.</p>
+      
+      <p>Some people accuse that elementary developers are copying apple’s OSX design guidelines. Personally, as a past OSX user I think it is not copying, but inspiration is definitely visible.</p>
+      
+      <h2 id="step-i-first-thing-first">Step I: first thing first</h2>
+      
+      <p>If You haven’t checked it during installation, update all the system packages to newest version:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get update&#x000A;sudo apt-get upgrade&#x000A;</code></pre>
+      
+      <p>Next, let’s install all necessary development tools:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-add-repository ppa:ubuntu-mozilla-daily/ppa&#x000A;sudo add-apt-repository ppa:webupd8team/sublime-text-3&#x000A;sudo apt-add-repository ppa:cordova-ubuntu/ppa&#x000A;sudo apt-get update&#x000A;sudo apt-get install firefox&#x000A;sudo apt-get install sublime-text-installer&#x000A;sudo apt-get install ruby&#x000A;sudo apt-get install rubygems-update&#x000A;sudo apt-get install nanoc&#x000A;sudo apt-get install kramdown&#x000A;sudo apt-get install haml&#x000A;sudo apt-get install bundler&#x000A;sudo apt-get install npm&#x000A;curl https://install.meteor.com/ | sh&#x000A;sudo apt-get install sqlite&#x000A;sudo apt-get install python-pip&#x000A;sudo apt-get install python-setuptools&#x000A;sudo apt-get install python3-setuptools&#x000A;sudo apt-get install python-django&#x000A;sudo apt-get install cordova-cli&#x000A;sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev&#x000A;curl -L https://get.rvm.io | bash -s stable&#x000A;source ~/.rvm/scripts/rvm&#x000A;rvm install 2.2.2&#x000A;rvm use 2.2.2 --default&#x000A;echo "gem: --no-ri --no-rdoc" &gt; ~/.gemrc&#x000A;gem install bundler&#x000A;gem install rails -v 4.2.1&#x000A;touch ~/.vimrc&#x000A;mkdir ~/.vim/swap&#x000A;mkdir ~/.vim/swap/tmp&#x000A;mkdir ~/.vim/backups&#x000A;mkdir ~/.vim/backups/tmp&#x000A;export LC_ALL=en_CA.UTF-8&#x000A;export LANG=en_CA.UTF-8&#x000A;git config --global user.email "&lt;youremail&gt;"&#x000A;git config --global user.name "&lt;yourusername&gt;"&#x000A;</code></pre>
+      
+      <p>And that should be enough for starting point.</p>
+      
+      <h2 id="step-ii-d-d-d-d-d-drop-the-base">Step II: D-d-d-d-d-drop the base!</h2>
+      
+      <p>This is my worst nightmare every time I reinstall the OS - installing Postgres datatabse.</p>
+      
+      <p>I’ve decided to give it separate paragraph because it’s a bit longer than couple lines of simple terminal commands (in fact it is, but I want to store this information somewhere, because I google for it every freaking time).</p>
+      
+      <p>First, install postgres packages:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-get install postgresql postgresql-contrib&#x000A;</code></pre>
+      
+      <p>Next, create cluster for postgres database cluster:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;sudo pg_createcluster 9.3 main --start&#x000A;</code></pre>
+      
+      <p>Now, lets create new user for our system database:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;createuser --interactive&#x000A;</code></pre>
+      
+      <p>You will be asked couple yes/no questions - easy peasy. After that, we need to set a password for our new user:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;sudo -i -u postgres&#x000A;alter user &lt;username&gt; with password "&lt;your password&gt;";&#x000A;</code></pre>
+      
+      <p>Now we can create new database, and set its access settings:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;\q&#x000A;createdb &lt;dbname&gt;&#x000A;psql&#x000A;grant all privileges on database &lt;dbname&gt; to &lt;username&gt;;&#x000A;</code></pre>
+      
+      <p>(heavy breathing) and that’s it.</p>
+      
+      <h2 id="step-iii-personalization">Step III: personalization</h2>
+      
+      <p>If You want to Elementary even more beautiful, try custom icons and themes, for example:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;sudo apt-add-repository ppa:mpstark/elementary-tweaks-daily&#x000A;sudo apt-get install elementary-tweaks&#x000A;sudo add-apt-repository ppa:numix/ppa&#x000A;sudo apt-get install numix-icon-theme-circle&#x000A;</code></pre>
+      
+      <p>Now You can access a new submenu in Your system settings app called <em>tweaks</em>, where You can customize Your system design (numix-circle icons are my favourite!).</p>
+      
+      <p>In addition, You can also take a look at <em>keyboard</em> submenu and bind key shortcuts that suits You best (it’s worth to mention, that ElementaryOS default ones are pretty intuitive).</p>
+      
+      <p>And that’s all folks! This setup should be a fine starter for development. If You have any improvements/suggestions, feel free to <a href="http://twitter.com/lukaszkups">tweet me</a> about it.</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>

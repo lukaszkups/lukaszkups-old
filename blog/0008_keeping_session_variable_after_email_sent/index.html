@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Handling notifications after email sending.
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="emails--notifications">Emails &amp; notifications</h1>
+      
+      <p>Today I wanted to implement contact form with validation and (alert) notification system. However, I encountered a problem with session variables.</p>
+      
+      <p>My idea was to set Session variable which stores information about unseen alert notification and get that value after <code>rendered</code> template callback:</p>
+      
+      <p>Template event:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.myContactTemplate.template{(&#x000A;	'click .submitButton': function(e){&#x000A;		var dataText = $(e.currentTarget).find('.dataText').val();&#x000A;		&#x000A;		Session.set('alertMessage', ['Email has been sent', 'success']);&#x000A;		Meteor.call('sendEmail', dataText);&#x000A;	}&#x000A;)};&#x000A;</code></pre>
+      
+      <p>E-mail method:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.methods({&#x000A;	sendEmail: function(text){&#x000A;		check([text], [String]);&#x000A;		this.unblock();&#x000A;		Email.send({&#x000A;			to: 'xyz@xyz.com',&#x000A;			from: 'contactForm@xyz.com',&#x000A;			subject: 'New message from contact form',&#x000A;			text: text&#x000A;		});&#x000A;	}&#x000A;});&#x000A;</code></pre>
+      
+      <p>Rendered callback:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.contactFormTemplate.rendered = function(){&#x000A;	Meteor.defer(function(){&#x000A;		var a = Session.get('alertMessage');&#x000A;		if(a){&#x000A;			throwAlert(a[0], a[1]);	//my custom method for alerts&#x000A;			Session.set('alertMessage', null);		&#x000A;		}&#x000A;	});&#x000A;}&#x000A;</code></pre>
+      
+      <p>The code above will not work. I have noticed that email sending method somehow flush/resets our <code>alertMessage</code> session variable. To prevent from such behaviour and keep all variables saved let’s add <a href="https://github.com/okgrow/meteor-persistent-session">persistent-session</a> package:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor add u2622:persistent-session&#x000A;</code></pre>
+      
+      <p>And that’s it. Now our session variables are stored in the browser’s localstorage (so we prevent from unwanted variable flushes).</p>
+      
+      <p>You can discuss about this problem at <a href="http://stackoverflow.com/questions/28084160/session-variable-unset-after-sending-email">this stackoverflow thread</a>.</p>
+      
+      <p>– ł</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>

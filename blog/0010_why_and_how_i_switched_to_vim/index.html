@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Why (and how) I've switched to vim
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="why-and-how-ive-switched-to-vim">Why (and how) I’ve switched to vim</h1>
+      
+      <h2 id="good--bad-cop">Good &amp; bad cop.</h2>
+      
+      <p>For the last couple years I was developing web apps using <a href="http://www.sublimetext.com/">Sublime Text</a> exclusively. During that time I was also constantly monitoring code editors market and tried some of its newcomers (e.g. github’s <a href="http://atom.io">atom</a> or adobe’s <a href="http://brackets.io">brackets</a>), but in the long run I was always coming back to Sublime.</p>
+      
+      <h2 id="cool-kids-from-the-block">Cool kids from the block</h2>
+      
+      <p>Besides old habits and laziness about learning new tool that should help me write code I was always curious about those oldschool, antique at the first look, console editors like <a href="https://www.gnu.org/software/emacs">emacs</a> or <a href="http://vim.org">vim</a>. There is something magical about these apps - all those badass hackers and world-class conference speakers are using it. Why?</p>
+      
+      <h2 id="back-to-the-roots">Back to the roots</h2>
+      
+      <p>Emacs and vim exist on the code editors scene for some time now. That means they are hardened in the (code development) battle. You can find plugins for them for almost any purpose. Their UI’s simplicity and harshness means that they can launch in milliseconds. You can also pimp Your editor like a true gangsta and gain some respect in the neighbourhood. Their advanced keymapping options will make Your fingers dance on the keyboard like John Travolta and Karen Lynn Gorner without getting saturday night fever.</p>
+      
+      <h2 id="coders-just-wanna-have-fun">Coders just wanna have fun</h2>
+      
+      <p>In the earliest days of my carreer I had pleasure to work with awesome programmers who used vim as their main tool for code. At that day I was mainly focused to learn programming itself, rather than text editor usage - I think it would be a huge waste of time (especially that I was a beginner programmer).</p>
+      
+      <p>In my current job some programmers switched from their advanced IDEs to emacs. Their first days of work with new tool were quite funny - they make code many times slower than before, and have problems with handling basic text editor operations :) However, after some time I’ve noticed significant improvement in their workflow - they’re now coding as fast as in the days when they used their IDEs.
+      Now they have tools that  are easier to re-setup on every new machine they have to work on, and it uses much less their computer resources. These pros convinced me to give a shot and try something new.</p>
+      
+      <p><img src="/blog/images/hobbit_adventure.gif" alt="img" /></p>
+      
+      <h2 id="first-days-of-summer">First days of summer</h2>
+      
+      <p>I don’t want to start next Text Editors (flame) War, so I’ll tell why I’ve chosen vim over emacs: just because I could :) I’ve seen how coders are working on both of then and vim’s workflow is just more intuitive for me(I think it’s very personal taste/preference).</p>
+      
+      <p>At the moment of writing this sentence I have configured my vim on pretty advanced level - it works (almost) completely like I want it to work (only couple shortcuts are missing but before publishing this post I think my <code>.vimrc</code> file will be complete).</p>
+      
+      <p>If You are curious where to start I can recommend <a href="http://linuxcommand.org/man_pages/vimtutor1.html">vimtutor</a>. It is an interactive, ~30minutes-long lesson which will learn You most of the vim fundamentals. It was my only source of information about vim, before I decided to switch (so You should probably try it right now).</p>
+      
+      <p>I’ve configured my vim basing on my current needs - when I’ve found something really annoying or difficult I just googled how to customize/modify/remove it using <code>.vimrc</code> file &amp; its plugins.</p>
+      
+      <h2 id="ladies-and-gentleman">Ladies and gentleman..</h2>
+      
+      <p>Here’s my complete <code>.vimrc</code> file (at the day 08/02/2015):</p>
+      
+      <pre>&#x000A;<code class="vim">&#x000A;"vundler config&#x000A;"&#x000A;set nocompatible&#x000A;filetype off &#x000A;set rtp+=~/.vim/bundle/Vundle.vim&#x000A;call vundle#rc()&#x000A;"vim plugin list&#x000A;"&#x000A;"this is required for vim bundler&#x000A;"&#x000A;Plugin 'gmarik/Vundle.vim'  &#x000A;Plugin 'godlygeek/tabular'&#x000A;Plugin 'jelera/vim-javascript-syntax'&#x000A;Plugin 'ervandew/supertab'&#x000A;Plugin 'vim-scripts/Better-CSS-Syntax-for-Vim'&#x000A;Plugin 'plasticboy/vim-markdown'&#x000A;Plugin 'wincent/command-t'&#x000A;Plugin 'scrooloose/nerdcommenter'&#x000A;Plugin 'docunext/closetag.vim'&#x000A;Plugin 'godlygeek/csapprox'&#x000A;Plugin 'scrooloose/nerdtree'&#x000A;Plugin 'flazz/vim-colorschemes'&#x000A;Plugin 'mattn/emmet-vim'&#x000A;Plugin 'bling/vim-airline'&#x000A;Plugin 'cdmedia/itg_flat_vim'&#x000A;"vim configuration&#x000A;"&#x000A;autocmd vimenter * NERDTree&#x000A;set tabstop=4&#x000A;set shiftwidth=4&#x000A;set softtabstop=4&#x000A;set expandtab&#x000A;set number&#x000A;set t_Co=256&#x000A;syntax enable&#x000A;set autoindent&#x000A;set hlsearch&#x000A;set ignorecase&#x000A;colorscheme itg_flat&#x000A;set encoding=utf-8&#x000A;set laststatus=2&#x000A;set esckeys&#x000A;set timeoutlen=1000 ttimeoutlen=0&#x000A;set hidden&#x000A;syntax on&#x000A;set scrolloff=8&#x000A;set backup&#x000A;set backupdir=~/.vim/backups/tmp&#x000A;set dir=~/.vim/swaps/tmp&#x000A;set ttyfast&#x000A;set cursorline&#x000A;"airline-vim font stuff&#x000A;"&#x000A;let g:airline#extensions#tabline#enabled=1&#x000A;set guifont=Liberation\ Mono\ for\ Powerline:h13&#x000A;let g:airline_powerline_fonts=1&#x000A;if !exists('g:airline_symbols')&#x000A;    let g:airline_symbols={}&#x000A;endif&#x000A;set fillchars+=stl:\ ,stlnc:\ " &#x000A;"&#x000A;"vim keymap&#x000A;"&#x000A;map tn :tabn&lt;CR&gt;&#x000A;map tp :tabp&lt;CR&gt;&#x000A;map &lt;C-j&gt; 10j&#x000A;map &lt;C-k&gt; 10k&#x000A;map &lt;A-s&gt; :w&#x000A;nmap &lt;Space&gt; i&#x000A;nnoremap &lt;C-]&gt;&lt;C-]&gt; :bn&lt;CR&gt;&lt;Esc&gt; &#x000A;nnoremap &lt;C-[&gt;&lt;C-[&gt; :bp&lt;CR&gt;&lt;Esc&gt;&#x000A;nnoremap &lt;C-e&gt; :Explore&lt;CR&gt;&#x000A;nnoremap &lt;C-[&gt;&lt;C-]&gt; &lt;C-w&gt;&lt;C-w&gt;&#x000A;nnoremap &lt;Delete&gt; &lt;Delete&gt;i&#x000A;nnoremap \\ A&lt;Esc&gt;&#x000A;nnoremap &lt;CR&gt; :noh&lt;CR&gt;&lt;CR&gt;&#x000A;nnoremap qq :bd&lt;CR&gt;&#x000A;</code></pre>
+      
+      <h2 id="but-its-a-nightmare-how-to-handle-it">But it’s a nightmare! How to handle it?!</h2>
+      
+      <p>I’ve tried to start working with vim 3 times in total. Previous 2 times was a huge disappointments due to lack of real understanding how to use it.</p>
+      
+      <p>At first, You have to realise, that there’s no point in copy-paste’ing other’s people <em>absolute perfect vimrc configuration</em> - this is YOUR code editor and it should be configured absolutelly just-any-only by YOURSELF. I’ve read many vim haters blog posts and most of them were using someone’s vimrc configs - I had to try code with vim two times before I’ve realise that.</p>
+      
+      <p>Secondly - before jumping deep into vim adventure try couple courses - personally (as I’ve mentioned earlier in this post) <a href="http://linuxcommand.org/man_pages/vimtutor1.html">vimtutor</a> explained me well all vim basics.</p>
+      
+      <p><img src="/blog/images/try_vim_racoon.jpg" alt="img" /></p>
+      
+      <p>And finally - don’t use vim because someone told You so. To be honest - I’ve tried vim because I was bored with my previous (~5 years old)  workflow - I knew that I have to change something to have fun again from making code - and I’ve found vim to be the solution.</p>
+      
+      <p>If my story inspired You to use some of the oldschool editors (not necessarily vim) - make me happy and <a href="http://twitter.com/ofcapl">let me know</a> about it.</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>

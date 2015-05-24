@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      Using Fullpage.js with MeteorJS
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="using-fullpagejs-with-meteorjs">Using Fullpage.js with MeteorJS</h1>
+      
+      <p>If You ever wanted to make a website with full screen resolution sizes, You can use a <a href="http://alvarotrigo.com/fullPage/">fullpage.js</a> plugin (it has even own <a href="https://atmospherejs.com/lawshe/full-page">atmosphere package</a>).</p>
+      
+      <h2 id="installation">Installation</h2>
+      
+      <p>We will install fullpage.js as a MeteorJS package directly from atmosphere:</p>
+      
+      <pre>&#x000A;<code class="bash">&#x000A;meteor add add lawshe:full-page&#x000A;</code></pre>
+      
+      <p>Now we have to prepare our templates for fullpage.js usage. Basing on documentation our template should have similiar structure to this:</p>
+      
+      <pre>&#x000A;<code class="html">&#x000A;&lt;div id="fullpage"&gt;&#x000A;    &lt;div class="section"&gt;&lt;!-- place your section content here --&gt;&lt;/div&gt;&#x000A;    &lt;div class="section"&gt;&lt;!-- place your section content here --&gt;&lt;/div&gt;&#x000A;    &lt;div class="section"&gt;&lt;!-- place your section content here --&gt;&lt;/div&gt;&#x000A;    &lt;div class="section"&gt;&lt;!-- place your section content here --&gt;&lt;/div&gt;&#x000A;&lt;/div&gt;&#x000A;</code></pre>
+      
+      <h2 id="initialization">Initialization</h2>
+      
+      <p>At this moment, our project should have fullpage.js installed, so we can initialize it on the desired view:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Template.yourTemplateName.rendered = function() {&#x000A;    $('#fullpage').fullpage({&#x000A;        verticalCentered: false,&#x000A;        crollOverflow: false&#x000A;    });&#x000A;}&#x000A;</code></pre>
+      
+      <p>And that’s it - our webpage should have fullpage.js functionality!</p>
+      
+      <h2 id="problems">Problems</h2>
+      
+      <p>If we want to have fullpage.js initialized at multiple views, then we can encounter a problem.</p>
+      
+      <p>Fullpage.js will initialize multiple times when user leave one page with fullpage.js initialized and enter another with same functionality. As a result, page will “jump” on scroll in different directions or through multiple sections at once.</p>
+      
+      <p>To fix that, we simply should add code below to our <code>/lib/router.js</code> file:</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;Router.onBeforeAction(function(){&#x000A;    $.fn.fullpage.destroy();&#x000A;});&#x000A;</code></pre>
+      
+      <p>It will destroy existing fullpage.js instance, so new one will work properly :) Enjoy!</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
