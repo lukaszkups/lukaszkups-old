@@ -28,34 +28,37 @@ Next, let's install all necessary development tools:
 
 <pre>
 <code class="bash">
+// add required package repositories
 sudo apt-add-repository ppa:ubuntu-mozilla-daily/ppa
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-add-repository ppa:cordova-ubuntu/ppa
 sudo apt-get update
 sudo apt-get install firefox
 sudo apt-get install sublime-text-installer
-sudo apt-get install ruby
-sudo apt-get install rubygems-update
-sudo apt-get install nanoc
-sudo apt-get install kramdown
-sudo apt-get install haml
-sudo apt-get install bundler
-sudo apt-get install npm
-curl https://install.meteor.com/ | sh
-sudo apt-get install sqlite
-sudo apt-get install python-pip
-sudo apt-get install python-setuptools
-sudo apt-get install python3-setuptools
-sudo apt-get install python-django
-sudo apt-get install cordova-cli
+// installing ruby & rails
 sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 rvm install 2.2.2
 rvm use 2.2.2 --default
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+sudo apt-get install rubygems-update
+gem install nanoc
+gem install kramdown
+gem install haml
 gem install bundler
 gem install rails -v 4.2.1
+// installing meteorjs
+sudo apt-get install npm
+curl https://install.meteor.com/ | sh
+sudo apt-get install cordova-cli
+// installing python & django
+sudo apt-get install sqlite
+sudo apt-get install python-pip
+sudo apt-get install python-setuptools
+sudo apt-get install python3-setuptools
+sudo apt-get install python-django
+// preparing stuff for my custom .vimrc settings
 touch ~/.vimrc
 mkdir ~/.vim/swap
 mkdir ~/.vim/swap/tmp
@@ -63,6 +66,7 @@ mkdir ~/.vim/backups
 mkdir ~/.vim/backups/tmp
 export LC_ALL=en_CA.UTF-8
 export LANG=en_CA.UTF-8
+// git setup
 git config --global user.email "&lt;youremail>"
 git config --global user.name "&lt;yourusername>"
 </code>
