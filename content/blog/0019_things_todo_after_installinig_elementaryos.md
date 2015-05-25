@@ -78,7 +78,7 @@ And that should be enough for starting point.
 
 This is my worst nightmare every time I reinstall the OS - installing Postgres datatabse.
 
-I've decided to give it separate paragraph because it's a bit longer than couple lines of simple terminal commands (in fact it is, but I want to store this information somewhere, because I google for it every freaking time).
+I've decided to give it separate paragraph because it's a bit longer than couple lines of simple terminal commands (in fact it is, but I want to store this information somewhere, to prevent from googling it every freaking time).
 
 First, install postgres packages:
 
@@ -88,7 +88,7 @@ sudo apt-get install postgresql postgresql-contrib
 </code>
 </pre>
 
-Next, create cluster for postgres database cluster:
+Next, create database cluster:
 
 <pre>
 <code class="bash">
