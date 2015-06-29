@@ -2,7 +2,7 @@
 kind: article
 created_at: 25 May 2015
 title: Nokia Lumia 735 Review
-tags: ['blog']
+tags: ['draft']
 ---
 
 #Nokia Lumia 735 Review
