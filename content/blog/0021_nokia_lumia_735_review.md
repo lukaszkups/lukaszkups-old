@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 25 May 2015
+created_at: 10 September 2015
 title: Nokia Lumia 735 Review
 tags: ['draft']
 ---
@@ -15,7 +15,7 @@ Combination of such great software and splendid (in design and performance field
 
 I've noticed two fractions about Lumia's design - some may accue Microsoft secondariness and continous reproduction of the same product design, and some like the similarities of this product line. 
 
-Personally I really like the Lumia family product design - You can recognize any of them at first glance; minimalistic, solid, often enclosed in  one-piece, unibody form with bright colors.
+Personally I really like the Lumia family product design - You can recognize any of them at first glance; minimalistic, solid, often enclosed in one-piece, unibody form with bright colors.
 
 Its worth mention, that Nokia Lumia was the first such colorful product line - nowadays most phone manufacturers copy that trend.
 
@@ -27,7 +27,7 @@ Unlike the classic Lumia products, this model has a replaceable cover and batter
 
 ![lumia 03](/blog/images/lumia_735_02.jpg)
 
-In the package with the phone, we can find pair of nice (as for a default one) headphones, and ugly-and-nothing-special-standard-looking black charger(Lumia 800 has still the best designed charger design in the market)
+In the package with the phone, we can find pair of nice (as for a default one) headphones, and ugly-and-nothing-special-standard-looking black charger(Lumia 800 has still the best designed charger ever)
 
 ![lumia 04](/blog/images/lumia_735_04.jpg)
 
@@ -43,14 +43,22 @@ I cannot say the same about the backside speaker (which plays music or ringtones
 
 Nokia Lumia 735 has two cameras: 6.7Mpx rear (with flash) and 5Mpx front one - both are very good, even in low light. In addition, WindowsPhone has great software for photography: standard *Lumia Camera* app with ring controls (I love this idea) or *Lumia Refocus* which allows You to change photo's depth of field **AFTER** doing and saving it on the memory card.
 
+##Go, go, Gadget's gadgets!
+
 ![lumia 06](/blog/images/lumia_735_06.jpg)
 
 ![lumia 07](/blog/images/lumia_735_07.jpg)
+ 
+One of the my most desired phone features is wireless charging. This Lumia supports any Qi-standard chargers. I bought an IKEA's [NORDMÄRKE](http://www.ikea.com/us/en/catalog/products/80289790/) charger and I'm very satisfied with it (somehow I'm not convinced with colorful fatboy chargers) 
+
+It's worth to mention, that all Lumia users can download and use Nokia Here Drive+ and Maps for free. In addition, You can also save map data on the device and use it offline. In my opinion it is the best mobile navigation system in the market.  
 
 ![lumia 08](/blog/images/lumia_735_08.jpg)
 
 ![lumia 09](/blog/images/lumia_735_09.jpg)
 
+##Summary
 
+To not completely repeat my Nokia Lumia 800 review, I can only say that: Nokia Lumia 735 is the greatest 8.1 Windows Phone ever made. It offers amazing quality(on software and hardware field) for such low price. I can recommend it for every new WP user and
 
 -- ł.
