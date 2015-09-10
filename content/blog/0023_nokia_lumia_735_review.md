@@ -63,6 +63,6 @@ To not completely repeat my Nokia Lumia 800 review, I can only say that Nokia Lu
 
 PS.
 
-This review took me about 3 months to finish because of huge amount of other work in free time - I have many draft posts which still need couple improvements, but I hope I'll be able to publish articles more frequently.
+This review took me about 3 months to finish because of huge amount of other tasks - fortunately I have many draft posts which still need couple improvements, but I hope I'll be able to publish articles more frequently again.
 
 -- ł.
