@@ -2,22 +2,22 @@
 kind: article
 created_at: 10 September 2015
 title: Nokia Lumia 735 Review
-tags: ['draft']
+tags: ['blog']
 ---
 
 #Nokia Lumia 735 Review
 
-##As You can already know,I really don't like Windows as a desktop system much, but what Microsoft is doing with his Windows Phone version meets all my expectations from mobile system.
+##As You may know, I don't really like Windows as my primary desktop OS, but what Microsoft is doing with his Windows Phone meets all my expectations from mobile system.
 
 ![lumia 01](/blog/images/lumia_735_01.jpg)
 
-Combination of such great software and splendid (in design and performance field) hardware results in wonderful product. 
+Combination of such great software and splendid (in design and performance field) hardware results as wonderful product. 
 
-I've noticed two fractions about Lumia's design - some may accue Microsoft secondariness and continous reproduction of the same product design, and some like the similarities of this product line. 
+I've noticed two fractions of people - one may accue Microsoft continous reproduction of the same product design, while the other may like the similarities of this product line. 
 
 Personally I really like the Lumia family product design - You can recognize any of them at first glance; minimalistic, solid, often enclosed in one-piece, unibody form with bright colors.
-
-Its worth mention, that Nokia Lumia was the first such colorful product line - nowadays most phone manufacturers copy that trend.
+ 
+It's worth to mention, that Nokia Lumia was the first so colorful phone family line - now  <s>apple</s> phone manufacturers copy that trend.
 
 ![lumia 02](/blog/images/lumia_735_03.jpg)
 
