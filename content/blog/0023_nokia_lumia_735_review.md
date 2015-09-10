@@ -13,7 +13,7 @@ tags: ['blog']
 
 Combination of such great software and splendid (in design and performance field) hardware results as wonderful product. 
 
-I've noticed two fractions of people - one may accue Microsoft continous reproduction of the same product design, while the other may like the similarities of this product line. 
+I've noticed two fractions of people - one accues Microsoft continous reproduction of the same product design, while the other likes the consistency of this product line. 
 
 Personally I really like the Lumia family product design - You can recognize any of them at first glance; minimalistic, solid, often enclosed in one-piece, unibody form with bright colors.
  
