@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 10 September 2015
+created_at: 11 September 2015
 title: Nokia Lumia 735 Review
 tags: ['blog']
 ---
@@ -23,7 +23,7 @@ It's worth to mention, that Nokia Lumia was the first so colorful phone family l
 
 ##Despite the large selection of colors I've chosen the white one - it looks even more clean & minimalistic than any other Lumias.
 
-Unlike the classic Lumia products, this model has a replaceable cover and battery - You can also buy red/orange, bright green and black case. I think it's a good move from Nokia, which extends the fun of owning this model.
+Unlike the classic Lumia products, this model has a replaceable cover and battery - You can also buy unusual red/orange, bright green or black case. I think it's a good move from Nokia, which extends the fun of owning this model.
 
 ![lumia 03](/blog/images/lumia_735_02.jpg)
 
@@ -49,9 +49,9 @@ Nokia Lumia 735 has two cameras: 6.7Mpx rear (with flash) and 5Mpx front one - b
 
 ![lumia 07](/blog/images/lumia_735_07.jpg)
  
-One of the my most desired phone features is wireless charging. This Lumia supports any Qi-standard chargers. I bought an IKEA's [NORDMÄRKE](http://www.ikea.com/us/en/catalog/products/80289790/) charger and I'm very satisfied with it (somehow I'm not convinced with colorful fatboy chargers) 
+One of my most desired phone features is wireless charging. This Lumia supports any Qi-standard chargers. I decided to buy an IKEA's [NORDMÄRKE](http://www.ikea.com/us/en/catalog/products/80289790/) model and I'm pretty satisfied (somehow I'm not convinced about colorful fatboy chargers) 
 
-It's worth to mention, that all Lumia users can download and use Nokia Here Drive+ and Maps for free. In addition, You can also save map data on the device and use it offline. In my opinion it is the best mobile navigation system in the market.  
+It's worth to mention, that all Lumia users can download and use Nokia Here Drive+ and Maps for free. In addition, You can also save map data on the device and use it offline. In my opinion it's still the best mobile navigation system in the market.  
 
 ![lumia 08](/blog/images/lumia_735_08.jpg)
 
@@ -59,6 +59,10 @@ It's worth to mention, that all Lumia users can download and use Nokia Here Driv
 
 ##Summary
 
-To not completely repeat my Nokia Lumia 800 review, I can only say that: Nokia Lumia 735 is the greatest 8.1 Windows Phone ever made. It offers amazing quality(on software and hardware field) for such low price. I can recommend it for every new WP user and
+To not completely repeat my Nokia Lumia 800 review, I can only say that Nokia Lumia 735 is the greatest 8.1 Windows Phone ever made. It offers amazing quality(on software and hardware field) for such low price. I recommend it as a first smartphone device (due to intuitive OS) or as a solid alternative to Android or iOS based phones.
+
+PS.
+
+This review took me about 3 months to finish because of huge amount of other work in free time - I have many draft posts which still need couple improvements, but I hope I'll be able to publish articles more frequently.
 
 -- ł.
