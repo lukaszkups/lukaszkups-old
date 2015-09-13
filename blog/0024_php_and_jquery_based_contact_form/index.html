@@ -66,7 +66,7 @@
       
       <pre>&#x000A;<code class="html">&#x000A;&lt;form id="contact-form"&gt;&#x000A;  &lt;h2&gt;Contact us!&#x000A;  &lt;div class="will-hide"&gt;&#x000A;    &lt;input type="text" placeholder="First name" name="first_name"&gt;&#x000A;    &lt;input type="text" placeholder="Last name" name="last_name"&gt;&#x000A;    &lt;input type="email" placeholder="E-mail" name="email"&gt;&#x000A;    &lt;textarea name="message" rows="6" placeholder="Message"&gt;&lt;/textarea&gt;&#x000A;  &lt;/div&gt;&#x000A;  &lt;input type="submit" value="Send"&gt;&#x000A;&lt;/form&gt;&#x000A;</code></pre>
       
-      <p>Suprisingly, the PHP part of this task wasn’t that hard either (I had totally no-experience with PHP so far):</p>
+      <p>Suprisingly, the PHP part of this task wasn’t that hard either (I had totally no-experience with PHP):</p>
       
       <pre>&#x000A;<code class="php">&#x000A;&lt;?php&#x000A;  $first_name = $_POST['first_name'];&#x000A;  $last_name = $_POST['last_name'];&#x000A;  $email = $_POST['email'];&#x000A;  $message = $_POST['message'];&#x000A;  $formcontent = "From: $first_name $last_name \n Message: $message";&#x000A;  $recipient = "&lt;destination@email&gt;";&#x000A;  $subject = "Message from contact form";&#x000A;  $mailheader = "From: $email \r\n";&#x000A;  mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");&#x000A;?&gt;&#x000A;</code></pre>
       
@@ -80,7 +80,7 @@
       
       <p>Very often people are wondering why I don’t know PHP, because webdevs tend to know it and use everyday. The answer is simple: I really don’t like its syntax, and main development concepts - that’s funny a bit, because I fell in love with javascript, which has really not so greater syntax, but in the end somehow it suits me best.</p>
       
-      <p>Besides, why to use PHP if I can go on with Ruby or Python (or insert here any other popular language) instead? :)</p>
+      <p>Besides, why to use PHP if I can go on with Ruby or Python (or insert-here any other popular language) instead? :)</p>
       
       <p>– ł.</p>
     </div>
