@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 22 September 2015
+created_at: 13 September 2015
 title: PHP & jQuery based contact form for static websites
 tags: ['blog']
 ---
