@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net
+      PHP & jQuery based contact form for static websites
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="php--jquery-based-contact-form-for-static-websites">PHP &amp; jQuery based contact form for static websites</h1>
+      
+      <p>Couple days ago I had to develop a static website for my client (she decided that there’s no need to use any CMS).</p>
+      
+      <p>There was a problem with that, because there was still a contact form included in the origin design.</p>
+      
+      <p>After double-check if my client’s webserver will manage any technology to handle that feature I decided (with broken heart and mind) to try develop it with PHP.</p>
+      
+      <p>The form HTML code is really simple:</p>
+      
+      <pre>&#x000A;<code class="html">&#x000A;&lt;form id="contact-form"&gt;&#x000A;  &lt;h2&gt;Contact us!&#x000A;  &lt;div class="will-hide"&gt;&#x000A;    &lt;input type="text" placeholder="First name" name="first_name"&gt;&#x000A;    &lt;input type="text" placeholder="Last name" name="last_name"&gt;&#x000A;    &lt;input type="email" placeholder="E-mail" name="email"&gt;&#x000A;    &lt;textarea name="message" rows="6" placeholder="Message"&gt;&lt;/textarea&gt;&#x000A;  &lt;/div&gt;&#x000A;  &lt;input type="submit" value="Send"&gt;&#x000A;&lt;/form&gt;&#x000A;</code></pre>
+      
+      <p>Suprisingly, the PHP part of this task wasn’t that hard either (I had totally no-experience with PHP so far):</p>
+      
+      <pre>&#x000A;<code class="php">&#x000A;&lt;?php&#x000A;  $first_name = $_POST['first_name'];&#x000A;  $last_name = $_POST['last_name'];&#x000A;  $email = $_POST['email'];&#x000A;  $message = $_POST['message'];&#x000A;  $formcontent = "From: $first_name $last_name \n Message: $message";&#x000A;  $recipient = "&lt;destination@email&gt;";&#x000A;  $subject = "Message from contact form";&#x000A;  $mailheader = "From: $email \r\n";&#x000A;  mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");&#x000A;?&gt;&#x000A;</code></pre>
+      
+      <p>Everything was working fine, but my form was reloading page on submit - so I decided to add a bit of ajax’s magic (the php &amp; html code above is already prepared for that):</p>
+      
+      <pre>&#x000A;<code class="javascript">&#x000A;$('form#contact-form').on('submit', function(){&#x000A;   var first_name = $('#contact-form input[name="first_name"]').val(),&#x000A;    last_name = $('#contact-form input[name="last_name"]').val(),&#x000A;    email = $('#contact-form input[name="email"]').val(),&#x000A;    message = $('#contact-form textarea').html();&#x000A;       &#x000A;    $.ajax({&#x000A;      type: "POST",&#x000A;      url: "&lt;path/to/your/php/file&gt;",&#x000A;      data: {&#x000A;        first_name: first_name,&#x000A;        last_name: last_name,&#x000A;        email: email,&#x000A;        message: message&#x000A;      }&#x000A;    }).done(function() {&#x000A;      $('form#contact-form').html('&lt;p&gt;Message sent, thank You!&lt;/p&gt;')&#x000A;    });&#x000A;    return false;&#x000A;});&#x000A;</code></pre>
+      
+      <p>And that’s it! You can additionally add some validation to prevent form from submitting when guest don’t fill all form fields etc.</p>
+      
+      <p>To be honest, I was pretty suprised, that everything has gone so smooth &amp; easy.</p>
+      
+      <p>Very often people are wondering why I don’t know PHP, because webdevs tend to know it and use everyday. The answer is simple: I really don’t like its syntax, and main development concepts - that’s funny a bit, because I fell in love with javascript, which has really not so greater syntax, but in the end somehow it suits me best.</p>
+      
+      <p>Besides, why to use PHP if I can go on with Ruby or Python (or insert here any other popular language) instead? :)</p>
+      
+      <p>– ł.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2015
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
