@@ -30,7 +30,7 @@ The form HTML code is really simple:
 </code>
 </pre>
 
-Suprisingly, the PHP part of this task wasn't that hard either (I had totally no-experience with PHP so far):
+Suprisingly, the PHP part of this task wasn't that hard either (I had totally no-experience with PHP):
 
 <pre>
 <code class="php">
@@ -81,6 +81,6 @@ To be honest, I was pretty suprised, that everything has gone so smooth & easy.
 
 Very often people are wondering why I don't know PHP, because webdevs tend to know it and use everyday. The answer is simple: I really don't like its syntax, and main development concepts - that's funny a bit, because I fell in love with javascript, which has really not so greater syntax, but in the end somehow it suits me best. 
 
-Besides, why to use PHP if I can go on with Ruby or Python (or insert here any other popular language) instead? :)
+Besides, why to use PHP if I can go on with Ruby or Python (or insert-here any other popular language) instead? :)
 
 -- ł.
