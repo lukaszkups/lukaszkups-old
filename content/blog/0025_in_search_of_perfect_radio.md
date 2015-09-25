@@ -2,7 +2,7 @@
 kind: article
 created_at: 21 September 2015
 title: In search of perfect radio
-tags: ['blog']
+tags: ['draft']
 ---
 
 #In search of perfect radio
@@ -34,3 +34,4 @@ Damn, there are so many fine electronic companies, which manufacture great quali
 ##So I decided to design my own.
 
 At first, I've gone though sketching some basic shape of the radio (I've decided to design a modular product - main radio + 2 loudspeakers):
+
