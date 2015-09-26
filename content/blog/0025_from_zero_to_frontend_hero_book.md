@@ -27,9 +27,13 @@ Let's face it - there are plenty of resources that covers the front-end basics a
 
 I decided to go another way. 
 
-During my webdev career I had a pleasure to work on really different projects with different technology requirements and specific solutions. I've noticed that some of the complications are pretty common in every projects but there's no simple guidelines or tutorials how to solve them - we had to use some "hacks". In my book I will present those hacks, next to the raw knowledge about each topic. This way of teaching will force reader to start thinking on the new level of expression - the front-end dev way.
+During my webdev career I had a pleasure to work on really different projects with different technology requirements and specific solutions. 
 
-My book will cover all You need to know to start with front-end development - from HTML & CSS basics, through javascript & jQuery and on git protocol and basic server configuration ends.
+I've noticed that some of the complications are pretty common in every projects but there's no simple guidelines or tutorials how to solve them - we had to use some "hacks". 
+
+In my book I will present those hacks, next to the raw knowledge about each topic. This way of teaching will force reader to start thinking on the new level of expression - the front-end dev way.
+
+My book will cover all You need to know to start with front-end development - from HTML & CSS basics, through javascript & jQuery and ending on git protocol and basic server configuration.
 
 -- EDIT MODE OFF
 
