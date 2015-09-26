@@ -19,6 +19,20 @@ So I decided to write an (e-)book about it.
 
 The draft of the book is currently in (around) halfway there - it covers the topics about HTML & CSS elements, with practical use-cases and hacks. There's still a huge amount of work to do, but I think it will be ready in the beginnings of upcoming year 2016.
 
+-- EDIT MODE ON
+
+Referring to couple e-mails I would like to write a bit more about the book contents. I was asked about what will be different in my book, that will encourage people to read it.
+
+Let's face it - there are plenty of resources that covers the front-end basics around the web and libraries. I've found that those guides are almost all the same - they are just cloning over and over the same HTML & CSS rules.
+
+I decided to go another way. 
+
+During my webdev career I had a pleasure to work on really different projects with different technology requirements and specific solutions. I've noticed that some of the complications are pretty common in every projects but there's no simple guidelines or tutorials how to solve them - we had to use some "hacks". In my book I will present those hacks, next to the raw knowledge about each topic. This way of teaching will force reader to start thinking on the new level of expression - the front-end dev way.
+
+My book will cover all You need to know to start with front-end development - from HTML & CSS basics, through javascript & jQuery and on git protocol and basic server configuration ends.
+
+-- EDIT MODE OFF
+
 If You want to stay updated about the book, feel free to subscribe to my (book-only) mailing list.
 
 I won't spam You never-ever. Promise.
