@@ -55,6 +55,6 @@ Some people hates Microsoft, other hates Apple - personally I think I'm in the m
 
 I admire previous generation of apple products, but really don't like current one. On the other hand I was pretty uncertain about Microsoft products (beyond WP and Lumia family ;) ) but now I'm really impressed with the direction which seeks company from Redmond.
 
-But hey, in the end I'm just a regular Windows Phone user, who uses Linux (Elementary OS) as a primary desktop system and develops mobile applications, mainly for Android - that's pretty common platform combo, right? :)
+But hey, in the end I'm just a regular Windows Phone user, who uses Linux (Elementary OS) as a primary desktop system and develops mobile applications, mainly for Android and iOS - that's pretty common platform combo, right? :)
 
 -- ł
