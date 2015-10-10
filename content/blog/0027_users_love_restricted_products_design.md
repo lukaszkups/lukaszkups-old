@@ -1,11 +1,11 @@
 ---
 kind: article
 created_at: 10 October 2015
-title: Users love limited product design
+title: Users love restricted product design
 tags: ['blog']
 ---
 
-#Users love limited product design
+#Users love restricted product design
 
 Most of wannabe or actual entrepreneurs I've met wanted to build maximally universal products. 
 
