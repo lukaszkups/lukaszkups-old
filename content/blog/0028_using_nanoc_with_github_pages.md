@@ -5,7 +5,9 @@ title: Using nanoc with github pages
 tags: ['blog']
 ---
 
-This guide is based on the originally posted article at [Schmurfy's blog](http://schmurfy.github.io/2011/05/06/create_your_github_user_page_with_nanoc.html) - I've modified it for current github pages flow.
+#Using nanoc with github pages
+
+##This guide is based on the originally posted article at [Schmurfy's blog](http://schmurfy.github.io/2011/05/06/create_your_github_user_page_with_nanoc.html) - I've modified it for current github pages flow.
 
 Let's get it started.
 
