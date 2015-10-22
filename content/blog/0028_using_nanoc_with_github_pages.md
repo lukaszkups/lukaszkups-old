@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 22 November 2015
+created_at: 22 October 2015
 title: Using nanoc with github pages
 tags: ['blog']
 ---
