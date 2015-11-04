@@ -24,7 +24,7 @@ Next, we need to declare our email settings - to do that, let's create a `server
 <pre>
 <code class="javascript">
 Meteor.startup(function(){
-	process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/
+	process.env.MAIL_URL = 'smtp://email_username:email_password@email_host:email_port/'
 });
 </code>
 </pre>
@@ -34,7 +34,7 @@ Example for gmail:
 <pre>
 <code class="javascript">
 Meteor.startup(function(){
-	process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/
+	process.env.MAIL_URL = 'smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/'
 });
 </code>
 </pre>
@@ -44,7 +44,7 @@ We can also use custom domain email account:
 <pre>
 <code class="javascript">
 Meteor.startup(function(){
-	process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/
+	process.env.MAIL_URL = 'smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/'
 });
 </code>
 </pre>
