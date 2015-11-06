@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0005_sending_emails_with_meteor/</loc>
-    <lastmod>2015-05-24</lastmod>
+    <lastmod>2015-11-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/</loc>
@@ -123,6 +123,14 @@
   <url>
     <loc>http://lukaszkups.net/blog/0028_using_nanoc_with_github_pages/</loc>
     <lastmod>2015-10-22</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0029_introduction_to_intel_xdk/</loc>
+    <lastmod>2015-11-06</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0029_tips_for_beginner_programmers/</loc>
+    <lastmod>2015-11-06</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/9999_in_search_of_perfect_radio/</loc>

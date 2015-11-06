@@ -65,15 +65,15 @@
       
       <p>Next, we need to declare our email settings - to do that, let’s create a <code>server/smtp.js</code> file:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://email_username:email_password@email_host:email_port/&#x000A;});&#x000A;</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = 'smtp://email_username:email_password@email_host:email_port/'&#x000A;});&#x000A;</code></pre>
       
       <p>Example for gmail:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/&#x000A;});&#x000A;</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = 'smtp://boo.foo:superDooperPassword@smtp.gmail.com:587/'&#x000A;});&#x000A;</code></pre>
       
       <p>We can also use custom domain email account:</p>
       
-      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/&#x000A;});&#x000A;</code></pre>
+      <pre>&#x000A;<code class="javascript">&#x000A;Meteor.startup(function(){&#x000A;	process.env.MAIL_URL = 'smtp://boo.foo@awesomedomain.com:superDooperPassword@smtp.gmail.com:587/'&#x000A;});&#x000A;</code></pre>
       
       <p>After everything is set, let’s register actual sending method, available for client (but declared on server so place code below somewhere under <code>server/</code> folder):</p>
       
