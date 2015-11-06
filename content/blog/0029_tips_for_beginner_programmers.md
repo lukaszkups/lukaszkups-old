@@ -95,6 +95,8 @@ Every average intelligent person can learn how to program. But it doesn't mean t
 
 There's no golden rule how to learn programming. Every person is different, every single one of us has own learning methods - and I've wanted to share a list of my own ones.
 
+Programming is awesome. We are the craftsmen of the XXI century. We build stuff, that is used by billions of people all over the world. When You create Your first successful commercial product You'll realise that You don't want to do anything else.
+
 And what's about You? What's Your best way to learn programming?
 
 -- ł.
