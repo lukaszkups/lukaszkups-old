@@ -1,13 +1,13 @@
 ---
 kind: article
-created_at: 11 November 2015
+created_at: 13 November 2015
 title: MVMT watch review
 tags: ['blog']
 ---
 
 #MVMT watch review
 
-##In contrast to previous review, this one takes place after almost 2 years from the purchase of the product.
+##In contrast to previous reviews, this one takes place after almost 2 years from the purchase of the product.
 
 To be honest, I've totally forgot to mention this item in my [previous blog post](http://lukaszkups.net/blog/0030_best_investments_in_2015/), but in the end, I've an opportunity to write a bit more about this product.
 
@@ -15,7 +15,11 @@ To be honest, I've totally forgot to mention this item in my [previous blog post
 
 "*We believe high quality products shouldn't break the bank*" - this is the main quote from the [mvmt homepage](http://mvmtwatches.com) - is it true? I'll try to answer this question in this review.
 
-I've ordered my mvmt Classic Black + Black Leather model in the first quarter of 2014. As they've promised, the package was delivered to me after around 3 weeks (Poland). 
+A MVMT is a young, US-based company, which started their business somewhere in 2013. They've started an IndieGoGo campain, which ended as a total success.
+
+MVMT's main goal is to deliver the high quality product, but without inflated prices. 
+
+I've ordered my mvmt Classic Black + Black Leather model in the first quarter of 2014. The package was delivered to me after around 3 weeks (from US to Poland). 
 
 ##Packaging
 
@@ -23,7 +27,7 @@ Almost every review of a watch that I've read contains also review of the packag
 
 Package itself is designed with minimalistic approach. The box contains only company and model name. Inside the carton box lays the second, material one that can be closed with zipper. It looks really nice, but in my opinion it breaks all this minimalistic feel of the product - this could be done in a better way.
 
-##Watch itself
+##The watch itself
 
 ![img](../images/mvmt_02.jpg)
 
@@ -37,7 +41,32 @@ There's only one thing that bothers me here: analog watch date. On the main dial
 
 In overall, there's nothing to complain about the case.
 
+##The strap
+
+![img](../images/mvmt_03.jpg)
+
 Unfortunately, You can't say the same about the band.
 
-My MVMT watch has (had) a 24mm Black leather band, with black stainless steel buckle (which highlights ). I really like the band design - finishing with a thick thread looks really  
+My MVMT watch has (had) a 24mm Black leather band, with black stainless steel buckle (which highlights the size of the strap and masculinity of this model). I really adore the band design - finishing with a thick thread looks really neat. Unfortunately, lasting of this element is pretty poor. 
 
+I use my watch every single day. I put on and off it at least once a day. I don't wear a watch during some *dirty* work (e.g. cleaning, gardening or other physical activity).
+
+Desipe this, after around 1 year since I've purchased watch, the band began to sour.
+
+Here's the example:
+
+![img](../images/mvmt_04.jpg)
+
+As You can see, the free loop began to unstick and tear appart. The strap itself also began to be rugged on both sides and deformate.
+
+I began to search after something similiar to original band, but without success. After some time I've managed to order a bit more delicate model (not from MVMT) and replaced it. Now I only miss the black steek buckle - it was an awesome detail :)
+
+##Summary
+
+In the end, I really like the MVMT watches. They're clean & minimalistic apperance really speaks to me. Only the strap of the watch could be made with better longevity. The watch itself (a case) is still like a brand new, just taken out of the box.
+
+I recommend this product for everyone, who likes the minimalism and purity in watch design.
+
+Totally worth the price.
+
+-- ł.
