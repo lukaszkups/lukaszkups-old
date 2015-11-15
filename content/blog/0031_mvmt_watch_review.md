@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 13 November 2015
+created_at: 15 November 2015
 title: MVMT watch review
 tags: ['blog']
 ---
