@@ -23,6 +23,8 @@ a:hover{color: #B9AEA7;}
 p > code, code{background-color: #1D1F21; color: #e3efaa; padding:0px 2px; display: inline-block; font-family:monospace, Courier, "Courier New";}
 pre code{margin-bottom: 25px; display: block; overflow: hidden; margin-left:10px; margin-right: 10px;}
 
+p > img{image-orientation: 0deg;}
+
 .site-title{display:inline-table; height: 103px; width:auto; vertical-align: middle;}
 .site-title span{display: table-cell; vertical-align: bottom; padding-left: 30px;font-size: 1em; padding-bottom: 15px; color: #556270;}
 .site-title:hover{color: #2e2e2e !important;}
@@ -111,7 +113,6 @@ ul + p, ul + h2{margin-top:1.5em;}
 .silverFontHover:hover{color: #708294 !important;}
 .silverBg{background-color: #556270 !important;}
 .silverBgHover:hover{background-color: #708294 !important;}
-
 
 .redFont{color: #FF3300 !important;}
 .redFontHover:hover{color: #A80000 !important;}
