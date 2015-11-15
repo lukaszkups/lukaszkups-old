@@ -135,9 +135,11 @@ Bg{background-color: # !important;}
 BgHover:hover{background-color: # !important;}
 */
 
+.project-container p{text-align:justify;}
+
 /*example media query*/
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px){
-  body,html{margin:0; padding:0;font-size: 20px;}
+  body,html{margin:0; padding:0;font-size: 16px;}
   .main-container{width:96%; margin:0 2%;}
   .site-title span.droid{display:none;}
   ul.projects > li{width: 100%; margin: 0;}
@@ -146,7 +148,7 @@ BgHover:hover{background-color: # !important;}
   ul.projects > li .project-shadow a{padding-top: 95px}
 }
 @media only screen and (max-width: 550px), only screen and (max-device-width: 550px){
-  body,html{margin:0; padding:0;font-size: 24px;}
+  body,html{margin:0; padding:0;font-size: 16px;}
   .main-container.header{width:100%;margin:0;padding:0;}
   .site-title{width:100%;}
   .site-title > .logo{display: block; margin:5px auto;}
