@@ -132,12 +132,12 @@ Besides of code above, You need of course some html template code:
 <code class="html">
 &lt;template name="contactFormTemplate">
 	&lt;form id="contactForm">
-		&lt;type="text" name="firstName" id="firstName" placeholder="First name"/>
-		&lt;type="text" name="lastName" id="lastName" placeholder="last name"/>
-		&lt;type="text" name="phone" id="phone" placeholder="Phone number"/>
-		&lt;type="email" name="email" id="email" placeholder="Your email address"/>
+		&lt;input type="text" name="firstName" id="firstName" placeholder="First name"/>
+		&lt;input type="text" name="lastName" id="lastName" placeholder="last name"/>
+		&lt;input type="text" name="phone" id="phone" placeholder="Phone number"/>
+		&lt;input type="email" name="email" id="email" placeholder="Your email address"/>
 		&lt;textarea id="message">&lt; /textarea>
-		&lt;type="submit" value="Send"/>
+		&lt;input type="submit" value="Send"/>
 	&lt;/form>
 &lt;/template>
 </code>
