@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0005_sending_emails_with_meteor/</loc>
-    <lastmod>2015-11-06</lastmod>
+    <lastmod>2015-12-12</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/0006_deploying_meteorjs_app_to_own_server_via_ssh/</loc>
@@ -143,6 +143,10 @@
   <url>
     <loc>http://lukaszkups.net/blog/0032_saving_api_images_in_meteor/</loc>
     <lastmod>2015-11-23</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/blog/0033_2015_report/</loc>
+    <lastmod>2015-12-12</lastmod>
   </url>
   <url>
     <loc>http://lukaszkups.net/blog/9999_in_search_of_perfect_radio/</loc>
@@ -270,6 +274,10 @@
   </url>
   <url>
     <loc>http://lukaszkups.net/images/avatar-big.png</loc>
+    <lastmod>2015-12-12</lastmod>
+  </url>
+  <url>
+    <loc>http://lukaszkups.net/images/avatar-big2.png</loc>
     <lastmod>2015-05-24</lastmod>
   </url>
   <url>
@@ -394,6 +402,6 @@
   </url>
   <url>
     <loc>http://lukaszkups.net/stylesheet/stylesheet.css</loc>
-    <lastmod>2015-11-15</lastmod>
+    <lastmod>2015-12-12</lastmod>
   </url>
 </urlset>

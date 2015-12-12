@@ -54,7 +54,7 @@ ul.main-menu li a:hover{text-decoration: underline !important;}
 .box{margin:0; padding:0; display: inline-block; overflow-x:hidden; float: none; vertical-align: top;}
 .box30{width:29.5%;}
 .box70{width:69.5%;}
-.avatar{max-width:35%; height: auto; display: block; margin:0 auto;}
+.avatar{max-width:30%; height: auto; display: block; margin:0 auto; padding: 0; border-radius: 50%;}
 
 ul.projects{ display: block; width: 100%;}
 ul.projects > li{background: #556270; display: inline-block; width: 205px; height: 205px; box-sizing: border-box; margin: 0 15px 12px 0; padding:0; overflow: hidden !important; animation-property: width; animation-property: height; transition-duration: 1s; -moz-animation-property: width; -moz-animation-property: height; -moz-transition-duration: 1s; -o-animation-property: width; -o-animation-property: height; -o-transition-duration: 1s; -webkit-animation-property: width; -webkit-animation-property: height; -webkit-transition-duration: 1s;}
