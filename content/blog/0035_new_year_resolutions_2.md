@@ -40,7 +40,7 @@ I plan to redesign my site & rebrand (logo idea anyone?) - I have dozens of sket
 
 ##Repair keyboard
 
-Last year I've accidentally flooded my laptop keyboard (Asus Zenbook UX32LN). Fortunately Asus did great job and made this keyboard waterproof. Unfortunately, during the clean I've damaged the enter key on my keyboard - now it "jumps out" the keyboard on almost every click.
+Last year I've accidentally flooded my laptop keyboard (Asus Zenbook UX32LN). Fortunately Asus did a great job and made this keyboard waterproof. Unfortunately, during the clean I've damaged the enter key on my keyboard - now it "jumps out" the keyboard on almost every click.
 
 To my misfortune I've found that new keyboard costs almost 600 PLN (~150 USD) which is a really high price for a keyboard (most regular keyboards costs in Poland below 50 USD). 
 
