@@ -137,6 +137,8 @@ BgHover:hover{background-color: # !important;}
 
 .project-container p{text-align:justify;}
 
+ul + h1{margin-top:1.25em;}
+
 /*example media query*/
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px){
   body,html{margin:0; padding:0;font-size: 16px;}
