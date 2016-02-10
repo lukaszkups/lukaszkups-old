@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>
+      lukaszkups.net - Why I decided to develop mobile apps with Intel XDK
+    </title>
+    <meta content='lukaszkups.net - front-end development, branding, design' name='description'>
+    <link href='/stylesheet/stylesheet.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+    <script src='/javascripts/bracketslider.js' type='text/javascript'></script>
+    <meta content='nanoc 3.1.6' name='generator'>
+    <link href='/images/favicon.ico' rel='shortcut icon'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport'>
+    <link href='/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://lukaszkups.net/images/favicon.png' rel='shortcut icon' type='image/png'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Droid+Sans|Roboto+Slab:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content='http://lukaszkups.net/images/logo.jpg' property='og:image'>
+    <link href='/stylesheet/highlightjs_styles.css' rel='stylesheet'>
+    <script src='/javascripts/highlight.js'></script>
+  </head>
+  <body>
+    <div class='main-container header'>
+      <a class='site-title' href='/'>
+        <div class='logo'></div>
+        <span class='droid'>
+          Front-end engineering.
+        </span>
+      </a>
+      <ul class='main-menu'>
+        <li>
+          <a href='/experience/'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='/notes/'>
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href='/about/'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='/contact/'>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container project-container'>
+      
+      <h1 id="why-i-decided-to-develop-mobile-apps-with-intel-xdk">Why I decided to develop mobile apps with Intel XDK</h1>
+      
+      <p>For the last couple weeks I was making a mobile app using Meteor.js and cordova. Requirements of the application was very specific: I had to download huge amount of data via remote API and store it locally.</p>
+      
+      <p>Besides of pure text-based data there was also many files which I had to download and store on the phone locally.</p>
+      
+      <p>I’ve found that managing files and writing them to device memory synchronously (it was one of the requirements - unfortunately I can’t tell anything else about it) while working with Meteor.js application can be a huge pain.</p>
+      
+      <p>After a very long struggle and juggling between client-side functions and server-side methods I’ve gave up.</p>
+      
+      <p>Apart from pros and cons of Meteor’s asynchronous nature I’ve got couple different problems:</p>
+      
+      <ul>
+        <li>it has problems with serving locally saved files on mobile device (I had to use a plugin for changing meteor local path to <code>file://</code> one)</li>
+        <li>some cordova plugins doesn’t recognize my app as cordova project,</li>
+        <li>Meteor itself is an another abstraction layer which me as a developer has to handle/deal with,</li>
+        <li>application performance could be better,</li>
+        <li>debugging can be a little pain (random phone-PC connection problems, live-reload very often doesn’t notice code change etc.)</li>
+      </ul>
+      
+      <h2 id="intel-xdk-to-the-rescue">Intel XDK to the rescue</h2>
+      
+      <p>I’ve developed couple mobile apps with this tool before, but one day a very bad event occured - Intel’s XDK servers went down. I was even unable to compile app and deploy on my test device during the whole work day - that situation outclassed this tool as my solution to mobile app development.</p>
+      
+      <p>How naive I was.</p>
+      
+      <p>Summing up all the problems I’ve got during the mobile app development using Meteor and the time spent on searching after solutions gives me in total way more hours than it would take to develop this app with Intel’s tool, even if it would work every other day.</p>
+    </div>
+    <div class='clear clear40'></div>
+    <div class='main-container'>
+      <div class='footer lato'>
+        Copyright &copy; 2009 -
+        2016
+        Lukasz Kups (
+        <a href='http://twitter.com/lukaszkups'>
+          @lukaszkups
+        </a>
+        )
+      </div>
+    </div>
+    <div class='clear clear20'></div>
+    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <script src='/javascripts/blog.js' type='text/javascript'></script>
+  </body>
+</html>
