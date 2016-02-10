@@ -2,7 +2,7 @@
 kind: article
 created_at: 08 February 2016
 title: Why I decided to develop mobile apps with Intel XDK
-tags: ["blog"]
+tags: ["draft"]
 ---
 
 #Why I decided to develop mobile apps with Intel XDK
@@ -31,8 +31,10 @@ How naive I was.
 
 Summing up all the problems I've got during the mobile app development using Meteor and the time spent on searching after solutions gives me in total way more hours than it would take to develop same app with Intel's tool, even if it would work every other day. 
 
-As an example is this fact: I've completely rewritten and finished (by copying 3/4 of existing code in Meteorjs, which was the 80% of the whole app) my app, which was in develop state for almost 2 months in just ONE DAY. During that day I've copied & modified existing functions from Meteor.js project, added Meteor.js-like functionalities in pure javascript code and added missing functionalities.
+As an example is this fact: I've completely rewritten and finished (by copying 3/4 of existing code in Meteorjs, which was the 80% of the whole app) my app, which was in develop state for almost 2 months in just ONE DAY. During that day I've copied & modified existing functions from Meteor.js project, added Meteor.js-like functionalities in pure javascript code and implemented missing app functionalities.
 
 And it worked like a charm.
+
+You can treat Intel XDK just like an very advanced IDE. 
 
 
